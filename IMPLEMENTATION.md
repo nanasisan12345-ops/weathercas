@@ -19,12 +19,12 @@
 
 ## 変更単位と検証
 1. [x] 最小UI・ブランド・run.bat。TypeScript + Vite build成功。127.0.0.1:5173/weathercas/をIABで開き、ロゴ・日本語見出し表示を確認。
-2. [ ] 一次情報調査・モデル・収集器。実HTTP、パーサ/異常/日時/マージの単体テスト。
+2. [x] 一次情報調査・モデル・収集器。17単体テスト成功。実収集は予定8・未確認2・実績0の10記録と公式動画一覧を保存しvalidate-only成功。予定の変更履歴、既存実績保持、日付跨ぎ、429/通信断/空データ/仕様変更をテスト。
 3. [ ] 番組表・検索・集計・動画・メモ。フロント単体テスト、実ブラウザPC/スマホ。
 4. [ ] Actions・日本語README・出典・監視。全テスト、新規出力フォルダでビルド、配布内容検査。
 
 ## 未確認事項
-JSONの正確な形式、利用許諾の範囲、API認証付き実通信、GitHub Pages実公開、Chrome環境。
+公開JSONの包括的転載許諾、API認証付き実通信、GitHub Pages実公開、Chrome環境。site.weathernews.jp/robots.txt は403で内容未確認。
 
 ## 次の一手
-公式JSONのパーサと履歴保存を実装する。Data/researchに実HTTP応答保存済み。npmはWindows証明書ストア（NODE_USE_SYSTEM_CA=1）で解決。TLS検証は有効。
+実JSONに接続した画面とフロント検証を実装。npmはWindows証明書ストア（NODE_USE_SYSTEM_CA=1）で解決。TLS検証は有効。
