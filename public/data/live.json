@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-20T11:15:28+09:00",
+  "checked_at": "2026-10-20T11:55:56+09:00",
   "state": "listed",
   "video": {
     "id": "U-NLyctHkvs",
@@ -11,6 +11,12 @@
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "A7mOctm0-os",
+      "title": "【台風30号 2026年】進路予想に変化 沖縄･先島諸島付近で北寄りに向きを変える予想に（20　日11時更新）",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-20T11:17:41+09:00"
+    },
     {
       "id": "_S2OrxUaAHc",
       "title": "【雨情報】北陸や東北南部は昼頃までピーク　夕方以降は弱まる見込み",
@@ -34,13 +40,7 @@
       "title": "【雨雪情報】週中頃は前線通過で雨 寒気流入で北海道は雪",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-19T21:37:04+09:00"
-    },
-    {
-      "id": "jElqhGP_I_U",
-      "title": "【明日の天気】20日(火)は前線の影響で広く雨 北陸は午前中を中心に降り方に注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-19T20:52:43+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-20T11:15:28+09:00"
+  "archives_checked_at": "2026-10-20T11:55:56+09:00"
 }
