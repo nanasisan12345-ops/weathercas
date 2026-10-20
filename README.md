@@ -4,7 +4,7 @@
 
 開発中の確認サイトです。
 
-- 確認用URL: https://nanasisan12345-ops.github.io/weathercas/ （デプロイ後に利用可能）
+- 確認用URL: https://nanasisan12345-ops.github.io/weathercas/
 - ソース: https://github.com/nanasisan12345-ops/weathercas
 
 依頼者の指定でリポジトリとPagesは公開し、HTMLに `noindex, nofollow, noarchive` を指定しています。検索除外は検索エンジンへの依頼であり、認証・閲覧制限ではありません。URLを共有・発見した第三者も閲覧できます。
