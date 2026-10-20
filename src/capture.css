@@ -1,0 +1,12 @@
+.capture-card { padding: 24px; font-size: 13px; }
+.capture-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 23px 0; }
+.capture-controls button { min-width: 110px; }
+.capture-controls .stop-recording:not(:disabled) { color: #ad2847; border-color: #e3a8b5; background: #fff4f6; }
+.capture-timer { font-size: 26px; font-variant-numeric: tabular-nums; font-weight: 650; letter-spacing: 1px; color: var(--navy); margin: 0 5px; }
+.capture-message { color: #225e88; background: #edf7ff; border-radius: 8px; padding: 13px 16px; font-size: 12px; }
+.capture-error { color: #9b2542; background: #fff0f3; border-radius: 8px; padding: 13px 16px; font-size: 12px; }
+.capture-result { border-top: 1px solid var(--border); margin-top: 24px; padding-top: 22px; }
+.capture-result h3 { margin-bottom: 14px; }
+.capture-result video { display: block; background: #0d294a; width: 100%; max-width: 900px; max-height: 520px; border-radius: 10px; }
+.capture-save { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin: 17px 0; }
+@media(max-width:430px) { .capture-card { padding: 16px; }.capture-controls { gap: 10px; }.capture-controls button { flex: 1; min-width: 100px; }.capture-timer { font-size: 23px; } }

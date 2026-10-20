@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "2026-10-20T08:00",
+      "date_jst": "2026-10-20",
+      "slot_start_jst": "08:00",
+      "program": "ウェザーニュースLiVE・サンシャイン",
+      "date_basis": "rolling_schedule",
+      "role": "presenter",
+      "planned": {
+        "caster_id": "matsumoto",
+        "caster_name": "松本 真央",
+        "raw_caster_id": "matsumoto2025",
+        "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
+        "source_type": "official_schedule",
+        "source_checked_at": "2026-10-20T10:16:48+09:00"
+      },
+      "confirmed": null,
+      "status": "scheduled",
+      "youtube_video_id": null,
+      "changes": []
+    },
+    {
+      "id": "2026-10-20T11:00",
+      "date_jst": "2026-10-20",
+      "slot_start_jst": "11:00",
+      "program": "ウェザーニュースLiVE・コーヒータイム",
+      "date_basis": "rolling_schedule",
+      "role": "presenter",
+      "planned": {
+        "caster_id": "ogawa",
+        "caster_name": "小川 千奈",
+        "raw_caster_id": "ogawa",
+        "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
+        "source_type": "official_schedule",
+        "source_checked_at": "2026-10-20T10:16:48+09:00"
+      },
+      "confirmed": null,
+      "status": "scheduled",
+      "youtube_video_id": null,
+      "changes": []
+    },
+    {
+      "id": "2026-10-20T14:00",
+      "date_jst": "2026-10-20",
+      "slot_start_jst": "14:00",
+      "program": "ウェザーニュースLiVE・アフタヌーン",
+      "date_basis": "rolling_schedule",
+      "role": "presenter",
+      "planned": {
+        "caster_id": "kawabata",
+        "caster_name": "川畑 玲",
+        "raw_caster_id": "kawabata",
+        "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
+        "source_type": "official_schedule",
+        "source_checked_at": "2026-10-20T10:16:48+09:00"
+      },
+      "confirmed": null,
+      "status": "scheduled",
+      "youtube_video_id": null,
+      "changes": []
+    },
+    {
+      "id": "2026-10-20T17:00",
+      "date_jst": "2026-10-20",
+      "slot_start_jst": "17:00",
+      "program": "ウェザーニュースLiVE・イブニング",
+      "date_basis": "rolling_schedule",
+      "role": "presenter",
+      "planned": {
+        "caster_id": "tokita",
+        "caster_name": "戸北 美月",
+        "raw_caster_id": "tokita",
+        "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
+        "source_type": "official_schedule",
+        "source_checked_at": "2026-10-20T10:16:48+09:00"
+      },
+      "confirmed": null,
+      "status": "scheduled",
+      "youtube_video_id": null,
+      "changes": []
+    },
+    {
+      "id": "2026-10-20T20:00",
+      "date_jst": "2026-10-20",
+      "slot_start_jst": "20:00",
+      "program": "ウェザーニュースLiVE・ムーン",
+      "date_basis": "rolling_schedule",
+      "role": "presenter",
+      "planned": {
+        "caster_id": "kobayashi",
+        "caster_name": "小林 李衣奈",
+        "raw_caster_id": "kobayashi",
+        "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
+        "source_type": "official_schedule",
+        "source_checked_at": "2026-10-20T10:16:48+09:00"
+      },
+      "confirmed": null,
+      "status": "scheduled",
+      "youtube_video_id": null,
+      "changes": []
+    },
+    {
+      "id": "2026-10-20T23:00",
+      "date_jst": "2026-10-20",
+      "slot_start_jst": "23:00",
+      "program": "ウェザーニュースLiVE",
+      "date_basis": "rolling_schedule",
+      "role": "presenter",
+      "planned": {
+        "caster_id": null,
+        "caster_name": null,
+        "raw_caster_id": null,
+        "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
+        "source_type": "official_schedule",
+        "source_checked_at": "2026-10-20T10:16:48+09:00"
+      },
+      "confirmed": null,
+      "status": "unverified",
+      "youtube_video_id": null,
+      "changes": []
+    },
+    {
+      "id": "2026-10-21T00:00",
+      "date_jst": "2026-10-21",
+      "slot_start_jst": "00:00",
+      "program": "ウェザーニュースLiVE",
+      "date_basis": "rolling_schedule",
+      "role": "presenter",
+      "planned": {
+        "caster_id": null,
+        "caster_name": null,
+        "raw_caster_id": null,
+        "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
+        "source_type": "official_schedule",
+        "source_checked_at": "2026-10-20T10:16:48+09:00"
+      },
+      "confirmed": null,
+      "status": "unverified",
+      "youtube_video_id": null,
+      "changes": []
+    },
+    {
+      "id": "2026-10-21T05:00",
+      "date_jst": "2026-10-21",
+      "slot_start_jst": "05:00",
+      "program": "ウェザーニュースLiVE・モーニング",
+      "date_basis": "rolling_schedule",
+      "role": "presenter",
+      "planned": {
+        "caster_id": "uozumi",
+        "caster_name": "魚住 茉由",
+        "raw_caster_id": "uozumi",
+        "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
+        "source_type": "official_schedule",
+        "source_checked_at": "2026-10-20T10:16:48+09:00"
+      },
+      "confirmed": null,
+      "status": "scheduled",
+      "youtube_video_id": null,
+      "changes": []
+    },
+    {
+      "id": "2026-10-21T08:00",
+      "date_jst": "2026-10-21",
+      "slot_start_jst": "08:00",
+      "program": "ウェザーニュースLiVE・サンシャイン",
+      "date_basis": "rolling_schedule",
+      "role": "presenter",
+      "planned": {
+        "caster_id": "fukuyoshi",
+        "caster_name": "福吉 貴文",
+        "raw_caster_id": "fukuyoshi",
+        "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
+        "source_type": "official_schedule",
+        "source_checked_at": "2026-10-20T10:16:48+09:00"
+      },
+      "confirmed": null,
+      "status": "scheduled",
+      "youtube_video_id": null,
+      "changes": []
+    },
+    {
+      "id": "2026-10-21T11:00",
+      "date_jst": "2026-10-21",
+      "slot_start_jst": "11:00",
+      "program": "ウェザーニュースLiVE・コーヒータイム",
+      "date_basis": "rolling_schedule",
+      "role": "presenter",
+      "planned": {
+        "caster_id": "matsumoto",
+        "caster_name": "松本 真央",
+        "raw_caster_id": "matsumoto2025",
+        "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
+        "source_type": "official_schedule",
+        "source_checked_at": "2026-10-20T10:16:48+09:00"
+      },
+      "confirmed": null,
+      "status": "scheduled",
+      "youtube_video_id": null,
+      "changes": []
+    }
+  ]
+}

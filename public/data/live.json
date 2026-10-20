@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-20T11:15:28+09:00",
+  "state": "listed",
+  "video": {
+    "id": "U-NLyctHkvs",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月20日(火) ／北陸や東北南部は激しい雷雨に警戒〈ウェザーニュースLiVEコーヒータイム・小川千奈／飯島栄一〉",
+    "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+    "published_at": "2026-10-19T07:29:20+09:00"
+  },
+  "embed_allowed": true,
+  "verification": "official_listing",
+  "archives": [
+    {
+      "id": "_S2OrxUaAHc",
+      "title": "【雨情報】北陸や東北南部は昼頃までピーク　夕方以降は弱まる見込み",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-20T10:28:02+09:00"
+    },
+    {
+      "id": "PtLOh743058",
+      "title": "【雨情報】広い範囲で傘の出番 局地的な強雨や雷雨に注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-20T06:47:52+09:00"
+    },
+    {
+      "id": "tmqGQ1a4pSs",
+      "title": "【台風30号 2026】大型で猛烈な勢力 シミュレーションはまだ北進の可能性残る（19日22時更新）",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-20T00:00:16+09:00"
+    },
+    {
+      "id": "JfEVhK7pvZY",
+      "title": "【雨雪情報】週中頃は前線通過で雨 寒気流入で北海道は雪",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-19T21:37:04+09:00"
+    },
+    {
+      "id": "jElqhGP_I_U",
+      "title": "【明日の天気】20日(火)は前線の影響で広く雨 北陸は午前中を中心に降り方に注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-19T20:52:43+09:00"
+    }
+  ],
+  "archives_checked_at": "2026-10-20T11:15:28+09:00"
+}

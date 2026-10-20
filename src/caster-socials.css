@@ -1,0 +1,5 @@
+.person-line { display: flex; align-items: center; flex-wrap: wrap; gap: 3px 9px; }
+.caster-socials { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px; }
+.caster-socials a { display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px; border: 1px solid var(--border); border-radius: 7px; color: var(--muted); background: var(--bg); }
+.caster-socials a:hover { color: var(--primary); border-color: currentColor; background: var(--sky); }
+.caster-socials svg { width: 15px; height: 15px; }

@@ -1,0 +1,126 @@
+{
+  "checked_on": "2026-10-20",
+  "casters": {
+    "yamagishi": {
+      "source_url": "https://weathernews.jp/wnl/caster/yamagishi.html",
+      "links": {
+        "x": "https://x.com/airin0609",
+        "instagram": "https://www.instagram.com/airi_yamagishi/",
+        "tiktok": "https://www.tiktok.com/@airiweathernews"
+      }
+    },
+    "egawa": {
+      "source_url": "https://weathernews.jp/wnl/caster/egawa.html",
+      "links": {
+        "x": "https://x.com/sah_yan",
+        "instagram": "https://www.instagram.com/egawasayane/",
+        "tiktok": "https://www.tiktok.com/@sayaneweathernews"
+      }
+    },
+    "matsuyuki": {
+      "source_url": "https://weathernews.jp/wnl/caster/matsuyuki.html",
+      "links": {
+        "x": "https://x.com/ayaka196196",
+        "instagram": "https://www.instagram.com/ayakamatsuyuki/",
+        "tiktok": "https://www.tiktok.com/@ayakaweathernews"
+      }
+    },
+    "shirai": {
+      "source_url": "https://weathernews.jp/wnl/caster/shirai.html",
+      "links": {
+        "x": "https://x.com/yu__kari625",
+        "instagram": "https://www.instagram.com/yukari_shirai625/",
+        "tiktok": "https://www.tiktok.com/@yukariweathernews"
+      }
+    },
+    "komaki": {
+      "source_url": "https://weathernews.jp/wnl/caster/komaki.html",
+      "links": {
+        "x": "https://x.com/yui_k06",
+        "instagram": "https://www.instagram.com/komaki_yui/",
+        "tiktok": "https://www.tiktok.com/@yuiweathernews"
+      }
+    },
+    "tokita": {
+      "source_url": "https://weathernews.jp/wnl/caster/tokita.html",
+      "links": {
+        "x": "https://x.com/mizuki_tokita",
+        "instagram": "https://www.instagram.com/mizuki_tokita/",
+        "tiktok": "https://www.tiktok.com/@mizukiweathernews"
+      }
+    },
+    "kawabata": {
+      "source_url": "https://weathernews.jp/wnl/caster/kawabata.html",
+      "links": {
+        "x": "https://x.com/akirakawabata24",
+        "instagram": "https://www.instagram.com/akira.kawabata.wnl/"
+      }
+    },
+    "kobayashi": {
+      "source_url": "https://weathernews.jp/wnl/caster/kobayashi.html",
+      "links": {
+        "x": "https://x.com/rienakobayashi",
+        "instagram": "https://www.instagram.com/riena_kobayashi/",
+        "tiktok": "https://www.tiktok.com/@rienaweathernews"
+      }
+    },
+    "uozumi": {
+      "source_url": "https://weathernews.jp/wnl/caster/uozumi.html",
+      "links": {
+        "x": "https://x.com/mayuuozumi",
+        "instagram": "https://www.instagram.com/mayuuozumi/",
+        "tiktok": "https://www.tiktok.com/@mayuweathernews"
+      }
+    },
+    "ogawa": {
+      "source_url": "https://weathernews.jp/wnl/caster/ogawa.html",
+      "links": {
+        "x": "https://x.com/sennaogawa",
+        "instagram": "https://www.instagram.com/sennaogawa/",
+        "tiktok": "https://www.tiktok.com/@sennaweathernews"
+      }
+    },
+    "aohara": {
+      "source_url": "https://weathernews.jp/wnl/caster/aohara.html",
+      "links": {
+        "x": "https://x.com/momoka_aohara",
+        "instagram": "https://www.instagram.com/aohara_momoka/",
+        "tiktok": "https://www.tiktok.com/@momokaweathernews"
+      }
+    },
+    "okamoto": {
+      "source_url": "https://weathernews.jp/wnl/caster/okamoto.html",
+      "links": {
+        "x": "https://x.com/yuikookamoto",
+        "instagram": "https://www.instagram.com/yuikolisaokamoto/",
+        "tiktok": "https://www.tiktok.com/@yuikoweathernews"
+      }
+    },
+    "fukuyoshi": {
+      "source_url": "https://weathernews.jp/wnl/caster/fukuyoshi.html",
+      "links": {
+        "instagram": "https://www.instagram.com/fukuyoshi.takafumi"
+      }
+    },
+    "tanabe": {
+      "source_url": "https://weathernews.jp/wnl/caster/tanabe.html",
+      "links": {
+        "x": "https://x.com/manaha_tanabe",
+        "instagram": "https://www.instagram.com/manahatanabe/",
+        "tiktok": "https://www.tiktok.com/@manahaweathernews"
+      }
+    },
+    "matsumoto": {
+      "source_url": "https://weathernews.jp/wnl/caster/matsumoto.html",
+      "links": {
+        "x": "https://x.com/mao_matsumoto03",
+        "instagram": "https://www.instagram.com/mao__matsumoto/",
+        "tiktok": "https://www.tiktok.com/@maoweathernews"
+      }
+    },
+    "sato": {
+      "source_url": "https://weathernews.jp/wnl/caster/sato.html",
+      "links": {}
+    }
+  }
+}

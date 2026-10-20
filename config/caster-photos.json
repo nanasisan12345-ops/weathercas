@@ -1,0 +1,71 @@
+{
+  "enabled": true,
+  "source_url": "https://weathernews.jp/wnl/caster/index.html",
+  "checked_on": "2026-10-20",
+  "photos": {
+    "yamagishi": {
+      "url": "https://gvs.weathernews.jp/wnl/caster/images/caster/yamagishi.webp?20260925",
+      "profile_url": "https://weathernews.jp/wnl/caster/yamagishi.html"
+    },
+    "egawa": {
+      "url": "https://gvs.weathernews.jp/wnl/caster/images/caster/egawa.webp?20260925",
+      "profile_url": "https://weathernews.jp/wnl/caster/egawa.html"
+    },
+    "matsuyuki": {
+      "url": "https://gvs.weathernews.jp/wnl/caster/images/caster/matsuyuki.png?20260925",
+      "profile_url": "https://weathernews.jp/wnl/caster/matsuyuki.html"
+    },
+    "shirai": {
+      "url": "https://gvs.weathernews.jp/wnl/caster/images/caster/shirai.webp?20260925",
+      "profile_url": "https://weathernews.jp/wnl/caster/shirai.html"
+    },
+    "komaki": {
+      "url": "https://gvs.weathernews.jp/wnl/caster/images/caster/komaki.webp?20260925",
+      "profile_url": "https://weathernews.jp/wnl/caster/komaki.html"
+    },
+    "tokita": {
+      "url": "https://gvs.weathernews.jp/wnl/caster/images/caster/tokita.webp?20260925",
+      "profile_url": "https://weathernews.jp/wnl/caster/tokita.html"
+    },
+    "kawabata": {
+      "url": "https://gvs.weathernews.jp/wnl/caster/images/caster/kawabata.webp?20260925",
+      "profile_url": "https://weathernews.jp/wnl/caster/kawabata.html"
+    },
+    "kobayashi": {
+      "url": "https://gvs.weathernews.jp/wnl/caster/images/caster/kobayashi.webp?20260925",
+      "profile_url": "https://weathernews.jp/wnl/caster/kobayashi.html"
+    },
+    "uozumi": {
+      "url": "https://gvs.weathernews.jp/wnl/caster/images/caster/uozumi.webp?20260925",
+      "profile_url": "https://weathernews.jp/wnl/caster/uozumi.html"
+    },
+    "ogawa": {
+      "url": "https://gvs.weathernews.jp/wnl/caster/images/caster/ogawa.webp?20260925",
+      "profile_url": "https://weathernews.jp/wnl/caster/ogawa.html"
+    },
+    "aohara": {
+      "url": "https://gvs.weathernews.jp/wnl/caster/images/caster/aohara.webp?20260925",
+      "profile_url": "https://weathernews.jp/wnl/caster/aohara.html"
+    },
+    "okamoto": {
+      "url": "https://gvs.weathernews.jp/wnl/caster/images/caster/okamoto.webp?20260925",
+      "profile_url": "https://weathernews.jp/wnl/caster/okamoto.html"
+    },
+    "fukuyoshi": {
+      "url": "https://gvs.weathernews.jp/wnl/caster/images/caster/fukuyoshi.webp?20260925",
+      "profile_url": "https://weathernews.jp/wnl/caster/fukuyoshi.html"
+    },
+    "tanabe": {
+      "url": "https://gvs.weathernews.jp/wnl/caster/images/caster/tanabe.webp?20260925",
+      "profile_url": "https://weathernews.jp/wnl/caster/tanabe.html"
+    },
+    "matsumoto": {
+      "url": "https://gvs.weathernews.jp/wnl/caster/images/caster/matsumoto.webp?20260925",
+      "profile_url": "https://weathernews.jp/wnl/caster/matsumoto.html"
+    },
+    "sato": {
+      "url": "https://gvs.weathernews.jp/wnl/caster/images/caster/sato.webp?20260925",
+      "profile_url": "https://weathernews.jp/wnl/caster/sato.html"
+    }
+  }
+}

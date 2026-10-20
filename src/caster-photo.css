@@ -1,0 +1,10 @@
+.caster-photo { display: block; flex: none; width: 58px; height: 58px; overflow: hidden; border-radius: 50%; border: 1px solid #d0e5f4; background: linear-gradient(150deg, #e7f4ff, #f8fcff); }
+.caster-photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; }
+.photo-placeholder { display: flex; align-items: center; justify-content: center; color: #7b9aaf; }
+.photo-placeholder svg { width: 65%; height: 65%; }
+.compact-row .caster-photo { width: 46px; height: 46px; }
+@media (max-width: 430px) {
+  .caster-photo { width: 40px; height: 40px; }
+  .compact-row .caster-photo { width: 40px; height: 40px; }
+  .record-row { column-gap: 8px; }
+}

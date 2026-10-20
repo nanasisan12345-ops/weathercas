@@ -3,16 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
     <meta name="theme-color" content="#0876D9" />
+    <script>
+      (() => {
+        let saved;
+        try { saved = localStorage.getItem('weathercas.theme'); } catch {}
+        document.documentElement.dataset.theme = saved === 'dark' || (saved !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+      })();
+    </script>
     <meta name="description" content="ウェザーニュースLiVEの非公式ファンサイト。公式情報から出演予定と収集状況を整理し、ライブ視聴・出演履歴・統計をひとまとめに。" />
     <meta property="og:title" content="ウェザキャス | WeatherCas" />
     <meta property="og:description" content="出演情報も、ライブ視聴も。ウェザーニュースLiVE 非公式ファンサイト。" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="ja_JP" />
-    <meta property="og:image" content="/weathercas/assets/weathercas-ogp.png" />
+    <meta property="og:image" content="/assets/weathercas-ogp.png" />
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="icon" href="/weathercas/favicon.ico" sizes="any" />
-    <link rel="apple-touch-icon" href="/weathercas/apple-touch-icon.png" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <title>ウェザキャス | WeatherCas</title>
   </head>
   <body>

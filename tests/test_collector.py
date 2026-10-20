@@ -14,6 +14,7 @@ from collector.collect import (ROOT, SCHEDULE_URL, VIDEOS_URL, SourceError, coll
 NOW = datetime.fromisoformat("2026-10-20T10:30:00+09:00")
 CATALOG = read_json(ROOT / "config/casters.json")
 FIXTURES = Path(__file__).parent / "fixtures"
+(ROOT / "Data/temp").mkdir(parents=True, exist_ok=True)
 
 
 class ScheduleTests(unittest.TestCase):
@@ -114,6 +115,27 @@ class VideoTests(unittest.TestCase):
 
 
 class NetworkTests(unittest.TestCase):
+    def test_live_only_preserves_schedule_and_its_timestamp(self):
+        calls = []
+        def fetch(url, **kwargs):
+            calls.append(url)
+            if url == SCHEDULE_URL:
+                return read_json(FIXTURES / 'schedule.json')
+            if url == VIDEOS_URL:
+                return read_json(FIXTURES / 'videos.json')
+            return {'type': 'video', 'author_url': 'https://www.youtube.com/@weathernews', 'html': 'https://www.youtube.com/embed/LbMd2BvWHHU'}
+        with tempfile.TemporaryDirectory(dir=ROOT / 'Data/temp') as temp:
+            data, logs = Path(temp) / 'data', Path(temp) / 'logs'
+            collect(data, logs, now=NOW, fetch=fetch)
+            before = (data / '2026/10.json').read_bytes()
+            generated = read_json(data / 'status.json')['generated_at']
+            calls.clear()
+            report = collect(data, logs, now=datetime.fromisoformat('2026-10-20T11:10:00+09:00'), fetch=fetch, live_only=True)
+            self.assertNotIn(SCHEDULE_URL, calls)
+            self.assertEqual((data / '2026/10.json').read_bytes(), before)
+            self.assertEqual(report['generated_at'], generated)
+            self.assertEqual(read_json(data / 'live.json')['checked_at'], '2026-10-20T11:10:00+09:00')
+
     def test_429_retry_after_and_then_success(self):
         calls, waits = [], []
         def opener(req, timeout):

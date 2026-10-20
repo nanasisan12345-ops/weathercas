@@ -8,7 +8,7 @@ set "TMP=%~dp0Data\temp"
 if not exist "%TEMP%" mkdir "%TEMP%"
 where node >nul 2>nul
 if errorlevel 1 (
-  echo Node.js 22.12 or later is required. See README.md.
+  echo Node.js 24 or later is required. See README.md.
   pause
   exit /b 1
 )
@@ -19,5 +19,5 @@ if not exist node_modules (
     exit /b 1
   )
 )
-call npm run dev -- --open
+node scripts\start.mjs %*
 pause

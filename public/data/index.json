@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "months": [
+    "2026/10"
+  ],
+  "casters": [
+    {
+      "id": "yamagishi",
+      "name": "山岸 愛梨",
+      "aliases": [
+        "ailin"
+      ]
+    },
+    {
+      "id": "egawa",
+      "name": "江川 清音",
+      "aliases": [
+        "sayane"
+      ]
+    },
+    {
+      "id": "maie",
+      "name": "眞家 泉",
+      "aliases": [
+        "izumin"
+      ]
+    },
+    {
+      "id": "matsuyuki",
+      "name": "松雪 彩花",
+      "aliases": [
+        "matsu"
+      ]
+    },
+    {
+      "id": "shirai",
+      "name": "白井 ゆかり",
+      "aliases": []
+    },
+    {
+      "id": "takayama",
+      "name": "高山 奈々",
+      "aliases": []
+    },
+    {
+      "id": "hiyama",
+      "name": "檜山 沙耶",
+      "aliases": [
+        "hiyama2018"
+      ]
+    },
+    {
+      "id": "komaki",
+      "name": "駒木 結衣",
+      "aliases": [
+        "komaki2018"
+      ]
+    },
+    {
+      "id": "uchida",
+      "name": "内田 侑希",
+      "aliases": [
+        "yuki"
+      ]
+    },
+    {
+      "id": "oshima",
+      "name": "大島 璃音",
+      "aliases": [
+        "ohshima"
+      ]
+    },
+    {
+      "id": "tokita",
+      "name": "戸北 美月",
+      "aliases": []
+    },
+    {
+      "id": "kawabata",
+      "name": "川畑 玲",
+      "aliases": []
+    },
+    {
+      "id": "kobayashi",
+      "name": "小林 李衣奈",
+      "aliases": []
+    },
+    {
+      "id": "ogawa",
+      "name": "小川 千奈",
+      "aliases": []
+    },
+    {
+      "id": "uozumi",
+      "name": "魚住 茉由",
+      "aliases": []
+    },
+    {
+      "id": "aohara",
+      "name": "青原 桃香",
+      "aliases": [
+        "aohara2023"
+      ]
+    },
+    {
+      "id": "okamoto",
+      "name": "岡本 結子 リサ",
+      "aliases": [
+        "okamoto2023"
+      ]
+    },
+    {
+      "id": "fukuyoshi",
+      "name": "福吉 貴文",
+      "aliases": []
+    },
+    {
+      "id": "tanabe",
+      "name": "田辺 真南葉",
+      "aliases": [
+        "tanabe2025"
+      ]
+    },
+    {
+      "id": "matsumoto",
+      "name": "松本 真央",
+      "aliases": [
+        "matsumoto2025"
+      ]
+    },
+    {
+      "id": "sato",
+      "name": "佐藤 剣慎",
+      "aliases": []
+    }
+  ],
+  "count": 10,
+  "earliest_date": "2026-10-20",
+  "latest_date": "2026-10-21"
+}

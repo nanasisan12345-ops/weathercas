@@ -1,0 +1,57 @@
+.app-layout .hero-grid { grid-template-columns: minmax(0, 1fr) 420px; align-items: start; }
+.chat-card { padding: 16px; display: flex; flex-direction: column; min-height: 780px; }
+.chat-card h2 { margin-top: 4px; }
+.chat-card .panel-heading { margin-bottom: 18px; }
+.chat-content { flex: 1; display: flex; min-height: 600px; background: #f6faff; border: 1px solid #e0ebf4; border-radius: 10px; overflow: hidden; }
+.chat-content iframe { width: 100%; min-height: 620px; height: clamp(620px, 70vh, 820px); border: 0; flex: 1; }
+.chat-placeholder { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 14px; padding: 24px 18px; width: 100%; text-align: center; color: #527994; }
+.chat-placeholder strong { font-size: 14px; color: var(--navy); }
+.chat-placeholder p { font-size: 12px; margin: 0; }
+.chat-placeholder>a:not(.button-link) { font-size: 11px; }
+.chat-placeholder>svg { color: #6aaccf; }
+.chat-footer { margin-top: 16px; }
+.chat-footer p { font-size: 11px; color: var(--muted); margin-bottom: 12px; }
+.chat-footer .button-link { font-size: 11px; width: 100%; }
+.app-layout .today-card { margin-top: 20px; }
+.today-timetable { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 24px; }
+.today-timetable .record-row { border-bottom: 1px solid var(--border); }
+.today-card .text-link { justify-content: flex-end; gap: 12px; }
+.live-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.live-actions .button-link { font-size: 12px; }
+.capture-widget { margin-top: 17px; border-top: 1px solid var(--border); padding-top: 16px; }
+.capture-widget .capture-heading { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.capture-widget .capture-heading h3 { font-size: 13px; margin: 0; }
+.capture-widget .capture-card { padding: 0; }
+.capture-widget .capture-controls { margin: 12px 0; gap: 8px; }
+.capture-widget .capture-controls button { min-width: 92px; font-size: 12px; }
+.capture-widget .capture-timer { font-size: 21px; }
+.capture-help { margin: 10px 0 16px; font-size: 11px; color: var(--muted); }
+.capture-help summary { cursor: pointer; color: #426f90; }
+.capture-help p { margin: 9px 0; }
+.capture-help a { text-decoration: underline; }
+.recording-indicator { color: #b42547; font-size: 11px; }
+.recording-indicator::before { content: ''; display: inline-block; width: 7px; height: 7px; background: #c52b4c; border-radius: 50%; margin: 0 5px; }
+@media(min-width:1800px) { .app-layout .hero-grid { grid-template-columns: minmax(0, 1fr) 460px; } }
+@media(max-width:1280px) {
+  .app-layout .hero-grid { grid-template-columns: minmax(0, 1fr) 360px; }
+  .chat-card { padding: 15px; min-height: 760px; }
+  .today-timetable { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 22px; }
+}
+@media(max-width:1050px) {
+  .app-layout .hero-grid { grid-template-columns: 1fr; }
+  .chat-card { min-height: 440px; }
+  .chat-content { min-height: 260px; }
+  .chat-content iframe { min-height: 380px; }
+}
+@media(max-width:760px) {
+  .chat-card { padding: 16px; min-height: 0; }
+  .chat-content { min-height: 130px; }
+  .chat-placeholder { padding: 18px 14px; }
+  .today-timetable { grid-template-columns: 1fr 1fr; gap: 0 18px; }
+}
+@media(max-width:560px) {
+  .today-timetable { grid-template-columns: 1fr; }
+  .capture-controls .small { flex-basis: 100%; }
+  .live-actions { width: 100%; }
+  .live-actions .button-link { flex: 1; }
+}

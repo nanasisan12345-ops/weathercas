@@ -1,0 +1,22 @@
+name: 出演情報の誤り
+description: 一次情報のURLと該当する枠をお知らせください。
+title: '[データ確認] '
+body:
+  - type: input
+    id: date
+    attributes:
+      label: 日付と時刻（JST）
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 表示内容と正しいと思われる内容
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 確認できる公式の出典URL
+    validations:
+      required: true

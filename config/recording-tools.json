@@ -1,0 +1,20 @@
+{
+  "platform": "win32-x64",
+  "extractor": {
+    "version": "2026.08.19",
+    "file": "yt-dlp.exe",
+    "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.08.19/yt-dlp.exe",
+    "sha256": "66674953fe251b89f4d08c5f0e35e0728679bd67ab3d7d05c0562af101dd3e7a"
+  },
+  "ffmpeg": {
+    "version": "autobuild-2026-10-19-19-51",
+    "file": "ffmpeg-N-127709-g5993347a1b-win64-gpl-shared.zip",
+    "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2026-10-19-19-51/ffmpeg-N-127709-g5993347a1b-win64-gpl-shared.zip",
+    "sha256": "890302aaaf18c7248ba42a871708df3dc27d327bbd02c1955f1382e7380da56e"
+  },
+  "sources": [
+    "https://github.com/yt-dlp/yt-dlp",
+    "https://github.com/yt-dlp/FFmpeg-Builds",
+    "https://ffmpeg.org/download.html"
+  ]
+}

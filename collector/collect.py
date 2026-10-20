@@ -49,7 +49,7 @@ def write_json(path: Path, value) -> None:
 
 
 def fetch_json(url: str, *, api_key: str | None = None, opener=urlopen, sleep=time.sleep):
-    headers = {"User-Agent": "WeatherCas/0.1 (official public metadata; 3-hour interval)",
+    headers = {"User-Agent": "WeatherCas/0.1 (official public metadata)",
                "Accept": "application/json"}
     if api_key:
         if not url.startswith("https://www.googleapis.com/youtube/v3/"):
@@ -258,7 +258,7 @@ def save_records(data_dir: Path, rows: list[dict], catalog: dict):
     write_json(data_dir / "index.json", index)
 
 
-def collect(data_dir: Path, log_dir: Path, *, now=None, fetch=fetch_json, api_key=None) -> dict:
+def collect(data_dir: Path, log_dir: Path, *, now=None, fetch=fetch_json, api_key=None, live_only=False) -> dict:
     now = now or datetime.now(JST)
     checked = stamp(now)
     catalog = read_json(ROOT / "config/casters.json")
@@ -282,7 +282,9 @@ def collect(data_dir: Path, log_dir: Path, *, now=None, fetch=fetch_json, api_ke
         sources.append(report)
         return result
 
-    incoming = outcome("schedule", "公式番組表", SCHEDULE_URL, lambda: parse_schedule(fetch(SCHEDULE_URL), now, catalog))
+    if live_only:
+        sources.extend(s for s in old_status["sources"] if s["id"] not in ("videos", "embed", "youtube"))
+    incoming = None if live_only else outcome("schedule", "公式番組表", SCHEDULE_URL, lambda: parse_schedule(fetch(SCHEDULE_URL), now, catalog))
     rows = merge_records(previous, incoming) if incoming is not None else previous
     if incoming is not None:
         # Reject a sudden severe shrink before touching any known-good partition.
@@ -335,14 +337,15 @@ def collect(data_dir: Path, log_dir: Path, *, now=None, fetch=fetch_json, api_ke
     # All records have been validated in memory before replacing partitions.
     for row in rows:
         validate_record(row)
-    save_records(data_dir, rows, catalog)
+    if not live_only:
+        save_records(data_dir, rows, catalog)
     write_json(data_dir / "live.json", live)
     quality = {"scheduled": sum(r["status"] == "scheduled" for r in rows),
                "confirmed": sum(r["status"] == "confirmed" for r in rows),
                "unverified": sum(r["status"] == "unverified" for r in rows),
                "changes": sum(len(r["changes"]) for r in rows)}
-    status = {"schema_version": 1, "generated_at": checked, "sources": sources, "quality": quality,
-              "healthy": not errors, "interval_hours": 3,
+    status = {"schema_version": 1, "generated_at": old_status.get("generated_at", checked) if live_only else checked, "sources": sources, "quality": quality,
+              "healthy": not errors and all(s["status"] != "failed" for s in sources), "interval_hours": 3,
               "note": "公式番組表の観測を開始した範囲のみ。予定は出演実績ではありません。日付はJST収集時刻から整理。"}
     write_json(data_dir / "status.json", status)
     write_json(log_dir / now.astimezone(JST).strftime("%Y-%m/%d-%H%M%S.json"), status)
@@ -354,13 +357,14 @@ def main():
     parser.add_argument("--data-dir", type=Path, default=ROOT / "public/data")
     parser.add_argument("--log-dir", type=Path, default=ROOT / "Data/logs/collector")
     parser.add_argument("--validate-only", action="store_true")
+    parser.add_argument("--live-only", action="store_true", help="Refresh video metadata without touching schedule partitions")
     args = parser.parse_args()
     try:
         if args.validate_only:
             rows = load_records(args.data_dir)
             print(json.dumps({"valid": True, "records": len(rows)}))
             return 0
-        report = collect(args.data_dir, args.log_dir, api_key=os.environ.get("YOUTUBE_API_KEY"))
+        report = collect(args.data_dir, args.log_dir, api_key=os.environ.get("YOUTUBE_API_KEY"), live_only=args.live_only)
         print(json.dumps({"healthy": report["healthy"], "quality": report["quality"]}))
         return 0 if report["healthy"] else 1
     except SourceError as exc:
