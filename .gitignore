@@ -1,0 +1,12 @@
+node_modules/
+Data/
+dist/
+release/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+playwright-report/
+test-results/
+WeatherCas_Starter_Package/
