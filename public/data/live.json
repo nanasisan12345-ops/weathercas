@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-21T16:56:13+09:00",
+  "checked_at": "2026-10-21T17:14:49+09:00",
   "state": "listed",
   "video": {
-    "id": "FB4Amg-bRXQ",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月21日(水)／各地で雨や風が強まる　関東など季節外れの気温に〈ウェザーニュースLiVEアフタヌーン・佐藤剣慎／宇野沢達也〉",
+    "id": "kS81qB9BZko",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月21日(水) ／各地で雨や風が強まる 台風は明日から非常に強い勢力で沖縄に接近〈ウェザーニュースLiVEイブニング・小川千奈／宇野沢達也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-20T13:22:13+09:00"
+    "published_at": "2026-10-20T12:43:28+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
@@ -42,5 +42,5 @@
       "published_at": "2026-10-21T06:04:43+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-21T16:56:13+09:00"
+  "archives_checked_at": "2026-10-21T17:14:49+09:00"
 }
