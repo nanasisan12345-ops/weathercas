@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-21T23:38:54+09:00",
+  "checked_at": "2026-10-22T03:53:51+09:00",
   "state": "listed",
   "video": {
     "id": "eLZm9_0cdjk",
@@ -11,6 +11,12 @@
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "whkdikKw0gY",
+      "title": "【台風30号 2026】数値シミュレーション比較  既存モデルはより西寄りに変化",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-22T00:45:37+09:00"
+    },
     {
       "id": "FfUjmyCeK7s",
       "title": "【台風30号 2026】大型で猛烈な勢力 先島諸島は暴風や高波に警戒（21日22時更新）",
@@ -34,13 +40,7 @@
       "title": "【速報】秋田県にレベル5氾濫特別警報　命を守る行動を",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-21T20:31:42+09:00"
-    },
-    {
-      "id": "sSr1XvcdVsI",
-      "title": "【台風30号 2026年】大型で猛烈な勢力を維持　沖縄では早めの警戒を（21日15時更新）",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-21T19:27:02+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-21T23:38:54+09:00"
+  "archives_checked_at": "2026-10-22T03:53:51+09:00"
 }
