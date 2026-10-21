@@ -1,46 +1,46 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-21T18:35:53+09:00",
+  "checked_at": "2026-10-21T23:38:54+09:00",
   "state": "listed",
   "video": {
-    "id": "kS81qB9BZko",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月21日(水) ／各地で雨や風が強まる 台風は明日から非常に強い勢力で沖縄に接近〈ウェザーニュースLiVEイブニング・小川千奈／宇野沢達也〉",
+    "id": "eLZm9_0cdjk",
+    "title": "【ライブ】秋田県子吉川 レベル5氾濫特別警報／最新天気ニュース・地震情報 2026年10月21日(水)23:00〜 〈ウェザーニュースLiVE・ 山岸愛梨／宇野沢達也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-20T12:43:28+09:00"
+    "published_at": "2026-10-20T19:15:08+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
     {
-      "id": "ygM9svHwlWc",
-      "title": "【大雨警戒】週末は秋雨前線と台風･低気圧の影響で西日本・東日本は雨が強まるおそれ",
+      "id": "FfUjmyCeK7s",
+      "title": "【台風30号 2026】大型で猛烈な勢力 先島諸島は暴風や高波に警戒（21日22時更新）",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-21T14:20:11+09:00"
+      "published_at": "2026-10-21T23:21:05+09:00"
     },
     {
-      "id": "uaAF_VUqYwc",
-      "title": "【台風30号 2026年】中心気圧900hPaと発達ピークに 今夜から沖縄･先島諸島では風が強まり始める（21日11時更新）",
+      "id": "wH3M2quT6y8",
+      "title": "【雨情報】週末〜週明けにかけて太平洋側を中心に大雨のおそれ",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-21T11:12:06+09:00"
+      "published_at": "2026-10-21T21:40:26+09:00"
     },
     {
-      "id": "OGQ5I7EcHJs",
-      "title": "【季節外れの暑さ】関東〜九州では最も遅い真夏日の記録の可能性も　夕方以降は気温急降下に注意",
+      "id": "66E0wpL6O9Q",
+      "title": "【最新気象】あすは寒気流入により北海道・東北北部では雪や風に注意／気温も前日より大幅に下がる予想",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-21T09:19:22+09:00"
+      "published_at": "2026-10-21T21:11:04+09:00"
     },
     {
-      "id": "jDKrc0IxDx0",
-      "title": "【雨情報】北陸・東北でにわか雨や雷雨 夕方以降は太平洋側も雷雨のおそれ 風の強まりにも注意",
+      "id": "fdNNCa0hXqg",
+      "title": "【速報】秋田県にレベル5氾濫特別警報　命を守る行動を",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-21T07:10:45+09:00"
+      "published_at": "2026-10-21T20:31:42+09:00"
     },
     {
-      "id": "ouKD2RSEBhY",
-      "title": "【台風30号 2026】大型で猛烈な勢力で北西へ 週末は沖縄・先島諸島に接近 週明けは西日本で大雨のおそれ（21日6時更新）",
+      "id": "sSr1XvcdVsI",
+      "title": "【台風30号 2026年】大型で猛烈な勢力を維持　沖縄では早めの警戒を（21日15時更新）",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-21T06:04:43+09:00"
+      "published_at": "2026-10-21T19:27:02+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-21T18:35:53+09:00"
+  "archives_checked_at": "2026-10-21T23:38:54+09:00"
 }
