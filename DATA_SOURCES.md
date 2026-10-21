@@ -6,8 +6,8 @@
 |---|---|---|
 |[公式番組表](https://weathernews.jp/wnl/timetable.html) / [公開JSON](https://site.weathernews.jp/site/live/json/timetable.json)|公式ページのスクリプトが直接参照する認証不要GET。hour/title/casterの並び。日付なし、先頭が現在枠という公式画面の表示意味を利用。出演実績ではない。|3時間ごと1GET。JST取得時刻以前の直近の先頭時刻を起点に、時刻の巻き戻りで翌日に進む。起点が6時間より古い場合・48時間超の範囲・未知構造は採用しない。`date_basis=rolling_schedule` を保存。予定として保持し、未掲載の過去枠を補完しない。失敗時は過去JSONを維持。|
 |[公式トップ](https://weathernews.jp/wnl/)|caster_trans/caster_kanjiの対応を実HTMLから確認し `config/casters.json` にID・表示名・別名を記録。|現時点21名の表示名対応表。現役名簿や全在籍者数を意味しない。未知IDは日本語名を捏造せず未確認。顔画像バイナリーは収集サーバーに保存しない。名前変更は対応表をレビューして更新。|
-|[公式動画一覧JSON](https://site.weathernews.jp/site/live/json/list.json)|公式トップで利用。live.id/title/live、ondemandのID・タイトル・公開時刻のみ。|ローカルNodeサーバーはアクセス時に60秒キャッシュで確認。Pages用収集は10分ごと。`live: true` は「公式掲載・取得時点」。現在配信を保証する情報ではない。公開時刻は配信開始時刻とみなさない。失敗時はLIVE表示を停止し正規リンクへ。アーカイブは最新一覧の範囲のみで、出演記録へ自動変換しない。|
-|[YouTube oEmbed](https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=LbMd2BvWHHU&format=json)|公式JSONで得たIDを問い合わせ、author_url=@weathernews、type=video、埋め込みURLを確認。返されたHTMLを画面に挿入しない。|候補1件につき最大1GET/更新。認証不要。埋め込み可能な公式動画候補の確認用で、LIVE状態の検証ではない。失敗時はiframeを出さない。|
+|[公式動画一覧JSON](https://site.weathernews.jp/site/live/json/list.json)|公式トップで利用。live.id/title/live、ondemandのID・タイトル・公開時刻のみ。|ローカルNodeサーバーは60秒キャッシュ。公開Pagesは無料Workerの15秒キャッシュを画面から30秒間隔で確認。履歴用スナップショットのActions収集は10分ごと。`live: true` は「公式掲載・取得時点」。現在配信を保証する情報ではない。公開時刻は配信開始時刻とみなさない。失敗時はLIVE表示を停止し正規リンクへ。アーカイブは最新一覧の範囲のみで、出演記録へ自動変換しない。|
+|[YouTube oEmbed](https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=LbMd2BvWHHU&format=json)|公式JSONで得たIDを問い合わせ、author_url=@weathernews、type=video、埋め込みURLを確認。返されたHTMLを画面に挿入しない。|Workerでは同一IDの照合を1時間保持し、新ID時に照合。Actionsでは候補1件につき最大1GET/更新。認証不要。埋め込み可能な公式動画候補の確認用で、LIVE状態の検証ではない。失敗時はiframeを出さない。|
 |[YouTube videos.list](https://developers.google.com/youtube/v3/docs/videos/list) / channels.list|任意のActions Secret `YOUTUBE_API_KEY` がある場合のみ。公式ハンドルのチャンネルIDと一致し、public・embeddable・liveBroadcastContent=live・actualStartTimeあり・actualEndTimeなしを検証。|更新あたり原則2リクエスト、各1 unit。検索APIを使わない。キーはHTTPヘッダーのみで送信。認証付き実通信はキー未設定のため未検証。無設定時も公式掲載動画の通常埋め込みは利用でき、現在LIVEとは表示しない。APIエラーで以前のLIVE判定を引き継がない。|
 
 ## 利用条件・アクセスの扱い
@@ -33,3 +33,7 @@
 ## 全国予報図・台風図
 
 2026-10-20に公式トップと台風ページの実HTMLから画像URLを確認し、両画像がHTTP 200/image/pngであることとブラウザーでの描画を検証。全国図は https://site.weathernews.jp/site/forecast/image/map/JAPAN.today.png 、台風図は https://gvs.weathernews.jp/s/typhoon/img/data/multi_onebox.png 。画像バイナリーをGitへ保存せず公式配信先を直接参照し、5分ごとに再読み込みする。元画像の予報・進路・日時を加工しない。出典と公式の詳細リンクを表示し、読み込み失敗時は失敗表示と公式リンクに切り替える。会員専用データは取得しない。
+
+## 公開サイトの番組切替（2026-10-21）
+
+GitHubの定期デプロイ待ちを解消するため、配信メタデータはWorkers経由でも取得する。固定された公式一覧とYouTube oEmbed以外の取得先は受け付けず、任意URLの代理取得はしない。既存のチャンネル照合をNode/Workerで共用する。公開Pages OriginだけにCORSを許可し、GET/HEAD以外の操作を受け付けない。公開ブラウザーから新ID kS81qB9BZko、公式照合済みの埋め込み許可、CORS応答を実確認。Worker用の認証情報・アカウントID・メールはサイトへ渡さない。

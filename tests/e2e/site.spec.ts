@@ -155,12 +155,23 @@ test('social icons beside names point to the officially listed accounts', async 
 
 test('video and chat switch together when the official listing changes', async ({ page }) => {
   let switched = false;
-  const switchedAt = new Date(Date.parse(fixture.live.checked_at) + 61000).toISOString();
+  const switchedAt = new Date(Date.parse(fixture.live.checked_at) + 31000).toISOString();
   await page.route('**/data/live.json', route => route.fulfill({ json: switched ? { ...fixture.live, checked_at: switchedAt, video: { ...fixture.live.video, id: 'U-NLyctHkvs' } } : fixture.live }));
   await page.goto('./');
   await expect(page.locator('.player iframe')).toHaveAttribute('src', /LbMd2BvWHHU/);
   switched = true;
-  await page.clock.fastForward(61000);
+  await page.clock.fastForward(31000);
+  await expect(page.locator('.player iframe')).toHaveAttribute('src', /U-NLyctHkvs/);
+  await expect(page.getByTitle('YouTube公式ライブチャット')).toHaveAttribute('src', /v=U-NLyctHkvs/);
+});
+
+test('returning to a visible tab checks the new broadcast immediately', async ({ page }) => {
+  let switched = false;
+  await page.route('**/data/live.json', route => route.fulfill({ json: switched ? { ...fixture.live, video: { ...fixture.live.video, id: 'U-NLyctHkvs' } } : fixture.live }));
+  await page.goto('./#live');
+  await expect(page.locator('.player iframe')).toHaveAttribute('src', /LbMd2BvWHHU/);
+  switched = true;
+  await page.evaluate(() => document.dispatchEvent(new Event('visibilitychange')));
   await expect(page.locator('.player iframe')).toHaveAttribute('src', /U-NLyctHkvs/);
   await expect(page.getByTitle('YouTube公式ライブチャット')).toHaveAttribute('src', /v=U-NLyctHkvs/);
 });

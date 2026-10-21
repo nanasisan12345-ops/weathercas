@@ -111,21 +111,27 @@ export default function App() {
     else document.getElementById(route.view)?.scrollIntoView({ block: 'start' });
   }, [route.view, loading]);
   useEffect(() => {
-    let active = true;
+    let active = true, livePending = false;
     async function refresh() {
       try { const result = await loadDataset(); if (active) { setData(result); setError(''); } }
       catch (e) { if (active) setError(e instanceof Error ? e.message : 'データの取得に失敗しました。'); }
       finally { if (active) setLoading(false); }
     }
     async function refreshLive() {
-      try { const result = await loadLive(); if (active) { setLive(result); setLiveError(''); } }
+      if (livePending) return;
+      livePending = true;
+      try { const result = await loadLive(); if (active) { setLive(result); setLiveError(''); setNow(Date.now()); } }
       catch { if (active) { setLive(null); setLiveError('動画情報の読み込みに失敗しました。公式ページでご確認ください。'); } }
+      finally { livePending = false; }
     }
+    const onVisible = () => { if (document.visibilityState === 'visible') void refreshLive(); };
     void refresh(); void refreshLive();
     const updateData = window.setInterval(() => void refresh(), 300000);
-    const updateLive = window.setInterval(() => void refreshLive(), 60000);
+    const updateLive = window.setInterval(() => void refreshLive(), 30000);
     const clock = window.setInterval(() => setNow(Date.now()), 15000);
-    return () => { active = false; window.clearInterval(updateData); window.clearInterval(updateLive); window.clearInterval(clock); };
+    document.addEventListener('visibilitychange', onVisible); window.addEventListener('focus', onVisible);
+    return () => { active = false; window.clearInterval(updateData); window.clearInterval(updateLive); window.clearInterval(clock);
+      document.removeEventListener('visibilitychange', onVisible); window.removeEventListener('focus', onVisible); };
   }, []);
   const rows = data?.records || [], today = jstDate(new Date(now));
   const todayRows = rows.filter(row => row.date_jst === today), dayRows = rows.filter(row => row.date_jst === route.date);

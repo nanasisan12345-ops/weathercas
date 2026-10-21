@@ -56,8 +56,8 @@ export const liveSchema = z.object({
 export type LiveData = z.infer<typeof liveSchema>;
 export type Dataset = { index: DataIndex; records: Appearance[]; status: CollectionStatus };
 
-async function getJSON<T>(path: string, schema: z.ZodType<T>): Promise<T> {
-  const response = await fetch(`${import.meta.env.BASE_URL}data/${path}`, {
+async function getJSON<T>(path: string, schema: z.ZodType<T>, endpoint?: string): Promise<T> {
+  const response = await fetch(endpoint || `${import.meta.env.BASE_URL}data/${path}`, {
     cache: 'no-store', signal: AbortSignal.timeout(15000),
   });
   if (!response.ok) throw new Error('データを読み込めませんでした。時間をおいて再読み込みしてください。');
@@ -84,7 +84,7 @@ export async function loadDataset(): Promise<Dataset> {
   }
   return { index, status, records: records.sort((a, b) => a.id.localeCompare(b.id)) };
 }
-export const loadLive = () => getJSON('live.json', liveSchema);
+export const loadLive = () => getJSON('live.json', liveSchema, import.meta.env.VITE_LIVE_ENDPOINT);
 
 export function jstDate(now = new Date()): string {
   return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo', year: 'numeric', month: '2-digit', day: '2-digit' }).format(now);

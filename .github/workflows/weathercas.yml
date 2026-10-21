@@ -63,6 +63,8 @@ jobs:
       - run: npx playwright install --with-deps chrome
       - run: npm run test:e2e
       - name: Build a new static directory
+        env:
+          VITE_LIVE_ENDPOINT: ${{ vars.LIVE_ENDPOINT }}
         run: npm run build -- --outDir release/pages-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Configure Pages
         if: github.event_name != 'pull_request'

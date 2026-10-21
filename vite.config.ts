@@ -5,6 +5,13 @@ import { createRecordingHandler } from './scripts/recording-api.mjs';
 import { fileURLToPath } from 'node:url';
 
 const siteURL = process.env.SITE_URL?.trim();
+const liveEndpoint = process.env.VITE_LIVE_ENDPOINT?.trim();
+if (liveEndpoint) {
+  const url = new URL(liveEndpoint);
+  if (url.protocol !== 'https:' || !url.hostname.endsWith('.workers.dev') || url.pathname !== '/live.json' || url.port || url.username || url.password || url.search || url.hash) {
+    throw new Error('VITE_LIVE_ENDPOINT must be an HTTPS workers.dev URL ending in /live.json.');
+  }
+}
 if (siteURL && (!siteURL.startsWith('https://') || new URL(siteURL).pathname !== '/weathercas/')) {
   throw new Error('SITE_URL must be an HTTPS URL ending in /weathercas/.');
 }

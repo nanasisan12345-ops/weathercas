@@ -38,7 +38,7 @@ run.batで専用Edgeを起動。Data配下にブラウザー状態/ダウンロ�
 新規配布先 release/weathercas-2026-10-20T02-51-49-532Z-b698eb66 のrun.batから起動。初回のツール取得/ハッシュ照合/展開から、画面の録画開始→録画中→停止→プレビュー→MP4ダウンロードを5回成功。各4〜6秒、すべて1920×1080/30fps、H.264とAACをffprobeで確認。getDisplayMediaを例外にしても成功し、画面共有を使わないことを確認。プレイヤーに模擬ホバータイトルを表示したまま録画し、抽出フレームにタイトル/操作UIがないことを目視確認。録画パネル/プレビューのPNGも目視。検証記録はData/verification/direct-release-results.jsonとdirect-release-ui.png、direct-release-frame.png。
 
 ## GitHub公開作業
-ユーザーの明示承認後にリポジトリをPUBLICへ変更。SITE_URL変数を設定し、コミット1bdf4d0をpush。PagesのSourceはGitHub Actions、HTTPS有効。Actions run 39361560686 は収集・Python18/フロント7/Node8/Chrome E2E14・新規ビルド・データ保存・デプロイすべて成功。
+ユーザーの明示承認後にリポジトリをPUBLICへ変更。SITE_URL変数を設定し、コミット5398561をpush。PagesのSourceはGitHub Actions、HTTPS有効。Actions run 39361560686 は収集・Python18/フロント7/Node8/Chrome E2E14・新規ビルド・データ保存・デプロイすべて成功。
 
 公開URL https://nanasisan12345-ops.github.io/weathercas/ はHTTP200。配信HTMLのnoindex/nofollow/noarchiveを確認。公開URLを実ブラウザーで開き、アプリ描画、動画/チャットの同一IDとembed_domain、Pagesの録画ローカル限定案内、390/1280/1920幅のはみ出しなし、pageerrorなしを確認。iframe内部の動画再生/チャット投稿はこの検査の対象外。Data/verification/pages-browser.jsonとpages-desktop.pngに記録。
 
@@ -58,3 +58,22 @@ Git対象72ファイル/全ローカル履歴の秘密キー形式検索は該�
 変更と検証: (1) 時刻依存の除去＋画面テスト全実行 (2) 月末/年末/翌年/将来日を含む夜間→期限切れ→別ID再開の5ケース (3) 全単体/収集器/ビルド、diff確認 (4) push/Pages更新と公開画面で動画/チャット復帰を実確認。
 
 ローカル検証結果: フロント単体7件、Node8件、Python収集器18件、Edge画面19件が全成功。夜間再開5ケースも成功。型チェック/ビルドとgit diff --check成功。変更は画面試験と説明書のみ。本番の鮮度制限/動画取得/録画本体は変更していない。次はGitHubへpushしActionsの収集/保存/公開を通し、実サイトの新しい取得日時と配信ID、動画/コメントを確認する。
+
+公開確認: Actions 39565499284は全工程成功。公開live.jsonは10/21 16:56 JST/FB4Amg-bRXQへ更新。公開ページで古いJSONを返して期限切れを再現後、次の実公開JSON取得で再読み込みなしの復帰、同じIDの動画/チャット、再生時刻の進行とコメント71件を確認。Data/verification/night-recovery/public-result.json。初回のNode側追加API検査はローカルCA設定不足で終了したため、再検査は証明書検証を無効にせずブラウザーの同一Origin fetchを使用。
+
+## 番組切替を早く反映（2026-10-21、作業中）
+追加観測: 利用者の17時切替報告時、公式一覧はkS81qB9BZko、Pages JSONはFB4Amg-bRXQのまま。1分の画面ポーリングだけではGitHub定期デプロイ待ちを解消できない。公式JSON/oEmbedはブラウザー用CORSヘッダーがなく、Pagesからの直接取得は採用できない。
+
+追加の受け入れ条件: Pagesの番組視聴がGitHub定期データ更新を待たず、取得した新IDへ動画/コメントを同時切替。自分のPC起動や有料の録画基盤を要しない。
+設計比較: (a) Actionsをさらに高頻度化→実行遅延/取りこぼしを解消できず不採用 (b) 無料Workersで公式JSON/oEmbedを取得→JSON確認のみなのでネイティブ実行/ストレージ不要、採用。元画質録画機能は保留のまま。
+変更単位: 1. 既存公式リゾルバーをNode非依存モジュールに分離し既存Nodeテスト/ビルド 2. 固定取得先/CORS/15秒キャッシュのWorkerと単体・dry-run検証 3. Pagesの配信メタデータ取得先と30秒確認/タブ復帰時更新、画面/単体回帰 4. 無料Worker公開とPages設定・push・公開画面の新ID照合と切替確認。各工程で進捗を追記する。
+
+追加検証: Node非依存リゾルバー分離後の既存8テスト/ビルド成功。WorkerのOrigin/HTTPメソッド/固定取得先/Cache/例外と15秒・夜間復帰5回の計8テスト成功。Wrangler固定版のdry-run成功。無料プランではCPU上限のカスタム設定が拒否されたため、その設定を除去し無料プラン標準上限を使用。プラン変更・有料サービスの有効化なし。Workerの公開完了。Pythonの直接GETはCloudflareの1010になったが、公開Pagesの実ブラウザーからのCORS取得ではHTTP200、新ID/埋め込み許可を確認。
+
+フロント接続: LIVE_ENDPOINTをビルド時だけVITE_LIVE_ENDPOINTに渡し、ローカルとCIの画面試験は従来JSONを使う。Worker障害時に古いスナップショットへ戻さない。確認間隔30秒、タブ復帰時も取得、重複取得を抑止。フロント11/Node16/画面20テストとビルド成功。配布版はリモート設定を無効にしてローカルNodeサーバーを使用する。
+
+個人情報対応: 利用者の指示でCloudflareメール/アカウントID/認証情報をGitHubに載せない方針を確認。ソース/設定に該当なし。ただし既存3コミットの作者メールに同じアドレスが含まれていたため、Data内に元履歴bundleと変更候補を作成し、ファイルtree不変を確認。利用者が公開済み履歴の匿名化を承認後、lease付きatomic pushでmainとDependabot5枝を置換。GitHub APIのmain履歴とPR10参照で旧作者メールなしを確認。既存の他リポジトリは変更していない。今後のGit作者はnoreply。公開済みの古い個別SHA URLやGitHub側保持データの完全消去は保証しない。バックアップはGit対象外Data/backupsに保持。API接続先URLは公開ブラウザーで見える性質があることを説明済み。
+
+次の手順: 公開用ビルドと新規配布版/不正設定を検証し、アカウント識別子・認証情報のGit対象検索後にpush。PagesがWorkerの現在IDを使うこと、動画/チャット一致と自動切替を実ブラウザーで確認する。
+
+公開候補検証: 公開Pagesと同じOriginで新しい静的ビルドだけを差し替え、古いキャッシュ応答から実Worker応答へ移行。約32.7秒で再読み込みなしにkS81qB9BZkoへ動画/チャットが同時切替。Worker HTTP200と新しい取得日時を確認。Data/verification/night-recovery/worker-candidate.json。リモート設定入り環境で新規ローカル配布を作り、リモートURLがJSに残らずローカルlive.jsonが実動作することも確認。

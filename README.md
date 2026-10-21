@@ -57,7 +57,11 @@ AVC/H.264とAACの公開HLSを選択し、最大1920×1080・60fpsで保存し�
 
 YouTube公式iframeを使用します。チャットの `embed_domain` は現在のページのホスト名から生成するため、GitHubユーザー名・独自ドメインに追従します。動画と同じIDを使います。
 
-run.bat・npm run dev・静的確認版のNodeサーバーでは、公式動画一覧をサーバーが60秒キャッシュで確認します。画面も60秒ごとに読み直し、配信IDが変わると動画とチャットを一緒に更新します。番組の切り替わり直後は公式側の更新とキャッシュ分だけ遅れる場合があります。取得失敗時は古い動画を現在配信として表示しません。公開済みHTMLだけを別の静的ホストで配信する場合はこのサーバー処理が動かないため、Actionsで生成するlive.jsonの更新に依存します。
+公開Pages版は、リポジトリ変数 `LIVE_ENDPOINT` で指定したCloudflare Workersから配信メタデータを読みます。Workerは公式動画一覧とoEmbedによる公式チャンネル照合を行い、15秒だけキャッシュします。画面は30秒ごとに確認し、新IDになったら動画とチャットを同時に切り替えます。別タブから戻った場合も確認します。公式側の情報更新や通信状況による遅れはあります。番組表のActions更新を待つ仕組みではありません。
+
+WorkerはJSON取得だけの無料プラン構成で、録画・動画配信・R2・Containers・DBを使用しません。設定した接続先URLは公開サイトのJavaScriptと通信から確認できる情報です。Cloudflareのメールアドレス・アカウントID・API/OAuthトークンをリポジトリやフロントエンドに含めません。認証情報やCLIログはGit対象外のData内で扱い、コミットにはGitHubのnoreplyメールを使用します。
+
+run.bat・npm run dev・静的確認版のNodeサーバーでは、従来どおり公式一覧を60秒キャッシュで確認し、画面は30秒ごとに読み直します。ローカル確認用の配布ビルドは公開Workerの設定を使いません。取得失敗時は古い動画を現在配信として表示しません。
 
 投稿・アカウント・配信側の参加条件はYouTubeが管理します。ログインや第三者Cookie制限、登録者限定、チャット無効、配信終了等により埋め込み欄で書き込めない場合は「公式チャットでコメントを書く」で開いてください。本アプリはログイン情報やコメントを受け取らず、代理投稿もしません。モバイルWebでの埋め込み非対応は[公式ヘルプ](https://support.google.com/youtube/answer/2524549?hl=JA)に従います。
 
@@ -97,7 +101,7 @@ YouTube Data API v3を有効にし、API制限を設定したキーをGitHub Sec
 
 ## GitHub Pages設定
 
-リポジトリは `nanasisan12345-ops/weathercas`、既定ブランチは `main`、Pages Sourceは **GitHub Actions** です。リポジトリ変数 `SITE_URL` を `https://nanasisan12345-ops.github.io/weathercas/` に設定し、OGPとcanonical URLへ反映します。任意のAPIキーはSecretsの `YOUTUBE_API_KEY` だけに設定してください。
+リポジトリは `nanasisan12345-ops/weathercas`、既定ブランチは `main`、Pages Sourceは **GitHub Actions** です。リポジトリ変数 `SITE_URL` を `https://nanasisan12345-ops.github.io/weathercas/` に設定し、OGPとcanonical URLへ反映します。任意のAPIキーはSecretsの `YOUTUBE_API_KEY` だけに設定してください。公開Workerの `/live.json` URLはリポジトリ変数 `LIVE_ENDPOINT` へ設定し、ビルド時の `VITE_LIVE_ENDPOINT` に渡します。これは公開接続先であり認証情報ではありません。未設定の場合は従来のJSONスナップショットを利用します。
 
 個人アカウントの現行プランで非公開リポジトリからPagesを有効にできなかったため、依頼者が「リポジトリも公開にして、Pagesは検索除外する」を選択しました。HTMLのrobotsメタタグを指定し、検索エンジンに登録しないよう依頼します。アクセス制限や検索除外の完全な保証はありません。
 
@@ -119,6 +123,27 @@ YouTube Data API v3を有効にし、API制限を設定したキーをGitHub Sec
 
 ## 確認範囲
 
-型チェック・ビルド、Python収集器18件、フロント単体7件、Nodeのリゾルバー/録画API8件、Edge画面E2E19件を確認しています。公式実配信の直接録画でMP4の映像1920×1080/30fpsとAAC音声を検証しました。画面の大きさ・マウスオーバーに関係なく、FFmpegの `-c copy` で保存します。配信元が60fpsの実配信は未確認で、フォーマット選択は合成メタデータで検証しています。YouTubeへのコメント投稿と、任意のAPIキーを使う実通信は未検証です。最終の配布・公開確認は `IMPLEMENTATION.md` に記録します。
+型チェック・ビルド、Python収集器18件、フロント単体11件、Nodeのリゾルバー/Worker/録画API16件、Edge画面E2E20件を確認しています。公式実配信の直接録画でMP4の映像1920×1080/30fpsとAAC音声を検証しました。画面の大きさ・マウスオーバーに関係なく、FFmpegの `-c copy` で保存します。配信元が60fpsの実配信は未確認で、フォーマット選択は合成メタデータで検証しています。YouTubeへのコメント投稿と、任意のAPIキーを使う実通信は未検証です。最終の配布・公開確認は `IMPLEMENTATION.md` に記録します。
 
 [番組ガイドライン](https://weathernews.jp/wnl/guideline/)、[YouTube利用規約](https://www.youtube.com/t/terms)、[YouTube APIポリシー](https://developers.google.com/youtube/terms/developer-policies)、[Googleプライバシーポリシー](https://policies.google.com/privacy)を参照してください。番組側とYouTube側の許諾条件はそれぞれ適用されます。
+
+## 配信情報Workerの再デプロイ
+
+`worker/package-lock.json` で固定したCLIを使います。Cloudflareへのログインは認証情報をData内に置く環境で行ってください。メール・アカウントID・トークンを設定ファイルやコマンド例に記録しません。
+
+```powershell
+$env:XDG_CONFIG_HOME = "$PWD/Data/config"
+$env:WRANGLER_LOG_PATH = "$PWD/Data/logs/wrangler"
+$env:WRANGLER_SEND_METRICS = 'false'
+$env:npm_config_cache = "$PWD/Data/cache/npm"
+$env:NODE_USE_SYSTEM_CA = '1'
+$env:TEMP = "$PWD/Data/temp"
+$env:TMP = $env:TEMP
+New-Item -ItemType Directory -Force $env:TEMP | Out-Null
+npm --prefix worker ci
+# 初回の認証は、上の保存先設定のままWranglerのloginを実行します。
+npm --prefix worker run dry-run
+npm --prefix worker run deploy
+```
+
+Workerの設定は `wrangler.jsonc`、実装は `worker/live.mjs`。無料プラン標準のCPU上限を使い、有料プランへの変更・追加ストレージの作成を行いません。無料枠の利用上限はCloudflareの管理画面で確認してください。

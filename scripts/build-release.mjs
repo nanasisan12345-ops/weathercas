@@ -8,9 +8,9 @@ const root = fileURLToPath(new URL('../', import.meta.url));
 const name = `weathercas-${new Date().toISOString().replace(/[:.]/g, '-')}-${randomUUID().slice(0, 8)}`;
 const target = path.join(root, 'release', name);
 await mkdir(target, { recursive: true });
-await build({ root, build: { outDir: path.join(target, 'site') } });
+await build({ root, define: { 'import.meta.env.VITE_LIVE_ENDPOINT': 'undefined' }, build: { outDir: path.join(target, 'site') } });
 await mkdir(path.join(target, 'scripts'));
-for (const name of ['serve-static.mjs', 'live-source.mjs', 'recording-api.mjs', 'recording-service.mjs', 'recording-format.mjs', 'recording-tools.mjs']) {
+for (const name of ['serve-static.mjs', 'live-source.mjs', 'live-resolver.mjs', 'recording-api.mjs', 'recording-service.mjs', 'recording-format.mjs', 'recording-tools.mjs']) {
   await cp(path.join(root, 'scripts', name), path.join(target, 'scripts', name));
 }
 await mkdir(path.join(target, 'config'));
