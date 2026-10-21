@@ -119,6 +119,6 @@ YouTube Data API v3を有効にし、API制限を設定したキーをGitHub Sec
 
 ## 確認範囲
 
-型チェック・ビルド、Python収集器18件、フロント単体7件、Nodeのリゾルバー/録画API8件、Edge画面E2E14件を確認しています。公式実配信の直接録画でMP4の映像1920×1080/30fpsとAAC音声を検証しました。画面の大きさ・マウスオーバーに関係なく、FFmpegの `-c copy` で保存します。配信元が60fpsの実配信は未確認で、フォーマット選択は合成メタデータで検証しています。YouTubeへのコメント投稿と、任意のAPIキーを使う実通信は未検証です。最終の配布・公開確認は `IMPLEMENTATION.md` に記録します。
+型チェック・ビルド、Python収集器18件、フロント単体7件、Nodeのリゾルバー/録画API8件、Edge画面E2E19件を確認しています。公式実配信の直接録画でMP4の映像1920×1080/30fpsとAAC音声を検証しました。画面の大きさ・マウスオーバーに関係なく、FFmpegの `-c copy` で保存します。配信元が60fpsの実配信は未確認で、フォーマット選択は合成メタデータで検証しています。YouTubeへのコメント投稿と、任意のAPIキーを使う実通信は未検証です。最終の配布・公開確認は `IMPLEMENTATION.md` に記録します。
 
 [番組ガイドライン](https://weathernews.jp/wnl/guideline/)、[YouTube利用規約](https://www.youtube.com/t/terms)、[YouTube APIポリシー](https://developers.google.com/youtube/terms/developer-policies)、[Googleプライバシーポリシー](https://policies.google.com/privacy)を参照してください。番組側とYouTube側の許諾条件はそれぞれ適用されます。

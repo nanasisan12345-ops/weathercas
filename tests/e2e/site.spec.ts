@@ -9,6 +9,8 @@ test.beforeEach(async ({ page }, info) => {
   await page.route('https://www.youtube.com/live_chat**', route => route.fulfill({ contentType: 'text/html', body: '<p>Official chat fixture</p>' }));
   await page.route('**/api/recording', route => route.fulfill({ json: { supported: true, token: 'a'.repeat(64), job: null } }));
   if (info.title === 'collected files load through the real application entry') return;
+  // Fixture metadata must not expire just because CI runs on a later date.
+  await page.clock.install({ time: new Date(fixture.live.checked_at) });
   for (const [name, value] of Object.entries({ 'index.json': fixture.index, 'status.json': fixture.status,
     'live.json': fixture.live, '2026/10.json': fixture.partition })) {
     await page.route(`**/data/${name}`, route => route.fulfill({ json: value }));
@@ -60,7 +62,7 @@ test('fixture-backed search, filters, navigation, and statistics', async ({ page
 test('corrupt response and ended live fall back safely', async ({ page }) => {
   await page.route('**/data/index.json', route => route.fulfill({ json: { broken: true } }));
   await page.route('**/data/live.json', route => route.fulfill({ json: {
-    schema_version: 1, checked_at: new Date().toISOString(), state: 'offline', video: null,
+    schema_version: 1, checked_at: fixture.live.checked_at, state: 'offline', video: null,
     embed_allowed: false, verification: 'official_listing', archives: [],
   } }));
   await page.goto('./');
@@ -152,9 +154,9 @@ test('social icons beside names point to the officially listed accounts', async 
 });
 
 test('video and chat switch together when the official listing changes', async ({ page }) => {
-  await page.clock.install();
   let switched = false;
-  await page.route('**/data/live.json', route => route.fulfill({ json: switched ? { ...fixture.live, checked_at: new Date().toISOString(), video: { ...fixture.live.video, id: 'U-NLyctHkvs' } } : fixture.live }));
+  const switchedAt = new Date(Date.parse(fixture.live.checked_at) + 61000).toISOString();
+  await page.route('**/data/live.json', route => route.fulfill({ json: switched ? { ...fixture.live, checked_at: switchedAt, video: { ...fixture.live.video, id: 'U-NLyctHkvs' } } : fixture.live }));
   await page.goto('./');
   await expect(page.locator('.player iframe')).toHaveAttribute('src', /LbMd2BvWHHU/);
   switched = true;
@@ -162,6 +164,33 @@ test('video and chat switch together when the official listing changes', async (
   await expect(page.locator('.player iframe')).toHaveAttribute('src', /U-NLyctHkvs/);
   await expect(page.getByTitle('YouTube公式ライブチャット')).toHaveAttribute('src', /v=U-NLyctHkvs/);
 });
+
+for (const evening of ['2026-10-20', '2026-10-31', '2026-12-31', '2027-02-28', '2030-06-15']) {
+  test(`video and chat recover after an offline night beginning ${evening}`, async ({ page }) => {
+    const start = Date.parse(`${evening}T23:00:00+09:00`);
+    await page.clock.setSystemTime(start);
+    let response = { ...fixture.live, checked_at: new Date(start).toISOString() };
+    await page.route('**/data/live.json', route => route.fulfill({ json: response }));
+    await page.goto('./#live');
+    await expect(page.locator('.player iframe')).toHaveAttribute('src', /LbMd2BvWHHU/);
+
+    response = { ...response, checked_at: new Date(start + 61000).toISOString(), state: 'offline', video: null, embed_allowed: false };
+    await page.clock.fastForward(61000);
+    await expect(page.locator('iframe')).toHaveCount(0);
+    await expect(page.locator('.player')).toContainText('配信中の動画は確認されていません');
+
+    // A tab left open overnight must still poll after the old metadata expires.
+    await page.clock.fastForward(8 * 3600000);
+    await expect(page.locator('.player')).toContainText('配信情報の確認期限が過ぎています');
+    const morning = new Date(start + 8 * 3600000 + 122000).toISOString();
+    response = { ...fixture.live, checked_at: morning, video: { ...fixture.live.video, id: 'U-NLyctHkvs' } };
+    await page.clock.fastForward(61000);
+    await expect(page.locator('.player iframe')).toHaveAttribute('src', /U-NLyctHkvs/);
+    await expect(page.getByTitle('YouTube公式ライブチャット')).toHaveAttribute('src', /v=U-NLyctHkvs/);
+    await page.reload();
+    await expect(page.locator('.player iframe')).toHaveAttribute('src', /U-NLyctHkvs/);
+  });
+}
 
 test('official forecast and typhoon images load and have useful error links', async ({ page }) => {
   await page.goto('./#weather');

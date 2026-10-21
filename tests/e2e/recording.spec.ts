@@ -5,6 +5,7 @@ const id = 'a15be8ef-e6b6-4a31-87fb-0123456789ab';
 const sample = { id, video_id: 'LbMd2BvWHHU', title: 'Official live', state: 'preparing', message: '配信の元画質と音声を確認しています…', error: null, warning: null, width: 1920, height: 1080, fps: 30, seconds: 0, bytes: 0, filename: 'weathercas-test.mp4' };
 
 test.beforeEach(async ({ page }) => {
+  await page.clock.install({ time: new Date(fixture.live.checked_at) });
   await page.route('https://www.youtube-nocookie.com/embed/**', route => route.fulfill({ contentType: 'text/html', body: '<p>Player title overlay</p>' }));
   await page.route('https://www.youtube.com/live_chat**', route => route.fulfill({ contentType: 'text/html', body: '<p>Chat fixture</p>' }));
   for (const [name, value] of Object.entries({ 'index.json': fixture.index, 'status.json': fixture.status, 'live.json': fixture.live, '2026/10.json': fixture.partition })) {
@@ -57,6 +58,6 @@ test('preparing a recording can be cancelled and request errors remain visible',
   await page.route('**/api/recording/start', route => route.fulfill({ status: 409, json: { error: 'すでに録画中です。' } }));
   await page.getByRole('button', { name: '録画開始', exact: true }).click();
   await expect(page.locator('.capture-error')).toContainText('すでに録画中');
-  await page.clock.install(); await page.clock.fastForward(2500);
+  await page.clock.fastForward(2500);
   await expect(page.locator('.capture-error')).toContainText('すでに録画中');
 });
