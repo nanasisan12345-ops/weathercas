@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { createLiveHandler } from './scripts/live-source.mjs';
+import { createWeatherHandler } from './scripts/weather-source.mjs';
 import { createRecordingHandler } from './scripts/recording-api.mjs';
 import { fileURLToPath } from 'node:url';
 
@@ -23,6 +24,7 @@ export default defineConfig({
     name: 'weathercas-local-live-source',
     configureServer(server) {
       server.middlewares.use(createLiveHandler());
+      server.middlewares.use(createWeatherHandler());
       localRecording = createRecordingHandler(fileURLToPath(new URL('./', import.meta.url)));
       server.middlewares.use(localRecording);
       server.httpServer?.on('close', () => { void localRecording?.dispose(); });

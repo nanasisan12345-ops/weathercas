@@ -4,6 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawn } from 'node:child_process';
 import { createLiveHandler } from './live-source.mjs';
+import { createWeatherHandler } from './weather-source.mjs';
 import { createRecordingHandler } from './recording-api.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url)), site = path.join(root, 'site');
@@ -12,8 +13,9 @@ const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; cha
   '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8',
   '.png': 'image/png', '.webp': 'image/webp', '.ico': 'image/x-icon', '.svg': 'image/svg+xml' };
 const liveHandler = createLiveHandler();
+const weatherHandler = createWeatherHandler();
 const recordingHandler = createRecordingHandler(root);
-const server = http.createServer((req, res) => recordingHandler(req, res, () => liveHandler(req, res, async () => {
+const server = http.createServer((req, res) => recordingHandler(req, res, () => weatherHandler(req, res, () => liveHandler(req, res, async () => {
   if (!['GET', 'HEAD'].includes(req.method)) { res.writeHead(405); res.end(); return; }
   const url = new URL(req.url, 'http://127.0.0.1');
   if (url.pathname === '/') { res.writeHead(302, { Location: base }); res.end(); return; }
@@ -31,7 +33,7 @@ const server = http.createServer((req, res) => recordingHandler(req, res, () => 
       'Referrer-Policy': 'strict-origin-when-cross-origin', 'Cache-Control': 'no-cache' });
     res.end(req.method === 'HEAD' ? undefined : body);
   } catch (error) { res.writeHead(error.code === 'ENOENT' ? 404 : 500); res.end(); }
-})));
+}))));
 const selectedPort = Number(process.env.WEATHERCAS_PORT || 5180);
 await new Promise((resolve, reject) => { server.once('error', reject); server.listen(selectedPort, '127.0.0.1', resolve); });
 const url = `http://127.0.0.1:${selectedPort}${base}`;

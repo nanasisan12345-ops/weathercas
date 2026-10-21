@@ -37,3 +37,27 @@
 ## 公開サイトの番組切替（2026-10-21）
 
 GitHubの定期デプロイ待ちを解消するため、配信メタデータはWorkers経由でも取得する。固定された公式一覧とYouTube oEmbed以外の取得先は受け付けず、任意URLの代理取得はしない。既存のチャンネル照合をNode/Workerで共用する。公開Pages OriginだけにCORSを許可し、GET/HEAD以外の操作を受け付けない。公開ブラウザーから新ID kS81qB9BZko、公式照合済みの埋め込み許可、CORS応答を実確認。Worker用の認証情報・アカウントID・メールはサイトへ渡さない。
+
+## カスタマイズ用の天気情報（2026-10-21）
+
+32種類のカードを追加。公式HTML・そのHTMLが読むJavaScript・実HTTP応答を照合し、`scripts/weather-source.mjs` に取得先を固定しました。資料と実ブラウザーの検証結果はGit対象外の `Data/verification/weather-dashboard/`、公開データを最小化した試験用応答は `tests/fixtures/weather-sources.json` と `weather-cards.json` です。
+
+| 情報 | 公式の公開データ |
+|---|---|
+| 全国・9地方の予報 | `https://weathernews.jp/comment/map_area/{japan,hokkaido,tohoku,kanto,chubu,kinki,chugoku,shikoku,kyushu,okinawa}.json` のfcst/mapsrc。今日/明日/明後日/日付選択。日付を推測した固定画像URLは作りません |
+| 実況天気図 | `https://weathernews.jp/onebox/chart/api/chart/fctList` のobsの画像パス |
+| 衛星雲画像 | `https://memgvs-cdn.weathernews.jp/s/satellite/cloud/JAPAN/index.json` の最新時刻・画像 |
+| 雨雲 | `https://tile.weathernews.jp/3/json/airadar_3600.json` の無料の実況だけ。4枚のズーム4タイルで日本域を表示。予想・会員向けのデータは使用しません |
+| 地震 | `https://mws.cdn.weathernews.jp/s/quake/json/quake.json` の掲載順・最新震度図・5件の概要 |
+| 津波 | `https://mws.cdn.weathernews.jp/s/tsunami_v2/json/image.json` の掲載図・発表日時。publish=falseなら発表終了を明示し、古い図を現在の発表と説明しません |
+| 警報・注意報 | `https://site.weathernews.jp/app/warning_v3/allcity.json` の発表がある市区町村。公式JSの分類に従いwarn=注意報、alrm=警報、urgt=危険警報、exal=特別警報。未知の分類は公式確認の表示 |
+| 紫外線 | `https://api.weathernews.jp/uv/json/JAPAN.json` の公式UV値と分類 |
+| 乾燥・風邪予防・熱中症 | `https://site.weathernews.jp/app/{dryness-index,cold-index,wbgt-index}/JAPAN.json` の対象時刻・主要都市・公式区分 |
+| お洗濯・天気痛 | `https://site.weathernews.jp/site/washing/json/map/JAPAN.json` と `https://site.weathernews.jp/pain/json/map/JAPAN.json` |
+| 観測ランキング6種 | `https://site.weathernews.jp/info/data/obs/rank/{element}/latest_top10.json`。最高/最低気温、日最大1時間雨量/降雪量、現在の平均風速、日最低湿度。発表/観測時刻と単位を区別 |
+
+雨雲背景は[国土地理院の淡色地図](https://maps.gsi.go.jp/development/ichiran.html)（`https://cyberjapandata.gsi.go.jp/xyz/pale/4/{x}/{y}.png`）。カード内に地図と雨雲の出典を別々に表示します。雨の強さの凡例は公式の `https://tile.weathernews.jp/nowcast/res/legend_zoomradar_rain@2x.png`。動きのアニメーションやズーム操作は公式ページで確認できます。
+
+ローカルNodeとWorkerで同じ正規化/固定取得処理を共用。Workerは `/weather/{許可済みID}.json` のGET/HEADのみで、任意のURL・クエリー・認証情報を受け付けません。天気のEdgeキャッシュは60秒、画面確認は5分間隔（即時の防災通知ではありません）。配信動画の15秒キャッシュ・30秒確認は別のまま。通信/形式エラーで古い取得結果へフォールバックしません。表示するカードだけ読み、画像そのものをGitへ保存しません。
+
+初期配置は今日・台風の2枚。選択/順番/幅は `weathercas.weather-layout.v1` としてブラウザーへ保存。無効・破損データは初期配置へ戻し、保存できない場合もその場の操作は継続し画面通知します。設定の外部送信・端末同期・DB追加はありません。公開PagesのブラウザーからWorkerの28経路すべてがHTTP200で応答することを確認しています。

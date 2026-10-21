@@ -49,4 +49,3 @@ async function getJSON(url) {
   if (bytes.length > 2000000) throw new Error('upstream_too_large');
   return JSON.parse(bytes);
 }
-

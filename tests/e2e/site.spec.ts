@@ -216,7 +216,7 @@ test('official forecast and typhoon images load and have useful error links', as
   await page.locator('#weather').screenshot({ path: 'Data/verification/weather-panels.png' });
   await page.route('**/site/forecast/image/map/JAPAN.today.png*', route => route.abort());
   await page.reload();
-  await expect(page.getByRole('link', { name: '公式の全国の天気予報を開く', exact: true })).toHaveAttribute('href', 'https://weathernews.jp/');
+  await expect(page.getByRole('link', { name: /^公式の全国の天気予報を開く/ })).toHaveAttribute('href', 'https://weathernews.jp/');
   await expect(page.locator('.weather-panel').first()).toContainText('画像を読み込めませんでした');
 });
 

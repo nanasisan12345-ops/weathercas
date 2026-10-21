@@ -1,0 +1,1077 @@
+{
+  "forecast": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "予報日を選んで表示",
+    "images": [
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/JAPAN.20261021.png?5975239",
+        "label": "21日（水）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/JAPAN.20261022.png?5975239",
+        "label": "22日（木）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/JAPAN.20261023.png?5975239",
+        "label": "23日（金）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/JAPAN.20261024.png?5975239",
+        "label": "24日（土）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/JAPAN.20261025.png?5975239",
+        "label": "25日（日）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/JAPAN.20261026.png?5975239",
+        "label": "26日（月）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/JAPAN.20261027.png?5975239",
+        "label": "27日（火）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/JAPAN.20261028.png?5975239",
+        "label": "28日（水）"
+      }
+    ]
+  },
+  "chart": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "10/21 12:00の実況天気図",
+    "images": [
+      {
+        "src": "https://gvs.weathernews.jp/onebox/chart/img/WNIONEBOX_anl/2026/10/21/A_2026-10-21-03.webp",
+        "label": "実況天気図"
+      }
+    ]
+  },
+  "satellite": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "10/21 17:00の衛星雲画像",
+    "images": [
+      {
+        "src": "https://memgvs-cdn.weathernews.jp/s/satellite/cloud/JAPAN/2026-10-21-17-00.webp",
+        "label": "日本付近の雲画像"
+      }
+    ]
+  },
+  "radar": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "10/21 17:30の雨雲（実況）",
+    "radar": "https://tile.weathernews.jp/3/tile/rad_anl/2026/10/21/2026-10-21-08-30_Tiles_999999999999"
+  },
+  "earthquake": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "最新の掲載地震：10月21日 10:04",
+    "images": [
+      {
+        "src": "https://mws.cdn.weathernews.jp/s/quake/img/202610211004_341.png",
+        "label": "最新の地震の震度分布"
+      }
+    ],
+    "rows": [
+      {
+        "name": "千葉県北西部",
+        "value": "震度2 / M4.0",
+        "detail": "10月21日 10:04"
+      }
+    ]
+  },
+  "tsunami": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "画像の発表日時：7/28 18:10",
+    "images": [
+      {
+        "src": "https://mws.cdn.weathernews.jp/s/tsunami_v2/img/wavemap.png?1785229825",
+        "label": "公式の津波情報図"
+      }
+    ],
+    "notice": "公式の掲載情報は発表終了となっています。現在の発表状況は公式ページで確認してください。"
+  },
+  "warnings": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "発表のある市区町村。地域名で絞り込めます。",
+    "rows": [
+      {
+        "name": "青森市",
+        "value": "注意報：強風・注意報：波浪",
+        "detail": "2026/10/21 16:24(JST)"
+      },
+      {
+        "name": "平内町",
+        "value": "注意報：強風・注意報：波浪",
+        "detail": "2026/10/21 16:24(JST)"
+      }
+    ]
+  },
+  "uv": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "10/21の紫外線予報（全国主要都市）",
+    "rows": [
+      {
+        "name": "那覇",
+        "value": "やや強い（4）"
+      },
+      {
+        "name": "大阪",
+        "value": "やや強い（3）"
+      },
+      {
+        "name": "高知",
+        "value": "やや強い（4）"
+      },
+      {
+        "name": "東京",
+        "value": "やや強い（3）"
+      },
+      {
+        "name": "広島",
+        "value": "弱い（1）"
+      },
+      {
+        "name": "新潟",
+        "value": "弱い（1）"
+      },
+      {
+        "name": "金沢",
+        "value": "弱い（1）"
+      },
+      {
+        "name": "名古屋",
+        "value": "やや強い（3）"
+      },
+      {
+        "name": "仙台",
+        "value": "弱い（1）"
+      },
+      {
+        "name": "福岡",
+        "value": "弱い（1）"
+      },
+      {
+        "name": "札幌",
+        "value": "弱い（1）"
+      }
+    ]
+  },
+  "dry": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "10/21 00:00対象（全国主要都市）",
+    "rows": [
+      {
+        "name": "仙台",
+        "value": "しっとり"
+      },
+      {
+        "name": "東京",
+        "value": "しっとり"
+      },
+      {
+        "name": "名古屋",
+        "value": "しっとり"
+      },
+      {
+        "name": "大阪",
+        "value": "しっとり"
+      },
+      {
+        "name": "高知",
+        "value": "しっとり"
+      },
+      {
+        "name": "那覇",
+        "value": "しっとり"
+      },
+      {
+        "name": "福岡",
+        "value": "しっとり"
+      },
+      {
+        "name": "広島",
+        "value": "しっとり"
+      },
+      {
+        "name": "金沢",
+        "value": "しっとり"
+      },
+      {
+        "name": "新潟",
+        "value": "しっとり"
+      },
+      {
+        "name": "札幌",
+        "value": "しっとり"
+      }
+    ]
+  },
+  "cold": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "10/21 00:00対象（全国主要都市）",
+    "rows": [
+      {
+        "name": "仙台",
+        "value": "安心"
+      },
+      {
+        "name": "東京",
+        "value": "安心"
+      },
+      {
+        "name": "名古屋",
+        "value": "安心"
+      },
+      {
+        "name": "大阪",
+        "value": "安心"
+      },
+      {
+        "name": "高知",
+        "value": "安心"
+      },
+      {
+        "name": "那覇",
+        "value": "安心"
+      },
+      {
+        "name": "福岡",
+        "value": "やや注意"
+      },
+      {
+        "name": "広島",
+        "value": "安心"
+      },
+      {
+        "name": "金沢",
+        "value": "安心"
+      },
+      {
+        "name": "新潟",
+        "value": "安心"
+      },
+      {
+        "name": "札幌",
+        "value": "やや注意"
+      }
+    ]
+  },
+  "heat": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "10/21 18:00対象（全国主要都市）",
+    "rows": [
+      {
+        "name": "仙台",
+        "value": "ほぼ安全"
+      },
+      {
+        "name": "東京",
+        "value": "ほぼ安全"
+      },
+      {
+        "name": "名古屋",
+        "value": "ほぼ安全"
+      },
+      {
+        "name": "大阪",
+        "value": "ほぼ安全"
+      },
+      {
+        "name": "高知",
+        "value": "ほぼ安全"
+      },
+      {
+        "name": "那覇",
+        "value": "やや注意"
+      },
+      {
+        "name": "福岡",
+        "value": "ほぼ安全"
+      },
+      {
+        "name": "広島",
+        "value": "ほぼ安全"
+      },
+      {
+        "name": "金沢",
+        "value": "ほぼ安全"
+      },
+      {
+        "name": "新潟",
+        "value": "ほぼ安全"
+      },
+      {
+        "name": "札幌",
+        "value": "ほぼ安全"
+      }
+    ]
+  },
+  "laundry": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "21(水)夜間",
+    "rows": [
+      {
+        "name": "仙台",
+        "value": "OK"
+      },
+      {
+        "name": "東京",
+        "value": "NG"
+      },
+      {
+        "name": "名古屋",
+        "value": "心配"
+      },
+      {
+        "name": "大阪",
+        "value": "OK"
+      },
+      {
+        "name": "高知",
+        "value": "NG"
+      },
+      {
+        "name": "那覇",
+        "value": "OK"
+      },
+      {
+        "name": "福岡",
+        "value": "心配"
+      },
+      {
+        "name": "広島",
+        "value": "心配"
+      },
+      {
+        "name": "金沢",
+        "value": "OK"
+      },
+      {
+        "name": "新潟",
+        "value": "OK"
+      },
+      {
+        "name": "札幌",
+        "value": "OK"
+      }
+    ]
+  },
+  "pain": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "2026-10-21対象（全国主要都市）",
+    "rows": [
+      {
+        "name": "仙台",
+        "value": "警戒"
+      },
+      {
+        "name": "東京",
+        "value": "注意"
+      },
+      {
+        "name": "名古屋",
+        "value": "注意"
+      },
+      {
+        "name": "大阪",
+        "value": "警戒"
+      },
+      {
+        "name": "高知",
+        "value": "注意"
+      },
+      {
+        "name": "那覇",
+        "value": "安心"
+      },
+      {
+        "name": "福岡",
+        "value": "安心"
+      },
+      {
+        "name": "広島",
+        "value": "やや注意"
+      },
+      {
+        "name": "金沢",
+        "value": "警戒"
+      },
+      {
+        "name": "新潟",
+        "value": "警戒"
+      },
+      {
+        "name": "札幌",
+        "value": "警戒"
+      }
+    ]
+  },
+  "temperature": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "10/21 17:30発表・上位10地点",
+    "rows": [
+      {
+        "name": "宮崎県 日向",
+        "value": "33.6 ℃",
+        "detail": "10/21 13:59観測"
+      },
+      {
+        "name": "山梨県 甲府",
+        "value": "33.5 ℃",
+        "detail": "10/21 14:09観測"
+      },
+      {
+        "name": "三重県 紀伊長島",
+        "value": "33.2 ℃",
+        "detail": "10/21 14:08観測"
+      },
+      {
+        "name": "三重県 尾鷲",
+        "value": "33 ℃",
+        "detail": "10/21 13:27観測"
+      },
+      {
+        "name": "愛媛県 西条",
+        "value": "32.8 ℃",
+        "detail": "10/21 13:22観測"
+      },
+      {
+        "name": "愛媛県 新居浜",
+        "value": "32.7 ℃",
+        "detail": "10/21 13:20観測"
+      },
+      {
+        "name": "徳島県 徳島",
+        "value": "32.6 ℃",
+        "detail": "10/21 12:12観測"
+      },
+      {
+        "name": "山梨県 勝沼",
+        "value": "32.5 ℃",
+        "detail": "10/21 12:54観測"
+      },
+      {
+        "name": "東京都 八王子",
+        "value": "32.4 ℃",
+        "detail": "10/21 12:53観測"
+      },
+      {
+        "name": "香川県 高松",
+        "value": "32.4 ℃",
+        "detail": "10/21 14:13観測"
+      }
+    ]
+  },
+  "minimum": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "10/21 17:30発表・上位10地点",
+    "rows": [
+      {
+        "name": "道北 江丹別",
+        "value": "2.2 ℃",
+        "detail": "10/21 01:18観測"
+      },
+      {
+        "name": "道北 朱鞠内",
+        "value": "2.8 ℃",
+        "detail": "10/21 00:07観測"
+      },
+      {
+        "name": "道北 歌登",
+        "value": "2.9 ℃",
+        "detail": "10/21 00:15観測"
+      },
+      {
+        "name": "道南 三石",
+        "value": "3 ℃",
+        "detail": "10/21 00:04観測"
+      },
+      {
+        "name": "道北 東神楽",
+        "value": "3.3 ℃",
+        "detail": "10/21 00:50観測"
+      },
+      {
+        "name": "道北 上川",
+        "value": "3.3 ℃",
+        "detail": "10/21 01:43観測"
+      },
+      {
+        "name": "道北 幌加内",
+        "value": "3.4 ℃",
+        "detail": "10/21 02:14観測"
+      },
+      {
+        "name": "道東 滝上",
+        "value": "3.4 ℃",
+        "detail": "10/21 01:39観測"
+      },
+      {
+        "name": "道南 大滝",
+        "value": "3.5 ℃",
+        "detail": "10/21 00:03観測"
+      },
+      {
+        "name": "道央 喜茂別",
+        "value": "3.6 ℃",
+        "detail": "10/21 00:39観測"
+      }
+    ]
+  },
+  "rain": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "10/21 17:30発表・上位10地点",
+    "rows": [
+      {
+        "name": "石川県 輪島",
+        "value": "46 mm",
+        "detail": "10/21 12:10観測"
+      },
+      {
+        "name": "長崎県 美津島",
+        "value": "33.5 mm",
+        "detail": "10/21 02:20観測"
+      },
+      {
+        "name": "石川県 七尾",
+        "value": "29 mm",
+        "detail": "10/21 05:10観測"
+      },
+      {
+        "name": "山形県 酒田大沢",
+        "value": "28.5 mm",
+        "detail": "10/21 16:20観測"
+      },
+      {
+        "name": "長崎県 厳原",
+        "value": "25 mm",
+        "detail": "10/21 02:30観測"
+      },
+      {
+        "name": "静岡県 湯ケ島",
+        "value": "23.5 mm",
+        "detail": "10/21 08:00観測"
+      },
+      {
+        "name": "富山県 宇奈月",
+        "value": "23.5 mm",
+        "detail": "10/21 17:10観測"
+      },
+      {
+        "name": "石川県 三井",
+        "value": "23 mm",
+        "detail": "10/21 13:10観測"
+      },
+      {
+        "name": "新潟県 能生",
+        "value": "22.5 mm",
+        "detail": "10/21 17:30観測"
+      },
+      {
+        "name": "岩手県 湯田",
+        "value": "22.5 mm",
+        "detail": "10/21 16:50観測"
+      }
+    ]
+  },
+  "wind": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "10/21 17:30発表・上位10地点",
+    "rows": [
+      {
+        "name": "沖縄県 所野",
+        "value": "16.1 m/s"
+      },
+      {
+        "name": "道南 えりも岬",
+        "value": "14.3 m/s"
+      },
+      {
+        "name": "高知県 室戸岬",
+        "value": "14.1 m/s"
+      },
+      {
+        "name": "沖縄県 下地島",
+        "value": "14.1 m/s"
+      },
+      {
+        "name": "道南 奥尻",
+        "value": "14 m/s"
+      },
+      {
+        "name": "千葉県 千葉",
+        "value": "12.8 m/s"
+      },
+      {
+        "name": "静岡県 網代",
+        "value": "12.6 m/s"
+      },
+      {
+        "name": "沖縄県 与那国島",
+        "value": "12.6 m/s"
+      },
+      {
+        "name": "東京都 江戸川臨海",
+        "value": "12.4 m/s"
+      },
+      {
+        "name": "道南 米岡",
+        "value": "12.1 m/s"
+      }
+    ]
+  },
+  "snow": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "10/21 17:00発表・上位10地点",
+    "rows": [
+      {
+        "name": "道北 幌糠",
+        "value": "1 cm",
+        "detail": "10/21 04:00観測"
+      },
+      {
+        "name": "道南 穂別",
+        "value": "0 cm",
+        "detail": "10/21 17:00観測"
+      },
+      {
+        "name": "道央 夕張",
+        "value": "0 cm",
+        "detail": "10/21 17:00観測"
+      },
+      {
+        "name": "道北 占冠",
+        "value": "0 cm",
+        "detail": "10/21 17:00観測"
+      },
+      {
+        "name": "道東 北見",
+        "value": "0 cm",
+        "detail": "10/21 17:00観測"
+      },
+      {
+        "name": "道北 歌登",
+        "value": "0 cm",
+        "detail": "10/21 17:00観測"
+      },
+      {
+        "name": "道東 大樹",
+        "value": "0 cm",
+        "detail": "10/21 17:00観測"
+      },
+      {
+        "name": "道東 阿寒湖畔",
+        "value": "0 cm",
+        "detail": "10/21 17:00観測"
+      },
+      {
+        "name": "道東 西興部",
+        "value": "0 cm",
+        "detail": "10/21 17:00観測"
+      },
+      {
+        "name": "道東 女満別",
+        "value": "0 cm",
+        "detail": "10/21 17:00観測"
+      }
+    ]
+  },
+  "humidity": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "10/21 17:30発表・上位10地点",
+    "rows": [
+      {
+        "name": "長野県 大町",
+        "value": "22 %",
+        "detail": "10/21 13:59観測"
+      },
+      {
+        "name": "長野県 白馬",
+        "value": "23 %",
+        "detail": "10/21 14:40観測"
+      },
+      {
+        "name": "長野県 穂高",
+        "value": "24 %",
+        "detail": "10/21 15:11観測"
+      },
+      {
+        "name": "山梨県 山中",
+        "value": "27 %",
+        "detail": "10/21 13:43観測"
+      },
+      {
+        "name": "山梨県 甲府",
+        "value": "28 %",
+        "detail": "10/21 13:55観測"
+      },
+      {
+        "name": "長野県 上田",
+        "value": "28 %",
+        "detail": "10/21 14:19観測"
+      },
+      {
+        "name": "山梨県 勝沼",
+        "value": "29 %",
+        "detail": "10/21 14:57観測"
+      },
+      {
+        "name": "長野県 佐久",
+        "value": "30 %",
+        "detail": "10/21 14:12観測"
+      },
+      {
+        "name": "山梨県 大泉",
+        "value": "31 %",
+        "detail": "10/21 14:37観測"
+      },
+      {
+        "name": "群馬県 中之条",
+        "value": "32 %",
+        "detail": "10/21 15:47観測"
+      }
+    ]
+  },
+  "forecasthokkaido": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "予報日を選んで表示",
+    "images": [
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/HOKKAIDO.20261021.png?5975240",
+        "label": "21日（水）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/HOKKAIDO.20261022.png?5975240",
+        "label": "22日（木）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/HOKKAIDO.20261023.png?5975240",
+        "label": "23日（金）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/HOKKAIDO.20261024.png?5975240",
+        "label": "24日（土）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/HOKKAIDO.20261025.png?5975240",
+        "label": "25日（日）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/HOKKAIDO.20261026.png?5975240",
+        "label": "26日（月）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/HOKKAIDO.20261027.png?5975240",
+        "label": "27日（火）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/HOKKAIDO.20261028.png?5975240",
+        "label": "28日（水）"
+      }
+    ]
+  },
+  "forecasttohoku": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "予報日を選んで表示",
+    "images": [
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/TOHOKU.20261021.png?5975240",
+        "label": "21日（水）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/TOHOKU.20261022.png?5975240",
+        "label": "22日（木）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/TOHOKU.20261023.png?5975240",
+        "label": "23日（金）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/TOHOKU.20261024.png?5975240",
+        "label": "24日（土）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/TOHOKU.20261025.png?5975240",
+        "label": "25日（日）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/TOHOKU.20261026.png?5975240",
+        "label": "26日（月）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/TOHOKU.20261027.png?5975240",
+        "label": "27日（火）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/TOHOKU.20261028.png?5975240",
+        "label": "28日（水）"
+      }
+    ]
+  },
+  "forecastkanto": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "予報日を選んで表示",
+    "images": [
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KANTO.20261021.png?5975240",
+        "label": "21日（水）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KANTO.20261022.png?5975240",
+        "label": "22日（木）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KANTO.20261023.png?5975240",
+        "label": "23日（金）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KANTO.20261024.png?5975240",
+        "label": "24日（土）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KANTO.20261025.png?5975240",
+        "label": "25日（日）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KANTO.20261026.png?5975240",
+        "label": "26日（月）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KANTO.20261027.png?5975240",
+        "label": "27日（火）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KANTO.20261028.png?5975240",
+        "label": "28日（水）"
+      }
+    ]
+  },
+  "forecastchubu": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "予報日を選んで表示",
+    "images": [
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/CHUBU.20261021.png?5975240",
+        "label": "21日（水）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/CHUBU.20261022.png?5975240",
+        "label": "22日（木）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/CHUBU.20261023.png?5975240",
+        "label": "23日（金）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/CHUBU.20261024.png?5975240",
+        "label": "24日（土）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/CHUBU.20261025.png?5975240",
+        "label": "25日（日）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/CHUBU.20261026.png?5975240",
+        "label": "26日（月）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/CHUBU.20261027.png?5975240",
+        "label": "27日（火）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/CHUBU.20261028.png?5975240",
+        "label": "28日（水）"
+      }
+    ]
+  },
+  "forecastkinki": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "予報日を選んで表示",
+    "images": [
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KINKI.20261021.png?5975240",
+        "label": "21日（水）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KINKI.20261022.png?5975240",
+        "label": "22日（木）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KINKI.20261023.png?5975240",
+        "label": "23日（金）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KINKI.20261024.png?5975240",
+        "label": "24日（土）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KINKI.20261025.png?5975240",
+        "label": "25日（日）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KINKI.20261026.png?5975240",
+        "label": "26日（月）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KINKI.20261027.png?5975240",
+        "label": "27日（火）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KINKI.20261028.png?5975240",
+        "label": "28日（水）"
+      }
+    ]
+  },
+  "forecastchugoku": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "予報日を選んで表示",
+    "images": [
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/CHUGOKU.20261021.png?5975240",
+        "label": "21日（水）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/CHUGOKU.20261022.png?5975240",
+        "label": "22日（木）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/CHUGOKU.20261023.png?5975240",
+        "label": "23日（金）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/CHUGOKU.20261024.png?5975240",
+        "label": "24日（土）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/CHUGOKU.20261025.png?5975240",
+        "label": "25日（日）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/CHUGOKU.20261026.png?5975240",
+        "label": "26日（月）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/CHUGOKU.20261027.png?5975240",
+        "label": "27日（火）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/CHUGOKU.20261028.png?5975240",
+        "label": "28日（水）"
+      }
+    ]
+  },
+  "forecastshikoku": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "予報日を選んで表示",
+    "images": [
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/SHIKOKU.20261021.png?5975240",
+        "label": "21日（水）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/SHIKOKU.20261022.png?5975240",
+        "label": "22日（木）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/SHIKOKU.20261023.png?5975240",
+        "label": "23日（金）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/SHIKOKU.20261024.png?5975240",
+        "label": "24日（土）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/SHIKOKU.20261025.png?5975240",
+        "label": "25日（日）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/SHIKOKU.20261026.png?5975240",
+        "label": "26日（月）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/SHIKOKU.20261027.png?5975240",
+        "label": "27日（火）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/SHIKOKU.20261028.png?5975240",
+        "label": "28日（水）"
+      }
+    ]
+  },
+  "forecastkyushu": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "予報日を選んで表示",
+    "images": [
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KYUSHU.20261021.png?5975240",
+        "label": "21日（水）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KYUSHU.20261022.png?5975240",
+        "label": "22日（木）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KYUSHU.20261023.png?5975240",
+        "label": "23日（金）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KYUSHU.20261024.png?5975240",
+        "label": "24日（土）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KYUSHU.20261025.png?5975240",
+        "label": "25日（日）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KYUSHU.20261026.png?5975240",
+        "label": "26日（月）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KYUSHU.20261027.png?5975240",
+        "label": "27日（火）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/KYUSHU.20261028.png?5975240",
+        "label": "28日（水）"
+      }
+    ]
+  },
+  "forecastokinawa": {
+    "checked_at": "2026-10-21T08:30:00.000Z",
+    "caption": "予報日を選んで表示",
+    "images": [
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/OKINAWA.20261021.png?5975240",
+        "label": "21日（水）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/OKINAWA.20261022.png?5975240",
+        "label": "22日（木）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/OKINAWA.20261023.png?5975240",
+        "label": "23日（金）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/OKINAWA.20261024.png?5975240",
+        "label": "24日（土）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/OKINAWA.20261025.png?5975240",
+        "label": "25日（日）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/OKINAWA.20261026.png?5975240",
+        "label": "26日（月）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/OKINAWA.20261027.png?5975240",
+        "label": "27日（火）"
+      },
+      {
+        "src": "https://site.weathernews.jp/site/forecast/image/map/OKINAWA.20261028.png?5975240",
+        "label": "28日（水）"
+      }
+    ]
+  }
+}

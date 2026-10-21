@@ -1,0 +1,1303 @@
+{
+  "forecast": {
+    "fcst": [
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/JAPAN.20261021.png?5975239",
+        "date": 21,
+        "day": "水"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/JAPAN.20261022.png?5975239",
+        "date": 22,
+        "day": "木"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/JAPAN.20261023.png?5975239",
+        "date": 23,
+        "day": "金"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/JAPAN.20261024.png?5975239",
+        "date": 24,
+        "day": "土"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/JAPAN.20261025.png?5975239",
+        "date": 25,
+        "day": "日"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/JAPAN.20261026.png?5975239",
+        "date": 26,
+        "day": "月"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/JAPAN.20261027.png?5975239",
+        "date": 27,
+        "day": "火"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/JAPAN.20261028.png?5975239",
+        "date": 28,
+        "day": "水"
+      }
+    ]
+  },
+  "chart": {
+    "data": [
+      {
+        "tm": 1792551600,
+        "forecastType": "obs",
+        "pc": "WNIONEBOX_anl/2026/10/21/A_2026-10-21-03.webp",
+        "sp": "WNIONEBOX_anl/2026/10/21/B_2026-10-21-03.webp"
+      }
+    ]
+  },
+  "satellite": {
+    "url_list": [
+      {
+        "tm": 1792569600,
+        "imgsrc": "https://memgvs-cdn.weathernews.jp/s/satellite/cloud/JAPAN/2026-10-21-17-00.webp"
+      },
+      {
+        "tm": 1792566000,
+        "imgsrc": "https://memgvs-cdn.weathernews.jp/s/satellite/cloud/JAPAN/2026-10-21-16-00.webp"
+      }
+    ]
+  },
+  "radar": {
+    "tile": [
+      {
+        "isPremium": true,
+        "serial": 365,
+        "isForecast": true,
+        "d": "https://tile.weathernews.jp/3/tile/rad_cps/raw/20261023190000",
+        "tm": 1792782000
+      },
+      {
+        "isForecast": true,
+        "isPremium": true,
+        "label": "+60",
+        "tm": 1792785600,
+        "serial": 366,
+        "d": "https://tile.weathernews.jp/3/tile/rad_cps/raw/20261023200000"
+      },
+      {
+        "isForecast": false,
+        "isPremium": false,
+        "serial": 150,
+        "tm": 1792571400,
+        "d": "https://tile.weathernews.jp/3/tile/rad_anl/2026/10/21/2026-10-21-08-30_Tiles_999999999999"
+      }
+    ]
+  },
+  "earthquake": [
+    {
+      "imgsrc": "https://mws.cdn.weathernews.jp/s/quake/img/202610211004_341.png",
+      "atime": "10月21日 10:04",
+      "maxclass": "震度2",
+      "spot": "千葉県北西部",
+      "spotmag": "4.0"
+    }
+  ],
+  "tsunami": {
+    "atime": 1785229800,
+    "publish": "false",
+    "imgsrc": "https://mws.cdn.weathernews.jp/s/tsunami_v2/img/wavemap.png?1785229825"
+  },
+  "warnings": [
+    {
+      "alarms": [
+        "warn_wind",
+        "warn_wave"
+      ],
+      "citycode": "0220100",
+      "cityname": "青森市",
+      "datestr": "2026/10/21 16:24(JST)",
+      "pref": "aomori",
+      "rank": "2",
+      "timet": 1792567440
+    },
+    {
+      "alarms": [
+        "warn_wind",
+        "warn_wave"
+      ],
+      "citycode": "0230100",
+      "cityname": "平内町",
+      "datestr": "2026/10/21 16:24(JST)",
+      "pref": "aomori",
+      "rank": "2",
+      "timet": 1792567440
+    },
+    {
+      "cityname": "情報なしの市",
+      "alarms": [],
+      "datestr": "2026/10/21 17:00(JST)"
+    }
+  ],
+  "uv": {
+    "dailytm": [
+      1792508400,
+      1792594800,
+      1792681200
+    ],
+    "data": [
+      {
+        "city": "那覇",
+        "daily": [
+          4,
+          1,
+          2
+        ]
+      },
+      {
+        "city": "大阪",
+        "daily": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "city": "高知",
+        "daily": [
+          4,
+          4,
+          3
+        ]
+      },
+      {
+        "city": "東京",
+        "daily": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "city": "広島",
+        "daily": [
+          1,
+          4,
+          3
+        ]
+      },
+      {
+        "city": "新潟",
+        "daily": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "city": "金沢",
+        "daily": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "city": "名古屋",
+        "daily": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "city": "仙台",
+        "daily": [
+          1,
+          3,
+          3
+        ]
+      },
+      {
+        "city": "福岡",
+        "daily": [
+          1,
+          4,
+          3
+        ]
+      },
+      {
+        "city": "札幌",
+        "daily": [
+          1,
+          1,
+          3
+        ]
+      }
+    ]
+  },
+  "dry": [
+    {
+      "day": 1792508400000,
+      "points": [
+        {
+          "name": "仙台",
+          "dry": 1
+        },
+        {
+          "name": "東京",
+          "dry": 1
+        },
+        {
+          "name": "名古屋",
+          "dry": 1
+        },
+        {
+          "name": "大阪",
+          "dry": 1
+        },
+        {
+          "name": "高知",
+          "dry": 1
+        },
+        {
+          "name": "那覇",
+          "dry": 1
+        },
+        {
+          "name": "福岡",
+          "dry": 1
+        },
+        {
+          "name": "広島",
+          "dry": 1
+        },
+        {
+          "name": "金沢",
+          "dry": 1
+        },
+        {
+          "name": "新潟",
+          "dry": 1
+        },
+        {
+          "name": "札幌",
+          "dry": 1
+        }
+      ]
+    }
+  ],
+  "cold": [
+    {
+      "day": 1792508400000,
+      "points": [
+        {
+          "name": "仙台",
+          "cold": 1
+        },
+        {
+          "name": "東京",
+          "cold": 1
+        },
+        {
+          "name": "名古屋",
+          "cold": 1
+        },
+        {
+          "name": "大阪",
+          "cold": 1
+        },
+        {
+          "name": "高知",
+          "cold": 1
+        },
+        {
+          "name": "那覇",
+          "cold": 1
+        },
+        {
+          "name": "福岡",
+          "cold": 2
+        },
+        {
+          "name": "広島",
+          "cold": 1
+        },
+        {
+          "name": "金沢",
+          "cold": 1
+        },
+        {
+          "name": "新潟",
+          "cold": 1
+        },
+        {
+          "name": "札幌",
+          "cold": 2
+        }
+      ]
+    }
+  ],
+  "heat": [
+    {
+      "day": 1792573200000,
+      "points": [
+        {
+          "name": "仙台",
+          "wbgt": 0
+        },
+        {
+          "name": "東京",
+          "wbgt": 0
+        },
+        {
+          "name": "名古屋",
+          "wbgt": 0
+        },
+        {
+          "name": "大阪",
+          "wbgt": 0
+        },
+        {
+          "name": "高知",
+          "wbgt": 0
+        },
+        {
+          "name": "那覇",
+          "wbgt": 1
+        },
+        {
+          "name": "福岡",
+          "wbgt": 0
+        },
+        {
+          "name": "広島",
+          "wbgt": 0
+        },
+        {
+          "name": "金沢",
+          "wbgt": 0
+        },
+        {
+          "name": "新潟",
+          "wbgt": 0
+        },
+        {
+          "name": "札幌",
+          "wbgt": 0
+        }
+      ]
+    }
+  ],
+  "laundry": [
+    {
+      "show_date": "21(水)夜間",
+      "points": [
+        {
+          "name": "仙台",
+          "LX": 20
+        },
+        {
+          "name": "東京",
+          "LX": 40
+        },
+        {
+          "name": "名古屋",
+          "LX": 30
+        },
+        {
+          "name": "大阪",
+          "LX": 20
+        },
+        {
+          "name": "高知",
+          "LX": 40
+        },
+        {
+          "name": "那覇",
+          "LX": 20
+        },
+        {
+          "name": "福岡",
+          "LX": 30
+        },
+        {
+          "name": "広島",
+          "LX": 30
+        },
+        {
+          "name": "金沢",
+          "LX": 20
+        },
+        {
+          "name": "新潟",
+          "LX": 20
+        },
+        {
+          "name": "札幌",
+          "LX": 20
+        }
+      ]
+    }
+  ],
+  "pain": {
+    "mrf_attr": {
+      "day_str": [
+        "2026-10-21",
+        "2026-10-22"
+      ]
+    },
+    "mrf": [
+      {
+        "name": "仙台",
+        "pain": [
+          3,
+          3
+        ]
+      },
+      {
+        "name": "東京",
+        "pain": [
+          2,
+          3
+        ]
+      },
+      {
+        "name": "名古屋",
+        "pain": [
+          2,
+          1
+        ]
+      },
+      {
+        "name": "大阪",
+        "pain": [
+          3,
+          3
+        ]
+      },
+      {
+        "name": "高知",
+        "pain": [
+          2,
+          0
+        ]
+      },
+      {
+        "name": "那覇",
+        "pain": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "福岡",
+        "pain": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "広島",
+        "pain": [
+          1,
+          0
+        ]
+      },
+      {
+        "name": "金沢",
+        "pain": [
+          3,
+          3
+        ]
+      },
+      {
+        "name": "新潟",
+        "pain": [
+          3,
+          3
+        ]
+      },
+      {
+        "name": "札幌",
+        "pain": [
+          3,
+          3
+        ]
+      }
+    ]
+  },
+  "temperature": {
+    "announced_date": "20261021T083000Z",
+    "rank": [
+      {
+        "obsln": "日向",
+        "pref": "宮崎県",
+        "dataval": 33.6,
+        "occured_unixtime": 1792558740
+      },
+      {
+        "obsln": "甲府",
+        "pref": "山梨県",
+        "dataval": 33.5,
+        "occured_unixtime": 1792559340
+      },
+      {
+        "obsln": "紀伊長島",
+        "pref": "三重県",
+        "dataval": 33.2,
+        "occured_unixtime": 1792559280
+      },
+      {
+        "obsln": "尾鷲",
+        "pref": "三重県",
+        "dataval": 33.0,
+        "occured_unixtime": 1792556820
+      },
+      {
+        "obsln": "西条",
+        "pref": "愛媛県",
+        "dataval": 32.8,
+        "occured_unixtime": 1792556520
+      },
+      {
+        "obsln": "新居浜",
+        "pref": "愛媛県",
+        "dataval": 32.7,
+        "occured_unixtime": 1792556400
+      },
+      {
+        "obsln": "徳島",
+        "pref": "徳島県",
+        "dataval": 32.6,
+        "occured_unixtime": 1792552320
+      },
+      {
+        "obsln": "勝沼",
+        "pref": "山梨県",
+        "dataval": 32.5,
+        "occured_unixtime": 1792554840
+      },
+      {
+        "obsln": "八王子",
+        "pref": "東京都",
+        "dataval": 32.4,
+        "occured_unixtime": 1792554780
+      },
+      {
+        "obsln": "高松",
+        "pref": "香川県",
+        "dataval": 32.4,
+        "occured_unixtime": 1792559580
+      }
+    ]
+  },
+  "minimum": {
+    "announced_date": "20261021T083000Z",
+    "rank": [
+      {
+        "obsln": "江丹別",
+        "pref": "道北",
+        "dataval": 2.2,
+        "occured_unixtime": 1792513080
+      },
+      {
+        "obsln": "朱鞠内",
+        "pref": "道北",
+        "dataval": 2.8,
+        "occured_unixtime": 1792508820
+      },
+      {
+        "obsln": "歌登",
+        "pref": "道北",
+        "dataval": 2.9,
+        "occured_unixtime": 1792509300
+      },
+      {
+        "obsln": "三石",
+        "pref": "道南",
+        "dataval": 3.0,
+        "occured_unixtime": 1792508640
+      },
+      {
+        "obsln": "東神楽",
+        "pref": "道北",
+        "dataval": 3.3,
+        "occured_unixtime": 1792511400
+      },
+      {
+        "obsln": "上川",
+        "pref": "道北",
+        "dataval": 3.3,
+        "occured_unixtime": 1792514580
+      },
+      {
+        "obsln": "幌加内",
+        "pref": "道北",
+        "dataval": 3.4,
+        "occured_unixtime": 1792516440
+      },
+      {
+        "obsln": "滝上",
+        "pref": "道東",
+        "dataval": 3.4,
+        "occured_unixtime": 1792514340
+      },
+      {
+        "obsln": "大滝",
+        "pref": "道南",
+        "dataval": 3.5,
+        "occured_unixtime": 1792508580
+      },
+      {
+        "obsln": "喜茂別",
+        "pref": "道央",
+        "dataval": 3.6,
+        "occured_unixtime": 1792510740
+      }
+    ]
+  },
+  "rain": {
+    "announced_date": "20261021T083000Z",
+    "rank": [
+      {
+        "obsln": "輪島",
+        "pref": "石川県",
+        "dataval": 46.0,
+        "occured_unixtime": 1792552200
+      },
+      {
+        "obsln": "美津島",
+        "pref": "長崎県",
+        "dataval": 33.5,
+        "occured_unixtime": 1792516800
+      },
+      {
+        "obsln": "七尾",
+        "pref": "石川県",
+        "dataval": 29.0,
+        "occured_unixtime": 1792527000
+      },
+      {
+        "obsln": "酒田大沢",
+        "pref": "山形県",
+        "dataval": 28.5,
+        "occured_unixtime": 1792567200
+      },
+      {
+        "obsln": "厳原",
+        "pref": "長崎県",
+        "dataval": 25.0,
+        "occured_unixtime": 1792517400
+      },
+      {
+        "obsln": "湯ケ島",
+        "pref": "静岡県",
+        "dataval": 23.5,
+        "occured_unixtime": 1792537200
+      },
+      {
+        "obsln": "宇奈月",
+        "pref": "富山県",
+        "dataval": 23.5,
+        "occured_unixtime": 1792570200
+      },
+      {
+        "obsln": "三井",
+        "pref": "石川県",
+        "dataval": 23.0,
+        "occured_unixtime": 1792555800
+      },
+      {
+        "obsln": "能生",
+        "pref": "新潟県",
+        "dataval": 22.5,
+        "occured_unixtime": 1792571400
+      },
+      {
+        "obsln": "湯田",
+        "pref": "岩手県",
+        "dataval": 22.5,
+        "occured_unixtime": 1792569000
+      }
+    ]
+  },
+  "wind": {
+    "announced_date": "20261021T083000Z",
+    "rank": [
+      {
+        "obsln": "所野",
+        "pref": "沖縄県",
+        "dataval": 16.1
+      },
+      {
+        "obsln": "えりも岬",
+        "pref": "道南",
+        "dataval": 14.3
+      },
+      {
+        "obsln": "室戸岬",
+        "pref": "高知県",
+        "dataval": 14.1
+      },
+      {
+        "obsln": "下地島",
+        "pref": "沖縄県",
+        "dataval": 14.1
+      },
+      {
+        "obsln": "奥尻",
+        "pref": "道南",
+        "dataval": 14.0
+      },
+      {
+        "obsln": "千葉",
+        "pref": "千葉県",
+        "dataval": 12.8
+      },
+      {
+        "obsln": "網代",
+        "pref": "静岡県",
+        "dataval": 12.6
+      },
+      {
+        "obsln": "与那国島",
+        "pref": "沖縄県",
+        "dataval": 12.6
+      },
+      {
+        "obsln": "江戸川臨海",
+        "pref": "東京都",
+        "dataval": 12.4
+      },
+      {
+        "obsln": "米岡",
+        "pref": "道南",
+        "dataval": 12.1
+      }
+    ]
+  },
+  "snow": {
+    "announced_date": "20261021T080000Z",
+    "rank": [
+      {
+        "obsln": "幌糠",
+        "pref": "道北",
+        "dataval": 1.0,
+        "occured_unixtime": 1792522800
+      },
+      {
+        "obsln": "穂別",
+        "pref": "道南",
+        "dataval": 0.0,
+        "occured_unixtime": 1792569600
+      },
+      {
+        "obsln": "夕張",
+        "pref": "道央",
+        "dataval": 0.0,
+        "occured_unixtime": 1792569600
+      },
+      {
+        "obsln": "占冠",
+        "pref": "道北",
+        "dataval": 0.0,
+        "occured_unixtime": 1792569600
+      },
+      {
+        "obsln": "北見",
+        "pref": "道東",
+        "dataval": 0.0,
+        "occured_unixtime": 1792569600
+      },
+      {
+        "obsln": "歌登",
+        "pref": "道北",
+        "dataval": 0.0,
+        "occured_unixtime": 1792569600
+      },
+      {
+        "obsln": "大樹",
+        "pref": "道東",
+        "dataval": 0.0,
+        "occured_unixtime": 1792569600
+      },
+      {
+        "obsln": "阿寒湖畔",
+        "pref": "道東",
+        "dataval": 0.0,
+        "occured_unixtime": 1792569600
+      },
+      {
+        "obsln": "西興部",
+        "pref": "道東",
+        "dataval": 0.0,
+        "occured_unixtime": 1792569600
+      },
+      {
+        "obsln": "女満別",
+        "pref": "道東",
+        "dataval": 0.0,
+        "occured_unixtime": 1792569600
+      }
+    ]
+  },
+  "humidity": {
+    "announced_date": "20261021T083000Z",
+    "rank": [
+      {
+        "obsln": "大町",
+        "pref": "長野県",
+        "dataval": 22.0,
+        "occured_unixtime": 1792558740
+      },
+      {
+        "obsln": "白馬",
+        "pref": "長野県",
+        "dataval": 23.0,
+        "occured_unixtime": 1792561200
+      },
+      {
+        "obsln": "穂高",
+        "pref": "長野県",
+        "dataval": 24.0,
+        "occured_unixtime": 1792563060
+      },
+      {
+        "obsln": "山中",
+        "pref": "山梨県",
+        "dataval": 27.0,
+        "occured_unixtime": 1792557780
+      },
+      {
+        "obsln": "甲府",
+        "pref": "山梨県",
+        "dataval": 28.0,
+        "occured_unixtime": 1792558500
+      },
+      {
+        "obsln": "上田",
+        "pref": "長野県",
+        "dataval": 28.0,
+        "occured_unixtime": 1792559940
+      },
+      {
+        "obsln": "勝沼",
+        "pref": "山梨県",
+        "dataval": 29.0,
+        "occured_unixtime": 1792562220
+      },
+      {
+        "obsln": "佐久",
+        "pref": "長野県",
+        "dataval": 30.0,
+        "occured_unixtime": 1792559520
+      },
+      {
+        "obsln": "大泉",
+        "pref": "山梨県",
+        "dataval": 31.0,
+        "occured_unixtime": 1792561020
+      },
+      {
+        "obsln": "中之条",
+        "pref": "群馬県",
+        "dataval": 32.0,
+        "occured_unixtime": 1792565220
+      }
+    ]
+  },
+  "forecasthokkaido": {
+    "fcst": [
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/HOKKAIDO.20261021.png?5975240",
+        "date": 21,
+        "day": "水"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/HOKKAIDO.20261022.png?5975240",
+        "date": 22,
+        "day": "木"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/HOKKAIDO.20261023.png?5975240",
+        "date": 23,
+        "day": "金"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/HOKKAIDO.20261024.png?5975240",
+        "date": 24,
+        "day": "土"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/HOKKAIDO.20261025.png?5975240",
+        "date": 25,
+        "day": "日"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/HOKKAIDO.20261026.png?5975240",
+        "date": 26,
+        "day": "月"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/HOKKAIDO.20261027.png?5975240",
+        "date": 27,
+        "day": "火"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/HOKKAIDO.20261028.png?5975240",
+        "date": 28,
+        "day": "水"
+      }
+    ]
+  },
+  "forecasttohoku": {
+    "fcst": [
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/TOHOKU.20261021.png?5975240",
+        "date": 21,
+        "day": "水"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/TOHOKU.20261022.png?5975240",
+        "date": 22,
+        "day": "木"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/TOHOKU.20261023.png?5975240",
+        "date": 23,
+        "day": "金"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/TOHOKU.20261024.png?5975240",
+        "date": 24,
+        "day": "土"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/TOHOKU.20261025.png?5975240",
+        "date": 25,
+        "day": "日"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/TOHOKU.20261026.png?5975240",
+        "date": 26,
+        "day": "月"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/TOHOKU.20261027.png?5975240",
+        "date": 27,
+        "day": "火"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/TOHOKU.20261028.png?5975240",
+        "date": 28,
+        "day": "水"
+      }
+    ]
+  },
+  "forecastkanto": {
+    "fcst": [
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KANTO.20261021.png?5975240",
+        "date": 21,
+        "day": "水"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KANTO.20261022.png?5975240",
+        "date": 22,
+        "day": "木"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KANTO.20261023.png?5975240",
+        "date": 23,
+        "day": "金"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KANTO.20261024.png?5975240",
+        "date": 24,
+        "day": "土"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KANTO.20261025.png?5975240",
+        "date": 25,
+        "day": "日"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KANTO.20261026.png?5975240",
+        "date": 26,
+        "day": "月"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KANTO.20261027.png?5975240",
+        "date": 27,
+        "day": "火"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KANTO.20261028.png?5975240",
+        "date": 28,
+        "day": "水"
+      }
+    ]
+  },
+  "forecastchubu": {
+    "fcst": [
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/CHUBU.20261021.png?5975240",
+        "date": 21,
+        "day": "水"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/CHUBU.20261022.png?5975240",
+        "date": 22,
+        "day": "木"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/CHUBU.20261023.png?5975240",
+        "date": 23,
+        "day": "金"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/CHUBU.20261024.png?5975240",
+        "date": 24,
+        "day": "土"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/CHUBU.20261025.png?5975240",
+        "date": 25,
+        "day": "日"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/CHUBU.20261026.png?5975240",
+        "date": 26,
+        "day": "月"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/CHUBU.20261027.png?5975240",
+        "date": 27,
+        "day": "火"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/CHUBU.20261028.png?5975240",
+        "date": 28,
+        "day": "水"
+      }
+    ]
+  },
+  "forecastkinki": {
+    "fcst": [
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KINKI.20261021.png?5975240",
+        "date": 21,
+        "day": "水"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KINKI.20261022.png?5975240",
+        "date": 22,
+        "day": "木"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KINKI.20261023.png?5975240",
+        "date": 23,
+        "day": "金"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KINKI.20261024.png?5975240",
+        "date": 24,
+        "day": "土"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KINKI.20261025.png?5975240",
+        "date": 25,
+        "day": "日"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KINKI.20261026.png?5975240",
+        "date": 26,
+        "day": "月"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KINKI.20261027.png?5975240",
+        "date": 27,
+        "day": "火"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KINKI.20261028.png?5975240",
+        "date": 28,
+        "day": "水"
+      }
+    ]
+  },
+  "forecastchugoku": {
+    "fcst": [
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/CHUGOKU.20261021.png?5975240",
+        "date": 21,
+        "day": "水"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/CHUGOKU.20261022.png?5975240",
+        "date": 22,
+        "day": "木"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/CHUGOKU.20261023.png?5975240",
+        "date": 23,
+        "day": "金"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/CHUGOKU.20261024.png?5975240",
+        "date": 24,
+        "day": "土"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/CHUGOKU.20261025.png?5975240",
+        "date": 25,
+        "day": "日"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/CHUGOKU.20261026.png?5975240",
+        "date": 26,
+        "day": "月"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/CHUGOKU.20261027.png?5975240",
+        "date": 27,
+        "day": "火"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/CHUGOKU.20261028.png?5975240",
+        "date": 28,
+        "day": "水"
+      }
+    ]
+  },
+  "forecastshikoku": {
+    "fcst": [
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/SHIKOKU.20261021.png?5975240",
+        "date": 21,
+        "day": "水"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/SHIKOKU.20261022.png?5975240",
+        "date": 22,
+        "day": "木"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/SHIKOKU.20261023.png?5975240",
+        "date": 23,
+        "day": "金"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/SHIKOKU.20261024.png?5975240",
+        "date": 24,
+        "day": "土"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/SHIKOKU.20261025.png?5975240",
+        "date": 25,
+        "day": "日"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/SHIKOKU.20261026.png?5975240",
+        "date": 26,
+        "day": "月"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/SHIKOKU.20261027.png?5975240",
+        "date": 27,
+        "day": "火"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/SHIKOKU.20261028.png?5975240",
+        "date": 28,
+        "day": "水"
+      }
+    ]
+  },
+  "forecastkyushu": {
+    "fcst": [
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KYUSHU.20261021.png?5975240",
+        "date": 21,
+        "day": "水"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KYUSHU.20261022.png?5975240",
+        "date": 22,
+        "day": "木"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KYUSHU.20261023.png?5975240",
+        "date": 23,
+        "day": "金"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KYUSHU.20261024.png?5975240",
+        "date": 24,
+        "day": "土"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KYUSHU.20261025.png?5975240",
+        "date": 25,
+        "day": "日"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KYUSHU.20261026.png?5975240",
+        "date": 26,
+        "day": "月"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KYUSHU.20261027.png?5975240",
+        "date": 27,
+        "day": "火"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/KYUSHU.20261028.png?5975240",
+        "date": 28,
+        "day": "水"
+      }
+    ]
+  },
+  "forecastokinawa": {
+    "fcst": [
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/OKINAWA.20261021.png?5975240",
+        "date": 21,
+        "day": "水"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/OKINAWA.20261022.png?5975240",
+        "date": 22,
+        "day": "木"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/OKINAWA.20261023.png?5975240",
+        "date": 23,
+        "day": "金"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/OKINAWA.20261024.png?5975240",
+        "date": 24,
+        "day": "土"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/OKINAWA.20261025.png?5975240",
+        "date": 25,
+        "day": "日"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/OKINAWA.20261026.png?5975240",
+        "date": 26,
+        "day": "月"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/OKINAWA.20261027.png?5975240",
+        "date": 27,
+        "day": "火"
+      },
+      {
+        "mapsrc": "https://site.weathernews.jp/site/forecast/image/map/OKINAWA.20261028.png?5975240",
+        "date": 28,
+        "day": "水"
+      }
+    ]
+  }
+}
