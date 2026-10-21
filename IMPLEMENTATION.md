@@ -93,3 +93,4 @@ Git対象72ファイル/全ローカル履歴の秘密キー形式検索は該�
 
 ## 天気カードの公開反映（2026-10-21）
 利用者が「良い感じなのでpushして」とローカル画面確認後に承認。mainをfetch/pullで確認し、既存Workerのバージョン情報をData内へ退避して更新。初回は天気取得で503。Worker tailでredirect:errorがCloudflareのfetchに未実装であることを観測。manualに変更し、非2xxを拒否することでリダイレクト先を取得しない制約を維持。回帰テストを追加し、フロント16/Node22と型/ビルドが成功。Worker再更新後、公開Pages Originの実ブラウザーから28経路全件HTTP200と配信メタデータHTTP200を確認（deployed-worker.json）。診断用tailは停止。既存無料プランと認証保存先を継続し、アカウント情報を公開ソースへ追加していない。次はpush→Actions→公開32カード・保存復元・動画/チャット/noindexを確認。
+公開完了: 331093cをpushし、Actions 39575233234のbuild/persist/deployがすべて成功。Python18、フロント16、Node22、Chrome画面25件をGitHub上でも確認。公開Pagesの実Edgeで全32カードと画像、天気API HTTP200、表示順/幅の保存と再読込後の復元、ダークモード、JS例外0、動画/チャットID一致、noindex継続を確認。public-dashboard.json/pngに記録。収集botの8362f0bをローカルへfast-forward済み。最後の確認記録のみ[skip ci]で公開する。録画機能の再開・有料機能追加は行っていない。
