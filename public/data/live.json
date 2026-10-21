@@ -1,16 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-22T03:53:51+09:00",
+  "checked_at": "2026-10-22T07:04:14+09:00",
   "state": "listed",
   "video": {
-    "id": "eLZm9_0cdjk",
-    "title": "【ライブ】秋田県子吉川 レベル5氾濫特別警報／最新天気ニュース・地震情報 2026年10月21日(水)23:00〜 〈ウェザーニュースLiVE・ 山岸愛梨／宇野沢達也〉",
+    "id": "U1BVY8Vrbc4",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月22日(木) ／北日本日本海側は風雨 山沿いでは雪に　沖縄は台風の影響に警戒〈ウェザーニュースLiVEモーニング・岡本結子リサ／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-20T19:15:08+09:00"
+    "published_at": "2026-10-21T00:27:24+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "MopygIZU5e8",
+      "title": "【台風30号 2026】先島諸島・沖縄は強まる風雨に警戒を/週末にかけて本州へも影響が(10月22日6時更新)",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-22T06:18:38+09:00"
+    },
     {
       "id": "whkdikKw0gY",
       "title": "【台風30号 2026】数値シミュレーション比較  既存モデルはより西寄りに変化",
@@ -34,13 +40,7 @@
       "title": "【最新気象】あすは寒気流入により北海道・東北北部では雪や風に注意／気温も前日より大幅に下がる予想",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-21T21:11:04+09:00"
-    },
-    {
-      "id": "fdNNCa0hXqg",
-      "title": "【速報】秋田県にレベル5氾濫特別警報　命を守る行動を",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-21T20:31:42+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-22T03:53:51+09:00"
+  "archives_checked_at": "2026-10-22T07:04:14+09:00"
 }
