@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-22T09:39:00+09:00",
+  "checked_at": "2026-10-22T14:19:27+09:00",
   "state": "listed",
   "video": {
-    "id": "a3-nChZ85V8",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月22日(木) ／北日本日本海側は風雨 山沿いでは雪に　沖縄は台風の影響に警戒〈ウェザーニュースLiVEサンシャイン・魚住茉由／山口剛央〉",
+    "id": "fyw7R_T_bao",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月22日(木)／北海道中心に暴風雪注意　明日先島諸島に台風30号接近〈ウェザーニュースLiVEアフタヌーン・佐藤剣慎／本田竜也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-21T07:21:20+09:00"
+    "published_at": "2026-10-21T13:29:49+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "Rj1CILriSZo",
+      "title": "【大雨警戒】週末は西日本を中心に大雨のおそれ 台風30号と前線の位置で大雨エリア変わる可能性",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-22T14:10:40+09:00"
+    },
+    {
+      "id": "a_aV6cWwq5U",
+      "title": "【台風30号 2026年】西日本は台風接近前から秋雨前線刺激 広範囲で大雨警戒 ／先島諸島通過後に勢力は衰弱傾向",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-22T11:37:49+09:00"
+    },
     {
       "id": "Ha0UkIV_9ok",
       "title": "【暴風・吹雪に注意】午前中 北日本の日本海側を中心に雨・雪・強風に警戒",
@@ -28,19 +40,7 @@
       "title": "【台風30号 2026】数値シミュレーション比較  既存モデルはより西寄りに変化",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-22T00:45:37+09:00"
-    },
-    {
-      "id": "FfUjmyCeK7s",
-      "title": "【台風30号 2026】大型で猛烈な勢力 先島諸島は暴風や高波に警戒（21日22時更新）",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-21T23:21:05+09:00"
-    },
-    {
-      "id": "wH3M2quT6y8",
-      "title": "【雨情報】週末〜週明けにかけて太平洋側を中心に大雨のおそれ",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-21T21:40:26+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-22T09:39:00+09:00"
+  "archives_checked_at": "2026-10-22T14:19:27+09:00"
 }
