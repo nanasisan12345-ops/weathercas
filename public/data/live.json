@@ -1,16 +1,34 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-23T04:17:15+09:00",
+  "checked_at": "2026-10-23T07:24:44+09:00",
   "state": "listed",
   "video": {
-    "id": "SsyGcAFL3gA",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月22日(火)23:00〜 ／沖縄は台風30号の影響で大荒れ 西日本も雨の範囲が広がる〈ウェザーニュースLiVE〉",
+    "id": "NJMFQwEa4u4",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月23日(金) ／沖縄は台風30号の影響で荒天 西日本は徐々に雨の範囲が拡大〈ウェザーニュースLiVEモーニング・松本真央／有賀哲夫〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-21T15:16:39+09:00"
+    "published_at": "2026-10-22T00:03:11+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "Ll2IwuGUyH4",
+      "title": "【雨情報】西日本は徐々に雨の範囲が拡大 太平洋側では激しい雨のおそれ",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-23T07:02:00+09:00"
+    },
+    {
+      "id": "Jcpb6aSW21o",
+      "title": "【海外地震情報】中国西部（チベット自治区）でM7.0の地震　震源近傍では震度6弱程度の強い揺れか　M7.0 Earthquake Hits ENE of Nagqu, China",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-23T06:34:58+09:00"
+    },
+    {
+      "id": "In4htpQzY0I",
+      "title": "【台風30号 2026年】沖縄は荒天に厳重警戒 明日未明にかけて先島諸島にかなり接近（23日6時更新）",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-23T06:09:35+09:00"
+    },
     {
       "id": "6jo9twPSGe4",
       "title": "【台風30号 2026年】先島諸島は暴風域に  荒天に厳重警戒／離れた西日本も強雨に注意（22日21時更新）",
@@ -22,25 +40,7 @@
       "title": "【台風30号 2026年】西日本は台風接近前から秋雨前線を刺激  広く大雨のおそれ（22日18時更新）",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-22T22:32:06+09:00"
-    },
-    {
-      "id": "l02f536jIG8",
-      "title": "【台風30号 2026】進路シミュレーション精度評価進捗・AIと既存モデルをハイブリッドに活用",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-22T22:17:16+09:00"
-    },
-    {
-      "id": "ja6uCvd3CWs",
-      "title": "【雨情報】関東の週末の天気は？台風と秋雨前線の影響は？",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-22T20:49:53+09:00"
-    },
-    {
-      "id": "vVJsbiIT2rM",
-      "title": "【台風30号 2026年】あす先島諸島に最接近  暴風や大雨に厳重警戒（22日15時更新）",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-22T18:20:51+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-23T04:17:15+09:00"
+  "archives_checked_at": "2026-10-23T07:24:44+09:00"
 }
