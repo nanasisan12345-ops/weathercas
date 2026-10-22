@@ -1,16 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-22T07:04:14+09:00",
+  "checked_at": "2026-10-22T09:39:00+09:00",
   "state": "listed",
   "video": {
-    "id": "U1BVY8Vrbc4",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月22日(木) ／北日本日本海側は風雨 山沿いでは雪に　沖縄は台風の影響に警戒〈ウェザーニュースLiVEモーニング・岡本結子リサ／山口剛央〉",
+    "id": "a3-nChZ85V8",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月22日(木) ／北日本日本海側は風雨 山沿いでは雪に　沖縄は台風の影響に警戒〈ウェザーニュースLiVEサンシャイン・魚住茉由／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-21T00:27:24+09:00"
+    "published_at": "2026-10-21T07:21:20+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "Ha0UkIV_9ok",
+      "title": "【暴風・吹雪に注意】午前中 北日本の日本海側を中心に雨・雪・強風に警戒",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-22T07:12:44+09:00"
+    },
     {
       "id": "MopygIZU5e8",
       "title": "【台風30号 2026】先島諸島・沖縄は強まる風雨に警戒を/週末にかけて本州へも影響が(10月22日6時更新)",
@@ -34,13 +40,7 @@
       "title": "【雨情報】週末〜週明けにかけて太平洋側を中心に大雨のおそれ",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-21T21:40:26+09:00"
-    },
-    {
-      "id": "66E0wpL6O9Q",
-      "title": "【最新気象】あすは寒気流入により北海道・東北北部では雪や風に注意／気温も前日より大幅に下がる予想",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-21T21:11:04+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-22T07:04:14+09:00"
+  "archives_checked_at": "2026-10-22T09:39:00+09:00"
 }
