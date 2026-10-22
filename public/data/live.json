@@ -1,46 +1,46 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-22T19:18:21+09:00",
+  "checked_at": "2026-10-23T00:21:09+09:00",
   "state": "listed",
   "video": {
-    "id": "itjh9XXCv4c",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月22日(木) ／北海道中心に暴風雪注意　明日先島諸島に台風30号接近〈ウェザーニュースLiVEイブニング・小川千奈／本田竜也〉",
+    "id": "SsyGcAFL3gA",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月22日(火)23:00〜 ／沖縄は台風30号の影響で大荒れ 西日本も雨の範囲が広がる〈ウェザーニュースLiVE〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-21T16:05:12+09:00"
+    "published_at": "2026-10-21T15:16:39+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
     {
+      "id": "6jo9twPSGe4",
+      "title": "【台風30号 2026年】先島諸島は暴風域に  荒天に厳重警戒／離れた西日本も強雨に注意（22日21時更新）",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-23T00:07:39+09:00"
+    },
+    {
+      "id": "Rdn2uUt6RW8",
+      "title": "【台風30号 2026年】西日本は台風接近前から秋雨前線を刺激  広く大雨のおそれ（22日18時更新）",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-22T22:32:06+09:00"
+    },
+    {
+      "id": "l02f536jIG8",
+      "title": "【台風30号 2026】進路シミュレーション精度評価進捗・AIと既存モデルをハイブリッドに活用",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-22T22:17:16+09:00"
+    },
+    {
+      "id": "ja6uCvd3CWs",
+      "title": "【雨情報】関東の週末の天気は？台風と秋雨前線の影響は？",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-22T20:49:53+09:00"
+    },
+    {
       "id": "vVJsbiIT2rM",
       "title": "【台風30号 2026年】あす先島諸島に最接近  暴風や大雨に厳重警戒（22日15時更新）",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-22T18:20:51+09:00"
-    },
-    {
-      "id": "Gsh9Xb5Uhbw",
-      "title": "【明日の天気】台風と秋雨前線の影響による 西日本は天気下り坂",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-22T16:26:54+09:00"
-    },
-    {
-      "id": "Rj1CILriSZo",
-      "title": "【大雨警戒】週末は西日本を中心に大雨のおそれ 台風30号と前線の位置で大雨エリア変わる可能性",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-22T14:10:40+09:00"
-    },
-    {
-      "id": "a_aV6cWwq5U",
-      "title": "【台風30号 2026年】西日本は台風接近前から秋雨前線刺激 広範囲で大雨警戒 ／先島諸島通過後に勢力は衰弱傾向",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-22T11:37:49+09:00"
-    },
-    {
-      "id": "Ha0UkIV_9ok",
-      "title": "【暴風・吹雪に注意】午前中 北日本の日本海側を中心に雨・雪・強風に警戒",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-22T07:12:44+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-22T19:18:21+09:00"
+  "archives_checked_at": "2026-10-23T00:21:09+09:00"
 }
