@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-22T14:19:27+09:00",
+  "checked_at": "2026-10-22T19:18:21+09:00",
   "state": "listed",
   "video": {
-    "id": "fyw7R_T_bao",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月22日(木)／北海道中心に暴風雪注意　明日先島諸島に台風30号接近〈ウェザーニュースLiVEアフタヌーン・佐藤剣慎／本田竜也〉",
+    "id": "itjh9XXCv4c",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月22日(木) ／北海道中心に暴風雪注意　明日先島諸島に台風30号接近〈ウェザーニュースLiVEイブニング・小川千奈／本田竜也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-21T13:29:49+09:00"
+    "published_at": "2026-10-21T16:05:12+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "vVJsbiIT2rM",
+      "title": "【台風30号 2026年】あす先島諸島に最接近  暴風や大雨に厳重警戒（22日15時更新）",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-22T18:20:51+09:00"
+    },
+    {
+      "id": "Gsh9Xb5Uhbw",
+      "title": "【明日の天気】台風と秋雨前線の影響による 西日本は天気下り坂",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-22T16:26:54+09:00"
+    },
     {
       "id": "Rj1CILriSZo",
       "title": "【大雨警戒】週末は西日本を中心に大雨のおそれ 台風30号と前線の位置で大雨エリア変わる可能性",
@@ -28,19 +40,7 @@
       "title": "【暴風・吹雪に注意】午前中 北日本の日本海側を中心に雨・雪・強風に警戒",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-22T07:12:44+09:00"
-    },
-    {
-      "id": "MopygIZU5e8",
-      "title": "【台風30号 2026】先島諸島・沖縄は強まる風雨に警戒を/週末にかけて本州へも影響が(10月22日6時更新)",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-22T06:18:38+09:00"
-    },
-    {
-      "id": "whkdikKw0gY",
-      "title": "【台風30号 2026】数値シミュレーション比較  既存モデルはより西寄りに変化",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-22T00:45:37+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-22T14:19:27+09:00"
+  "archives_checked_at": "2026-10-22T19:18:21+09:00"
 }
