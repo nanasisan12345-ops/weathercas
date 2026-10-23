@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-23T12:15:03+09:00",
+  "checked_at": "2026-10-23T14:26:36+09:00",
   "state": "listed",
   "video": {
-    "id": "Yugmv5wV_iE",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月23日(金) ／台風30号は先島諸島に最接近〈ウェザーニュースLiVEコーヒータイム・田辺真南葉／有賀哲夫〉",
+    "id": "ykRvzs8VizQ",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月23日(金)／台風30号今夜先島諸島に最接近　明日は西から東日本で雨〈ウェザーニュースLiVEアフタヌーン・江川清音／宇野沢達也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-22T14:34:42+09:00"
+    "published_at": "2026-10-22T11:02:13+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
@@ -42,5 +42,5 @@
       "published_at": "2026-10-23T06:09:35+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-23T12:15:03+09:00"
+  "archives_checked_at": "2026-10-23T14:26:36+09:00"
 }
