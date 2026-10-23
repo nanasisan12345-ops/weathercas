@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-23T19:22:21+09:00",
+  "checked_at": "2026-10-24T00:12:58+09:00",
   "state": "listed",
   "video": {
-    "id": "uKz58pEpnbo",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月23日(金) ／台風30号今夜先島諸島に最接近　明日は西から東日本で雨〈ウェザーニュースLiVEイブニング・戸北美月／宇野沢達也〉",
+    "id": "Bng91Xo34KE",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月23日(金)23:00〜 ／台風30号が八重山諸島に最接近　今夜にかけて風雨のピーク〈ウェザーニュースLiVE〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-22T16:20:57+09:00"
+    "published_at": "2026-10-23T00:10:03+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "TOQQoI43U5s",
+      "title": "【週間天気予報】来週中頃に寒気が南下 全国的に寒暖差大／札幌で初雪の可能性も",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-23T22:57:22+09:00"
+    },
+    {
+      "id": "aHpk-WH7gGE",
+      "title": "【週間天気予報】週明けにかけて西・東日本では大雨のおそれ",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-23T20:03:34+09:00"
+    },
     {
       "id": "L2FQfYbJZMs",
       "title": "【台風30号 2026】台風の影響長期化に警戒　300mm超の大雨のおそれ（23日16時更新）",
@@ -28,19 +40,7 @@
       "title": "【大雨警戒】週明けにかけて西日本や東日本で激しい雨 台風(低気圧)と前線の影響",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-23T14:50:40+09:00"
-    },
-    {
-      "id": "A3kX7kCZEIU",
-      "title": "【台風発生予想】熱帯低気圧が24時間以内に台風へ発達予想  マーシャル諸島近海で急速発達 暴風域を伴う見込み（23日11時更新）",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-23T12:02:26+09:00"
-    },
-    {
-      "id": "lFhOOI5CSa4",
-      "title": "【台風30号 2026年】今夜 沖縄･先島諸島に最接近　瞬間的に50m/s近い暴風と10mを超える高波に厳重警戒（23日11時更新）",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-23T11:30:02+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-23T19:22:21+09:00"
+  "archives_checked_at": "2026-10-24T00:12:58+09:00"
 }
