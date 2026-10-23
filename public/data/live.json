@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-23T09:47:57+09:00",
+  "checked_at": "2026-10-23T12:15:03+09:00",
   "state": "listed",
   "video": {
-    "id": "TI4ubV2gAuI",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月23日(金)　台風30号・沖縄 暴風や大雨に厳重警戒 〈ウェザーニュースLiVEサンシャイン・ 岡本結子リサ／有賀哲夫〉",
+    "id": "Yugmv5wV_iE",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月23日(金) ／台風30号は先島諸島に最接近〈ウェザーニュースLiVEコーヒータイム・田辺真南葉／有賀哲夫〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-22T04:24:23+09:00"
+    "published_at": "2026-10-22T14:34:42+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "A3kX7kCZEIU",
+      "title": "【台風発生予想】熱帯低気圧が24時間以内に台風へ発達予想  マーシャル諸島近海で急速発達 暴風域を伴う見込み（23日11時更新）",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-23T12:02:26+09:00"
+    },
+    {
+      "id": "lFhOOI5CSa4",
+      "title": "【台風30号 2026年】今夜 沖縄･先島諸島に最接近　瞬間的に50m/s近い暴風と10mを超える高波に厳重警戒（23日11時更新）",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-23T11:30:02+09:00"
+    },
     {
       "id": "Ll2IwuGUyH4",
       "title": "【雨情報】西日本は徐々に雨の範囲が拡大 太平洋側では激しい雨のおそれ",
@@ -28,19 +40,7 @@
       "title": "【台風30号 2026年】沖縄は荒天に厳重警戒 明日未明にかけて先島諸島にかなり接近（23日6時更新）",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-23T06:09:35+09:00"
-    },
-    {
-      "id": "6jo9twPSGe4",
-      "title": "【台風30号 2026年】先島諸島は暴風域に  荒天に厳重警戒／離れた西日本も強雨に注意（22日21時更新）",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-23T00:07:39+09:00"
-    },
-    {
-      "id": "Rdn2uUt6RW8",
-      "title": "【台風30号 2026年】西日本は台風接近前から秋雨前線を刺激  広く大雨のおそれ（22日18時更新）",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-22T22:32:06+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-23T09:47:57+09:00"
+  "archives_checked_at": "2026-10-23T12:15:03+09:00"
 }
