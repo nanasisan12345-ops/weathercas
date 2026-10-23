@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T12:15:03+09:00",
+  "generated_at": "2026-10-23T19:22:21+09:00",
   "sources": [
     {
       "id": "schedule",
       "label": "公式番組表",
       "url": "https://site.weathernews.jp/site/live/json/timetable.json",
-      "checked_at": "2026-10-23T12:15:03+09:00",
-      "last_success_at": "2026-10-23T12:15:03+09:00",
+      "checked_at": "2026-10-23T19:22:21+09:00",
+      "last_success_at": "2026-10-23T19:22:21+09:00",
       "last_failure_at": null,
       "count": 10,
       "status": "ok",
@@ -17,8 +17,8 @@
       "id": "videos",
       "label": "公式動画一覧",
       "url": "https://site.weathernews.jp/site/live/json/list.json",
-      "checked_at": "2026-10-23T14:26:36+09:00",
-      "last_success_at": "2026-10-23T14:26:36+09:00",
+      "checked_at": "2026-10-23T19:22:21+09:00",
+      "last_success_at": "2026-10-23T19:22:21+09:00",
       "last_failure_at": null,
       "count": 1,
       "status": "ok",
@@ -28,8 +28,8 @@
       "id": "embed",
       "label": "YouTube公式埋め込み",
       "url": "https://www.youtube.com/oembed",
-      "checked_at": "2026-10-23T14:26:36+09:00",
-      "last_success_at": "2026-10-23T14:26:36+09:00",
+      "checked_at": "2026-10-23T19:22:21+09:00",
+      "last_success_at": "2026-10-23T19:22:21+09:00",
       "last_failure_at": null,
       "count": 1,
       "status": "ok",
@@ -40,7 +40,7 @@
       "label": "YouTube LIVE判定",
       "url": "https://developers.google.com/youtube/v3/",
       "status": "unconfigured",
-      "checked_at": "2026-10-23T14:26:36+09:00",
+      "checked_at": "2026-10-23T19:22:21+09:00",
       "last_success_at": null,
       "last_failure_at": null,
       "count": 0,
@@ -48,7 +48,7 @@
     }
   ],
   "quality": {
-    "scheduled": 26,
+    "scheduled": 28,
     "confirmed": 0,
     "unverified": 9,
     "changes": 0
