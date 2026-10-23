@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-23T07:24:44+09:00",
+  "checked_at": "2026-10-23T09:47:57+09:00",
   "state": "listed",
   "video": {
-    "id": "NJMFQwEa4u4",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月23日(金) ／沖縄は台風30号の影響で荒天 西日本は徐々に雨の範囲が拡大〈ウェザーニュースLiVEモーニング・松本真央／有賀哲夫〉",
+    "id": "TI4ubV2gAuI",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月23日(金)　台風30号・沖縄 暴風や大雨に厳重警戒 〈ウェザーニュースLiVEサンシャイン・ 岡本結子リサ／有賀哲夫〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-22T00:03:11+09:00"
+    "published_at": "2026-10-22T04:24:23+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
@@ -42,5 +42,5 @@
       "published_at": "2026-10-22T22:32:06+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-23T07:24:44+09:00"
+  "archives_checked_at": "2026-10-23T09:47:57+09:00"
 }
