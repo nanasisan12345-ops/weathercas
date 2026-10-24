@@ -1,16 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-24T13:59:18+09:00",
+  "checked_at": "2026-10-24T18:18:51+09:00",
   "state": "listed",
   "video": {
-    "id": "RQlbmMiDumk",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月24日(土)／台風30号 先島諸島は暴風雨に厳重警戒〈ウェザーニュースLiVEアフタヌーン・山岸愛梨／内藤邦裕〉",
+    "id": "XonuRoBQuXg",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月24日(土) ／先島諸島は暴風域抜けるも引き続き土砂災害などに注意〈ウェザーニュースLiVEイブニング・小川千奈／内藤邦裕〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-23T11:13:32+09:00"
+    "published_at": "2026-10-23T16:17:07+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "8VGwC5_fIJU",
+      "title": "【週間天気】前線活動が活発化し大雨のおそれ　道路冠水や河川の増水などに注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-24T14:18:16+09:00"
+    },
     {
       "id": "PdRATLR557Y",
       "title": "【海外地震】南太平洋 バヌアツ諸島でM7.2の地震 日本への津波の影響なし  M7.2 Earthquake Hits WNW of Port-Olry, Vanuatu",
@@ -34,13 +40,7 @@
       "title": "【台風30号 2026】先島諸島は台風30号の荒天続く 本州付近の前線も活発に（24日5時更新）",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-24T06:14:33+09:00"
-    },
-    {
-      "id": "Dv833TZYbSw",
-      "title": "【台風30号 2026】先島諸島付近に停滞 長引く影響に要警戒／西・東日本でも大雨のおそれ",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-24T00:54:24+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-24T13:59:18+09:00"
+  "archives_checked_at": "2026-10-24T18:18:51+09:00"
 }
