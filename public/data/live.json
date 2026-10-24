@@ -1,16 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-25T04:04:11+09:00",
+  "checked_at": "2026-10-25T06:34:01+09:00",
   "state": "listed",
   "video": {
-    "id": "Id_tRefZX3s",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月24日(土)23:00〜 ／台風30号は北上　西日本、東日本は大雨に警戒〈ウェザーニュースLiVE〉",
+    "id": "qfqM6pviSOs",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月25日(日)／東北から西日本は広く雨 局地的に激しい雨の降るおそれ　〈ウェザーニュースLiVEモーニング・魚住茉由／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-23T19:30:32+09:00"
+    "published_at": "2026-10-24T01:21:06+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "NiK4H0fmK-I",
+      "title": "【台風30号 2026】台風本体よりも前線による大雨に警戒 西日本から東日本で雨雲発達（25日6時更新）",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-25T06:21:27+09:00"
+    },
     {
       "id": "Svwy5RApjFY",
       "title": "【台風31号 2026】マーシャル諸島を北へ  今後の進路の変化に注意（24日21時更新）",
@@ -34,13 +40,7 @@
       "title": "【明日の天気予報】前線活発化　西日本や東日本では局地的に激しい雨のおそれ",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-24T21:24:55+09:00"
-    },
-    {
-      "id": "thKUDGSCu2U",
-      "title": "【台風31号 2026】マーシャル諸島にあって発達しながら西へ（24日15時更新）",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-24T19:46:14+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-25T04:04:11+09:00"
+  "archives_checked_at": "2026-10-25T06:34:01+09:00"
 }
