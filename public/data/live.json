@@ -1,16 +1,34 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-24T22:23:34+09:00",
+  "checked_at": "2026-10-25T01:47:20+09:00",
   "state": "listed",
   "video": {
-    "id": "c5AyP6ofkVQ",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月24日(土)20:00〜 ／先島諸島は暴風域抜けるも引き続き土砂災害などに注意〈ウェザーニュースLiVEムーン・ 戸北美月／内藤邦裕〉",
+    "id": "Id_tRefZX3s",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月24日(土)23:00〜 ／台風30号は北上　西日本、東日本は大雨に警戒〈ウェザーニュースLiVE〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-23T19:25:47+09:00"
+    "published_at": "2026-10-23T19:30:32+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "Svwy5RApjFY",
+      "title": "【台風31号 2026】マーシャル諸島を北へ  今後の進路の変化に注意（24日21時更新）",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-25T01:06:16+09:00"
+    },
+    {
+      "id": "T0v2yVwXdMQ",
+      "title": "【台風30号 2026】台風の影響で秋雨前線が活発に  西・東日本は大雨のおそれ（24日21時更新）",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-25T00:10:57+09:00"
+    },
+    {
+      "id": "AuAnQAvt4i4",
+      "title": "【平地でも雪か】来週は寒気南下で雪エリア拡大　東京は木枯らし1号の可能性",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-24T22:35:09+09:00"
+    },
     {
       "id": "DToIb5n-ILw",
       "title": "【明日の天気予報】前線活発化　西日本や東日本では局地的に激しい雨のおそれ",
@@ -22,25 +40,7 @@
       "title": "【台風31号 2026】マーシャル諸島にあって発達しながら西へ（24日15時更新）",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-24T19:46:14+09:00"
-    },
-    {
-      "id": "mubite9XYlk",
-      "title": "【台風30号 2026】台風は速度を上げ北上　週明けにかけて西・東日本は大雨警戒（24日15時更新）",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-24T18:58:13+09:00"
-    },
-    {
-      "id": "8VGwC5_fIJU",
-      "title": "【週間天気】前線活動が活発化し大雨のおそれ　道路冠水や河川の増水などに注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-24T14:18:16+09:00"
-    },
-    {
-      "id": "PdRATLR557Y",
-      "title": "【海外地震】南太平洋 バヌアツ諸島でM7.2の地震 日本への津波の影響なし  M7.2 Earthquake Hits WNW of Port-Olry, Vanuatu",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-24T13:28:53+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-24T22:23:34+09:00"
+  "archives_checked_at": "2026-10-25T01:47:20+09:00"
 }
