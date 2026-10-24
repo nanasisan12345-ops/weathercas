@@ -6,6 +6,7 @@ const key = 'weathercas.weather-layout.v1';
 const ids = (page: Page) => page.locator('.weather-panel').evaluateAll(es => es.map(e => e.getAttribute('data-weather-id')));
 const check = (page: Page, title: string) => page.getByRole('checkbox', { name: new RegExp(`^${title}`) });
 test.beforeEach(async ({ page }) => {
+  await page.route('**/data/schedule.json', route => route.fulfill({ status: 503, json: {} }));
   await page.clock.install({ time: new Date(live.checked_at) });
   await page.route('**/data/live.json', r => r.fulfill({ json: live }));
   await page.route('https://www.youtube-nocookie.com/embed/**', r => r.fulfill({ body: '<p>Player fixture</p>' }));

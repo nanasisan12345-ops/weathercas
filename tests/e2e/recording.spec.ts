@@ -5,6 +5,7 @@ const id = 'a15be8ef-e6b6-4a31-87fb-0123456789ab';
 const sample = { id, video_id: 'LbMd2BvWHHU', title: 'Official live', state: 'preparing', message: '配信の元画質と音声を確認しています…', error: null, warning: null, width: 1920, height: 1080, fps: 30, seconds: 0, bytes: 0, filename: 'weathercas-test.mp4' };
 
 test.beforeEach(async ({ page }) => {
+  await page.route('**/data/schedule.json', route => route.fulfill({ status: 503, json: {} }));
   await page.clock.install({ time: new Date(fixture.live.checked_at) });
   await page.route('https://www.youtube-nocookie.com/embed/**', route => route.fulfill({ contentType: 'text/html', body: '<p>Player title overlay</p>' }));
   await page.route('https://www.youtube.com/live_chat**', route => route.fulfill({ contentType: 'text/html', body: '<p>Chat fixture</p>' }));
@@ -40,11 +41,31 @@ test('direct recorder starts, stops and offers the MP4 without requesting screen
   await expect(save).toHaveAttribute('download', 'weathercas-test.mp4');
 });
 
-test('static hosting clearly explains that direct recording needs the local app', async ({ page }) => {
+test('static hosting hides recording controls and local setup guidance', async ({ page }) => {
   await page.route('**/api/recording', route => route.fulfill({ status: 404 }));
-  await page.goto('./#capture');
-  await expect(page.locator('#capture')).toContainText('run.batでサイトを起動してください');
-  await expect(page.getByRole('button', { name: '録画開始', exact: true })).toBeDisabled();
+  await page.goto('./#live');
+  await expect(page.locator('.live-title')).not.toBeEmpty();
+  await expect(page.locator('#capture')).toHaveCount(0);
+  await expect(page.getByRole('button', { name: '録画開始', exact: true })).toHaveCount(0);
+  await expect(page.getByText('run.batでサイトを起動してください')).toHaveCount(0);
+});
+
+test('public origin never requests the recording API or displays recording UI', async ({ page }) => {
+  const requests: string[] = [];
+  await page.route('https://nanasisan12345-ops.github.io/**', async route => {
+    const url = new URL(route.request().url());
+    if (url.pathname.includes('/data/')) return route.fallback();
+    if (url.pathname.includes('/api/recording')) { requests.push(url.pathname); return route.fulfill({ status: 404 }); }
+    const response = await route.fetch({ url: `http://127.0.0.1:5173${url.pathname}${url.search}` });
+    await route.fulfill({ response });
+  });
+  await page.goto('https://nanasisan12345-ops.github.io/weathercas/#live');
+  await expect(page.locator('.live-title')).toContainText(fixture.live.video.title);
+  await expect(page.locator('.live-caster-profile')).toBeVisible();
+  await expect(page.locator('#capture')).toHaveCount(0);
+  await expect(page.locator('#privacy')).not.toContainText('録画');
+  await page.clock.fastForward(5000);
+  expect(requests).toEqual([]);
 });
 
 test('preparing a recording can be cancelled and request errors remain visible', async ({ page }) => {

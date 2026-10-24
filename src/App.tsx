@@ -1,16 +1,18 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import CasterPhoto from './CasterPhoto';
 import CasterSocials from './CasterSocials';
-import DirectRecording from './DirectRecording';
+import DirectRecording, { isLocalRecordingOrigin } from './DirectRecording';
 import LiveChat from './LiveChat';
+import LiveCaster from './LiveCaster';
 import ThemeToggle from './ThemeToggle';
 import WeatherPanels from './WeatherPanels';
-import { aggregate, filterRecords, fresh, jstDate, livePresentation, loadDataset, loadLive,
+import { aggregate, currentScheduleRows, filterRecords, fresh, jstDate, livePresentation, loadDataset, loadLive, loadSchedule,
   parseRoute, routeHash, shiftDate, showTime,
-  type Appearance, type Dataset, type LiveData, type Route } from './data';
+  type Appearance, type CurrentSchedule, type Dataset, type LiveData, type Route } from './data';
 
 const BASE = import.meta.env.BASE_URL;
 const OFFICIAL = 'https://weathernews.jp/wnl/';
+const localRecording = isLocalRecordingOrigin();
 const statusNames = { confirmed: '確認済み', scheduled: '予定', unverified: '未確認' };
 const nav = [['home', 'ホーム'], ['live', 'ライブ視聴'], ['weather', '天気・台風'],
   ['schedule', '出演番組表'], ['archive', '出演履歴'], ['statistics', '出演統計']] as const;
@@ -92,6 +94,7 @@ function Bars({ title, items }: { title: string; items: [string, number][] }) {
 export default function App() {
   const [route, setRoute] = useState(() => parseRoute(window.location.hash));
   const [data, setData] = useState<Dataset | null>(null), [live, setLive] = useState<LiveData | null>(null);
+  const [currentSchedule, setCurrentSchedule] = useState<CurrentSchedule | null>(null), [scheduleFailed, setScheduleFailed] = useState(false);
   const [error, setError] = useState(''), [liveError, setLiveError] = useState(''), [loading, setLoading] = useState(true);
   const [now, setNow] = useState(Date.now());
   const [page, setPage] = useState(1);
@@ -111,7 +114,7 @@ export default function App() {
     else document.getElementById(route.view)?.scrollIntoView({ block: 'start' });
   }, [route.view, loading]);
   useEffect(() => {
-    let active = true, livePending = false;
+    let active = true, livePending = false, schedulePending = false;
     async function refresh() {
       try { const result = await loadDataset(); if (active) { setData(result); setError(''); } }
       catch (e) { if (active) setError(e instanceof Error ? e.message : 'データの取得に失敗しました。'); }
@@ -124,9 +127,16 @@ export default function App() {
       catch { if (active) { setLive(null); setLiveError('動画情報の読み込みに失敗しました。公式ページでご確認ください。'); } }
       finally { livePending = false; }
     }
-    const onVisible = () => { if (document.visibilityState === 'visible') void refreshLive(); };
-    void refresh(); void refreshLive();
-    const updateData = window.setInterval(() => void refresh(), 300000);
+    async function refreshSchedule() {
+      if (schedulePending) return;
+      schedulePending = true;
+      try { const result = await loadSchedule(); if (active) { setCurrentSchedule(result); setScheduleFailed(false); setNow(Date.now()); } }
+      catch { if (active) { setCurrentSchedule(null); setScheduleFailed(true); } }
+      finally { schedulePending = false; }
+    }
+    const onVisible = () => { if (document.visibilityState === 'visible') { void refreshLive(); void refreshSchedule(); } };
+    void refresh(); void refreshLive(); void refreshSchedule();
+    const updateData = window.setInterval(() => { void refresh(); void refreshSchedule(); }, 300000);
     const updateLive = window.setInterval(() => void refreshLive(), 30000);
     const clock = window.setInterval(() => setNow(Date.now()), 15000);
     document.addEventListener('visibilitychange', onVisible); window.addEventListener('focus', onVisible);
@@ -134,14 +144,17 @@ export default function App() {
       document.removeEventListener('visibilitychange', onVisible); window.removeEventListener('focus', onVisible); };
   }, []);
   const rows = data?.records || [], today = jstDate(new Date(now));
-  const todayRows = rows.filter(row => row.date_jst === today), dayRows = rows.filter(row => row.date_jst === route.date);
+  const scheduleRows = currentScheduleRows(rows, currentSchedule, now);
+  const todayRows = scheduleRows.filter(row => row.date_jst === today), dayRows = scheduleRows.filter(row => row.date_jst === route.date);
   const filtered = filterRecords(rows, route, data?.index.casters);
   const stats = aggregate(filtered, route.stats), presentation = livePresentation(live, now);
   const activeCasters = data?.index.casters.filter(caster => rows.some(row => row.planned.caster_id === caster.id || row.confirmed?.caster_id === caster.id)) || [];
   const stale = !data || !fresh(data.status.generated_at, now);
+  const currentScheduleFresh = currentSchedule !== null && fresh(currentSchedule.checked_at, now, 10);
   const casterLink = (id: string) => update({ view: 'archive', caster: id, q: '', status: '', program: '', month: '', year: '' });
   const hasFailures = data?.status.sources.some(source => source.status === 'failed');
-  const healthLabel = error ? '読込失敗' : loading ? '読み込み中' : stale ? '更新期限切れ' : hasFailures ? '一部収集失敗' : '公式データ取得済み';
+  const healthLabel = currentScheduleFresh ? '番組表確認済み' : error ? '読込失敗' : loading ? '読み込み中'
+    : scheduleFailed ? '保存済み番組表を表示' : stale ? '番組表の更新待ち' : hasFailures ? '一部収集失敗' : '保存済み番組表';
   return <div className="app-layout" id="home">
     <a className="skip-link" href="#main-content">本文へ移動</a>
     <aside className="sidebar"><a className="site-mark" href="#home" onClick={e => { e.preventDefault(); update({ view: 'home' }); }}><img src={`${BASE}assets/weathercas-icon.png`} alt="" width="42" height="42" /><span>WeatherCas<small>ウェザキャス</small></span></a>
@@ -151,10 +164,10 @@ export default function App() {
     <main id="main-content" className="main-content">
       <header className="topbar"><div><span className="kicker">WEATHERCASTER ARCHIVE</span><h1>ウェザキャス <span>/ WeatherCas</span></h1></div><div className="topbar-meta"><time>{new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', hour: '2-digit', minute: '2-digit' }).format(new Date(now))} JST</time><span className="unofficial">非公式ファンサイト</span><ThemeToggle /></div></header>
       <div className="brand-hero"><div className="brand-content"><img src={`${BASE}assets/weathercas-logo.png`} alt="ウェザキャス WeatherCas 採用ロゴ" width="2172" height="724" fetchPriority="high" /></div><div className="brand-orbit" aria-hidden="true"><i /><i /><i /></div></div>
-      <div className="collection-summary"><div className="update-stamp"><span className={`status-dot ${stale || error || hasFailures ? 'pending' : ''}`} />{healthLabel}<small>最終取得 {showTime(data?.status.generated_at)}</small></div></div>
+      <div className="collection-summary"><div className="update-stamp"><span className={`status-dot ${!currentScheduleFresh && (stale || error || hasFailures || scheduleFailed) ? 'pending' : ''}`} />{healthLabel}<small>{currentScheduleFresh ? '番組表確認 ' : '保存データ取得 '}{showTime(currentScheduleFresh ? currentSchedule.checked_at : data?.status.generated_at)}</small></div></div>
       {error && <div className="alert" role="alert">{data ? '前回読み込んだ記録を表示しています。' : ''}{error}<button onClick={() => window.location.reload()}>再読み込み</button></div>}
       {loading && <div className="notice-inline" role="status">公式データを読み込んでいます…</div>}
-      {data && stale && <p className="notice-inline">最終取得から4時間以上が経過しています。最新の番組表・配信状況は公式ページでご確認ください。</p>}
+      {data && stale && !currentScheduleFresh && <p className="notice-inline collection-warning">最新の番組表を確認できていません。4時間以上前の保存データを表示しています。<External href="https://weathernews.jp/wnl/timetable.html">公式番組表で確認</External>。配信動画の情報は別に確認しています。</p>}
       <div className="hero-grid">
         <section className="card live-card" id="live"><div className="panel-heading"><h2><Icon name="live" />ウェザーニュースLiVE</h2><span className={`badge ${presentation.tone}`}>{presentation.tone === 'live' ? 'LIVE' : '公式動画'}</span></div>
           <div className="player">
@@ -163,6 +176,7 @@ export default function App() {
                 <p>{presentation.label}</p><span className="small"><a href="#privacy">利用条件・プライバシー</a></span></div>}
           </div><DirectRecording videoID={presentation.embed && live?.video ? live.video.id : null} /><p className="live-title">{liveError || (fresh(live?.checked_at || '', now) ? live?.video?.title : '') || presentation.label}</p>
           <div className="live-footer"><div><span className={presentation.tone === 'live' ? 'live-text' : 'muted'}>{presentation.label}</span><small>動画情報取得：{showTime(live?.checked_at)}</small></div><div className="live-actions"><External href={OFFICIAL} className="primary button-link">公式配信を見る</External></div></div>
+          <LiveCaster live={live} now={now} />
         </section>
         <LiveChat live={live} now={now} />
       </div>
@@ -200,7 +214,7 @@ export default function App() {
       <section className="official-videos"><SectionHead kicker="OFFICIAL VIDEOS" title="公式の最新動画"><External href="https://www.youtube.com/user/weathernews">公式YouTubeチャンネル</External></SectionHead><p className="small muted">公式一覧のアーカイブ動画です。出演履歴としては集計しません。取得：{showTime(live?.archives_checked_at)}</p>
         {live?.archives.length ? <div className="video-links">{live.archives.map(video => <External key={video.id} href={`https://www.youtube.com/watch?v=${video.id}`}><span><small>{showTime(video.published_at)} 公開</small><strong>{video.title}</strong></span></External>)}</div> : <Empty>アーカイブ動画をまだ取得できていません。</Empty>}
       </section>
-      <section className="privacy-note" id="privacy"><h2>利用条件・プライバシー</h2><p>ウェザキャスは非公式のファンサイトです。情報の正確性・更新時刻・配信の継続は保証しません。最新情報は公式サイトをご確認ください。誤りの報告は公開リポジトリのIssuesへお寄せください。</p><p>このサイトは公式公開情報と、設定されている場合はYouTube API Servicesを利用します。YouTube機能の利用には<External href="https://www.youtube.com/t/terms">YouTube利用規約</External>が適用されます。ページ表示時に動画とPC版チャットを自動読み込みし、YouTubeへ接続します。IPアドレス等が送信され、第三者コンテンツ・広告やCookie等が利用される場合があります。<External href="https://policies.google.com/privacy">Googleプライバシーポリシー</External>をご確認ください。</p><p>本アプリ独自の解析・Cookieは使用しません。表示モードと天気カードの選択・順番・幅をブラウザーのlocalStorageに保存します。端末間での同期はしません。run.batの専用Edgeではプロジェクト内のData/browserに保持されます。ローカル版の録画は、このPCのNodeサーバーが配信の映像・音声を直接取得し、Data/recordingsに保存します。映像・音声を運営者へアップロードしません。初回の録画時はGitHubから録画ツールをData/toolsへ取得します。保存したファイルは利用者が削除できます。ホスティング事業者はアクセスログを保持する場合があります。</p><p>許諾済みの素材を対象とするローカル録画機能を提供しています。番組映像の利用には<External href="https://weathernews.jp/wnl/guideline/">公式ガイドライン</External>と<External href="https://developers.google.com/youtube/terms/developer-policies">YouTube APIポリシー</External>をそれぞれご確認ください。</p></section>
+      <section className="privacy-note" id="privacy"><h2>利用条件・プライバシー</h2><p>ウェザキャスは非公式のファンサイトです。情報の正確性・更新時刻・配信の継続は保証しません。最新情報は公式サイトをご確認ください。誤りの報告は公開リポジトリのIssuesへお寄せください。</p><p>このサイトは公式公開情報と、設定されている場合はYouTube API Servicesを利用します。YouTube機能の利用には<External href="https://www.youtube.com/t/terms">YouTube利用規約</External>が適用されます。ページ表示時に動画とPC版チャットを自動読み込みし、YouTubeへ接続します。IPアドレス等が送信され、第三者コンテンツ・広告やCookie等が利用される場合があります。<External href="https://policies.google.com/privacy">Googleプライバシーポリシー</External>をご確認ください。</p><p>本アプリ独自の解析・Cookieは使用しません。表示モードと天気カードの選択・順番・幅をブラウザーのlocalStorageに保存します。端末間での同期はしません。run.batの専用Edgeではプロジェクト内のData/browserに保持されます。{localRecording && <>ローカル版の録画は、このPCのNodeサーバーが配信の映像・音声を直接取得し、Data/recordingsに保存します。映像・音声を運営者へアップロードしません。初回の録画時はGitHubから録画ツールをData/toolsへ取得します。保存したファイルは利用者が削除できます。</>}ホスティング事業者はアクセスログを保持する場合があります。</p>{localRecording && <p>許諾済みの素材を対象とするローカル録画機能を提供しています。番組映像の利用には<External href="https://weathernews.jp/wnl/guideline/">公式ガイドライン</External>と<External href="https://developers.google.com/youtube/terms/developer-policies">YouTube APIポリシー</External>をそれぞれご確認ください。</p>}</section>
       <footer><span>WeatherCas / ウェザキャス</span><span>ウェザーニュースLiVE 非公式ファンサイト</span><External href={OFFICIAL}>ウェザーニュースLiVE公式</External></footer>
     </main>
   </div>;

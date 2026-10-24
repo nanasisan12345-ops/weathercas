@@ -1,19 +1,22 @@
 import socials from '../config/caster-socials.json';
 
-type Network = 'x' | 'instagram' | 'tiktok';
+export type Network = 'x' | 'instagram' | 'tiktok';
 const labels: Record<Network, string> = { x: 'X', instagram: 'Instagram', tiktok: 'TikTok' };
 const hosts: Record<Network, string> = { x: 'x.com', instagram: 'www.instagram.com', tiktok: 'www.tiktok.com' };
 
-export default function CasterSocials({ id, name }: { id: string; name: string | null }) {
+export function getCasterSocialLinks(id: string) {
   const entry = (socials.casters as Record<string, { source_url: string; links: Partial<Record<Network, string>> }>)[id];
-  if (!entry || entry.source_url !== `https://weathernews.jp/wnl/caster/${id}.html`) return null;
-  const links = (Object.keys(labels) as Network[]).flatMap(network => {
+  if (!entry || entry.source_url !== `https://weathernews.jp/wnl/caster/${id}.html`) return [];
+  return (Object.keys(labels) as Network[]).flatMap(network => {
     const href = entry.links[network];
     try {
       const url = new URL(href || '');
-      return url.protocol === 'https:' && url.hostname === hosts[network] && !url.username && !url.password && !url.port ? [{ network, href }] : [];
+      return url.protocol === 'https:' && url.hostname === hosts[network] && !url.username && !url.password && !url.port ? [{ network, href: url.href }] : [];
     } catch { return []; }
   });
+}
+export default function CasterSocials({ id, name }: { id: string; name: string | null }) {
+  const links = getCasterSocialLinks(id);
   if (!links.length) return null;
   return <span className="caster-socials" aria-label={`${name || id}のSNS`}>{links.map(({ network, href }) =>
     <a key={network} href={href} target="_blank" rel="noopener noreferrer" aria-label={`${name || id}の${labels[network]}（新しいタブ）`} title={`${name || id}の${labels[network]}`}>

@@ -1,0 +1,369 @@
+{
+  "checked_on": "2026-10-23",
+  "profiles": {
+    "yamagishi": {
+      "name": "山岸 愛梨",
+      "reading": "やまぎし あいり",
+      "source_url": "https://weathernews.jp/wnl/caster/yamagishi.html",
+      "facts": [
+        {
+          "label": "生年月日",
+          "value": "1987/06/09"
+        },
+        {
+          "label": "出身地",
+          "value": "埼玉県"
+        },
+        {
+          "label": "趣味・特技",
+          "value": "絵を描くこと、星空鑑賞、犬や猫と遊ぶ"
+        },
+        {
+          "label": "資格",
+          "value": "気象予報士、防災士、星空案内人、熱中症対策アドバイザー"
+        }
+      ]
+    },
+    "egawa": {
+      "name": "江川 清音",
+      "reading": "えがわ さやね",
+      "source_url": "https://weathernews.jp/wnl/caster/egawa.html",
+      "facts": [
+        {
+          "label": "生年月日",
+          "value": "1989/12/03"
+        },
+        {
+          "label": "出身地",
+          "value": "北海道"
+        },
+        {
+          "label": "趣味・特技",
+          "value": "競技ダンス、クラシック・バレエ、フラワーアレンジメント、晩酌"
+        },
+        {
+          "label": "資格",
+          "value": "防災士、熱中症対策アドバイザー"
+        }
+      ]
+    },
+    "matsuyuki": {
+      "name": "松雪 彩花",
+      "reading": "まつゆき あやか",
+      "source_url": "https://weathernews.jp/wnl/caster/matsuyuki.html",
+      "facts": [
+        {
+          "label": "生年月日",
+          "value": "1991/09/06"
+        },
+        {
+          "label": "出身地",
+          "value": "埼玉県"
+        },
+        {
+          "label": "趣味・特技",
+          "value": "読書、トレーニング、料理"
+        },
+        {
+          "label": "資格",
+          "value": "熱中症対策アドバイザー"
+        }
+      ]
+    },
+    "shirai": {
+      "name": "白井 ゆかり",
+      "reading": "しらい ゆかり",
+      "source_url": "https://weathernews.jp/wnl/caster/shirai.html",
+      "facts": [
+        {
+          "label": "生年月日",
+          "value": "1991/06/25"
+        },
+        {
+          "label": "出身地",
+          "value": "埼玉県"
+        },
+        {
+          "label": "趣味・特技",
+          "value": "茶道、ヨガ、写真撮影"
+        },
+        {
+          "label": "資格",
+          "value": "防災士、ヨガインストラクター RYT200、熱中症対策アドバイザー"
+        }
+      ]
+    },
+    "komaki": {
+      "name": "駒木 結衣",
+      "reading": "こまき ゆい",
+      "source_url": "https://weathernews.jp/wnl/caster/komaki.html",
+      "facts": [
+        {
+          "label": "生年月日",
+          "value": "1996/06/09"
+        },
+        {
+          "label": "出身地",
+          "value": "宮城県"
+        },
+        {
+          "label": "趣味・特技",
+          "value": "書道、旅行、ヨガ、愛犬との散歩"
+        },
+        {
+          "label": "資格",
+          "value": "防災士、熱中症対策アドバイザー"
+        }
+      ]
+    },
+    "tokita": {
+      "name": "戸北 美月",
+      "reading": "ときた みづき",
+      "source_url": "https://weathernews.jp/wnl/caster/tokita.html",
+      "facts": [
+        {
+          "label": "生年月日",
+          "value": "1999/12/29"
+        },
+        {
+          "label": "出身地",
+          "value": "福岡県"
+        },
+        {
+          "label": "趣味・特技",
+          "value": "空を飛ぶ、ラーメン巡り、食とお酒を楽しむこと、料理、ピアノ"
+        },
+        {
+          "label": "資格",
+          "value": "防災士、パラグライダーパイロット証、日本酒検定２級、熱中症対策アドバイザー"
+        }
+      ]
+    },
+    "kawabata": {
+      "name": "川畑 玲",
+      "reading": "かわばた あきら",
+      "source_url": "https://weathernews.jp/wnl/caster/kawabata.html",
+      "facts": [
+        {
+          "label": "生年月日",
+          "value": "1977/12/6"
+        },
+        {
+          "label": "出身地",
+          "value": "愛知県"
+        },
+        {
+          "label": "資格",
+          "value": "気象予報士、防災士、熱中症対策アドバイザー"
+        }
+      ]
+    },
+    "kobayashi": {
+      "name": "小林 李衣奈",
+      "reading": "こばやし りえな",
+      "source_url": "https://weathernews.jp/wnl/caster/kobayashi.html",
+      "facts": [
+        {
+          "label": "生年月日",
+          "value": "1999/11/17"
+        },
+        {
+          "label": "出身地",
+          "value": "兵庫県神戸市"
+        },
+        {
+          "label": "趣味・特技",
+          "value": "ミュージカル鑑賞・クラシックバレエ・タップダンス"
+        },
+        {
+          "label": "資格",
+          "value": "英検準１級、世界遺産検定２級、熱中症対策アドバイザー"
+        }
+      ]
+    },
+    "uozumi": {
+      "name": "魚住 茉由",
+      "reading": "うおずみ まゆ",
+      "source_url": "https://weathernews.jp/wnl/caster/uozumi.html",
+      "facts": [
+        {
+          "label": "生年月日",
+          "value": "1998/12/6"
+        },
+        {
+          "label": "出身地",
+          "value": "愛知県"
+        },
+        {
+          "label": "趣味・特技",
+          "value": "琴、旅行、映画鑑賞、スポーツ観戦"
+        },
+        {
+          "label": "資格",
+          "value": "熱中症対策アドバイザー"
+        }
+      ]
+    },
+    "ogawa": {
+      "name": "小川 千奈",
+      "reading": "おがわ せんな",
+      "source_url": "https://weathernews.jp/wnl/caster/ogawa.html",
+      "facts": [
+        {
+          "label": "生年月日",
+          "value": "1999/6/30"
+        },
+        {
+          "label": "出身地",
+          "value": "岩手県"
+        },
+        {
+          "label": "趣味・特技",
+          "value": "旅行、妖怪研究、絵を描くこと、乗馬、料理"
+        },
+        {
+          "label": "資格",
+          "value": "看護師免許、防災士、食育アドバイザー、英検２級、熱中症対策アドバイザー"
+        }
+      ]
+    },
+    "aohara": {
+      "name": "青原 桃香",
+      "reading": "あおはら ももか",
+      "source_url": "https://weathernews.jp/wnl/caster/aohara.html",
+      "facts": [
+        {
+          "label": "生年月日",
+          "value": "1999/1/5"
+        },
+        {
+          "label": "出身地",
+          "value": "愛知県"
+        },
+        {
+          "label": "趣味・特技",
+          "value": "乗馬、料理、ドライブ"
+        },
+        {
+          "label": "資格",
+          "value": "熱中症対策アドバイザー"
+        }
+      ]
+    },
+    "okamoto": {
+      "name": "岡本 結子 リサ",
+      "reading": "おかもと ゆいこ りさ",
+      "source_url": "https://weathernews.jp/wnl/caster/okamoto.html",
+      "facts": [
+        {
+          "label": "生年月日",
+          "value": "2000/1/30"
+        },
+        {
+          "label": "出身地",
+          "value": "東京都"
+        },
+        {
+          "label": "趣味・特技",
+          "value": "ピアノ、ダンス、ヨガ"
+        },
+        {
+          "label": "資格",
+          "value": "熱中症対策アドバイザー"
+        }
+      ]
+    },
+    "fukuyoshi": {
+      "name": "福吉 貴文",
+      "reading": "ふくよし たかふみ",
+      "source_url": "https://weathernews.jp/wnl/caster/fukuyoshi.html",
+      "facts": [
+        {
+          "label": "生年月日",
+          "value": "1994/12/12"
+        },
+        {
+          "label": "出身地",
+          "value": "愛媛県"
+        },
+        {
+          "label": "趣味・特技",
+          "value": "ドライブ、写真、ランチブッフェ、湯めぐり、ファッション、ニュース読み"
+        },
+        {
+          "label": "資格",
+          "value": "社会調査士、アナウンス検定1級、熱中症対策アドバイザー"
+        }
+      ]
+    },
+    "tanabe": {
+      "name": "田辺 真南葉",
+      "reading": "たなべ まなは",
+      "source_url": "https://weathernews.jp/wnl/caster/tanabe.html",
+      "facts": [
+        {
+          "label": "生年月日",
+          "value": "2000/12/20"
+        },
+        {
+          "label": "出身地",
+          "value": "東京都"
+        },
+        {
+          "label": "趣味・特技",
+          "value": "クラシックバレエ、お散歩、カメラ、神社巡り、サウナ、ご当地銘菓を味わう"
+        },
+        {
+          "label": "資格",
+          "value": "熱中症対策アドバイザー"
+        }
+      ]
+    },
+    "matsumoto": {
+      "name": "松本 真央",
+      "reading": "まつもと まお",
+      "source_url": "https://weathernews.jp/wnl/caster/matsumoto.html",
+      "facts": [
+        {
+          "label": "生年月日",
+          "value": "2001/3/23"
+        },
+        {
+          "label": "出身地",
+          "value": "東京都"
+        },
+        {
+          "label": "趣味・特技",
+          "value": "舞台観劇、ダンス、散歩"
+        },
+        {
+          "label": "資格",
+          "value": "熱中症対策アドバイザー"
+        }
+      ]
+    },
+    "sato": {
+      "name": "佐藤 剣慎",
+      "reading": "さとう けんしん",
+      "source_url": "https://weathernews.jp/wnl/caster/sato.html",
+      "facts": [
+        {
+          "label": "生年月日",
+          "value": "1999/5/5"
+        },
+        {
+          "label": "出身地",
+          "value": "新潟県長岡市"
+        },
+        {
+          "label": "趣味・特技",
+          "value": "マラソン、トレイルランニング、２重跳び1000回"
+        },
+        {
+          "label": "資格",
+          "value": "熱中症対策アドバイザー"
+        }
+      ]
+    }
+  }
+}

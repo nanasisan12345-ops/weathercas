@@ -55,6 +55,8 @@ export const liveSchema = z.object({
 }).refine(value => !['listed', 'live'].includes(value.state) || value.video !== null);
 export type LiveData = z.infer<typeof liveSchema>;
 export type Dataset = { index: DataIndex; records: Appearance[]; status: CollectionStatus };
+export const scheduleSchema = z.object({ schema_version: z.literal(1), checked_at: timestamp, records: z.array(recordSchema).min(1).max(100) });
+export type CurrentSchedule = z.infer<typeof scheduleSchema>;
 
 async function getJSON<T>(path: string, schema: z.ZodType<T>, endpoint?: string): Promise<T> {
   const response = await fetch(endpoint || `${import.meta.env.BASE_URL}data/${path}`, {
@@ -85,6 +87,18 @@ export async function loadDataset(): Promise<Dataset> {
   return { index, status, records: records.sort((a, b) => a.id.localeCompare(b.id)) };
 }
 export const loadLive = () => getJSON('live.json', liveSchema, import.meta.env.VITE_LIVE_ENDPOINT);
+export const loadSchedule = () => getJSON('schedule.json', scheduleSchema,
+  import.meta.env.VITE_LIVE_ENDPOINT?.replace('/live.json', '/schedule.json'));
+export function currentScheduleRows(saved: Appearance[], current: CurrentSchedule | null, now = Date.now()): Appearance[] {
+  if (!current || !fresh(current.checked_at, now, 10)) return saved;
+  const merged = new Map(saved.map(row => [row.id, row]));
+  for (const row of current.records) {
+    const old = merged.get(row.id);
+    merged.set(row.id, { ...row, confirmed: old?.confirmed || null, changes: old?.changes || [],
+      status: old?.confirmed ? 'confirmed' : row.status, youtube_video_id: old?.youtube_video_id || null });
+  }
+  return [...merged.values()].sort((a, b) => a.id.localeCompare(b.id));
+}
 
 export function jstDate(now = new Date()): string {
   return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo', year: 'numeric', month: '2-digit', day: '2-digit' }).format(now);

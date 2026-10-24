@@ -15,7 +15,13 @@ const ACTIVE = ['preparing', 'recording', 'finalizing'];
 const API = `${import.meta.env.BASE_URL}api/recording`;
 function time(seconds: number) { return [Math.floor(seconds / 3600), Math.floor(seconds / 60) % 60, Math.floor(seconds) % 60].map(value => String(value).padStart(2, '0')).join(':'); }
 
-export default function DirectRecording({ videoID }: { videoID: string | null }) {
+export function isLocalRecordingOrigin() {
+  return window.location.protocol === 'http:' && ['127.0.0.1', 'localhost'].includes(window.location.hostname);
+}
+export default function DirectRecording(props: { videoID: string | null }) {
+  return isLocalRecordingOrigin() ? <LocalRecording {...props} /> : null;
+}
+function LocalRecording({ videoID }: { videoID: string | null }) {
   const [job, setJob] = useState<Job | null>(null), [supported, setSupported] = useState<boolean | null>(null);
   const [error, setError] = useState(''), [connectionError, setConnectionError] = useState(''), [busy, setBusy] = useState(false);
   const token = useRef(''), locked = useRef(false), alive = useRef(true), mutation = useRef(0);
@@ -55,10 +61,10 @@ export default function DirectRecording({ videoID }: { videoID: string | null })
   }
   const labels = { preparing: '録画準備中', recording: '録画中', finalizing: '停止処理中', completed: '保存可能', failed: '録画失敗', cancelled: '中止' };
   const fileURL = job ? `${API}/${job.id}/file` : '';
+  if (supported === false) return null;
   return <section id="capture" className="capture-widget"><div className="capture-heading"><h3>配信を元画質で録画</h3><span className={`badge ${job?.state === 'recording' ? 'live' : 'neutral'}`}>{job ? labels[job.state] : '待機中'}</span></div>
     <div className="capture-card"><div className="capture-controls"><button className="primary" onClick={() => void action('start')} disabled={!supported || !videoID || active || busy}>録画開始</button><button className="stop-recording" onClick={() => void action('stop')} disabled={!active || job?.state === 'finalizing' || busy}>{job?.state === 'preparing' ? '準備を中止' : '録画停止'}</button><output className="capture-timer" aria-label="録画経過時間">{time(job?.seconds || 0)}</output><span className="small muted">{((job?.bytes || 0) / 1024 / 1024).toFixed(1)} MB</span></div>
       <p className="small muted capture-quality">MP4・再圧縮なし / 最大1080p・60fps{job?.width && job.height && ` / 取得画質：${job.width}×${job.height}・${Number((job.fps || 0).toFixed(2))}fps`}</p>
-      {supported === false && <p className="notice-inline">元画質での録画はWindowsのローカル起動版で利用できます。run.batでサイトを起動してください。</p>}
       {!videoID && supported && !active && <p className="small muted">現在の公式配信を確認してから録画できます。</p>}
       {job?.message && <p className="capture-message" role="status">{job.message}</p>}
       {(error || connectionError || job?.error) && <p className="capture-error" role="alert">{error || connectionError || job?.error}</p>}

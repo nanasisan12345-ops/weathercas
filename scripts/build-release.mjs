@@ -10,10 +10,11 @@ const target = path.join(root, 'release', name);
 await mkdir(target, { recursive: true });
 await build({ root, define: { 'import.meta.env.VITE_LIVE_ENDPOINT': 'undefined' }, build: { outDir: path.join(target, 'site') } });
 await mkdir(path.join(target, 'scripts'));
-for (const name of ['serve-static.mjs', 'live-source.mjs', 'live-resolver.mjs', 'weather-source.mjs', 'recording-api.mjs', 'recording-service.mjs', 'recording-format.mjs', 'recording-tools.mjs']) {
+for (const name of ['serve-static.mjs', 'live-source.mjs', 'live-resolver.mjs', 'schedule-source.mjs', 'weather-source.mjs', 'recording-api.mjs', 'recording-service.mjs', 'recording-format.mjs', 'recording-tools.mjs']) {
   await cp(path.join(root, 'scripts', name), path.join(target, 'scripts', name));
 }
 await mkdir(path.join(target, 'config'));
+await cp(path.join(root, 'config/casters.json'), path.join(target, 'config/casters.json'));
 await cp(path.join(root, 'config/recording-tools.json'), path.join(target, 'config/recording-tools.json'));
 await cp(path.join(root, 'DATA_SOURCES.md'), path.join(target, 'DATA_SOURCES.md'));
 await writeFile(path.join(target, 'run.bat'), '@echo off\r\nsetlocal\r\ncd /d "%~dp0"\r\nset "NODE_USE_SYSTEM_CA=1"\r\nset "TEMP=%~dp0Data\\temp"\r\nset "TMP=%~dp0Data\\temp"\r\nif not exist "%TEMP%" mkdir "%TEMP%"\r\nnode scripts\\serve-static.mjs %*\r\npause\r\n');
@@ -27,7 +28,9 @@ Windows 64bitとNode.js 24以降を用意し、run.batをダブルクリック�
 
 写真・天気図・YouTube・チャットにはインターネット接続が必要です。専用Edgeのブラウザー状態・初回ダウンロード先・ログ・キャッシュはこのフォルダー内のDataです。既存ブラウザー設定は上書きしません。Dataは初期配布には含まず、起動時に作成します。
 
-予定はビルド時点のデータです。起動中のNodeサーバーは配信先を60秒キャッシュで確認し、動画とチャットを更新します。天気情報は32種類から表示するカードを選べます。「表示・配置をカスタマイズ」で表示・順番・幅を変更し、この専用Edgeに保存します。公式データは表示中のカードだけ5分ごとに確認します。このフォルダー単独では予定の定期収集を実行しません。検索エンジン向けにnoindexを指定していますが、アクセス制限はありません。exe・_internalはWebアプリのため含みません。
+保存履歴はビルド時点のデータです。起動中のNodeサーバーは配信先を60秒キャッシュで確認し、動画とチャットを更新します。現在の番組表も60秒キャッシュで取得し、画面は5分ごととタブ復帰時に確認します。現在予定の表示だけに反映し、保存履歴は書き換えません。配信タイトルから照合できたキャスターの写真・氏名・公式プロフィールも表示します。SNS投稿の埋め込みはありません。録画欄はlocalhost/127.0.0.1のHTTPローカル起動時だけ表示し、公開サイトではボタンや起動案内を表示しません。
+
+天気情報は32種類から表示するカードを選べます。「表示・配置をカスタマイズ」で表示・順番・幅を変更し、この専用Edgeに保存します。公式データは表示中のカードだけ5分ごとに確認します。このフォルダー単独では履歴の定期収集を実行しません。検索エンジン向けにnoindexを指定していますが、アクセス制限はありません。exe・_internalはWebアプリのため含みません。
 `);
 const files = [];
 async function audit(folder) {

@@ -5,6 +5,7 @@ const records = fixture.partition.records;
 const count = records.length;
 
 test.beforeEach(async ({ page }, info) => {
+  await page.route('**/data/schedule.json', route => route.fulfill({ status: 503, json: {} }));
   await page.route('https://www.youtube-nocookie.com/embed/**', route => route.fulfill({ contentType: 'text/html', body: '<p>Official player fixture</p>' }));
   await page.route('https://www.youtube.com/live_chat**', route => route.fulfill({ contentType: 'text/html', body: '<p>Official chat fixture</p>' }));
   await page.route('**/api/recording', route => route.fulfill({ json: { supported: true, token: 'a'.repeat(64), job: null } }));
@@ -33,7 +34,7 @@ test('fixture-backed search, filters, navigation, and statistics', async ({ page
   await expect(page.locator('.results-heading')).toContainText(`${count}件の記録`);
   await expect(page.locator('.stats-overview')).toHaveCount(0);
   await expect(page.getByRole('heading', { name: '取得状況とデータの出典' })).toHaveCount(0);
-  await expect(page.locator('iframe')).toHaveCount(2);
+  await expect(page.locator('.player iframe, .chat-content iframe')).toHaveCount(2);
   await page.getByRole('link', { name: '出演履歴', exact: true }).click();
   await page.getByRole('searchbox', { name: '出演履歴を検索' }).fill('小川千奈');
   await expect(page.locator('#archive .record-row')).toHaveCount(1);
@@ -76,7 +77,7 @@ test('video and matching official chat are displayed automatically on page load'
   await page.route('https://www.youtube-nocookie.com/embed/**', route => route.fulfill({ contentType: 'text/html', body: '<p>Official player fixture</p>' }));
   await page.route('https://www.youtube.com/live_chat**', route => route.fulfill({ contentType: 'text/html', body: '<p>Official chat fixture</p>' }));
   await page.goto('./');
-  await expect(page.locator('iframe')).toHaveCount(2);
+  await expect(page.locator('.player iframe, .chat-content iframe')).toHaveCount(2);
   await expect(page.getByRole('button', { name: '公式チャットを表示' })).toHaveCount(0);
   await expect(page.locator('nav[aria-label="メインナビゲーション"] a')).toHaveText(['ホーム', 'ライブ視聴', '天気・台風', '出演番組表', '出演履歴', '出演統計']);
   await expect(page.getByRole('link', { name: '録画する', exact: true })).toHaveCount(0);
@@ -94,6 +95,7 @@ test('caster photographs load from official sources and fail to a neutral placeh
   await expect.poll(() => photo.evaluate((img: HTMLImageElement) => img.complete && img.naturalWidth > 0)).toBe(true);
   await page.route('**/wnl/caster/images/caster/matsumoto.webp*', route => route.abort());
   await page.reload();
+  await page.locator('.today-card').first().scrollIntoViewIfNeeded();
   await expect(page.locator('.today-card [aria-label="松本 真央の写真を表示できません"]')).toBeVisible();
 });
 
