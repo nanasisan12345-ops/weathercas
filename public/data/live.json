@@ -1,16 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-24T09:35:14+09:00",
+  "checked_at": "2026-10-24T13:59:18+09:00",
   "state": "listed",
   "video": {
-    "id": "TCqEcChcc4w",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月24日(土) ／台風30号 沖縄は強雨や暴風、高波に警戒〈ウェザーニュースLiVEサンシャイン・魚住茉由／山口剛央〉",
+    "id": "RQlbmMiDumk",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月24日(土)／台風30号 先島諸島は暴風雨に厳重警戒〈ウェザーニュースLiVEアフタヌーン・山岸愛梨／内藤邦裕〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-21T19:13:23+09:00"
+    "published_at": "2026-10-23T11:13:32+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "PdRATLR557Y",
+      "title": "【海外地震】南太平洋 バヌアツ諸島でM7.2の地震 日本への津波の影響なし  M7.2 Earthquake Hits WNW of Port-Olry, Vanuatu",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-24T13:28:53+09:00"
+    },
     {
       "id": "sCovOFCsuZE",
       "title": "【雨情報】西日本～関東は局地的な雨の強まりに注意 三重県で1時間80ミリ以上の猛烈な雨を観測",
@@ -34,13 +40,7 @@
       "title": "【台風30号 2026】先島諸島付近に停滞 長引く影響に要警戒／西・東日本でも大雨のおそれ",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-24T00:54:24+09:00"
-    },
-    {
-      "id": "TOQQoI43U5s",
-      "title": "【週間天気予報】来週中頃に寒気が南下 全国的に寒暖差大／札幌で初雪の可能性も",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-23T22:57:22+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-24T09:35:14+09:00"
+  "archives_checked_at": "2026-10-24T13:59:18+09:00"
 }
