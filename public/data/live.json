@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-25T06:34:01+09:00",
+  "checked_at": "2026-10-25T08:40:53+09:00",
   "state": "listed",
   "video": {
-    "id": "qfqM6pviSOs",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月25日(日)／東北から西日本は広く雨 局地的に激しい雨の降るおそれ　〈ウェザーニュースLiVEモーニング・魚住茉由／山口剛央〉",
+    "id": "Kb22tn-gmbY",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月25日(日)／東北から西日本は広く雨 局地的に激しい雨の降るおそれ〈ウェザーニュースLiVEサンシャイン・ 松本真央／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-24T01:21:06+09:00"
+    "published_at": "2026-10-24T07:40:31+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "Nab0nmuBD44",
+      "title": "【雨情報】東北〜西日本の広い範囲で雨　局地的には激しい雨の降るおそれ",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-25T07:00:29+09:00"
+    },
+    {
+      "id": "LgOeLfcOreg",
+      "title": "【台風31号 2026】暴風域を伴い非常に強い勢力に発達へ 西へ進む予想（25日6時更新）",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-25T06:37:06+09:00"
+    },
     {
       "id": "NiK4H0fmK-I",
       "title": "【台風30号 2026】台風本体よりも前線による大雨に警戒 西日本から東日本で雨雲発達（25日6時更新）",
@@ -28,19 +40,7 @@
       "title": "【台風30号 2026】台風の影響で秋雨前線が活発に  西・東日本は大雨のおそれ（24日21時更新）",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-25T00:10:57+09:00"
-    },
-    {
-      "id": "AuAnQAvt4i4",
-      "title": "【平地でも雪か】来週は寒気南下で雪エリア拡大　東京は木枯らし1号の可能性",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-24T22:35:09+09:00"
-    },
-    {
-      "id": "DToIb5n-ILw",
-      "title": "【明日の天気予報】前線活発化　西日本や東日本では局地的に激しい雨のおそれ",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-24T21:24:55+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-25T06:34:01+09:00"
+  "archives_checked_at": "2026-10-25T08:40:53+09:00"
 }
