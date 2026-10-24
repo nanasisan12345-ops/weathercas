@@ -1,16 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-24T07:07:22+09:00",
+  "checked_at": "2026-10-24T09:35:14+09:00",
   "state": "listed",
   "video": {
-    "id": "8DYqk2IzO_Y",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月24日(土) ／台風30号 先島諸島は暴風雨に厳重警戒〈ウェザーニュースLiVEモーニング・岡本結子リサ／山口剛央〉",
+    "id": "TCqEcChcc4w",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月24日(土) ／台風30号 沖縄は強雨や暴風、高波に警戒〈ウェザーニュースLiVEサンシャイン・魚住茉由／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-23T01:13:36+09:00"
+    "published_at": "2026-10-21T19:13:23+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "sCovOFCsuZE",
+      "title": "【雨情報】西日本～関東は局地的な雨の強まりに注意 三重県で1時間80ミリ以上の猛烈な雨を観測",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-24T07:05:48+09:00"
+    },
     {
       "id": "H0hm85JR-mk",
       "title": "【台風31号 2026】台風31号(インファ)発生 13年ぶりの31号発生 今後の進路の変化に注意（24日5時更新）",
@@ -34,13 +40,7 @@
       "title": "【週間天気予報】来週中頃に寒気が南下 全国的に寒暖差大／札幌で初雪の可能性も",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-23T22:57:22+09:00"
-    },
-    {
-      "id": "aHpk-WH7gGE",
-      "title": "【週間天気予報】週明けにかけて西・東日本では大雨のおそれ",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-23T20:03:34+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-24T07:07:22+09:00"
+  "archives_checked_at": "2026-10-24T09:35:14+09:00"
 }
