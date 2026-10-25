@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-25T10:37:31+09:00",
+  "checked_at": "2026-10-25T15:47:56+09:00",
   "state": "listed",
   "video": {
-    "id": "Kb22tn-gmbY",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月25日(日)／東北から西日本は広く雨 局地的に激しい雨の降るおそれ〈ウェザーニュースLiVEサンシャイン・ 松本真央／山口剛央〉",
+    "id": "hPq9LdURLxg",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月25日(日)／東北から西日本は広く雨 局地的に激しい雨の降るおそれ〈ウェザーニュースLiVEアフタヌーン・田辺真南葉／内藤邦裕〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-24T07:40:31+09:00"
+    "published_at": "2026-10-24T09:21:29+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "i53ce11qUdM",
+      "title": "【週刊地震情報】チベットでM7.0地震／小笠原諸島西方沖でM7.0の深発地震 異常震域がみられ東北でも揺れ",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-25T13:58:39+09:00"
+    },
+    {
+      "id": "_MKeDKhpLjY",
+      "title": "【小笠原諸島西方沖でM7.0の深発地震】震源から遠く離れた東北でも揺れた「異常震域」とは？",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-25T12:00:51+09:00"
+    },
     {
       "id": "Nab0nmuBD44",
       "title": "【雨情報】東北〜西日本の広い範囲で雨　局地的には激しい雨の降るおそれ",
@@ -28,19 +40,7 @@
       "title": "【台風30号 2026】台風本体よりも前線による大雨に警戒 西日本から東日本で雨雲発達（25日6時更新）",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-25T06:21:27+09:00"
-    },
-    {
-      "id": "Svwy5RApjFY",
-      "title": "【台風31号 2026】マーシャル諸島を北へ  今後の進路の変化に注意（24日21時更新）",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-25T01:06:16+09:00"
-    },
-    {
-      "id": "T0v2yVwXdMQ",
-      "title": "【台風30号 2026】台風の影響で秋雨前線が活発に  西・東日本は大雨のおそれ（24日21時更新）",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-25T00:10:57+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-25T10:37:31+09:00"
+  "archives_checked_at": "2026-10-25T15:47:56+09:00"
 }
