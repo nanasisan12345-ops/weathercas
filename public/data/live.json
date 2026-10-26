@@ -1,16 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-26T10:28:05+09:00",
+  "checked_at": "2026-10-26T15:41:01+09:00",
   "state": "listed",
   "video": {
-    "id": "xJEJ3Ulh9Yo",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月26日(月) ／西日本・東日本は雨 局地的な強まりに注意〈ウェザーニュースLiVEサンシャイン・ 佐藤剣慎／有賀哲夫〉",
+    "id": "eAhFV39M1Zs",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月26日(月)／西日本から東北南部の広い範囲で雨〈ウェザーニュースLiVEアフタヌーン・青原桃香／宇野沢達也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-25T06:23:57+09:00"
+    "published_at": "2026-10-25T08:55:42+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "koo4VhkrvE0",
+      "title": "【週間天気予報】強い寒気南下 北日本を中心に荒天で平地でも雪 東京など木枯らし一号か",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-26T13:38:25+09:00"
+    },
     {
       "id": "PqXMCrI2DGE",
       "title": "【服装注意】関東や東海は昼間も上がらず肌寒い一日に　前日より気温大幅ダウン",
@@ -34,13 +40,7 @@
       "title": "【台風31号 2026】発達し今後非常に強い勢力へ 小笠原諸島方面へ近づく可能性も（25日22時更新）",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-25T23:59:42+09:00"
-    },
-    {
-      "id": "FrYv7aiDz3A",
-      "title": "【明日の天気】西日本や東日本で局地的に激しい雨のおそれ",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-25T22:38:21+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-26T10:28:05+09:00"
+  "archives_checked_at": "2026-10-26T15:41:01+09:00"
 }
