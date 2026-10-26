@@ -1,16 +1,34 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-26T15:41:01+09:00",
+  "checked_at": "2026-10-26T22:33:14+09:00",
   "state": "listed",
   "video": {
-    "id": "eAhFV39M1Zs",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月26日(月)／西日本から東北南部の広い範囲で雨〈ウェザーニュースLiVEアフタヌーン・青原桃香／宇野沢達也〉",
+    "id": "bvF1Butbed8",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月26日(月)20:00〜 ／西日本から東北南部の広い範囲で雨〈ウェザーニュースLiVEムーン・小林李衣奈／宇野沢達也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-25T08:55:42+09:00"
+    "published_at": "2026-10-25T23:25:04+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "ye8fvZSNYoo",
+      "title": "【初冬並みの寒気】週中頃は北日本で雪エリアが拡大／冬型強まり暴風に警戒",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-26T21:16:11+09:00"
+    },
+    {
+      "id": "41iCm9hX9do",
+      "title": "【台風31号 2026】非常に強い勢力へ発達し小笠原近海へ接近のおそれ（26日16時更新）",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-26T19:44:08+09:00"
+    },
+    {
+      "id": "DQ6sukyHI4c",
+      "title": "【明日の天気】冬型気圧配置へ　寒気流入し強風など荒天注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-10-26T17:37:39+09:00"
+    },
     {
       "id": "koo4VhkrvE0",
       "title": "【週間天気予報】強い寒気南下 北日本を中心に荒天で平地でも雪 東京など木枯らし一号か",
@@ -22,25 +40,7 @@
       "title": "【服装注意】関東や東海は昼間も上がらず肌寒い一日に　前日より気温大幅ダウン",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-10-26T09:47:34+09:00"
-    },
-    {
-      "id": "m4y7wC1aPvk",
-      "title": "【雨情報】元台風30号と前線の影響 東北南部～西日本の広範囲で雨 局地的には激しい雨に",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-26T07:05:57+09:00"
-    },
-    {
-      "id": "1TP7tGElby8",
-      "title": "【台風31号 2026】「非常に強い勢力」へ発達か 進路予想と小笠原接近の可能性　(26日6時更新)",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-26T06:10:13+09:00"
-    },
-    {
-      "id": "x_hvD1KSQ2Y",
-      "title": "【台風31号 2026】発達し今後非常に強い勢力へ 小笠原諸島方面へ近づく可能性も（25日22時更新）",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-25T23:59:42+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-26T15:41:01+09:00"
+  "archives_checked_at": "2026-10-26T22:33:14+09:00"
 }

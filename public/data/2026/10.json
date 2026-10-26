@@ -1080,7 +1080,7 @@
         "raw_caster_id": "kobayashi",
         "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
         "source_type": "official_schedule",
-        "source_checked_at": "2026-10-26T15:41:01+09:00"
+        "source_checked_at": "2026-10-26T22:33:14+09:00"
       },
       "confirmed": null,
       "status": "scheduled",
@@ -1100,7 +1100,7 @@
         "raw_caster_id": null,
         "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
         "source_type": "official_schedule",
-        "source_checked_at": "2026-10-26T15:41:01+09:00"
+        "source_checked_at": "2026-10-26T22:33:14+09:00"
       },
       "confirmed": null,
       "status": "unverified",
@@ -1120,7 +1120,7 @@
         "raw_caster_id": null,
         "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
         "source_type": "official_schedule",
-        "source_checked_at": "2026-10-26T15:41:01+09:00"
+        "source_checked_at": "2026-10-26T22:33:14+09:00"
       },
       "confirmed": null,
       "status": "unverified",
@@ -1140,7 +1140,7 @@
         "raw_caster_id": "fukuyoshi",
         "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
         "source_type": "official_schedule",
-        "source_checked_at": "2026-10-26T15:41:01+09:00"
+        "source_checked_at": "2026-10-26T22:33:14+09:00"
       },
       "confirmed": null,
       "status": "scheduled",
@@ -1160,7 +1160,7 @@
         "raw_caster_id": "okamoto2023",
         "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
         "source_type": "official_schedule",
-        "source_checked_at": "2026-10-26T15:41:01+09:00"
+        "source_checked_at": "2026-10-26T22:33:14+09:00"
       },
       "confirmed": null,
       "status": "scheduled",
@@ -1180,7 +1180,7 @@
         "raw_caster_id": "ogawa",
         "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
         "source_type": "official_schedule",
-        "source_checked_at": "2026-10-26T15:41:01+09:00"
+        "source_checked_at": "2026-10-26T22:33:14+09:00"
       },
       "confirmed": null,
       "status": "scheduled",
@@ -1200,7 +1200,7 @@
         "raw_caster_id": "kawabata",
         "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
         "source_type": "official_schedule",
-        "source_checked_at": "2026-10-26T15:41:01+09:00"
+        "source_checked_at": "2026-10-26T22:33:14+09:00"
       },
       "confirmed": null,
       "status": "scheduled",
@@ -1220,10 +1220,50 @@
         "raw_caster_id": "ailin",
         "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
         "source_type": "official_schedule",
-        "source_checked_at": "2026-10-26T15:41:01+09:00"
+        "source_checked_at": "2026-10-26T22:33:14+09:00"
       },
       "confirmed": null,
       "status": "scheduled",
+      "youtube_video_id": null,
+      "changes": []
+    },
+    {
+      "id": "2026-10-27T20:00",
+      "date_jst": "2026-10-27",
+      "slot_start_jst": "20:00",
+      "program": "ウェザーニュースLiVE・ムーン",
+      "date_basis": "rolling_schedule",
+      "role": "presenter",
+      "planned": {
+        "caster_id": "kobayashi",
+        "caster_name": "小林 李衣奈",
+        "raw_caster_id": "kobayashi",
+        "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
+        "source_type": "official_schedule",
+        "source_checked_at": "2026-10-26T22:33:14+09:00"
+      },
+      "confirmed": null,
+      "status": "scheduled",
+      "youtube_video_id": null,
+      "changes": []
+    },
+    {
+      "id": "2026-10-27T23:00",
+      "date_jst": "2026-10-27",
+      "slot_start_jst": "23:00",
+      "program": "ウェザーニュースLiVE",
+      "date_basis": "rolling_schedule",
+      "role": "presenter",
+      "planned": {
+        "caster_id": null,
+        "caster_name": null,
+        "raw_caster_id": null,
+        "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
+        "source_type": "official_schedule",
+        "source_checked_at": "2026-10-26T22:33:14+09:00"
+      },
+      "confirmed": null,
+      "status": "unverified",
       "youtube_video_id": null,
       "changes": []
     }
