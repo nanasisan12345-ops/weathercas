@@ -1,46 +1,46 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-26T22:33:14+09:00",
+  "checked_at": "2026-11-09T18:02:05+09:00",
   "state": "listed",
   "video": {
-    "id": "bvF1Butbed8",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年10月26日(月)20:00〜 ／西日本から東北南部の広い範囲で雨〈ウェザーニュースLiVEムーン・小林李衣奈／宇野沢達也〉",
+    "id": "-pmkvRN-6VQ",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月9日(月) ／広い範囲で雨や雪 関東や北日本は初冬の寒さ〈ウェザーニュースLiVEイブニング・小林李衣奈／本田竜也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-10-25T23:25:04+09:00"
+    "published_at": "2026-11-08T20:11:15+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
     {
-      "id": "ye8fvZSNYoo",
-      "title": "【初冬並みの寒気】週中頃は北日本で雪エリアが拡大／冬型強まり暴風に警戒",
+      "id": "PEAVv1ckCLQ",
+      "title": "【寒さ対策を】あすも北海道は厳しい寒さ続く  札幌や旭川などで真冬日予想",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-26T21:16:11+09:00"
+      "published_at": "2026-11-09T17:28:02+09:00"
     },
     {
-      "id": "41iCm9hX9do",
-      "title": "【台風31号 2026】非常に強い勢力へ発達し小笠原近海へ接近のおそれ（26日16時更新）",
+      "id": "hXLtxDqSr8w",
+      "title": "【茨城県沖でM5.9の地震】関東や東北で震度3の地震 津波の心配なし",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-26T19:44:08+09:00"
+      "published_at": "2026-11-09T14:16:41+09:00"
     },
     {
-      "id": "DQ6sukyHI4c",
-      "title": "【明日の天気】冬型気圧配置へ　寒気流入し強風など荒天注意",
+      "id": "pwI8-zOZOvk",
+      "title": "【週間天気予報】週後半は季節逆戻り 寒気後退で気温上昇 東京や大阪などで20℃超え予想",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-26T17:37:39+09:00"
+      "published_at": "2026-11-09T13:22:05+09:00"
     },
     {
-      "id": "koo4VhkrvE0",
-      "title": "【週間天気予報】強い寒気南下 北日本を中心に荒天で平地でも雪 東京など木枯らし一号か",
+      "id": "20JDNHWCRFI",
+      "title": "北海道は強い寒気流入　夜は雷を伴った強い雪に注意",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-26T13:38:25+09:00"
+      "published_at": "2026-11-09T10:20:42+09:00"
     },
     {
-      "id": "PqXMCrI2DGE",
-      "title": "【服装注意】関東や東海は昼間も上がらず肌寒い一日に　前日より気温大幅ダウン",
+      "id": "ymFWBCvNOPo",
+      "title": "【雨情報】関東は朝の通勤時間帯が雨のピーク 気温上がらず真冬並みの寒さ",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-10-26T09:47:34+09:00"
+      "published_at": "2026-11-09T06:29:02+09:00"
     }
   ],
-  "archives_checked_at": "2026-10-26T22:33:14+09:00"
+  "archives_checked_at": "2026-11-09T18:02:05+09:00"
 }
