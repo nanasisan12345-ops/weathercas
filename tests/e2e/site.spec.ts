@@ -205,7 +205,8 @@ for (const evening of ['2026-10-20', '2026-10-31', '2026-12-31', '2027-02-28', '
   });
 }
 
-test('official forecast and typhoon images load and have useful error links', async ({ page }) => {
+test('forecast and typhoon cards display images and link to the official site on error', async ({ page }) => {
+  await page.route('**/{JAPAN.today,multi_onebox}.png*', route => route.fulfill({ path: 'tests/fixtures/weather-map.svg' }));
   await page.goto('./#weather');
   await expect(page.getByRole('heading', { name: '全国の天気・台風情報' })).toBeInViewport();
   const maps = page.locator('.weather-map img');

@@ -11,6 +11,8 @@ test.beforeEach(async ({ page }) => {
   await page.route('**/data/live.json', r => r.fulfill({ json: live }));
   await page.route('https://www.youtube-nocookie.com/embed/**', r => r.fulfill({ body: '<p>Player fixture</p>' }));
   await page.route('https://www.youtube.com/live_chat**', r => r.fulfill({ body: '<p>Chat fixture</p>' }));
+  await page.route(/^https:\/\/(?:(?:site|gvs|memgvs-cdn|mws\.cdn|tile)\.weathernews\.jp|cyberjapandata\.gsi\.go\.jp)\//,
+    r => r.request().resourceType() === 'image' ? r.fulfill({ path: 'tests/fixtures/weather-map.svg' }) : r.fallback());
   await page.route('**/data/weather/*.json', r => {
     const id = new URL(r.request().url()).pathname.split('/').pop()!.replace('.json', '');
     return r.fulfill({ json: data[id] });
