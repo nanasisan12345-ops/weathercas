@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-10T04:12:55+09:00",
+  "checked_at": "2026-11-10T10:31:34+09:00",
   "state": "listed",
   "video": {
-    "id": "R9YXmm3rzR8",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月9日(月)23:00〜 ／北日本は厳しい寒さ　関東以西の天気は回復傾向〈ウェザーニュースLiVE〉",
+    "id": "Eo12gwkrqUU",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月10日(火) ／北日本は厳しい寒さ　関東以西の天気は回復傾向〈ウェザーニュースLiVEサンシャイン・岡本結子リサ／飯島栄一〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-08T23:12:47+09:00"
+    "published_at": "2026-11-09T05:15:26+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "If3tE8IrUBA",
+      "title": "【関東の天気】雨はいつ止む？前線南下で昼前後に再び雨の可能性 北東風で冬の寒さ続く",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-10T06:57:29+09:00"
+    },
+    {
+      "id": "vnGU93PnCb0",
+      "title": "【台風32号 2026】小笠原諸島は荒天・高波に警戒（10日3時更新）",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-10T06:07:40+09:00"
+    },
     {
       "id": "5eA07XeeS-8",
       "title": "【台風32号 2026】小笠原諸島は荒天に注意　進路は東へ転向（11月9日21時更新）",
@@ -28,19 +40,7 @@
       "title": "【関東の天気】あすも関東は冬の寒さが続く　朝は冷たい雨が残る",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-09T20:18:53+09:00"
-    },
-    {
-      "id": "7yB_27m4bRg",
-      "title": "【台風32号 2026】強い勢力で小笠原諸島に近づく可能性　荒天に注意（11月9日15時更新）",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-09T18:26:53+09:00"
-    },
-    {
-      "id": "PEAVv1ckCLQ",
-      "title": "【寒さ対策を】あすも北海道は厳しい寒さ続く  札幌や旭川などで真冬日予想",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-09T17:28:02+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-10T04:12:55+09:00"
+  "archives_checked_at": "2026-11-10T10:31:34+09:00"
 }

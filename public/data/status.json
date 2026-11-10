@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T04:12:55+09:00",
+  "generated_at": "2026-11-10T10:31:34+09:00",
   "sources": [
     {
       "id": "schedule",
       "label": "公式番組表",
       "url": "https://site.weathernews.jp/site/live/json/timetable.json",
-      "checked_at": "2026-11-10T04:12:55+09:00",
-      "last_success_at": "2026-11-10T04:12:55+09:00",
+      "checked_at": "2026-11-10T10:31:34+09:00",
+      "last_success_at": "2026-11-10T10:31:34+09:00",
       "last_failure_at": null,
       "count": 10,
       "status": "ok",
@@ -17,8 +17,8 @@
       "id": "videos",
       "label": "公式動画一覧",
       "url": "https://site.weathernews.jp/site/live/json/list.json",
-      "checked_at": "2026-11-10T04:12:55+09:00",
-      "last_success_at": "2026-11-10T04:12:55+09:00",
+      "checked_at": "2026-11-10T10:31:34+09:00",
+      "last_success_at": "2026-11-10T10:31:34+09:00",
       "last_failure_at": null,
       "count": 1,
       "status": "ok",
@@ -28,8 +28,8 @@
       "id": "embed",
       "label": "YouTube公式埋め込み",
       "url": "https://www.youtube.com/oembed",
-      "checked_at": "2026-11-10T04:12:55+09:00",
-      "last_success_at": "2026-11-10T04:12:55+09:00",
+      "checked_at": "2026-11-10T10:31:34+09:00",
+      "last_success_at": "2026-11-10T10:31:34+09:00",
       "last_failure_at": null,
       "count": 1,
       "status": "ok",
@@ -40,15 +40,26 @@
       "label": "YouTube LIVE判定",
       "url": "https://developers.google.com/youtube/v3/",
       "status": "unconfigured",
-      "checked_at": "2026-11-10T04:12:55+09:00",
+      "checked_at": "2026-11-10T10:31:34+09:00",
       "last_success_at": null,
       "last_failure_at": null,
       "count": 0,
       "message": "APIキー未設定。現在LIVEとは断定しません。"
+    },
+    {
+      "id": "broadcast_reference",
+      "label": "過去の番組表（みのりん）",
+      "url": "https://minorin.jp/wnl/caster.cgi",
+      "checked_at": "2026-11-10T10:31:34+09:00",
+      "last_success_at": "2026-11-10T10:31:34+09:00",
+      "last_failure_at": null,
+      "count": 0,
+      "status": "ok",
+      "message": "取得成功"
     }
   ],
   "quality": {
-    "scheduled": 56,
+    "scheduled": 58,
     "confirmed": 0,
     "unverified": 19,
     "changes": 2
