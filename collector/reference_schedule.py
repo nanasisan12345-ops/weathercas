@@ -1,6 +1,7 @@
 """Import historical schedule facts separately from official observations."""
 import argparse
 from calendar import monthrange
+from collections import defaultdict
 from datetime import date, datetime, timedelta
 from pathlib import Path
 import re
@@ -78,9 +79,20 @@ def read_month(start, end, fetch=fetch_reference):
     parser.close()
     if tuple(parser.headers[:6]) != REGULAR_SLOTS:
         raise ValueError("reference column headers changed")
-    rows = [{"date_jst": day, "slot_start_jst": slot, **people}
-            for (day, slot), people in sorted(parser.records.items())
-            if start.isoformat() <= day <= end.isoformat()]
+    videos = defaultdict(set)
+    for day, slot, video_id in parser.entries:
+        if slot in REGULAR_SLOTS:
+            videos[day, slot].add(video_id)
+    rows = []
+    for day, slot in sorted(parser.records.keys() | {key for key, ids in videos.items() if len(ids) == 1}):
+        if not start.isoformat() <= day <= end.isoformat():
+            continue
+        people = parser.records.get((day, slot), {"casters": [], "forecasters": []})
+        row = {"date_jst": day, "slot_start_jst": slot, **people}
+        ids = videos[day, slot]
+        if len(ids) == 1:
+            row["video_id"] = next(iter(ids))
+        rows.append(row)
     if not rows:
         raise ValueError("no reference slots found")
     return rows

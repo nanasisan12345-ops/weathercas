@@ -20,6 +20,21 @@ FIXTURES = Path(__file__).parent / "fixtures"
 
 
 class ScheduleTests(unittest.TestCase):
+    def test_reference_schedule_keeps_only_unambiguous_slot_video_links(self):
+        header = ''.join(f'<td>{slot}-</td>' for slot in ['05:00', '08:00', '11:00', '14:00', '17:00', '20:00'])
+        def thumbnail(video_id):
+            return f'<a href="https://www.youtube.com/watch?v={video_id}&amp;t=1800"><img></a>'
+        html = (f'<tr class="wnlList"><td>日付</td>{header}</tr>'
+                f'<tr class="wnlList"><td>2026-10-01<br>{thumbnail("dayonlylink")}</td>'
+                f'<td>{thumbnail("slotvideo01")}<a href="https://www.youtube.com/watch?v=crosstalk01">クロス</a></td>'
+                f'<td><div style="background-color: coral">角田奈緒子</div>'
+                f'{thumbnail("ambiguous01")}{thumbnail("ambiguous02")}</td></tr>')
+        day = date(2026, 10, 1)
+        self.assertEqual(read_month(day, day, fetch=lambda _: html), [
+            {'date_jst': '2026-10-01', 'slot_start_jst': '05:00', 'casters': [], 'forecasters': [], 'video_id': 'slotvideo01'},
+            {'date_jst': '2026-10-01', 'slot_start_jst': '08:00', 'casters': ['角田奈緒子'], 'forecasters': []},
+        ])
+
     def test_reference_schedule_reads_presenters_without_requiring_a_video(self):
         header = ''.join(f'<td>{slot}-</td>' for slot in ['05:00', '08:00', '11:00', '14:00', '17:00', '20:00'])
         html = (f'<tr class="wnlList"><td>日付</td>{header}</tr>'

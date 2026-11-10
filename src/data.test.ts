@@ -41,10 +41,17 @@ describe('search, route, and separated statistics', () => {
     expect(filterRecords(partition.records, { ...route, year: '2025' })).toHaveLength(0);
     expect(filterRecords(partition.records, { ...route, q: '存在しない名前' })).toHaveLength(0);
   });
-  it('does not turn old plans into actual appearances', () => {
-    expect(aggregate(partition.records, 'confirmed').total).toBe(0);
-    const plan = aggregate(partition.records, 'scheduled');
-    expect(plan.total).toBe(partition.records.filter(r => r.status === 'scheduled').length);
-    expect(plan.weekday.reduce((sum, [, n]) => sum + n, 0)).toBe(plan.total);
+  it('counts each dated program slot once and reports the counted date range', () => {
+    const morning = { date: '2026-10-20', slot: '05:00', program: 'モーニング', names: ['松本 真央'] };
+    const stats = aggregate([
+      { date: '2026-10-25', slot: '08:00', program: 'サンシャイン', names: ['小川 千奈'] },
+      morning, { ...morning, names: ['松本 真央', '小川 千奈'] },
+      { ...morning, date: '2026-10-01', names: [] },
+    ]);
+    expect(stats.total).toBe(2);
+    expect(stats.from).toBe('2026-10-20');
+    expect(stats.through).toBe('2026-10-25');
+    expect(stats.caster).toEqual([['小川 千奈', 2], ['松本 真央', 1]]);
+    expect(stats.weekday.reduce((sum, [, n]) => sum + n, 0)).toBe(stats.total);
   });
 });

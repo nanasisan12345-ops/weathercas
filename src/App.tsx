@@ -4,11 +4,11 @@ import CasterSocials from './CasterSocials';
 import DirectRecording, { isLocalRecordingOrigin } from './DirectRecording';
 import LiveChat from './LiveChat';
 import LiveCaster from './LiveCaster';
-import MonthlySchedule from './MonthlySchedule';
+import MonthlySchedule, { entryCasters, mergeEntries } from './MonthlySchedule';
 import ThemeToggle from './ThemeToggle';
 import WeatherPanels from './WeatherPanels';
 import { aggregate, currentScheduleRows, filterRecords, fresh, jstDate, livePresentation, loadDataset, loadLive, loadSchedule,
-  loadReferenceIndex, loadReferenceMonth, normalize, parseRoute, programsBySlot, routeHash, shiftDate, shortProgram, showTime,
+  loadReferenceIndex, loadReferenceMonth, normalize, otherPrograms, parseRoute, programsBySlot, routeHash, shiftDate, shortProgram, showTime,
   type Appearance, type CurrentSchedule, type Dataset, type LiveData, type ReferenceRecord, type Route } from './data';
 
 const BASE = import.meta.env.BASE_URL;
@@ -69,7 +69,7 @@ function RecordRow({ row, onCaster, compact = false }: { row: Appearance; onCast
 function Bars({ title, items }: { title: string; items: [string, number][] }) {
   const max = Math.max(1, ...items.map(([, count]) => count));
   return <article className="card chart-card"><h3>{title}</h3>{items.length ? <div className="bars" role="list">{items.map(([label, count]) => <div className="bar-row" role="listitem" key={label}>
-    <span className="bar-label">{label.replace(/^ウェザーニュースLiVE[・\s]*/, '') || label}</span><div className="bar-track" aria-hidden="true"><div style={{ width: `${count / max * 100}%` }} /></div><strong>{count}<small>回</small></strong>
+    <span className="bar-label">{label.replace(/^ウェザーニュースLiVE[・\s]*/, '') || label}</span><div className="bar-track" aria-hidden="true"><div style={{ width: `${count / max * 100}%` }} /></div><strong>{count}<small>枠</small></strong>
   </div>)}</div> : <p className="muted">集計対象の記録がありません。</p>}</article>;
 }
 
@@ -153,8 +153,15 @@ export default function App() {
   const dayReferences = references.filter(row => row.date_jst === route.date &&
     !covered.has(row.slot_start_jst + programsBySlot.get(row.slot_start_jst)));
   const filtered = filterRecords(rows, route, data?.index.casters);
-  const stats = aggregate(filtered, route.stats), presentation = livePresentation(live, now);
+  const presentation = livePresentation(live, now);
   const casters = data?.index.casters || [];
+  const monthEntries = mergeEntries(rows, filtered, videos, references, route, casters);
+  const casterNames = new Map(casters.map(caster => [normalize(caster.name), caster.name]));
+  const stats = aggregate(monthEntries.map(entry => ({
+    date: entry.date, slot: entry.slot, program: entry.program,
+    names: entryCasters(entry).map(name => casterNames.get(normalize(name)) || name),
+  })));
+  const monthLabel = selectedMonth.replace('-', '年') + '月';
   const knownCasterIds = new Set(rows.flatMap(row => [row.planned.caster_id, row.confirmed?.caster_id]));
   const videoCasters = new Set(videos.map(video => normalize(video.caster_name || '')));
   const referenceCasters = new Map(references.flatMap(row => row.casters.map(name => [normalize(name), name] as const)));
@@ -172,7 +179,7 @@ export default function App() {
   }
   const stale = !data || !fresh(data.status.generated_at, now);
   const currentScheduleFresh = currentSchedule !== null && fresh(currentSchedule.checked_at, now, 10);
-  const casterLink = (id: string) => update({ view: 'archive', caster: id, q: '', status: '', program: '', month: '', year: '' });
+  const casterLink = (id: string) => update({ view: 'archive', caster: id, q: '', program: '', month: '', year: '' });
   const hasFailures = data?.status.sources.some(source => source.status === 'failed');
   const healthLabel = currentScheduleFresh ? '番組表確認済み' : error ? '読込失敗' : loading ? '読み込み中'
     : scheduleFailed ? '保存済み番組表を表示' : stale ? '番組表の更新待ち' : hasFailures ? '一部収集失敗' : '保存済み番組表';
@@ -207,16 +214,16 @@ export default function App() {
         </section>
       <WeatherPanels />
       <section id="schedule"><SectionHead kicker="PROGRAM ARCHIVE" title="月別の出演番組表"><External href="https://weathernews.jp/wnl/timetable.html">公式番組表</External></SectionHead>
-        <MonthlySchedule rows={rows} filtered={filtered} videos={videos} references={references}
+        <MonthlySchedule rows={rows} officialCount={filtered.length} videos={videos} entries={monthEntries}
           referenceMonths={Object.keys(referenceIndex)} referenceLoading={!!referenceCount && !activeReference}
           referenceError={activeReference?.rows === null} casters={casters} route={route} today={today} loading={loading}
           videosUnavailable={data?.broadcasts === null} onDate={pickDate}
           filters={<><div className="search-box"><Icon name="search" /><label className="sr-only" htmlFor="history-search">出演履歴を検索</label><input id="history-search" type="search" placeholder="キャスター名・番組名・日付で検索" value={route.q} onChange={e => update({ q: e.target.value }, true)} maxLength={200} /></div>
             <div className="filters"><label>キャスター<select value={route.caster} onChange={e => update({ caster: e.target.value })}><option value="">すべてのキャスター</option>{activeCasters.map(c => <option value={c.id} key={c.id}>{c.name}</option>)}
               {[...referenceCasters].map(([id, name]) => <option value={`ref:${id}`} key={id}>{name}</option>)}</select></label>
-              <label>番組<select value={shortProgram(route.program)} onChange={e => update({ program: e.target.value })}><option value="">すべての番組</option>{programs.map(program => <option key={program}>{program}</option>)}</select></label>
-              <label>確度<select value={route.status} onChange={e => update({ status: e.target.value })}><option value="">すべての確度</option>{Object.entries(statusNames).map(([key, title]) => <option key={key} value={key}>{title}</option>)}<option value="reference">参考番組表</option></select></label>
-              <button onClick={() => update({ q: '', caster: '', program: '', month: '', year: '', status: '' })}>条件をクリア</button></div></>} />
+              <label>番組<select value={shortProgram(route.program)} onChange={e => update({ program: e.target.value })}><option value="">すべての番組</option>
+                <option value={otherPrograms}>特別番組・その他</option>{programs.map(program => <option key={program}>{program}</option>)}</select></label>
+              <button onClick={() => update({ q: '', caster: '', program: '', month: '', year: '' })}>条件をクリア</button></div></>} />
         <div className="card schedule-detail">
           <h3 className="schedule-detail-heading" id="schedule-detail-heading" tabIndex={-1}>日別の番組詳細</h3>
           <div className="date-controls"><button onClick={() => pickDate(shiftDate(route.date, -1))}>前日</button><label><span className="sr-only">番組表の日付</span><input type="date" value={route.date} onChange={e => { if (e.target.value) pickDate(e.target.value); }} /></label><button onClick={() => pickDate(shiftDate(route.date, 1))}>翌日</button><button onClick={() => pickDate(today)}>今日</button></div>
@@ -235,10 +242,14 @@ export default function App() {
             <Empty>{referenceCount && !activeReference ? '参考番組表を読み込んでいます…' : 'この日の記録はありません。未取得の番組や出演者は補完していません。'}</Empty>}
         </div>
       </section>
-      <section id="statistics"><SectionHead kicker="CASTER INSIGHTS" title="出演データを、わかりやすく。"><div className="segmented" aria-label="集計対象"><button aria-pressed={route.stats === 'confirmed'} onClick={() => update({ stats: 'confirmed' })}>確認済みの出演</button><button aria-pressed={route.stats === 'scheduled'} onClick={() => update({ stats: 'scheduled' })}>掲載予定</button></div></SectionHead>
-        <p className="stats-description">上の検索条件に一致する{route.stats === 'confirmed' ? '確認済みの出演実績' : '公式番組表の掲載予定'}：<strong>{stats.total}枠</strong>。未確認の出演者は除外し、同じ枠を重複加算しません。</p>
-        {!stats.total && <div className="notice-inline">{route.stats === 'confirmed' ? '確認済みの出演実績はまだありません。番組表から取得した予定は「掲載予定」で確認できます。' : '現在の条件に一致する予定はありません。'}</div>}
-        <div className="charts-grid"><Bars title="キャスター別ランキング" items={stats.caster} /><Bars title="曜日別" items={stats.weekday} /><Bars title="月別" items={stats.month} /><Bars title="番組別" items={stats.program} /><Bars title="年別" items={stats.year} /></div>
+      <section id="statistics"><SectionHead kicker="CASTER INSIGHTS" title="番組表の出演集計" />
+        <p className="stats-description">{monthLabel}の番組表で、表示中の担当者名がある<strong>{stats.total}枠</strong>を集計しています。
+          {stats.total > 0 && <> 集計期間 <time dateTime={stats.from}>{stats.from.replaceAll('-', '/')}</time>
+            {stats.through !== stats.from && <> ～ <time dateTime={stats.through}>{stats.through.replaceAll('-', '/')}</time></>}
+          </>}
+        </p>
+        {stats.total ? <div className="charts-grid"><Bars title="キャスター別ランキング" items={stats.caster} /><Bars title="曜日別" items={stats.weekday} /><Bars title="月別" items={stats.month} /><Bars title="番組別" items={stats.program} /><Bars title="年別" items={stats.year} /></div>
+          : <div className="notice-inline">{referenceCount && !activeReference ? 'この月の番組情報を読み込んでいます。' : 'この月の条件に一致する集計対象はありません。'}</div>}
       </section>
       <section className="official-videos"><SectionHead kicker="OFFICIAL VIDEOS" title="公式の最新動画"><External href="https://www.youtube.com/user/weathernews">公式YouTubeチャンネル</External></SectionHead><p className="small muted">公式一覧のアーカイブ動画です。出演履歴としては集計しません。取得：{showTime(live?.archives_checked_at)}</p>
         {live?.archives.length ? <div className="video-links">{live.archives.map(video => <External key={video.id} href={`https://www.youtube.com/watch?v=${video.id}`}><span><small>{showTime(video.published_at)} 公開</small><strong>{video.title}</strong></span></External>)}</div> : <Empty>アーカイブ動画をまだ取得できていません。</Empty>}

@@ -12,6 +12,7 @@ export const programSlots = [
   ['14:00', 'アフタヌーン'], ['17:00', 'イブニング'], ['20:00', 'ムーン'],
 ] as const;
 export const programsBySlot = new Map<string, string>(programSlots);
+export const otherPrograms = '@other';
 export const officialUrl = z.url().refine(value => {
   const url = new URL(value);
   return url.protocol === 'https:' && !url.username && !url.password &&
@@ -74,7 +75,8 @@ const referenceIndexSchema = z.object({ schema_version: z.literal(1),
 });
 const referenceRecordSchema = z.object({
   date_jst: date, slot_start_jst: slotTime, casters: z.array(text).max(20), forecasters: z.array(text).max(20),
-}).refine(row => programsBySlot.has(row.slot_start_jst) && (row.casters.length > 0 || row.forecasters.length > 0));
+  video_id: videoId.optional(),
+}).refine(row => programsBySlot.has(row.slot_start_jst) && (row.casters.length > 0 || row.forecasters.length > 0 || row.video_id));
 const referenceMonthSchema = z.object({ schema_version: z.literal(1), records: z.array(referenceRecordSchema).max(186) });
 export type ReferenceRecord = z.infer<typeof referenceRecordSchema>;
 export type Dataset = { index: DataIndex; records: Appearance[]; broadcasts: Broadcast[] | null; status: CollectionStatus };
@@ -163,7 +165,7 @@ export function livePresentation(live: LiveData | null, now = Date.now()) {
 }
 
 export type Route = { view: string; date: string; q: string; caster: string; program: string;
-  month: string; year: string; status: string; stats: 'confirmed' | 'scheduled' };
+  month: string; year: string };
 export function parseRoute(hash: string, today = jstDate()): Route {
   const [view, query = ''] = hash.replace(/^#/, '').split('?');
   const params = new URLSearchParams(query);
@@ -172,9 +174,7 @@ export function parseRoute(hash: string, today = jstDate()): Route {
   return { view: ['home', 'live', 'schedule', 'weather', 'archive', 'statistics', 'capture', 'privacy', 'main-content'].includes(view) ? view : 'home',
     date: day.success ? day.data : today, q: short('q'), caster: short('caster'), program: (params.get('program') || '').slice(0, 500),
     month: /^\d{4}-(0[1-9]|1[0-2])$/.test(short('month')) ? short('month') : '',
-    year: /^\d{4}$/.test(short('year')) ? short('year') : '',
-    status: ['scheduled', 'confirmed', 'unverified', 'reference'].includes(short('status')) ? short('status') : '',
-    stats: params.get('stats') === 'scheduled' ? 'scheduled' : 'confirmed' };
+    year: /^\d{4}$/.test(short('year')) ? short('year') : '' };
 }
 export function routeHash(route: Route): string {
   const query = new URLSearchParams();
@@ -183,29 +183,44 @@ export function routeHash(route: Route): string {
 }
 export const normalize = (value: string) => value.normalize('NFKC').toLocaleLowerCase('ja-JP').replace(/\s/g, '');
 export const shortProgram = (value: string) => value.replace(/^ウェザーニュースLiVE[・\s]*/, '').trim() || value;
+export function isRegularProgram(slot: string | null, program: string): boolean {
+  return slot !== null && programsBySlot.get(slot) === shortProgram(program);
+}
+export function matchesProgram(filter: string, slot: string | null, program: string): boolean {
+  if (!filter) return true;
+  return filter === otherPrograms ? !isRegularProgram(slot, program) : shortProgram(program) === shortProgram(filter);
+}
 export function filterRecords(rows: Appearance[], route: Route, casters: DataIndex['casters'] = []): Appearance[] {
   return rows.filter(row => {
     const person = row.confirmed || row.planned;
     const aliases = casters.find(c => c.id === person.caster_id)?.aliases.join(' ') || '';
     return (!route.month || row.date_jst.startsWith(route.month)) && (!route.year || row.date_jst.startsWith(route.year)) &&
-      (!route.status || row.status === route.status) && (!route.caster || person.caster_id === route.caster) &&
-      (!route.program || shortProgram(row.program) === shortProgram(route.program)) &&
+      (!route.caster || person.caster_id === route.caster) &&
+      matchesProgram(route.program, row.slot_start_jst, row.program) &&
       (!route.q || normalize(`${row.date_jst} ${row.program} ${person.caster_name || ''} ${person.caster_id || ''} ${aliases}`).includes(normalize(route.q)));
   });
 }
-export function aggregate(rows: Appearance[], mode: 'confirmed' | 'scheduled') {
-  const chosen = rows.filter(row => row.status === mode);
+export function aggregate(entries: { date: string; slot: string | null; program: string; names: string[] }[]) {
+  const slots = new Map<string, { date: string; program: string; names: Set<string> }>();
+  for (const entry of entries) {
+    if (!entry.names.length) continue;
+    const key = JSON.stringify([entry.date, entry.slot, entry.program]);
+    const slot = slots.get(key) || { date: entry.date, program: entry.program, names: new Set<string>() };
+    entry.names.forEach(name => slot.names.add(name));
+    slots.set(key, slot);
+  }
   const weekday = ['日', '月', '火', '水', '木', '金', '土'].map(label => [label, 0] as [string, number]);
   const caster = new Map<string, number>(), program = new Map<string, number>(), month = new Map<string, number>(), year = new Map<string, number>();
-  for (const row of chosen) {
-    const name = (mode === 'confirmed' ? row.confirmed : row.planned)?.caster_name;
-    if (!name) continue;
-    caster.set(name, (caster.get(name) || 0) + 1);
+  let from = '', through = '';
+  for (const row of slots.values()) {
+    for (const name of row.names) caster.set(name, (caster.get(name) || 0) + 1);
     program.set(row.program, (program.get(row.program) || 0) + 1);
-    month.set(row.date_jst.slice(0, 7), (month.get(row.date_jst.slice(0, 7)) || 0) + 1);
-    year.set(row.date_jst.slice(0, 4), (year.get(row.date_jst.slice(0, 4)) || 0) + 1);
-    weekday[new Date(`${row.date_jst}T12:00:00+09:00`).getUTCDay()][1]++;
+    month.set(row.date.slice(0, 7), (month.get(row.date.slice(0, 7)) || 0) + 1);
+    year.set(row.date.slice(0, 4), (year.get(row.date.slice(0, 4)) || 0) + 1);
+    weekday[new Date(`${row.date}T12:00:00+09:00`).getUTCDay()][1]++;
+    if (!from || row.date < from) from = row.date;
+    if (row.date > through) through = row.date;
   }
-  return { total: chosen.length, caster: [...caster].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'ja')),
+  return { total: slots.size, from, through, caster: [...caster].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'ja')),
     program: [...program], year: [...year].sort(), month: [...month].sort(), weekday: [...weekday.slice(1), weekday[0]] };
 }

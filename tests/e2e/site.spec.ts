@@ -50,8 +50,8 @@ test('fixture-backed search, filters, navigation, and statistics', async ({ page
   await page.goForward();
   await expect(page.getByRole('combobox', { name: 'キャスター', exact: true })).toHaveValue('matsumoto');
   await page.getByRole('button', { name: '条件をクリア' }).click();
-  await page.locator('.segmented').getByRole('button', { name: '掲載予定', exact: true }).click();
   await expect(page.locator('.stats-description')).toContainText('8枠');
+  await expect(page.locator('#statistics').getByRole('button', { name: '確認済みの出演' })).toHaveCount(0);
   await page.getByRole('link', { name: '出演番組表', exact: true }).click();
   await page.getByLabel('番組表の日付', { exact: true }).fill('2026-10-21');
   await expect(page.locator('.schedule-detail .record-row')).toHaveCount(4);
@@ -95,14 +95,21 @@ test('monthly schedule switches months and opens linked replays and specials', a
   await page.getByText('2026年11月のキャスター別集計').click();
   await expect(page.locator('.monthly-summary')).toContainText('松本 真央');
   await page.getByRole('combobox', { name: 'キャスター', exact: true }).selectOption('matsumoto');
-  await expect(row).toContainText('松本真央');
-  await expect(row.getByRole('link', { name: /特別番組・気候変動をYouTubeで見る/ })).toHaveCount(0);
-  await row.getByRole('button').click();
+  const results = page.getByRole('list', { name: '2026年11月の該当番組一覧' });
+  await expect(results.getByRole('listitem')).toHaveCount(1);
+  await expect(results).toContainText('松本真央');
+  await expect(results.getByRole('link', { name: /特別番組・気候変動をYouTubeで見る/ })).toHaveCount(0);
+  await expect(page.locator('.monthly-table')).toHaveCount(0);
+  await results.getByRole('button', { name: /2026-11-07 モーニングの日別詳細/ }).click();
   await expect(page.getByLabel('番組表の日付')).toHaveValue(date);
   await expect(page.locator('.schedule-detail')).toContainText('特別番組・気候変動');
   await page.setViewportSize({ width: 320, height: 800 });
   await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth)).toBe(320);
+  await page.getByRole('button', { name: '条件をクリア' }).click();
   await expect.poll(() => page.locator('.monthly-scroll').evaluate(el => el.scrollWidth > el.clientWidth)).toBe(true);
+  await page.getByRole('combobox', { name: '番組', exact: true }).selectOption({ label: '特別番組・その他' });
+  await expect(results.getByRole('listitem')).toHaveCount(1);
+  await expect(results).toContainText('特別番組・気候変動');
 });
 
 test('the monthly table shows reference-only history without a video or source link', async ({ page }) => {
@@ -115,10 +122,54 @@ test('the monthly table shows reference-only history without a video or source l
   const row = page.getByRole('row').filter({ has: page.getByRole('button', { name: '2021-12-01の日別詳細' }) });
   await expect(row.getByRole('cell').first()).toContainText('角田奈緒子');
   await expect(row.getByRole('link')).toHaveCount(0);
+  await expect(page.locator('.stats-description')).toContainText('2021年12月');
+  await expect(page.locator('.stats-description')).toContainText('1枠');
+  await expect(page.locator('.stats-description')).toContainText('2021/12/01');
   await page.getByRole('combobox', { name: 'キャスター', exact: true }).selectOption({ label: '角田奈緒子' });
-  await expect(row).toContainText('角田奈緒子');
-  await row.getByRole('button').click();
+  const results = page.getByRole('list', { name: '2021年12月の該当番組一覧' });
+  await expect(results).toContainText('角田奈緒子');
+  await results.getByRole('button', { name: /2021-12-01 モーニングの日別詳細/ }).click();
   await expect(page.locator('.schedule-detail')).toContainText('参考番組表');
+  await page.getByRole('button', { name: '条件をクリア' }).click();
+  await page.getByLabel('表示月').selectOption('2026-10');
+  await expect(page.locator('.stats-description')).toContainText('2026年10月');
+  await expect(page.locator('.stats-description')).toContainText('8枠');
+});
+
+test('historical month uses the reference thumbnail for unlinked slots and prefers a verified replay', async ({ page }) => {
+  const date = '2026-10-20';
+  await page.route('https://i.ytimg.com/vi/**', route => route.fulfill({ path: 'tests/fixtures/weather-map.svg' }));
+  await page.route('**/data/reference-schedule/index.json', route => route.fulfill({ json: { schema_version: 1, months: { '2026-10': 2 } } }));
+  await page.route('**/data/reference-schedule/2026-10.json', route => route.fulfill({ json: { schema_version: 1, records: [
+    { date_jst: date, slot_start_jst: '05:00', casters: ['小川千奈'], forecasters: [], video_id: '5aHJV4-v48k' },
+    { date_jst: date, slot_start_jst: '08:00', casters: ['松本真央'], forecasters: [], video_id: 'LwVRVGkwWVI' },
+  ] } }));
+  await page.route('**/data/broadcasts.json', route => route.fulfill({ json: { schema_version: 1, records: [
+    { date_jst: date, slot_start_jst: '05:00', program: 'モーニング', caster_name: '小川千奈', forecaster_name: null,
+      video_id: 'pV86JU3JquE', reference_url: null },
+  ] } }));
+  await page.goto(`./#schedule?date=${date}`);
+  const row = page.getByRole('row').filter({ has: page.getByRole('button', { name: date + 'の日別詳細' }) });
+  const morning = row.getByRole('link', { name: /モーニングをYouTubeで見る/ });
+  const sunshine = row.getByRole('link', { name: /サンシャインをYouTubeで見る.*参考番組表/ });
+  await expect(morning).toHaveAttribute('href', 'https://www.youtube.com/watch?v=pV86JU3JquE');
+  await expect(sunshine).toHaveAttribute('href', 'https://www.youtube.com/watch?v=LwVRVGkwWVI');
+  const thumbnail = sunshine.locator('img');
+  await thumbnail.scrollIntoViewIfNeeded();
+  await expect(thumbnail).toHaveAttribute('src', 'https://i.ytimg.com/vi/LwVRVGkwWVI/mqdefault.jpg');
+  await expect.poll(() => thumbnail.evaluate((image: HTMLImageElement) => image.naturalWidth)).toBeGreaterThan(0);
+  await expect(row.getByText('参考元（みのりん）')).toHaveCount(0);
+});
+
+test('program filtering shows date-ordered cards without the old confidence filter', async ({ page }) => {
+  await page.goto('./#schedule?date=2026-10-20&status=confirmed');
+  await expect(page.getByRole('combobox', { name: '確度' })).toHaveCount(0);
+  await page.getByRole('combobox', { name: '番組', exact: true }).selectOption('サンシャイン');
+  const results = page.getByRole('list', { name: '2026年10月の該当番組一覧' });
+  const expected = records.filter((row: { program: string }) => row.program.includes('サンシャイン'));
+  await expect(results.getByRole('listitem')).toHaveCount(expected.length);
+  await expect(results.locator('header button time')).toHaveText(expected.map((row: { date_jst: string }) => row.date_jst.slice(5).replace('-', '/')));
+  await expect(page.locator('.monthly-table')).toHaveCount(0);
 });
 
 test('corrupt response and ended live fall back safely', async ({ page }) => {
