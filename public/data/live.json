@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-10T10:55:20+09:00",
+  "checked_at": "2026-11-10T11:06:06+09:00",
   "state": "listed",
   "video": {
-    "id": "Eo12gwkrqUU",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月10日(火) ／北日本は厳しい寒さ　関東以西の天気は回復傾向〈ウェザーニュースLiVEサンシャイン・岡本結子リサ／飯島栄一〉",
+    "id": "vffINurdqkA",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月10日(火) ／北日本は厳しい寒さ　関東以西の天気は回復傾向〈ウェザーニュースLiVEコーヒータイム・駒木結衣／飯島栄一〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-09T05:15:26+09:00"
+    "published_at": "2026-11-09T09:07:38+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
@@ -42,5 +42,5 @@
       "published_at": "2026-11-09T20:18:53+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-10T10:55:20+09:00"
+  "archives_checked_at": "2026-11-10T11:06:06+09:00"
 }
