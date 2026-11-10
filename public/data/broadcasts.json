@@ -828,6 +828,15 @@
       "forecaster_name": null,
       "video_id": "zXgaEkl1Fg4",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-11",
+      "slot_start_jst": "05:00",
+      "program": "モーニング",
+      "caster_name": "魚住茉由",
+      "forecaster_name": "飯島栄一",
+      "video_id": "U_XoJJ8D1GI",
+      "reference_url": null
     }
   ]
 }

@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-11T02:16:27+09:00",
+  "checked_at": "2026-11-11T07:24:34+09:00",
   "state": "listed",
   "video": {
-    "id": "zXgaEkl1Fg4",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月10日(火)23:00〜 ／〈ウェザーニュースLiVE〉",
+    "id": "U_XoJJ8D1GI",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月11日(水)／今朝は各地で今季一番の冷え込み 北海道では−20℃を下回る〈ウェザーニュースLiVEモーニング・魚住茉由／飯島栄一〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-09T22:15:31+09:00"
+    "published_at": "2026-11-10T00:10:14+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "nCyPbEiTFo0",
+      "title": "北海道で氷点下20℃到達！寒気が緩むタイミングこそ日本海側の局地的な強い雪や雨に警戒",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-11T07:10:13+09:00"
+    },
+    {
+      "id": "H7q0-A5m0bs",
+      "title": "【台風32号 2026】台風32号は小笠原諸島から遠ざかる　強風や高波に引き続き注意（11日3時現在）",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-11T06:02:45+09:00"
+    },
     {
       "id": "q3WMUNg1lq8",
       "title": "【台風32号 2026】非常に強い勢力で小笠原諸島に最接近（11月10日22時更新）",
@@ -28,19 +40,7 @@
       "title": "【週間気温】真冬の寒さから一転 週末以降は気温高めに",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-10T20:19:15+09:00"
-    },
-    {
-      "id": "aM_xPMXj_Pk",
-      "title": "【台風32号 2026】小笠原諸島は荒天に注意　進路は東へ転向（11月10日17時更新）",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-10T19:28:32+09:00"
-    },
-    {
-      "id": "bXT5PTIiKkQ",
-      "title": "【海外大雨情報】発達した2つのストーム直撃　ポルトガルやスペインで大雨や暴風に厳重警戒",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-10T19:18:53+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-11T02:16:27+09:00"
+  "archives_checked_at": "2026-11-11T07:24:34+09:00"
 }
