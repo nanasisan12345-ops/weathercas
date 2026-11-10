@@ -1,46 +1,46 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-10T18:40:41+09:00",
+  "checked_at": "2026-11-11T02:16:27+09:00",
   "state": "listed",
   "video": {
-    "id": "-W9YeKGueo0",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月10日(火) ／明日 北日本は、日本海側を中心に雲が広がりやすい〈ウェザーニュースLiVEイブニング・小川千奈／宇野沢達也〉",
+    "id": "zXgaEkl1Fg4",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月10日(火)23:00〜 ／〈ウェザーニュースLiVE〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-09T15:10:26+09:00"
+    "published_at": "2026-11-09T22:15:31+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
     {
-      "id": "ERP2pCP3WWU",
-      "title": "【気象×経済】今夏のヨーロッパ猛暑で経済損失20兆円超え　熱波・山火事が生活や産業へ与えた影響とは＜独自システム「ROI Generator」より＞",
+      "id": "q3WMUNg1lq8",
+      "title": "【台風32号 2026】非常に強い勢力で小笠原諸島に最接近（11月10日22時更新）",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-10T15:34:52+09:00"
+      "published_at": "2026-11-10T23:15:22+09:00"
     },
     {
-      "id": "XS3kFZAnJU4",
-      "title": "【週間天気予報】週末は低気圧＋前線が通過 広範囲で強い雨や雷雨のおそれ",
+      "id": "BOpHSrbuRik",
+      "title": "【北日本で雪】強い寒気流入で降雪はいつまで続く？上空の気象状況を詳しく解説",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-10T14:06:09+09:00"
+      "published_at": "2026-11-10T22:50:24+09:00"
     },
     {
-      "id": "j7Ac8eANaKg",
-      "title": "【今日の雨雪情報】北海道は強い風雪に注意　関東もお昼頃まで雨が残る予想",
+      "id": "H_HVFTz4LuY",
+      "title": "【週間気温】真冬の寒さから一転 週末以降は気温高めに",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-10T10:40:19+09:00"
+      "published_at": "2026-11-10T20:19:15+09:00"
     },
     {
-      "id": "If3tE8IrUBA",
-      "title": "【関東の天気】雨はいつ止む？前線南下で昼前後に再び雨の可能性 北東風で冬の寒さ続く",
+      "id": "aM_xPMXj_Pk",
+      "title": "【台風32号 2026】小笠原諸島は荒天に注意　進路は東へ転向（11月10日17時更新）",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-10T06:57:29+09:00"
+      "published_at": "2026-11-10T19:28:32+09:00"
     },
     {
-      "id": "vnGU93PnCb0",
-      "title": "【台風32号 2026】小笠原諸島は荒天・高波に警戒（10日3時更新）",
+      "id": "bXT5PTIiKkQ",
+      "title": "【海外大雨情報】発達した2つのストーム直撃　ポルトガルやスペインで大雨や暴風に厳重警戒",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-10T06:07:40+09:00"
+      "published_at": "2026-11-10T19:18:53+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-10T18:40:41+09:00"
+  "archives_checked_at": "2026-11-11T02:16:27+09:00"
 }

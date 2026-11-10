@@ -768,6 +768,15 @@
     },
     {
       "date_jst": "2026-11-10",
+      "slot_start_jst": "05:00",
+      "program": "モーニング",
+      "caster_name": "福吉貴文",
+      "forecaster_name": "飯島栄一",
+      "video_id": "xxk5taHijE4",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-10&TO=2026-11-10"
+    },
+    {
+      "date_jst": "2026-11-10",
       "slot_start_jst": "08:00",
       "program": "サンシャイン",
       "caster_name": "岡本結子リサ",
@@ -786,11 +795,38 @@
     },
     {
       "date_jst": "2026-11-10",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "川畑玲",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "emtqM4R_qaQ",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-10&TO=2026-11-10"
+    },
+    {
+      "date_jst": "2026-11-10",
       "slot_start_jst": "17:00",
       "program": "イブニング",
       "caster_name": "小川千奈",
       "forecaster_name": "宇野沢達也",
       "video_id": "-W9YeKGueo0",
+      "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-10",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "戸北美月",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "oMHYuElC5i8",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-10&TO=2026-11-10"
+    },
+    {
+      "date_jst": "2026-11-10",
+      "slot_start_jst": "23:00",
+      "program": "【ライブ】最新天気ニュース・地震情報 2026年11月10日(火)23:00〜 ／〈ウェザーニュースLiVE〉",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "zXgaEkl1Fg4",
       "reference_url": null
     }
   ]
