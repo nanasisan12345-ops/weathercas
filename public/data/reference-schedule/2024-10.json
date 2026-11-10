@@ -1,0 +1,1861 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "date_jst": "2024-10-01",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-01",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-01",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-01",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-01",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-01",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-02",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-02",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-02",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-02",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-02",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-02",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-03",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-03",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-03",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-03",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-03",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-03",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-04",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-04",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-04",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-04",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-04",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-04",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-05",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-05",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-05",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-05",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-05",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-05",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-06",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-06",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-06",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-06",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-06",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-06",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-07",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-07",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-07",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-07",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-07",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-07",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-08",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-08",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-08",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-08",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-08",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-08",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-09",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-10-09",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-10-09",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-10-09",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "川畑玲"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-09",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-09",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-10",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-10-10",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-10-10",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-10-10",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-10",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-10",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-11",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-11",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-11",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-11",
+      "slot_start_jst": "14:00",
+      "casters": [],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-11",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-11",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-12",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-12",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-12",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-12",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-12",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-12",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-13",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-13",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-13",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-13",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-13",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-13",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-14",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-14",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-14",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-14",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-14",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-14",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-15",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-15",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-15",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-15",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-15",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-15",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-16",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-16",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-16",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-16",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-16",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-16",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-17",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-10-17",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-10-17",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-10-17",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-17",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-17",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-18",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-18",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-18",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-18",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-18",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-18",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-19",
+      "slot_start_jst": "05:00",
+      "casters": [],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-19",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-19",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-19",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-19",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-19",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-20",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-20",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-20",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-20",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-20",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-20",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-21",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-21",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-21",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-21",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-21",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-21",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-22",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-10-22",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-10-22",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-10-22",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "川畑玲"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-22",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-22",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-23",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-10-23",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-10-23",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-10-23",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-23",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-23",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-24",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-24",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-24",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-24",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-24",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-24",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-25",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-25",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-25",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-25",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "川畑玲"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-25",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-25",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-26",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-26",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-26",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-26",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-26",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-26",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-27",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-27",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-27",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-27",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-27",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-27",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-10-28",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-28",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-28",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-10-28",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-28",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-28",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-29",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-29",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-29",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-29",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-29",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-29",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-30",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-30",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-30",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-10-30",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "川畑玲"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-30",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-30",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-31",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-31",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-31",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-10-31",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-31",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2024-10-31",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    }
+  ]
+}

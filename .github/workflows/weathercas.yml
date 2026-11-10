@@ -8,6 +8,10 @@ on:
   schedule:
     - cron: '3,13,23,33,43,53 * * * *'
   workflow_dispatch:
+    inputs:
+      archive_date:
+        description: 'Optional past broadcast date to check (YYYY-MM-DD JST)'
+        type: string
 
 permissions:
   contents: read
@@ -36,6 +40,7 @@ jobs:
         continue-on-error: true
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          ARCHIVE_DATE: ${{ inputs.archive_date }}
         run: |
           python - <<'PY'
           import json, os, subprocess
@@ -45,7 +50,12 @@ jobs:
           status = json.loads(Path('public/data/status.json').read_text())
           age = (now - datetime.fromisoformat(status['generated_at'])).total_seconds()
           live_only = os.environ['GITHUB_EVENT_NAME'] == 'schedule' and age < 10800
-          raise SystemExit(subprocess.call(['python', '-m', 'collector.collect'] + (['--live-only'] if live_only else [])))
+          args = ['python', '-m', 'collector.collect']
+          if live_only:
+              args.append('--live-only')
+          if os.environ.get('ARCHIVE_DATE'):
+              args.extend(['--archive-date', os.environ['ARCHIVE_DATE']])
+          raise SystemExit(subprocess.call(args))
           PY
       - run: python -m collector.collect --validate-only
       - name: Share validated data with persistence and build jobs

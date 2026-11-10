@@ -1,5 +1,5 @@
 import copy
-from datetime import datetime
+from datetime import date, datetime
 from io import BytesIO
 import json
 from pathlib import Path
@@ -7,8 +7,10 @@ import tempfile
 import unittest
 from urllib.error import HTTPError, URLError
 
+from collector.broadcasts import broadcast, reference_broadcasts
+from collector.reference_schedule import read_month
 from collector.collect import (ROOT, SCHEDULE_URL, VIDEOS_URL, SourceError, collect,
-    fetch_json, load_records, merge_records, parse_schedule, parse_videos,
+    fetch_json, load_broadcasts, load_records, merge_records, parse_schedule, parse_videos,
     read_json, save_records, validate_record, verify_api, verify_oembed)
 
 NOW = datetime.fromisoformat("2026-10-20T10:30:00+09:00")
@@ -18,6 +20,20 @@ FIXTURES = Path(__file__).parent / "fixtures"
 
 
 class ScheduleTests(unittest.TestCase):
+    def test_reference_schedule_reads_presenters_without_requiring_a_video(self):
+        header = ''.join(f'<td>{slot}-</td>' for slot in ['05:00', '08:00', '11:00', '14:00', '17:00', '20:00'])
+        html = (f'<tr class="wnlList"><td>日付</td>{header}</tr>'
+                '<tr class="wnlList"><td>2021-12-01<br>(水)</td>'
+                '<td><div style="background-color: coral">角田奈緒子</div>'
+                '<div style="background-color: silver">山口剛央</div><img></td>'
+                '<td><div style="color: ;">なし</div></td></tr>')
+        day = date(2021, 12, 1)
+        self.assertEqual(read_month(day, day, fetch=lambda _: html),
+                         [{'date_jst': day.isoformat(), 'slot_start_jst': '05:00',
+                           'casters': ['角田奈緒子'], 'forecasters': ['山口剛央']}])
+        with self.assertRaisesRegex(ValueError, 'column headers'):
+            read_month(day, day, fetch=lambda _: html.replace('05:00', '06:00'))
+
     def setUp(self):
         self.payload = read_json(FIXTURES / "schedule.json")
 
@@ -83,6 +99,32 @@ class ScheduleTests(unittest.TestCase):
 
 
 class VideoTests(unittest.TestCase):
+    def test_reference_recovers_regular_slots_and_specials_only_from_official_videos(self):
+        regular, wrong, foreign, special = 'abcdefghijk', 'abcdefghij2', 'abcdefghij3', 'abcdefghij4'
+        day = '2026-11-07'
+        def thumb(video_id):
+            return f'<a href="https://www.youtube.com/watch?v={video_id}&amp;t=1800"><img></a>'
+        def fetch(video_id):
+            titles = {
+                regular: '【ライブ配信終了】2026年11月7日(土)〈ウェザーニュースLiVEモーニング・松本真央／山口剛央〉',
+                wrong: '【ライブ配信終了】2026年11月6日(金)〈ウェザーニュースLiVEサンシャイン・魚住茉由〉',
+                foreign: '【ライブ配信終了】2026年11月7日(土)〈ウェザーニュースLiVEコーヒータイム・青原桃香〉',
+                special: '【特別番組】気候変動',
+            }
+            return {'type': 'video', 'title': titles[video_id],
+                    'author_url': 'https://www.youtube.com/@' + ('unrelated' if video_id == foreign else 'weathernews'),
+                    'html': f'<iframe src="https://www.youtube.com/embed/{video_id}"></iframe>'}
+        page = (f'<table><tr class="wnlList"><td>{day}<br>(土)</td>'
+                f'<td>{thumb(regular)}<a href="https://www.youtube.com/watch?v=ignoredtest">クロス</a></td>'
+                f'<td>{thumb(wrong)}</td><td>{thumb(foreign)}</td><td></td><td></td><td></td>'
+                f'<td>{thumb(special)}</td></tr></table>')
+        found = reference_broadcasts(date(2026, 11, 8), [], lambda _: page, fetch, verify_oembed, days=1)
+        self.assertEqual([(r['slot_start_jst'], r['video_id']) for r in found], [('05:00', regular), (None, special)])
+        self.assertEqual(found[0]['forecaster_name'], '山口剛央')
+        self.assertTrue(found[1]['reference_url'].endswith(f'FROM={day}&TO={day}'))
+        self.assertIsNone(broadcast(fetch(wrong)['title'], wrong, day, '08:00'))
+        self.assertEqual(reference_broadcasts(date(2026, 11, 8), found, lambda _: page, fetch, verify_oembed, days=1), [])
+
     def test_observed_listing_is_not_api_verified_live(self):
         parsed = parse_videos(read_json(FIXTURES / "videos.json"), NOW)
         self.assertEqual(parsed["state"], "listed")
@@ -115,6 +157,23 @@ class VideoTests(unittest.TestCase):
 
 
 class NetworkTests(unittest.TestCase):
+    def test_live_only_stores_a_broadcast_without_changing_saved_plans(self):
+        video_id = 'abcdefghijk'
+        def fetch(url, **_):
+            if url == VIDEOS_URL:
+                return {'ondemand': [], 'live': {'id': video_id, 'live': True, 'publishedAt': 1792459800,
+                        'title': '【ライブ】2026年10月20日(火)〈ウェザーニュースLiVEサンシャイン・松本真央〉'}}
+            return {'type': 'video', 'author_url': 'https://www.youtube.com/@weathernews',
+                    'html': f'<iframe src="https://www.youtube.com/embed/{video_id}"></iframe>'}
+        with tempfile.TemporaryDirectory(dir=ROOT / 'Data/temp') as temp:
+            data, logs = Path(temp) / 'data', Path(temp) / 'logs'
+            save_records(data, parse_schedule(read_json(FIXTURES / 'schedule.json'), NOW, CATALOG), CATALOG)
+            before = (data / '2026/10.json').read_bytes()
+            collect(data, logs, now=NOW, fetch=fetch, live_only=True)
+            self.assertEqual(load_broadcasts(data)[0]['video_id'], video_id)
+            self.assertIsNone(load_broadcasts(data)[0]['reference_url'])
+            self.assertEqual((data / '2026/10.json').read_bytes(), before)
+
     def test_live_only_preserves_schedule_and_its_timestamp(self):
         calls = []
         def fetch(url, **kwargs):

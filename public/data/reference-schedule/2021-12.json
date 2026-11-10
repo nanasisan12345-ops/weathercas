@@ -1,0 +1,1485 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "date_jst": "2021-12-01",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "角田奈緒子"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-01",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-01",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-01",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-01",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "武藤彩芽"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-01",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-02",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-02",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-02",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-02",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-02",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-02",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "武藤彩芽"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-03",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "高山奈々"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-03",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "角田奈緒子"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-03",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-03",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-03",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-03",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "武藤彩芽"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-04",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "高山奈々"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-04",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-04",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-04",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-04",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "檜山沙耶"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-04",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-05",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-05",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-05",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-05",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-05",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "武藤彩芽"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-05",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "檜山沙耶"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-06",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "高山奈々"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-06",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "角田奈緒子"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-06",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-06",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-06",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "武藤彩芽"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-06",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-07",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "角田奈緒子"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-07",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-07",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-07",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-07",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "檜山沙耶"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-07",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-08",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "角田奈緒子"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-08",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-08",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-08",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-08",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "武藤彩芽"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-09",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-09",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-09",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "高山奈々"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-09",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "高山奈々"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-09",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-09",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "檜山沙耶"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-10",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-10",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "高山奈々"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-10",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-10",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-10",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "武藤彩芽"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-10",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-11",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-11",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-11",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "高山奈々"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-11",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-11",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "武藤彩芽"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-11",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-12",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-12",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-12",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-12",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-12",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "檜山沙耶"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-12",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-13",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-13",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-13",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-13",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-13",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "檜山沙耶"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-13",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-14",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-14",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-14",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-14",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-14",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-14",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-15",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-15",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "角田奈緒子"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-15",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-15",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "武藤彩芽"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-15",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "檜山沙耶"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-15",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-16",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "角田奈緒子"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-16",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-16",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "高山奈々"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-16",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-16",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-16",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-17",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "角田奈緒子"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-17",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "角田奈緒子"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-17",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-17",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-17",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-17",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-18",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-18",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-18",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "高山奈々"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-18",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-18",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-18",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-19",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-19",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "角田奈緒子"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-19",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-19",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "高山奈々"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-19",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-19",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-20",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "角田奈緒子"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-20",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-20",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-20",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "高山奈々"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-20",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "檜山沙耶"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-20",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-21",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "角田奈緒子"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-21",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-21",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-21",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-21",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-21",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-22",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-22",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-22",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-22",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-22",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "武藤彩芽"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-22",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "檜山沙耶"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-23",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "角田奈緒子"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-23",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-23",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-23",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "高山奈々"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-23",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-23",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "武藤彩芽"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-24",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-24",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-24",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "角田奈緒子"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-24",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "高山奈々"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-24",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-24",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-25",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-25",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "角田奈緒子"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-25",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-25",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-25",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "檜山沙耶"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-25",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "武藤彩芽"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-26",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "高山奈々"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-26",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-26",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-26",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-26",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "檜山沙耶"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-26",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "武藤彩芽"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-27",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "高山奈々"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-27",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-27",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-27",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-27",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-27",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "武藤彩芽"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-28",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-28",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-28",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "角田奈緒子"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-28",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-28",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-28",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "檜山沙耶"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-29",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "高山奈々"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-29",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-29",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-29",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "角田奈緒子"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-29",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-29",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-30",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-30",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-30",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "角田奈緒子"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-30",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-30",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "武藤彩芽"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-30",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "檜山沙耶"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-31",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "高山奈々"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-31",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "内田侑希"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-31",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-31",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-31",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "檜山沙耶"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2021-12-31",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    }
+  ]
+}

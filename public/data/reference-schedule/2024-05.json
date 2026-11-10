@@ -1,0 +1,1587 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "date_jst": "2024-05-01",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-01",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-01",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-01",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "川畑玲"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-01",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-01",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-02",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-02",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-02",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-02",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-02",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-02",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-03",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-03",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-03",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-03",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-03",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-03",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-04",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-04",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-04",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-04",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-04",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-04",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-05",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-05",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-05",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-05",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-05",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-05",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-06",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-06",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-06",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-06",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-06",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-06",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-07",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-07",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-07",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-07",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-07",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-07",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-08",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-08",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-08",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-08",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-08",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-08",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-09",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-09",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-09",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "川畑玲"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-09",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-09",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-09",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-10",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-10",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-10",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-10",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-10",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-10",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-11",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-11",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-11",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-11",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-11",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-11",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-12",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-12",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "川畑玲"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-12",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-12",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-12",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-12",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-13",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-13",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-13",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-13",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "川畑玲"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-13",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-13",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-14",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-14",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-14",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-14",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-14",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-14",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-15",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-15",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-15",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-15",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-15",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-15",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-16",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-16",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-16",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-16",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-16",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-16",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-17",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-17",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-17",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-17",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-17",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-17",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-18",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-18",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-18",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-18",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-18",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-18",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-19",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-19",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-19",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "川畑玲"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-19",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-19",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-19",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-20",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-20",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-20",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-20",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "川畑玲"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-20",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-20",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-21",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-21",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-21",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-21",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-21",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-21",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-22",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-22",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-22",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-22",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-22",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-22",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-23",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-23",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-23",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-23",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-23",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-23",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": []
+    },
+    {
+      "date_jst": "2024-05-24",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-05-24",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-05-24",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-05-24",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2024-05-24",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2024-05-24",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2024-05-25",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-05-25",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-05-25",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-05-25",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-05-25",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-05-25",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-05-26",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-05-26",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-05-26",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-05-26",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-05-26",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-05-26",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "森田清輝"
+      ]
+    },
+    {
+      "date_jst": "2024-05-27",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-05-27",
+      "slot_start_jst": "08:00",
+      "casters": [],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-05-27",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-05-27",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "川畑玲"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-05-27",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-05-27",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-05-28",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-05-28",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-05-28",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "川畑玲"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-05-28",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-05-28",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-05-28",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2024-05-29",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2024-05-29",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2024-05-29",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2024-05-29",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-05-29",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-05-29",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2024-05-30",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-05-30",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-05-30",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-05-30",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-05-30",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-05-30",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-05-31",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-05-31",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-05-31",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "大島璃音"
+      ],
+      "forecasters": [
+        "内藤邦裕"
+      ]
+    },
+    {
+      "date_jst": "2024-05-31",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "松雪彩花"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-05-31",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2024-05-31",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    }
+  ]
+}

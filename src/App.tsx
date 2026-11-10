@@ -4,11 +4,12 @@ import CasterSocials from './CasterSocials';
 import DirectRecording, { isLocalRecordingOrigin } from './DirectRecording';
 import LiveChat from './LiveChat';
 import LiveCaster from './LiveCaster';
+import MonthlySchedule from './MonthlySchedule';
 import ThemeToggle from './ThemeToggle';
 import WeatherPanels from './WeatherPanels';
 import { aggregate, currentScheduleRows, filterRecords, fresh, jstDate, livePresentation, loadDataset, loadLive, loadSchedule,
-  parseRoute, routeHash, shiftDate, showTime,
-  type Appearance, type CurrentSchedule, type Dataset, type LiveData, type Route } from './data';
+  loadReferenceIndex, loadReferenceMonth, normalize, parseRoute, programsBySlot, routeHash, shiftDate, shortProgram, showTime,
+  type Appearance, type CurrentSchedule, type Dataset, type LiveData, type ReferenceRecord, type Route } from './data';
 
 const BASE = import.meta.env.BASE_URL;
 const OFFICIAL = 'https://weathernews.jp/wnl/';
@@ -44,7 +45,7 @@ function Badge({ status }: { status: Appearance['status'] }) {
   return <span className={`badge ${status}`}>{statusNames[status]}</span>;
 }
 function ShortProgram({ value }: { value: string }) {
-  return <>{value.replace(/^ウェザーニュースLiVE[・\s]*/, '') || 'ウェザーニュースLiVE'}</>;
+  return <>{shortProgram(value)}</>;
 }
 
 function RecordRow({ row, onCaster, compact = false }: { row: Appearance; onCaster: (id: string) => void; compact?: boolean }) {
@@ -65,25 +66,6 @@ function RecordRow({ row, onCaster, compact = false }: { row: Appearance; onCast
   </div>;
 }
 
-function Calendar({ date, rows, onDate }: { date: string; rows: Appearance[]; onDate: (value: string) => void }) {
-  const month = date.slice(0, 7), first = `${month}-01`;
-  const start = new Date(`${first}T12:00:00+09:00`).getUTCDay();
-  const days = new Date(Number(month.slice(0, 4)), Number(month.slice(5)), 0).getDate();
-  const counts = new Map<string, number>();
-  rows.forEach(row => counts.set(row.date_jst, (counts.get(row.date_jst) || 0) + 1));
-  function move(delta: number) {
-    const value = new Date(`${first}T12:00:00Z`);
-    value.setUTCMonth(value.getUTCMonth() + delta);
-    onDate(value.toISOString().slice(0, 10));
-  }
-  return <div className="calendar"><div className="calendar-heading"><button onClick={() => move(-1)} aria-label="前の月">前月</button><strong>{month.replace('-', '年')}月</strong><button onClick={() => move(1)} aria-label="次の月">翌月</button></div>
-    <div className="calendar-grid">{['日', '月', '火', '水', '木', '金', '土'].map(day => <span className="weekday" key={day}>{day}</span>)}
-      {Array.from({ length: start }, (_, i) => <span key={`blank-${i}`} />)}
-      {Array.from({ length: days }, (_, i) => {
-        const value = `${month}-${String(i + 1).padStart(2, '0')}`, count = counts.get(value) || 0;
-        return <button className={`${date === value ? 'selected' : ''} ${count ? 'has-records' : ''}`} key={value} onClick={() => onDate(value)} aria-label={`${value}、${count}件の記録`} aria-pressed={date === value}>{i + 1}<span aria-hidden="true">{count ? `${count}件` : '—'}</span></button>;
-      })}</div><p className="small muted">件数は予定・未確認を含む観測記録です。</p></div>;
-}
 function Bars({ title, items }: { title: string; items: [string, number][] }) {
   const max = Math.max(1, ...items.map(([, count]) => count));
   return <article className="card chart-card"><h3>{title}</h3>{items.length ? <div className="bars" role="list">{items.map(([label, count]) => <div className="bar-row" role="listitem" key={label}>
@@ -97,15 +79,32 @@ export default function App() {
   const [currentSchedule, setCurrentSchedule] = useState<CurrentSchedule | null>(null), [scheduleFailed, setScheduleFailed] = useState(false);
   const [error, setError] = useState(''), [liveError, setLiveError] = useState(''), [loading, setLoading] = useState(true);
   const [now, setNow] = useState(Date.now());
-  const [page, setPage] = useState(1);
+  const [referenceIndex, setReferenceIndex] = useState<Record<string, number>>({});
+  const [referenceResult, setReferenceResult] = useState<{ month: string; rows: ReferenceRecord[] | null }>();
+  const selectedMonth = route.month || route.date.slice(0, 7);
+  const referenceCount = referenceIndex[selectedMonth];
+  useEffect(() => {
+    let active = true;
+    void loadReferenceIndex().then(result => { if (active) setReferenceIndex(result.months); }, () => {});
+    return () => { active = false; };
+  }, []);
+  useEffect(() => {
+    if (!referenceCount) return;
+    let active = true;
+    void loadReferenceMonth(selectedMonth, referenceCount).then(
+      rows => { if (active) setReferenceResult({ month: selectedMonth, rows }); },
+      () => { if (active) setReferenceResult({ month: selectedMonth, rows: null }); },
+    );
+    return () => { active = false; };
+  }, [selectedMonth, referenceCount]);
   function update(patch: Partial<Route>, replace = false) {
     const next = { ...parseRoute(window.location.hash), ...patch };
     const hash = routeHash(next);
     if (window.location.hash !== hash) window.history[replace ? 'replaceState' : 'pushState'](null, '', hash);
-    setRoute(next); setPage(1);
+    setRoute(next);
   }
   useEffect(() => {
-    const sync = () => { setRoute(parseRoute(window.location.hash)); setPage(1); };
+    const sync = () => setRoute(parseRoute(window.location.hash));
     window.addEventListener('popstate', sync); window.addEventListener('hashchange', sync);
     return () => { window.removeEventListener('popstate', sync); window.removeEventListener('hashchange', sync); };
   }, []);
@@ -143,12 +142,34 @@ export default function App() {
     return () => { active = false; window.clearInterval(updateData); window.clearInterval(updateLive); window.clearInterval(clock);
       document.removeEventListener('visibilitychange', onVisible); window.removeEventListener('focus', onVisible); };
   }, []);
-  const rows = data?.records || [], today = jstDate(new Date(now));
+  const rows = data?.records || [], videos = data?.broadcasts || [], today = jstDate(new Date(now));
+  const activeReference = referenceResult?.month === selectedMonth ? referenceResult : undefined;
+  const references = activeReference?.rows || [];
   const scheduleRows = currentScheduleRows(rows, currentSchedule, now);
   const todayRows = scheduleRows.filter(row => row.date_jst === today), dayRows = scheduleRows.filter(row => row.date_jst === route.date);
+  const dayVideos = videos.filter(video => video.date_jst === route.date);
+  const covered = new Set([...dayRows.map(row => row.slot_start_jst + shortProgram(row.program)),
+    ...dayVideos.map(video => video.slot_start_jst + video.program)]);
+  const dayReferences = references.filter(row => row.date_jst === route.date &&
+    !covered.has(row.slot_start_jst + programsBySlot.get(row.slot_start_jst)));
   const filtered = filterRecords(rows, route, data?.index.casters);
   const stats = aggregate(filtered, route.stats), presentation = livePresentation(live, now);
-  const activeCasters = data?.index.casters.filter(caster => rows.some(row => row.planned.caster_id === caster.id || row.confirmed?.caster_id === caster.id)) || [];
+  const casters = data?.index.casters || [];
+  const knownCasterIds = new Set(rows.flatMap(row => [row.planned.caster_id, row.confirmed?.caster_id]));
+  const videoCasters = new Set(videos.map(video => normalize(video.caster_name || '')));
+  const referenceCasters = new Map(references.flatMap(row => row.casters.map(name => [normalize(name), name] as const)));
+  const activeCasters = casters.filter(caster => knownCasterIds.has(caster.id) || videoCasters.has(normalize(caster.name)) ||
+    referenceCasters.has(normalize(caster.name)));
+  for (const caster of activeCasters) referenceCasters.delete(normalize(caster.name));
+  if (route.caster.startsWith('ref:') && !referenceCasters.has(route.caster.slice(4))) {
+    referenceCasters.set(route.caster.slice(4), route.caster.slice(4));
+  }
+  const programs = [...new Set([...rows.map(row => shortProgram(row.program)), ...videos.map(video => video.program),
+    ...(references.length ? programsBySlot.values() : [])])].sort();
+  function pickDate(date: string, detail = false) {
+    update({ date, month: '', year: '' });
+    if (detail) document.getElementById('schedule-detail-heading')?.focus();
+  }
   const stale = !data || !fresh(data.status.generated_at, now);
   const currentScheduleFresh = currentSchedule !== null && fresh(currentSchedule.checked_at, now, 10);
   const casterLink = (id: string) => update({ view: 'archive', caster: id, q: '', status: '', program: '', month: '', year: '' });
@@ -185,25 +206,33 @@ export default function App() {
           <a className="text-link" href="#schedule" onClick={e => { e.preventDefault(); update({ view: 'schedule', date: today }); }}>日付を選んで番組表を見る<Icon name="arrow" /></a>
         </section>
       <WeatherPanels />
-      <section id="schedule"><SectionHead kicker="DAILY SCHEDULE" title="日付から出演番組を探す"><External href="https://weathernews.jp/wnl/timetable.html">公式番組表</External></SectionHead>
-        <div className="schedule-grid"><div className="card calendar-card"><Calendar date={route.date} rows={rows} onDate={date => update({ date })} /></div>
-          <div className="card schedule-detail"><div className="date-controls"><button onClick={() => update({ date: shiftDate(route.date, -1) })}>前日</button><label><span className="sr-only">番組表の日付</span><input type="date" value={route.date} onChange={e => { if (e.target.value) update({ date: e.target.value }); }} /></label><button onClick={() => update({ date: shiftDate(route.date, 1) })}>翌日</button><button onClick={() => update({ date: today })}>今日</button></div>
-            <p className="small muted">予定は後から変更される場合があります。過去になった予定も、出演実績には変換しません。</p>
-            {dayRows.length ? dayRows.map(row => <RecordRow key={row.id} row={row} onCaster={casterLink} />) : <Empty>この日の記録はありません。未取得の番組や出演者は補完していません。</Empty>}
-          </div></div>
-      </section>
-      <section id="archive"><SectionHead kicker="ARCHIVE FINDER" title="キャスターと出演記録を探す"><span className="muted small">収録範囲：{data?.index.earliest_date || '未取得'} ～ {data?.index.latest_date || '未取得'}</span></SectionHead>
-        <div className="card archive-card"><div className="search-box"><Icon name="search" /><label className="sr-only" htmlFor="history-search">出演履歴を検索</label><input id="history-search" type="search" placeholder="キャスター名・番組名・日付で検索" value={route.q} onChange={e => update({ q: e.target.value }, true)} maxLength={200} /></div>
-          <div className="filters"><label>キャスター<select value={route.caster} onChange={e => update({ caster: e.target.value })}><option value="">すべてのキャスター</option>{activeCasters.map(c => <option value={c.id} key={c.id}>{c.name}</option>)}</select></label>
-            <label>番組<select value={route.program} onChange={e => update({ program: e.target.value })}><option value="">すべての番組</option>{[...new Set(rows.map(row => row.program))].map(program => <option key={program}>{program}</option>)}</select></label>
-            <label>年<select value={route.year} onChange={e => update({ year: e.target.value, month: '' })}><option value="">すべての年</option>{[...new Set(rows.map(row => row.date_jst.slice(0, 4)))].map(year => <option key={year}>{year}</option>)}</select></label>
-            <label>月<select value={route.month} onChange={e => update({ month: e.target.value, year: e.target.value ? e.target.value.slice(0, 4) : '' })}><option value="">すべての月</option>{data?.index.months.filter(month => !route.year || month.startsWith(route.year)).map(month => <option key={month} value={month.replace('/', '-')}>{month.replace('/', '年')}月</option>)}</select></label>
-            <label>確度<select value={route.status} onChange={e => update({ status: e.target.value })}><option value="">すべての確度</option>{Object.entries(statusNames).map(([key, title]) => <option key={key} value={key}>{title}</option>)}</select></label>
-            <button onClick={() => update({ q: '', caster: '', program: '', month: '', year: '', status: '' })}>条件をクリア</button></div>
-          <div className="results-heading" role="status"><strong>{filtered.length}件の記録</strong><span className="small muted">予定・確認済み・未確認を区別しています</span></div>
-          {filtered.length ? [...filtered].reverse().slice((page - 1) * 50, page * 50).map(row => <RecordRow key={row.id} row={row} onCaster={casterLink} />) : <Empty>条件に一致する記録はありません。検索条件を変更するか、収集範囲をご確認ください。</Empty>}
-          {filtered.length > 50 && <div className="pagination"><button disabled={page === 1} onClick={() => setPage(page - 1)}>前の50件</button><span>{page} / {Math.ceil(filtered.length / 50)}</span><button disabled={page * 50 >= filtered.length} onClick={() => setPage(page + 1)}>次の50件</button></div>}
-          {route.caster && <div className="caster-info"><h3>{data?.index.casters.find(c => c.id === route.caster)?.name || route.caster} の出演記録</h3><p>キャスターの公式プロフィールと、このサイトで蓄積した予定・実績を確認できます。</p><External href={`https://weathernews.jp/wnl/caster/${encodeURIComponent(route.caster)}.html`}>公式プロフィール</External></div>}
+      <section id="schedule"><SectionHead kicker="PROGRAM ARCHIVE" title="月別の出演番組表"><External href="https://weathernews.jp/wnl/timetable.html">公式番組表</External></SectionHead>
+        <MonthlySchedule rows={rows} filtered={filtered} videos={videos} references={references}
+          referenceMonths={Object.keys(referenceIndex)} referenceLoading={!!referenceCount && !activeReference}
+          referenceError={activeReference?.rows === null} casters={casters} route={route} today={today} loading={loading}
+          videosUnavailable={data?.broadcasts === null} onDate={pickDate}
+          filters={<><div className="search-box"><Icon name="search" /><label className="sr-only" htmlFor="history-search">出演履歴を検索</label><input id="history-search" type="search" placeholder="キャスター名・番組名・日付で検索" value={route.q} onChange={e => update({ q: e.target.value }, true)} maxLength={200} /></div>
+            <div className="filters"><label>キャスター<select value={route.caster} onChange={e => update({ caster: e.target.value })}><option value="">すべてのキャスター</option>{activeCasters.map(c => <option value={c.id} key={c.id}>{c.name}</option>)}
+              {[...referenceCasters].map(([id, name]) => <option value={`ref:${id}`} key={id}>{name}</option>)}</select></label>
+              <label>番組<select value={shortProgram(route.program)} onChange={e => update({ program: e.target.value })}><option value="">すべての番組</option>{programs.map(program => <option key={program}>{program}</option>)}</select></label>
+              <label>確度<select value={route.status} onChange={e => update({ status: e.target.value })}><option value="">すべての確度</option>{Object.entries(statusNames).map(([key, title]) => <option key={key} value={key}>{title}</option>)}<option value="reference">参考番組表</option></select></label>
+              <button onClick={() => update({ q: '', caster: '', program: '', month: '', year: '', status: '' })}>条件をクリア</button></div></>} />
+        <div className="card schedule-detail">
+          <h3 className="schedule-detail-heading" id="schedule-detail-heading" tabIndex={-1}>日別の番組詳細</h3>
+          <div className="date-controls"><button onClick={() => pickDate(shiftDate(route.date, -1))}>前日</button><label><span className="sr-only">番組表の日付</span><input type="date" value={route.date} onChange={e => { if (e.target.value) pickDate(e.target.value); }} /></label><button onClick={() => pickDate(shiftDate(route.date, 1))}>翌日</button><button onClick={() => pickDate(today)}>今日</button></div>
+          <p className="small muted">公式番組表の予定は変更される場合があります。</p>
+          {dayRows.map(row => <RecordRow key={row.id} row={row} onCaster={casterLink} />)}
+          {dayReferences.map(row => <div className="record-row" key={row.slot_start_jst}>
+            <div className="record-time"><strong>{row.slot_start_jst}</strong><small>JST</small></div>
+            <div className="record-body"><div className="record-program">{programsBySlot.get(row.slot_start_jst)}</div>
+              <strong>{row.casters.join('・') || '出演者未確認'}</strong>
+              {row.forecasters.length > 0 && <div className="small muted">予報士 {row.forecasters.join('・')}</div>}</div>
+            <span className="badge reference">参考番組表</span>
+          </div>)}
+          {dayVideos.length > 0 && <div className="video-links">{dayVideos.map(video =>
+            <External key={video.video_id} href={`https://www.youtube.com/watch?v=${video.video_id}`}><span><small>{video.slot_start_jst || '開始時刻未確認'}</small><strong>{video.program}</strong>{video.caster_name && <small>{video.caster_name}</small>}</span></External>)}</div>}
+          {!dayRows.length && !dayVideos.length && !dayReferences.length &&
+            <Empty>{referenceCount && !activeReference ? '参考番組表を読み込んでいます…' : 'この日の記録はありません。未取得の番組や出演者は補完していません。'}</Empty>}
         </div>
       </section>
       <section id="statistics"><SectionHead kicker="CASTER INSIGHTS" title="出演データを、わかりやすく。"><div className="segmented" aria-label="集計対象"><button aria-pressed={route.stats === 'confirmed'} onClick={() => update({ stats: 'confirmed' })}>確認済みの出演</button><button aria-pressed={route.stats === 'scheduled'} onClick={() => update({ stats: 'scheduled' })}>掲載予定</button></div></SectionHead>

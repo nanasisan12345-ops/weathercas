@@ -1,0 +1,1805 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "date_jst": "2026-04-01",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "松本真央"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-01",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-01",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-01",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-01",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-01",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-02",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "福吉貴文"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-02",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "松本真央"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-02",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-02",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-02",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-02",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-03",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "田辺真南葉"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-03",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-03",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-03",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "川畑玲"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-03",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-03",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-04",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "松本真央"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-04",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-04",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-04",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "田辺真南葉"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-04",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-04",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-05",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-05",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-05",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-05",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "田辺真南葉"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-05",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-05",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-06",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-06",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "松本真央"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-06",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-06",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-06",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-06",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-07",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "松本真央"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-07",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-07",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "田辺真南葉"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-07",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "川畑玲"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-07",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-07",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-08",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "松本真央"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-08",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "田辺真南葉"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-08",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-08",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-08",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-08",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-09",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-09",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "田辺真南葉"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-09",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-09",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-09",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-09",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-10",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-10",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "松本真央"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-10",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-10",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-10",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-10",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-11",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "田辺真南葉"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-11",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "松本真央"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-11",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-11",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-11",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-11",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-12",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-12",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "松本真央"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-12",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-12",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-12",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-12",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-13",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-13",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-13",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-13",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-13",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-13",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-14",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "福吉貴文"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-14",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-14",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "田辺真南葉"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-14",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "川畑玲"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-14",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-14",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-15",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "福吉貴文"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-15",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-15",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松本真央"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-15",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-15",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-15",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-16",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-16",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-16",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-16",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-16",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-16",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-17",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-17",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-17",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-17",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-17",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-17",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-18",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-18",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "田辺真南葉"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-18",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-18",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "松本真央"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-18",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-18",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-19",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "田辺真南葉"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-19",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-19",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-19",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "松本真央"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-19",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-19",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-20",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "田辺真南葉"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-20",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-20",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "有賀哲夫"
+      ]
+    },
+    {
+      "date_jst": "2026-04-20",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-20",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-20",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-21",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-21",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "松本真央"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-21",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-21",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "川畑玲"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-21",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-21",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-22",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-22",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "田辺真南葉"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-22",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-22",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-22",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-22",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-23",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-23",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "田辺真南葉"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-23",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-23",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-23",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-23",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-24",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "福吉貴文"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-24",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "松本真央"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-24",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "江川清音"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-24",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-24",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-24",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-25",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "松本真央"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-25",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "田辺真南葉"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-25",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-25",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-25",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-25",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "本田竜也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-26",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "松本真央"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-26",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "田辺真南葉"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-26",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-26",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-26",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-26",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-27",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "田辺真南葉"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-27",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "有賀哲夫"
+      ]
+    },
+    {
+      "date_jst": "2026-04-27",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "有賀哲夫"
+      ]
+    },
+    {
+      "date_jst": "2026-04-27",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-27",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-27",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "芳野達郎"
+      ]
+    },
+    {
+      "date_jst": "2026-04-28",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-28",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "岡本結子リサ"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-28",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "白井ゆかり"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-28",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "川畑玲"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-28",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "山岸愛梨"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-28",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-29",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-29",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "田辺真南葉"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-29",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "松本真央"
+      ],
+      "forecasters": [
+        "飯島栄一"
+      ]
+    },
+    {
+      "date_jst": "2026-04-29",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-29",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-29",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "戸北美月"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-30",
+      "slot_start_jst": "05:00",
+      "casters": [
+        "魚住茉由"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-30",
+      "slot_start_jst": "08:00",
+      "casters": [
+        "田辺真南葉"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-30",
+      "slot_start_jst": "11:00",
+      "casters": [
+        "青原桃香"
+      ],
+      "forecasters": [
+        "山口剛央"
+      ]
+    },
+    {
+      "date_jst": "2026-04-30",
+      "slot_start_jst": "14:00",
+      "casters": [
+        "小川千奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-30",
+      "slot_start_jst": "17:00",
+      "casters": [
+        "駒木結衣"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    },
+    {
+      "date_jst": "2026-04-30",
+      "slot_start_jst": "20:00",
+      "casters": [
+        "小林李衣奈"
+      ],
+      "forecasters": [
+        "宇野沢達也"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,779 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "date_jst": "2026-10-28",
+      "slot_start_jst": "05:00",
+      "program": "モーニング",
+      "caster_name": "松本真央",
+      "forecaster_name": "飯島栄一",
+      "video_id": "vE5cGw06voQ",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-28&TO=2026-10-28"
+    },
+    {
+      "date_jst": "2026-10-28",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "岡本結子リサ",
+      "forecaster_name": "飯島栄一",
+      "video_id": "_1nkxQr6vg8",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-28&TO=2026-10-28"
+    },
+    {
+      "date_jst": "2026-10-28",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "小川千奈",
+      "forecaster_name": "飯島栄一",
+      "video_id": "ZDSyaZYcjIQ",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-28&TO=2026-10-28"
+    },
+    {
+      "date_jst": "2026-10-28",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "福吉貴文",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "iI1SJGDO9Ns",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-28&TO=2026-10-28"
+    },
+    {
+      "date_jst": "2026-10-28",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "山岸愛梨",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "a9GaRnZ2zz4",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-28&TO=2026-10-28"
+    },
+    {
+      "date_jst": "2026-10-28",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "戸北美月",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "HPeLDQId9Bg",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-28&TO=2026-10-28"
+    },
+    {
+      "date_jst": "2026-10-29",
+      "slot_start_jst": "05:00",
+      "program": "モーニング",
+      "caster_name": "松本真央",
+      "forecaster_name": "山口剛央",
+      "video_id": "6RjKT7X0_68",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-29&TO=2026-10-29"
+    },
+    {
+      "date_jst": "2026-10-29",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "白井ゆかり",
+      "forecaster_name": "山口剛央",
+      "video_id": "6N308xHU1uo",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-29&TO=2026-10-29"
+    },
+    {
+      "date_jst": "2026-10-29",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "福吉貴文",
+      "forecaster_name": "山口剛央",
+      "video_id": "qZOhvNtl2K0",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-29&TO=2026-10-29"
+    },
+    {
+      "date_jst": "2026-10-29",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "青原桃香",
+      "forecaster_name": "本田竜也",
+      "video_id": "dGSfrTNmCss",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-29&TO=2026-10-29"
+    },
+    {
+      "date_jst": "2026-10-29",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "小林李衣奈",
+      "forecaster_name": "本田竜也",
+      "video_id": "Eb4rQNoO5K8",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-29&TO=2026-10-29"
+    },
+    {
+      "date_jst": "2026-10-29",
+      "slot_start_jst": "19:00",
+      "program": "【ライブ】岩田望来騎手が生出演！天気で読み解く天皇賞（秋）2026攻略／2026年10月29日(木)19:00〜〈netkeiba × ウェザーニュースLiVE コラボ〉",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "uG6qxAF36lA",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-29&TO=2026-10-29"
+    },
+    {
+      "date_jst": "2026-10-29",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "戸北美月",
+      "forecaster_name": "本田竜也",
+      "video_id": "jfZ3yi30EPk",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-29&TO=2026-10-29"
+    },
+    {
+      "date_jst": "2026-10-30",
+      "slot_start_jst": "05:00",
+      "program": "モーニング",
+      "caster_name": "岡本結子リサ",
+      "forecaster_name": "山口剛央",
+      "video_id": "je_MjTSFFyc",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-30&TO=2026-10-30"
+    },
+    {
+      "date_jst": "2026-10-30",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "魚住茉由",
+      "forecaster_name": "山口剛央",
+      "video_id": "b6hfNVYitF0",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-30&TO=2026-10-30"
+    },
+    {
+      "date_jst": "2026-10-30",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "福吉貴文",
+      "forecaster_name": "山口剛央",
+      "video_id": "S2pdaZ8QSzo",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-30&TO=2026-10-30"
+    },
+    {
+      "date_jst": "2026-10-30",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "青原桃香",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "jZZ-x2ewclQ",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-30&TO=2026-10-30"
+    },
+    {
+      "date_jst": "2026-10-30",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "小林李衣奈",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "7txbhDM5Dgs",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-30&TO=2026-10-30"
+    },
+    {
+      "date_jst": "2026-10-30",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "小川千奈",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "75USM4KZeA4",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-30&TO=2026-10-30"
+    },
+    {
+      "date_jst": "2026-10-30",
+      "slot_start_jst": null,
+      "program": "【秋のおでかけコーデ】ウェザーニュースキャスター 1万円コーディネート対決 ＜結果発表＞／ TVCコラボ 10月30日(金)",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "96HeDeQXBUQ",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-30&TO=2026-10-30"
+    },
+    {
+      "date_jst": "2026-10-30",
+      "slot_start_jst": null,
+      "program": "【気候変動番組】100年天気予報~温暖化、もう止められない？ 世界で相次ぐ異常気象と地球の未来~",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "mYtdTk_zlsk",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-30&TO=2026-10-30"
+    },
+    {
+      "date_jst": "2026-10-31",
+      "slot_start_jst": "05:00",
+      "program": "モーニング",
+      "caster_name": "岡本結子リサ",
+      "forecaster_name": "山口剛央",
+      "video_id": "OcL8fgmoZck",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-31&TO=2026-10-31"
+    },
+    {
+      "date_jst": "2026-10-31",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "松本真央",
+      "forecaster_name": "山口剛央",
+      "video_id": "Wyd_JePj4WU",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-31&TO=2026-10-31"
+    },
+    {
+      "date_jst": "2026-10-31",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "魚住茉由",
+      "forecaster_name": "山口剛央",
+      "video_id": "UkY2Xc0JceM",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-31&TO=2026-10-31"
+    },
+    {
+      "date_jst": "2026-10-31",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "青原桃香",
+      "forecaster_name": "芳野達郎",
+      "video_id": "52wsObsPzgE",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-31&TO=2026-10-31"
+    },
+    {
+      "date_jst": "2026-10-31",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "山岸愛梨",
+      "forecaster_name": "芳野達郎",
+      "video_id": "UQnwzxFHpk8",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-31&TO=2026-10-31"
+    },
+    {
+      "date_jst": "2026-10-31",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "戸北美月",
+      "forecaster_name": "芳野達郎",
+      "video_id": "P5loWB_j2wE",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-10-31&TO=2026-10-31"
+    },
+    {
+      "date_jst": "2026-11-01",
+      "slot_start_jst": "05:00",
+      "program": "モーニング",
+      "caster_name": "松本真央",
+      "forecaster_name": "山口剛央",
+      "video_id": "NoxMIkUwJ6g",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-01&TO=2026-11-01"
+    },
+    {
+      "date_jst": "2026-11-01",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "魚住茉由",
+      "forecaster_name": "山口剛央",
+      "video_id": "jVF4xWOXLWk",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-01&TO=2026-11-01"
+    },
+    {
+      "date_jst": "2026-11-01",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "白井ゆかり",
+      "forecaster_name": "山口剛央",
+      "video_id": "NH-SQtqdY2c",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-01&TO=2026-11-01"
+    },
+    {
+      "date_jst": "2026-11-01",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "田辺真南葉",
+      "forecaster_name": "芳野達郎",
+      "video_id": "xeimjSv7eIQ",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-01&TO=2026-11-01"
+    },
+    {
+      "date_jst": "2026-11-01",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "小川千奈",
+      "forecaster_name": "芳野達郎",
+      "video_id": "fODwxM5Weeg",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-01&TO=2026-11-01"
+    },
+    {
+      "date_jst": "2026-11-01",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "山岸愛梨",
+      "forecaster_name": "芳野達郎",
+      "video_id": "gOFt97sxX_0",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-01&TO=2026-11-01"
+    },
+    {
+      "date_jst": "2026-11-01",
+      "slot_start_jst": null,
+      "program": "【週刊地震】千葉県で最大震度5弱 三重県南東沖では異常震域も",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "LhIC1c5Qp80",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-01&TO=2026-11-01"
+    },
+    {
+      "date_jst": "2026-11-01",
+      "slot_start_jst": null,
+      "program": "【ライブ】ウェザーリポート21周年記念感謝祭／11月1日はウェザーリポーターの日",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "UyCxIjYiTfE",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-01&TO=2026-11-01"
+    },
+    {
+      "date_jst": "2026-11-02",
+      "slot_start_jst": "05:00",
+      "program": "モーニング",
+      "caster_name": "松本真央",
+      "forecaster_name": "有賀哲夫",
+      "video_id": "Tdru5c_V8Tg",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-02&TO=2026-11-02"
+    },
+    {
+      "date_jst": "2026-11-02",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "魚住茉由",
+      "forecaster_name": "有賀哲夫",
+      "video_id": "jCJNFVgxf-g",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-02&TO=2026-11-02"
+    },
+    {
+      "date_jst": "2026-11-02",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "田辺真南葉",
+      "forecaster_name": "有賀哲夫",
+      "video_id": "cSpz1v950Co",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-02&TO=2026-11-02"
+    },
+    {
+      "date_jst": "2026-11-02",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "川畑玲",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "YuC8-ur76hw",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-02&TO=2026-11-02"
+    },
+    {
+      "date_jst": "2026-11-02",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "小川千奈",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "mE5EP9pbgYE",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-02&TO=2026-11-02"
+    },
+    {
+      "date_jst": "2026-11-02",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "山岸愛梨",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "kj3whpHRCDE",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-02&TO=2026-11-02"
+    },
+    {
+      "date_jst": "2026-11-03",
+      "slot_start_jst": "05:00",
+      "program": "モーニング",
+      "caster_name": "福吉貴文",
+      "forecaster_name": "飯島栄一",
+      "video_id": "XFZQ5dORVwU",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-03&TO=2026-11-03"
+    },
+    {
+      "date_jst": "2026-11-03",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "岡本結子リサ",
+      "forecaster_name": "飯島栄一",
+      "video_id": "V4QiWoEUAtI",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-03&TO=2026-11-03"
+    },
+    {
+      "date_jst": "2026-11-03",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "佐藤剣慎",
+      "forecaster_name": "飯島栄一",
+      "video_id": "SkTaTn_Xleo",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-03&TO=2026-11-03"
+    },
+    {
+      "date_jst": "2026-11-03",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "田辺真南葉",
+      "forecaster_name": "本田竜也",
+      "video_id": "FIxCbJmxEL8",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-03&TO=2026-11-03"
+    },
+    {
+      "date_jst": "2026-11-03",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "田辺真南葉",
+      "forecaster_name": "青原桃香／本田竜也",
+      "video_id": "QA8aaoypAho",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-03&TO=2026-11-03"
+    },
+    {
+      "date_jst": "2026-11-03",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "青原桃香",
+      "forecaster_name": "本田竜也",
+      "video_id": "pOaE9I-lK08",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-03&TO=2026-11-03"
+    },
+    {
+      "date_jst": "2026-11-04",
+      "slot_start_jst": "05:00",
+      "program": "モーニング",
+      "caster_name": "松本真央",
+      "forecaster_name": "飯島栄一",
+      "video_id": "xj2fwEco3eQ",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-04&TO=2026-11-04"
+    },
+    {
+      "date_jst": "2026-11-04",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "岡本結子リサ",
+      "forecaster_name": "飯島栄一",
+      "video_id": "CkdK67Jbrgw",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-04&TO=2026-11-04"
+    },
+    {
+      "date_jst": "2026-11-04",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "佐藤剣慎",
+      "forecaster_name": "飯島栄一",
+      "video_id": "e7W3_JYmpRI",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-04&TO=2026-11-04"
+    },
+    {
+      "date_jst": "2026-11-04",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "小川千奈",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "uSwlVrQk05g",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-04&TO=2026-11-04"
+    },
+    {
+      "date_jst": "2026-11-04",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "青原桃香",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "qMkVev1Xod0",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-04&TO=2026-11-04"
+    },
+    {
+      "date_jst": "2026-11-04",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "戸北美月",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "y2fpouwyaEs",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-04&TO=2026-11-04"
+    },
+    {
+      "date_jst": "2026-11-05",
+      "slot_start_jst": "05:00",
+      "program": "モーニング",
+      "caster_name": "松本真央",
+      "forecaster_name": "山口剛央",
+      "video_id": "b4SqYsnSbiI",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-05&TO=2026-11-05"
+    },
+    {
+      "date_jst": "2026-11-05",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "田辺真南葉",
+      "forecaster_name": "山口剛央",
+      "video_id": "02mzdPhgJhI",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-05&TO=2026-11-05"
+    },
+    {
+      "date_jst": "2026-11-05",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "魚住茉由",
+      "forecaster_name": "山口剛央",
+      "video_id": "W1AqGEpR07w",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-05&TO=2026-11-05"
+    },
+    {
+      "date_jst": "2026-11-05",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "小林李衣奈",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "zacCJ2jjxp4",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-05&TO=2026-11-05"
+    },
+    {
+      "date_jst": "2026-11-05",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "戸北美月",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "0LBpBNE-2MQ",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-05&TO=2026-11-05"
+    },
+    {
+      "date_jst": "2026-11-05",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "山岸愛梨",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "nsWBdzoCgKo",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-05&TO=2026-11-05"
+    },
+    {
+      "date_jst": "2026-11-06",
+      "slot_start_jst": "05:00",
+      "program": "モーニング",
+      "caster_name": "佐藤剣慎",
+      "forecaster_name": "有賀哲夫",
+      "video_id": "BOLM0t9VHe8",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-06&TO=2026-11-06"
+    },
+    {
+      "date_jst": "2026-11-06",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "白井ゆかり",
+      "forecaster_name": "有賀哲夫",
+      "video_id": "q0tmwT5ZToE",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-06&TO=2026-11-06"
+    },
+    {
+      "date_jst": "2026-11-06",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "岡本結子リサ",
+      "forecaster_name": "有賀哲夫",
+      "video_id": "oG3J3ujJbcA",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-06&TO=2026-11-06"
+    },
+    {
+      "date_jst": "2026-11-06",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "江川清音",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "jCzOXVXmS34",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-06&TO=2026-11-06"
+    },
+    {
+      "date_jst": "2026-11-06",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "小川千奈",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "bEmV4S0-AAM",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-06&TO=2026-11-06"
+    },
+    {
+      "date_jst": "2026-11-06",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "山岸愛梨",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "Sj3nVd_XWcA",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-06&TO=2026-11-06"
+    },
+    {
+      "date_jst": "2026-11-06",
+      "slot_start_jst": null,
+      "program": "【気候変動番組】100年天気予報 ~気候変動によって起こった変化は元に戻せるのか？~",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "rxl82HN57z8",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-06&TO=2026-11-06"
+    },
+    {
+      "date_jst": "2026-11-07",
+      "slot_start_jst": "05:00",
+      "program": "モーニング",
+      "caster_name": "松本真央",
+      "forecaster_name": "山口剛央",
+      "video_id": "pV86JU3JquE",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-07&TO=2026-11-07"
+    },
+    {
+      "date_jst": "2026-11-07",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "魚住茉由",
+      "forecaster_name": "山口剛央",
+      "video_id": "HhktYr3kESM",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-07&TO=2026-11-07"
+    },
+    {
+      "date_jst": "2026-11-07",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "青原桃香",
+      "forecaster_name": "山口剛央",
+      "video_id": "-iAPiYdoUgg",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-07&TO=2026-11-07"
+    },
+    {
+      "date_jst": "2026-11-07",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "田辺真南葉",
+      "forecaster_name": "芳野達郎",
+      "video_id": "2GIP3l_UtO8",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-07&TO=2026-11-07"
+    },
+    {
+      "date_jst": "2026-11-07",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "戸北美月",
+      "forecaster_name": "芳野達郎",
+      "video_id": "bSzHe0DPaPM",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-07&TO=2026-11-07"
+    },
+    {
+      "date_jst": "2026-11-07",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "山岸愛梨",
+      "forecaster_name": "芳野達郎",
+      "video_id": "Cbc7dAjjezI",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-07&TO=2026-11-07"
+    },
+    {
+      "date_jst": "2026-11-08",
+      "slot_start_jst": "05:00",
+      "program": "モーニング",
+      "caster_name": "松本真央",
+      "forecaster_name": "山口剛央",
+      "video_id": "y8T_vL8FmRw",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-08&TO=2026-11-08"
+    },
+    {
+      "date_jst": "2026-11-08",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "魚住茉由",
+      "forecaster_name": "山口剛央",
+      "video_id": "OPZ_ssgoS-A",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-08&TO=2026-11-08"
+    },
+    {
+      "date_jst": "2026-11-08",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "青原桃香",
+      "forecaster_name": "山口剛央",
+      "video_id": "k5Qu_GTwxD8",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-08&TO=2026-11-08"
+    },
+    {
+      "date_jst": "2026-11-08",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "小林李衣奈",
+      "forecaster_name": "芳野達郎",
+      "video_id": "gkOeIK1mmzY",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-08&TO=2026-11-08"
+    },
+    {
+      "date_jst": "2026-11-08",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "田辺真南葉",
+      "forecaster_name": "芳野達郎",
+      "video_id": "VNswL1xEF1w",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-08&TO=2026-11-08"
+    },
+    {
+      "date_jst": "2026-11-08",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "山岸愛梨",
+      "forecaster_name": "芳野達郎",
+      "video_id": "2U6OEwlbt8M",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-08&TO=2026-11-08"
+    },
+    {
+      "date_jst": "2026-11-08",
+      "slot_start_jst": null,
+      "program": "【週刊地震情報】静岡県西部震源の地震で震度5強を観測 関東東方沖や相模湾でも地震発生(2026年11月2日〜8日10時の集計）",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "QptFHuxBJT0",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-08&TO=2026-11-08"
+    },
+    {
+      "date_jst": "2026-11-09",
+      "slot_start_jst": "05:00",
+      "program": "モーニング",
+      "caster_name": "福吉貴文",
+      "forecaster_name": "有賀哲夫",
+      "video_id": "dLy_IxzEYw4",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-09&TO=2026-11-09"
+    },
+    {
+      "date_jst": "2026-11-09",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "青原桃香",
+      "forecaster_name": "有賀哲夫",
+      "video_id": "NPTrJ_SHkzE",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-09&TO=2026-11-09"
+    },
+    {
+      "date_jst": "2026-11-09",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "岡本結子リサ",
+      "forecaster_name": "有賀哲夫",
+      "video_id": "jT1xsxt-5bk",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-09&TO=2026-11-09"
+    },
+    {
+      "date_jst": "2026-11-09",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "戸北美月",
+      "forecaster_name": "本田竜也",
+      "video_id": "sLM1NNHt9Hs",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-09&TO=2026-11-09"
+    },
+    {
+      "date_jst": "2026-11-09",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "小林李衣奈",
+      "forecaster_name": "本田竜也",
+      "video_id": "-pmkvRN-6VQ",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-09&TO=2026-11-09"
+    },
+    {
+      "date_jst": "2026-11-09",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "小川千奈",
+      "forecaster_name": "本田竜也",
+      "video_id": "ui-droalKl0",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-09&TO=2026-11-09"
+    },
+    {
+      "date_jst": "2026-11-10",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "岡本結子リサ",
+      "forecaster_name": "飯島栄一",
+      "video_id": "Eo12gwkrqUU",
+      "reference_url": null
+    }
+  ]
+}

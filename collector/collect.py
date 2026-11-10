@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import argparse
 import copy
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 import json
 import os
 from pathlib import Path
@@ -13,6 +13,7 @@ import time
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
+from .broadcasts import REFERENCE, broadcast, fetch_reference, reference_broadcasts, reference_url
 
 ROOT = Path(__file__).resolve().parents[1]
 JST = timezone(timedelta(hours=9))
@@ -48,27 +49,27 @@ def write_json(path: Path, value) -> None:
     temp.replace(path)
 
 
-def fetch_json(url: str, *, api_key: str | None = None, opener=urlopen, sleep=time.sleep):
+def fetch_json(url: str, *, api_key: str | None = None, opener=urlopen, sleep=time.sleep, timeout=20, attempts=3):
     headers = {"User-Agent": "WeatherCas/0.1 (official public metadata)",
                "Accept": "application/json"}
     if api_key:
         if not url.startswith("https://www.googleapis.com/youtube/v3/"):
             raise SourceError("invalid_key_destination")
         headers["X-Goog-Api-Key"] = api_key
-    for attempt in range(3):
+    for attempt in range(attempts):
         try:
-            with opener(Request(url, headers=headers), timeout=20) as response:
+            with opener(Request(url, headers=headers), timeout=timeout) as response:
                 raw = response.read(2_000_001)
                 if len(raw) > 2_000_000:
                     raise SourceError("response_too_large")
                 return json.loads(raw.decode("utf-8"))
         except HTTPError as exc:
-            if exc.code not in (429, 500, 502, 503, 504) or attempt == 2:
+            if exc.code not in (429, 500, 502, 503, 504) or attempt == attempts - 1:
                 raise SourceError(f"http_{exc.code}") from None
             retry = exc.headers.get("Retry-After", "") if exc.headers else ""
             sleep(min(30, int(retry)) if retry.isdigit() else 2 ** attempt)
         except (URLError, TimeoutError, OSError):
-            if attempt == 2:
+            if attempt == attempts - 1:
                 raise SourceError("network_error") from None
             sleep(2 ** attempt)
         except (ValueError, UnicodeError):
@@ -185,7 +186,32 @@ def parse_videos(payload, now: datetime) -> dict:
 def verify_oembed(payload, video_id: str) -> bool:
     return (isinstance(payload, dict) and payload.get("type") == "video"
             and payload.get("author_url") in ("https://www.youtube.com/@weathernews", "https://www.youtube.com/user/weathernews")
+            and isinstance(payload.get("html"), str)
             and f"https://www.youtube.com/embed/{video_id}" in payload.get("html", ""))
+
+
+def oembed_url(video_id: str) -> str:
+    return "https://www.youtube.com/oembed?" + urlencode({"url": f"https://www.youtube.com/watch?v={video_id}", "format": "json"})
+
+
+def load_broadcasts(data_dir: Path) -> list[dict]:
+    try:
+        data = read_json(data_dir / "broadcasts.json", {"schema_version": 1, "records": []})
+        assert data["schema_version"] == 1 and isinstance(data["records"], list)
+        assert len(data["records"]) <= 30000
+        for row in data["records"]:
+            day, slot = row["date_jst"], row["slot_start_jst"]
+            assert datetime.fromisoformat(day).date().isoformat() == day
+            assert slot is None or HOUR.fullmatch(slot)
+            assert VIDEO_ID.fullmatch(row["video_id"])
+            assert row["reference_url"] in (None, reference_url(day, day))
+            assert isinstance(row["program"], str) and 1 <= len(row["program"]) <= 500
+            assert all(row[name] is None or isinstance(row[name], str) and 1 <= len(row[name]) <= 500
+                       for name in ("caster_name", "forecaster_name"))
+        assert len({row["video_id"] for row in data["records"]}) == len(data["records"])
+        return data["records"]
+    except (KeyError, ValueError, TypeError, AssertionError):
+        raise SourceError("stored_broadcast_invalid") from None
 
 
 def verify_api(payload, channel_id: str, video_id: str) -> tuple[str, bool]:
@@ -258,11 +284,13 @@ def save_records(data_dir: Path, rows: list[dict], catalog: dict):
     write_json(data_dir / "index.json", index)
 
 
-def collect(data_dir: Path, log_dir: Path, *, now=None, fetch=fetch_json, api_key=None, live_only=False) -> dict:
+def collect(data_dir: Path, log_dir: Path, *, now=None, fetch=fetch_json, api_key=None, live_only=False,
+            fetch_reference_page=None, fetch_archive_video=None, archive_date=None) -> dict:
     now = now or datetime.now(JST)
     checked = stamp(now)
     catalog = read_json(ROOT / "config/casters.json")
     previous = load_records(data_dir)
+    broadcasts = {row["video_id"]: row for row in load_broadcasts(data_dir)}
     old_status = read_json(data_dir / "status.json", {"sources": []})
     old_sources = {s["id"]: s for s in old_status["sources"]}
     sources, errors = [], []
@@ -305,14 +333,16 @@ def collect(data_dir: Path, log_dir: Path, *, now=None, fetch=fetch_json, api_ke
         live["archives_checked_at"] = checked
     if live["video"]:
         vid = live["video"]["id"]
-        url = "https://www.youtube.com/oembed?" + urlencode({"url": f"https://www.youtube.com/watch?v={vid}", "format": "json"})
-
         def embed_check():
-            if not verify_oembed(fetch(url), vid):
+            if not verify_oembed(fetch(oembed_url(vid)), vid):
                 raise SourceError("embed_or_channel_unverified")
             return True
 
         live["embed_allowed"] = bool(outcome("embed", "YouTube公式埋め込み", "https://www.youtube.com/oembed", embed_check))
+        if live["embed_allowed"]:
+            current = broadcast(live["video"]["title"], vid)
+            if current and abs((datetime.fromisoformat(current["date_jst"]).date() - now.astimezone(JST).date()).days) <= 1:
+                broadcasts[vid] = current
         if api_key:
             def api_check():
                 channels = fetch("https://www.googleapis.com/youtube/v3/channels?part=id&forHandle=weathernews", api_key=api_key)
@@ -334,11 +364,31 @@ def collect(data_dir: Path, log_dir: Path, *, now=None, fetch=fetch_json, api_ke
                             "status": "unconfigured", "checked_at": checked, "last_success_at": None,
                             "last_failure_at": None, "count": 0, "message": "APIキー未設定。現在LIVEとは断定しません。"})
 
+    if not live_only and fetch_reference_page:
+        def find_missing():
+            def read_video(video_id):
+                try:
+                    return (fetch_archive_video or fetch)(oembed_url(video_id))
+                except SourceError:
+                    return None
+
+            try:
+                today = archive_date + timedelta(days=1) if archive_date else now.astimezone(JST).date()
+                return reference_broadcasts(today, broadcasts.values(), fetch_reference_page,
+                                            read_video, verify_oembed, days=1 if archive_date else 7)
+            except (OSError, ValueError, LookupError):
+                raise SourceError("reference_unavailable") from None
+
+        found = outcome("broadcast_reference", "過去の番組表（みのりん）", REFERENCE, find_missing)
+        broadcasts.update({row["video_id"]: row for row in found or []})
+
     # All records have been validated in memory before replacing partitions.
     for row in rows:
         validate_record(row)
     if not live_only:
         save_records(data_dir, rows, catalog)
+    write_json(data_dir / "broadcasts.json", {"schema_version": 1, "records": sorted(
+        broadcasts.values(), key=lambda row: (row["date_jst"], row["slot_start_jst"] or "99", row["video_id"]))})
     write_json(data_dir / "live.json", live)
     quality = {"scheduled": sum(r["status"] == "scheduled" for r in rows),
                "confirmed": sum(r["status"] == "confirmed" for r in rows),
@@ -358,13 +408,20 @@ def main():
     parser.add_argument("--log-dir", type=Path, default=ROOT / "Data/logs/collector")
     parser.add_argument("--validate-only", action="store_true")
     parser.add_argument("--live-only", action="store_true", help="Refresh video metadata without touching schedule partitions")
+    parser.add_argument("--archive-date", type=date.fromisoformat, help="Look up an older date in the reference schedule (YYYY-MM-DD JST)")
     args = parser.parse_args()
+    if args.archive_date and (args.live_only or args.archive_date >= datetime.now(JST).date()):
+        parser.error("--archive-date must be a past date and requires a full collection")
     try:
         if args.validate_only:
             rows = load_records(args.data_dir)
+            load_broadcasts(args.data_dir)
             print(json.dumps({"valid": True, "records": len(rows)}))
             return 0
-        report = collect(args.data_dir, args.log_dir, api_key=os.environ.get("YOUTUBE_API_KEY"), live_only=args.live_only)
+        report = collect(args.data_dir, args.log_dir, api_key=os.environ.get("YOUTUBE_API_KEY"),
+                         live_only=args.live_only, fetch_reference_page=fetch_reference,
+                         fetch_archive_video=lambda url: fetch_json(url, timeout=5, attempts=1),
+                         archive_date=args.archive_date)
         print(json.dumps({"healthy": report["healthy"], "quality": report["quality"]}))
         return 0 if report["healthy"] else 1
     except SourceError as exc:

@@ -3,8 +3,15 @@ import { z } from 'zod';
 const text = z.string().min(1).max(500);
 const id = z.string().regex(/^[a-z0-9_-]{1,64}$/);
 const date = z.iso.date();
+const slotTime = z.string().regex(/^(?:[01]\d|2[0-3]):[0-5]\d$/);
 const timestamp = z.iso.datetime({ offset: true });
 const videoId = z.string().regex(/^[a-zA-Z0-9_-]{11}$/);
+const referenceUrl = 'https://minorin.jp/wnl/caster.cgi';
+export const programSlots = [
+  ['05:00', 'モーニング'], ['08:00', 'サンシャイン'], ['11:00', 'コーヒータイム'],
+  ['14:00', 'アフタヌーン'], ['17:00', 'イブニング'], ['20:00', 'ムーン'],
+] as const;
+export const programsBySlot = new Map<string, string>(programSlots);
 export const officialUrl = z.url().refine(value => {
   const url = new URL(value);
   return url.protocol === 'https:' && !url.username && !url.password &&
@@ -19,7 +26,7 @@ const plan = z.object({
   source_url: officialUrl, source_type: z.literal('official_schedule'), source_checked_at: timestamp,
 });
 export const recordSchema = z.object({
-  id: text, date_jst: date, slot_start_jst: z.string().regex(/^(?:[01]\d|2[0-3]):[0-5]\d$/),
+  id: text, date_jst: date, slot_start_jst: slotTime,
   program: text, date_basis: z.literal('rolling_schedule'), role: z.literal('presenter'),
   planned: plan, confirmed: evidence.nullable(), status: z.enum(['scheduled', 'confirmed', 'unverified']),
   youtube_video_id: videoId.nullable(),
@@ -39,7 +46,7 @@ export type DataIndex = z.infer<typeof indexSchema>;
 export const statusSchema = z.object({
   schema_version: z.literal(1), generated_at: timestamp, healthy: z.boolean(), interval_hours: z.number(), note: text,
   sources: z.array(z.object({
-    id, label: text, url: officialUrl, checked_at: timestamp, last_success_at: timestamp.nullable(),
+    id, label: text, url: z.union([officialUrl, z.literal(referenceUrl)]), checked_at: timestamp, last_success_at: timestamp.nullable(),
     last_failure_at: timestamp.nullable(), count: z.number().int().nonnegative(),
     status: z.enum(['ok', 'failed', 'unconfigured']), message: text,
   })).max(20),
@@ -54,14 +61,31 @@ export const liveSchema = z.object({
   archives: z.array(videoSchema).max(100), archives_checked_at: timestamp.nullable().optional(),
 }).refine(value => !['listed', 'live'].includes(value.state) || value.video !== null);
 export type LiveData = z.infer<typeof liveSchema>;
-export type Dataset = { index: DataIndex; records: Appearance[]; status: CollectionStatus };
+const broadcastSchema = z.object({
+  date_jst: date, slot_start_jst: slotTime.nullable(), program: text,
+  caster_name: text.nullable(), forecaster_name: text.nullable(), video_id: videoId, reference_url: z.string().nullable(),
+}).refine(row => row.reference_url === null || row.reference_url === `${referenceUrl}?FROM=${row.date_jst}&TO=${row.date_jst}`);
+const broadcastIndex = z.object({ schema_version: z.literal(1), records: z.array(broadcastSchema).max(30000) })
+  .refine(index => new Set(index.records.map(row => row.video_id)).size === index.records.length);
+export type Broadcast = z.infer<typeof broadcastSchema>;
+const monthKey = z.string().regex(/^\d{4}-(?:0[1-9]|1[0-2])$/);
+const referenceIndexSchema = z.object({ schema_version: z.literal(1),
+  months: z.record(monthKey, z.number().int().positive().max(186)),
+});
+const referenceRecordSchema = z.object({
+  date_jst: date, slot_start_jst: slotTime, casters: z.array(text).max(20), forecasters: z.array(text).max(20),
+}).refine(row => programsBySlot.has(row.slot_start_jst) && (row.casters.length > 0 || row.forecasters.length > 0));
+const referenceMonthSchema = z.object({ schema_version: z.literal(1), records: z.array(referenceRecordSchema).max(186) });
+export type ReferenceRecord = z.infer<typeof referenceRecordSchema>;
+export type Dataset = { index: DataIndex; records: Appearance[]; broadcasts: Broadcast[] | null; status: CollectionStatus };
 export const scheduleSchema = z.object({ schema_version: z.literal(1), checked_at: timestamp, records: z.array(recordSchema).min(1).max(100) });
 export type CurrentSchedule = z.infer<typeof scheduleSchema>;
 
-async function getJSON<T>(path: string, schema: z.ZodType<T>, endpoint?: string): Promise<T> {
+async function getJSON<T>(path: string, schema: z.ZodType<T>, endpoint?: string, missing?: T): Promise<T> {
   const response = await fetch(endpoint || `${import.meta.env.BASE_URL}data/${path}`, {
     cache: 'no-store', signal: AbortSignal.timeout(15000),
   });
+  if (response.status === 404 && missing !== undefined) return missing;
   if (!response.ok) throw new Error('データを読み込めませんでした。時間をおいて再読み込みしてください。');
   const result = schema.safeParse(await response.json());
   if (!result.success) throw new Error('データ形式を確認できません。安全のため表示を停止しています。');
@@ -69,7 +93,10 @@ async function getJSON<T>(path: string, schema: z.ZodType<T>, endpoint?: string)
 }
 
 export async function loadDataset(): Promise<Dataset> {
-  const [index, status] = await Promise.all([getJSON('index.json', indexSchema), getJSON('status.json', statusSchema)]);
+  const [index, status, broadcasts] = await Promise.all([
+    getJSON('index.json', indexSchema), getJSON('status.json', statusSchema),
+    getJSON('broadcasts.json', broadcastIndex, undefined, { schema_version: 1, records: [] }).catch(() => null),
+  ]);
   const records: Appearance[] = [];
   for (let i = 0; i < index.months.length; i += 4) {
     const batch = index.months.slice(i, i + 4);
@@ -84,9 +111,19 @@ export async function loadDataset(): Promise<Dataset> {
   if (new Set(records.map(row => row.id)).size !== records.length || records.length !== index.count) {
     throw new Error('更新中のデータを検出しました。しばらくしてから再読み込みしてください。');
   }
-  return { index, status, records: records.sort((a, b) => a.id.localeCompare(b.id)) };
+  return { index, status, broadcasts: broadcasts?.records ?? null, records: records.sort((a, b) => a.id.localeCompare(b.id)) };
 }
 export const loadLive = () => getJSON('live.json', liveSchema, import.meta.env.VITE_LIVE_ENDPOINT);
+export const loadReferenceIndex = () => getJSON('reference-schedule/index.json', referenceIndexSchema, undefined,
+  { schema_version: 1, months: {} });
+export async function loadReferenceMonth(month: string, count: number): Promise<ReferenceRecord[]> {
+  const data = await getJSON(`reference-schedule/${monthKey.parse(month)}.json`, referenceMonthSchema);
+  if (data.records.length !== count || data.records.some(row => row.date_jst.slice(0, 7) !== month) ||
+      new Set(data.records.map(row => row.date_jst + row.slot_start_jst)).size !== count) {
+    throw new Error('参考番組表の日付または件数を確認できません。');
+  }
+  return data.records;
+}
 export const loadSchedule = () => getJSON('schedule.json', scheduleSchema,
   import.meta.env.VITE_LIVE_ENDPOINT?.replace('/live.json', '/schedule.json'));
 export function currentScheduleRows(saved: Appearance[], current: CurrentSchedule | null, now = Date.now()): Appearance[] {
@@ -133,10 +170,10 @@ export function parseRoute(hash: string, today = jstDate()): Route {
   const short = (name: string) => (params.get(name) || '').slice(0, 200);
   const day = date.safeParse(params.get('date'));
   return { view: ['home', 'live', 'schedule', 'weather', 'archive', 'statistics', 'capture', 'privacy', 'main-content'].includes(view) ? view : 'home',
-    date: day.success ? day.data : today, q: short('q'), caster: short('caster'), program: short('program'),
+    date: day.success ? day.data : today, q: short('q'), caster: short('caster'), program: (params.get('program') || '').slice(0, 500),
     month: /^\d{4}-(0[1-9]|1[0-2])$/.test(short('month')) ? short('month') : '',
     year: /^\d{4}$/.test(short('year')) ? short('year') : '',
-    status: ['scheduled', 'confirmed', 'unverified'].includes(short('status')) ? short('status') : '',
+    status: ['scheduled', 'confirmed', 'unverified', 'reference'].includes(short('status')) ? short('status') : '',
     stats: params.get('stats') === 'scheduled' ? 'scheduled' : 'confirmed' };
 }
 export function routeHash(route: Route): string {
@@ -144,14 +181,15 @@ export function routeHash(route: Route): string {
   Object.entries(route).forEach(([key, value]) => { if (key !== 'view' && value) query.set(key, value); });
   return `#${route.view}?${query}`;
 }
-const normalize = (value: string) => value.normalize('NFKC').toLocaleLowerCase('ja-JP').replace(/\s/g, '');
+export const normalize = (value: string) => value.normalize('NFKC').toLocaleLowerCase('ja-JP').replace(/\s/g, '');
+export const shortProgram = (value: string) => value.replace(/^ウェザーニュースLiVE[・\s]*/, '').trim() || value;
 export function filterRecords(rows: Appearance[], route: Route, casters: DataIndex['casters'] = []): Appearance[] {
   return rows.filter(row => {
     const person = row.confirmed || row.planned;
     const aliases = casters.find(c => c.id === person.caster_id)?.aliases.join(' ') || '';
     return (!route.month || row.date_jst.startsWith(route.month)) && (!route.year || row.date_jst.startsWith(route.year)) &&
       (!route.status || row.status === route.status) && (!route.caster || person.caster_id === route.caster) &&
-      (!route.program || row.program === route.program) &&
+      (!route.program || shortProgram(row.program) === shortProgram(route.program)) &&
       (!route.q || normalize(`${row.date_jst} ${row.program} ${person.caster_name || ''} ${person.caster_id || ''} ${aliases}`).includes(normalize(route.q)));
   });
 }
