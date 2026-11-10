@@ -1,16 +1,34 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-10T11:06:06+09:00",
+  "checked_at": "2026-11-10T18:40:41+09:00",
   "state": "listed",
   "video": {
-    "id": "vffINurdqkA",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月10日(火) ／北日本は厳しい寒さ　関東以西の天気は回復傾向〈ウェザーニュースLiVEコーヒータイム・駒木結衣／飯島栄一〉",
+    "id": "-W9YeKGueo0",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月10日(火) ／明日 北日本は、日本海側を中心に雲が広がりやすい〈ウェザーニュースLiVEイブニング・小川千奈／宇野沢達也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-09T09:07:38+09:00"
+    "published_at": "2026-11-09T15:10:26+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "ERP2pCP3WWU",
+      "title": "【気象×経済】今夏のヨーロッパ猛暑で経済損失20兆円超え　熱波・山火事が生活や産業へ与えた影響とは＜独自システム「ROI Generator」より＞",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-10T15:34:52+09:00"
+    },
+    {
+      "id": "XS3kFZAnJU4",
+      "title": "【週間天気予報】週末は低気圧＋前線が通過 広範囲で強い雨や雷雨のおそれ",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-10T14:06:09+09:00"
+    },
+    {
+      "id": "j7Ac8eANaKg",
+      "title": "【今日の雨雪情報】北海道は強い風雪に注意　関東もお昼頃まで雨が残る予想",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-10T10:40:19+09:00"
+    },
     {
       "id": "If3tE8IrUBA",
       "title": "【関東の天気】雨はいつ止む？前線南下で昼前後に再び雨の可能性 北東風で冬の寒さ続く",
@@ -22,25 +40,7 @@
       "title": "【台風32号 2026】小笠原諸島は荒天・高波に警戒（10日3時更新）",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-10T06:07:40+09:00"
-    },
-    {
-      "id": "5eA07XeeS-8",
-      "title": "【台風32号 2026】小笠原諸島は荒天に注意　進路は東へ転向（11月9日21時更新）",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-09T23:16:40+09:00"
-    },
-    {
-      "id": "L6IsWnLUPCw",
-      "title": "【雪情報】北海道 今夜から明日にかけて積雪急増 路面凍結にも注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-09T21:32:33+09:00"
-    },
-    {
-      "id": "DIY9UyRl-NI",
-      "title": "【関東の天気】あすも関東は冬の寒さが続く　朝は冷たい雨が残る",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-09T20:18:53+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-10T11:06:06+09:00"
+  "archives_checked_at": "2026-11-10T18:40:41+09:00"
 }
