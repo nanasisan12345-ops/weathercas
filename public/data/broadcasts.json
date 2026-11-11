@@ -840,6 +840,15 @@
     },
     {
       "date_jst": "2026-11-11",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "田辺真南葉",
+      "forecaster_name": "飯島栄一",
+      "video_id": "PpDWE8mD4WM",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-11&TO=2026-11-11"
+    },
+    {
+      "date_jst": "2026-11-11",
       "slot_start_jst": "11:00",
       "program": "コーヒータイム",
       "caster_name": "白井ゆかり",
@@ -849,12 +858,48 @@
     },
     {
       "date_jst": "2026-11-11",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "小川千奈",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "TGJeRMKdMeo",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-11&TO=2026-11-11"
+    },
+    {
+      "date_jst": "2026-11-11",
       "slot_start_jst": "17:00",
       "program": "イブニング",
       "caster_name": "小林李衣奈",
       "forecaster_name": "宇野沢達也",
       "video_id": "EEnaH-SBUmg",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-11",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "山岸愛梨",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "rjp8cgnGAAk",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-11&TO=2026-11-11"
+    },
+    {
+      "date_jst": "2026-11-11",
+      "slot_start_jst": "23:00",
+      "program": "【ライブ】最新天気ニュース・地震情報 2026年11月11日(水)23:00〜 ／西・東日本は穏やかな晴天　北日本は寒さ和らぐ〈ウェザーニュースLiVE〉",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "RBVMLeMN_Sc",
+      "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-11",
+      "slot_start_jst": null,
+      "program": "【ライブ】命と財産を守る「入れない防災」とは？誰でも素早くできる最新の浸水対策を徹底解説〈文化シヤッター×ウェザーニュースLiVE〉",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "HBRf1Fo9Biw",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-11&TO=2026-11-11"
     }
   ]
 }

@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-11T18:16:21+09:00",
+  "checked_at": "2026-11-12T02:14:03+09:00",
   "state": "listed",
   "video": {
-    "id": "EEnaH-SBUmg",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月11日(水) ／北日本日本海側は雪の所も〈ウェザーニュースLiVEイブニング・小林李衣奈／宇野沢達也〉",
+    "id": "RBVMLeMN_Sc",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月11日(水)23:00〜 ／西・東日本は穏やかな晴天　北日本は寒さ和らぐ〈ウェザーニュースLiVE〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-10T16:10:25+09:00"
+    "published_at": "2026-11-10T21:26:44+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "WIfAs6qemds",
+      "title": "【エルニーニョ過去最高水準に 】今年の冬はどうなる？  南岸低気圧による大雪の可能性も",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-11T22:41:04+09:00"
+    },
+    {
+      "id": "dAhmoPfidxc",
+      "title": "【寒さから一転】週末は季節外れの暖かさに　東京や大阪など20℃超え",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-11T18:54:09+09:00"
+    },
     {
       "id": "EqtJK1BjiX4",
       "title": "【台風32号 2026】日本のはるか東へ  今後も高波に注意（11月11日15時更新）",
@@ -28,19 +40,7 @@
       "title": "【今季一番の冷え込み】北海道で−20℃以下を観測 東京都心も5℃台に　小春日和の昼間との気温差に注意",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-11T09:23:10+09:00"
-    },
-    {
-      "id": "nCyPbEiTFo0",
-      "title": "北海道で氷点下20℃到達！寒気が緩むタイミングこそ日本海側の局地的な強い雪や雨に警戒",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-11T07:10:13+09:00"
-    },
-    {
-      "id": "H7q0-A5m0bs",
-      "title": "【台風32号 2026】台風32号は小笠原諸島から遠ざかる　強風や高波に引き続き注意（11日3時現在）",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-11T06:02:45+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-11T18:16:21+09:00"
+  "archives_checked_at": "2026-11-12T02:14:03+09:00"
 }
