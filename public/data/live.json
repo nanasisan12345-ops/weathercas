@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-11T11:03:57+09:00",
+  "checked_at": "2026-11-11T18:16:21+09:00",
   "state": "listed",
   "video": {
-    "id": "JE26sgHnLRA",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月11日(水)／北日本日本海側は雪の所も 関東東海は晴れて気温上昇〈ウェザーニュースLiVEコーヒータイム・白井ゆかり／飯島栄一〉",
+    "id": "EEnaH-SBUmg",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月11日(水) ／北日本日本海側は雪の所も〈ウェザーニュースLiVEイブニング・小林李衣奈／宇野沢達也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-10T09:26:19+09:00"
+    "published_at": "2026-11-10T16:10:25+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "EqtJK1BjiX4",
+      "title": "【台風32号 2026】日本のはるか東へ  今後も高波に注意（11月11日15時更新）",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-11T18:01:23+09:00"
+    },
+    {
+      "id": "GMtp5Ja8Xso",
+      "title": "【週間天気予報】週末は天気下り坂で日曜日は広範囲で雨 太平洋側は雨が強まるおそれ",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-11T14:28:33+09:00"
+    },
     {
       "id": "lf72xVxMLEs",
       "title": "【今季一番の冷え込み】北海道で−20℃以下を観測 東京都心も5℃台に　小春日和の昼間との気温差に注意",
@@ -28,19 +40,7 @@
       "title": "【台風32号 2026】台風32号は小笠原諸島から遠ざかる　強風や高波に引き続き注意（11日3時現在）",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-11T06:02:45+09:00"
-    },
-    {
-      "id": "q3WMUNg1lq8",
-      "title": "【台風32号 2026】非常に強い勢力で小笠原諸島に最接近（11月10日22時更新）",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-10T23:15:22+09:00"
-    },
-    {
-      "id": "BOpHSrbuRik",
-      "title": "【北日本で雪】強い寒気流入で降雪はいつまで続く？上空の気象状況を詳しく解説",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-10T22:50:24+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-11T11:03:57+09:00"
+  "archives_checked_at": "2026-11-11T18:16:21+09:00"
 }
