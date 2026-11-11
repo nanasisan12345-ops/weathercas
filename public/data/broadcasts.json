@@ -900,6 +900,15 @@
       "forecaster_name": null,
       "video_id": "HBRf1Fo9Biw",
       "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-11&TO=2026-11-11"
+    },
+    {
+      "date_jst": "2026-11-12",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "佐藤剣慎",
+      "forecaster_name": "山口剛央",
+      "video_id": "CmkujjBOyz4",
+      "reference_url": null
     }
   ]
 }

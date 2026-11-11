@@ -1,16 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-12T02:14:03+09:00",
+  "checked_at": "2026-11-12T08:29:48+09:00",
   "state": "listed",
   "video": {
-    "id": "RBVMLeMN_Sc",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月11日(水)23:00〜 ／西・東日本は穏やかな晴天　北日本は寒さ和らぐ〈ウェザーニュースLiVE〉",
+    "id": "CmkujjBOyz4",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月12日(木) ／西日本、東日本は穏やかな晴天　北日本は寒さ和らぐ〈ウェザーニュースLiVEサンシャイン・佐藤剣慎／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-10T21:26:44+09:00"
+    "published_at": "2026-11-11T03:44:04+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "iS_o14ou89g",
+      "title": "【雨情報】北海道から東北日本海側は雲が広がりやすく、にわか雨のおそれ　お出かけの際は折りたたみ傘があると安心",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-12T07:15:26+09:00"
+    },
     {
       "id": "WIfAs6qemds",
       "title": "【エルニーニョ過去最高水準に 】今年の冬はどうなる？  南岸低気圧による大雪の可能性も",
@@ -34,13 +40,7 @@
       "title": "【週間天気予報】週末は天気下り坂で日曜日は広範囲で雨 太平洋側は雨が強まるおそれ",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-11T14:28:33+09:00"
-    },
-    {
-      "id": "lf72xVxMLEs",
-      "title": "【今季一番の冷え込み】北海道で−20℃以下を観測 東京都心も5℃台に　小春日和の昼間との気温差に注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-11T09:23:10+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-12T02:14:03+09:00"
+  "archives_checked_at": "2026-11-12T08:29:48+09:00"
 }
