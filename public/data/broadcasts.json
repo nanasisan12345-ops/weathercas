@@ -837,6 +837,15 @@
       "forecaster_name": "飯島栄一",
       "video_id": "U_XoJJ8D1GI",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-11",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "白井ゆかり",
+      "forecaster_name": "飯島栄一",
+      "video_id": "JE26sgHnLRA",
+      "reference_url": null
     }
   ]
 }
