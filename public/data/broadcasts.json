@@ -918,6 +918,15 @@
       "forecaster_name": "山口剛央",
       "video_id": "7lJpohP3Zgw",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-12",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "戸北美月",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "ytekrYSDGnE",
+      "reference_url": null
     }
   ]
 }
