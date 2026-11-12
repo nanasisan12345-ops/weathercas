@@ -1,16 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-12T21:26:35+09:00",
+  "checked_at": "2026-11-13T05:15:39+09:00",
   "state": "listed",
   "video": {
-    "id": "ytekrYSDGnE",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月12日(木)20:00〜 ／明日は広い範囲で晴れて気温上昇〈ウェザーニュースLiVEムーン・戸北美月／宇野沢達也〉",
+    "id": "MJLbtg0v6Uw",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月13日(金)／東北日本海側～北陸のにわか雨に注意〈ウェザーニュースLiVEモーニング・福吉貴文／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-11T23:08:44+09:00"
+    "published_at": "2026-11-12T00:32:11+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "aH6soa6VDdY",
+      "title": "【週間天気予報】週末の雨はいつから？日曜日は広範囲で天気が崩れる予想〈ウェザーニュース気象予報士解説〉",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-12T22:20:43+09:00"
+    },
     {
       "id": "-_kkXu3LodQ",
       "title": "【天体情報】今夜「おうし座北流星群」が見頃！13日午前3時頃極大　関東甲信に観測チャンス",
@@ -34,13 +40,7 @@
       "title": "【8日愛知県震度5強】震源を「愛知県東部」に変更／最新の余震状況まとめなど",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-12T11:48:46+09:00"
-    },
-    {
-      "id": "iS_o14ou89g",
-      "title": "【雨情報】北海道から東北日本海側は雲が広がりやすく、にわか雨のおそれ　お出かけの際は折りたたみ傘があると安心",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-12T07:15:26+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-12T21:26:35+09:00"
+  "archives_checked_at": "2026-11-13T05:15:39+09:00"
 }
