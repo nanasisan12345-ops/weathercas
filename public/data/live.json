@@ -1,16 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-12T08:29:48+09:00",
+  "checked_at": "2026-11-12T13:01:40+09:00",
   "state": "listed",
   "video": {
-    "id": "CmkujjBOyz4",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月12日(木) ／西日本、東日本は穏やかな晴天　北日本は寒さ和らぐ〈ウェザーニュースLiVEサンシャイン・佐藤剣慎／山口剛央〉",
+    "id": "7lJpohP3Zgw",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月12日(木) ／西日本、東日本は穏やかな晴天　北日本は寒さ和らぐ〈ウェザーニュースLiVEコーヒータイム・青原桃香／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-11T03:44:04+09:00"
+    "published_at": "2026-11-11T07:34:28+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "Y_Apk7SIevo",
+      "title": "【8日愛知県震度5強】震源を「愛知県東部」に変更／最新の余震状況まとめなど",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-12T11:48:46+09:00"
+    },
     {
       "id": "iS_o14ou89g",
       "title": "【雨情報】北海道から東北日本海側は雲が広がりやすく、にわか雨のおそれ　お出かけの際は折りたたみ傘があると安心",
@@ -34,13 +40,7 @@
       "title": "【台風32号 2026】日本のはるか東へ  今後も高波に注意（11月11日15時更新）",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-11T18:01:23+09:00"
-    },
-    {
-      "id": "GMtp5Ja8Xso",
-      "title": "【週間天気予報】週末は天気下り坂で日曜日は広範囲で雨 太平洋側は雨が強まるおそれ",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-11T14:28:33+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-12T08:29:48+09:00"
+  "archives_checked_at": "2026-11-12T13:01:40+09:00"
 }
