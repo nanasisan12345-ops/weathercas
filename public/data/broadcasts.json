@@ -975,11 +975,47 @@
     },
     {
       "date_jst": "2026-11-13",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "青原桃香",
+      "forecaster_name": "山口剛央",
+      "video_id": "0gAdmBCb-uc",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-13&TO=2026-11-13"
+    },
+    {
+      "date_jst": "2026-11-13",
       "slot_start_jst": "14:00",
       "program": "アフタヌーン",
       "caster_name": "江川清音",
       "forecaster_name": "宇野沢達也",
       "video_id": "mQXbN1yRiXM",
+      "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-13",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "小川千奈",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "yCu64AY2rVI",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-13&TO=2026-11-13"
+    },
+    {
+      "date_jst": "2026-11-13",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "小林李衣奈",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "WddB6a0lIC4",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-13&TO=2026-11-13"
+    },
+    {
+      "date_jst": "2026-11-13",
+      "slot_start_jst": "23:00",
+      "program": "【ライブ】最新天気ニュース・地震情報 2026年11月13日(金)23:00〜 ／あす西から雨エリア拡大　北日本はお出かけ日和〈ウェザーニュースLiVE〉",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "A3eB5VqFLjo",
       "reference_url": null
     }
   ]
