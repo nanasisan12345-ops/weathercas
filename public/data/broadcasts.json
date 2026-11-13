@@ -1017,6 +1017,15 @@
       "forecaster_name": null,
       "video_id": "A3eB5VqFLjo",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-14",
+      "slot_start_jst": "05:00",
+      "program": "モーニング",
+      "caster_name": "福吉貴文",
+      "forecaster_name": "山口剛央",
+      "video_id": "tB0MIk6qA8I",
+      "reference_url": null
     }
   ]
 }

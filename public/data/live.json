@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-14T00:43:14+09:00",
+  "checked_at": "2026-11-14T06:40:11+09:00",
   "state": "listed",
   "video": {
-    "id": "A3eB5VqFLjo",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月13日(金)23:00〜 ／あす西から雨エリア拡大　北日本はお出かけ日和〈ウェザーニュースLiVE〉",
+    "id": "tB0MIk6qA8I",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月14日(土)／西日本は雨エリアが拡大〈ウェザーニュースLiVEモーニング・福吉貴文／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-12T21:11:14+09:00"
+    "published_at": "2026-11-13T01:10:54+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
@@ -42,5 +42,5 @@
       "published_at": "2026-11-13T07:05:28+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-14T00:43:14+09:00"
+  "archives_checked_at": "2026-11-14T06:40:11+09:00"
 }
