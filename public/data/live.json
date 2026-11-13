@@ -1,16 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-13T05:15:39+09:00",
+  "checked_at": "2026-11-13T10:10:02+09:00",
   "state": "listed",
   "video": {
-    "id": "MJLbtg0v6Uw",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月13日(金)／東北日本海側～北陸のにわか雨に注意〈ウェザーニュースLiVEモーニング・福吉貴文／山口剛央〉",
+    "id": "5939bzDlieg",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月13日(金) ／日差しが届き日中は気温高め〈ウェザーニュースLiVEサンシャイン・松本真央／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-12T00:32:11+09:00"
+    "published_at": "2026-11-12T07:39:54+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "ItxSh7mYihM",
+      "title": "【雨情報】秋田・山形など東北は日中に強い雨 伊豆諸島でも雷を伴った雨に注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-13T07:05:28+09:00"
+    },
     {
       "id": "aH6soa6VDdY",
       "title": "【週間天気予報】週末の雨はいつから？日曜日は広範囲で天気が崩れる予想〈ウェザーニュース気象予報士解説〉",
@@ -34,13 +40,7 @@
       "title": "【週間天気】19日(木)は北日本で荒天のおそれ",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-12T13:38:42+09:00"
-    },
-    {
-      "id": "Y_Apk7SIevo",
-      "title": "【8日愛知県震度5強】震源を「愛知県東部」に変更／最新の余震状況まとめなど",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-12T11:48:46+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-13T05:15:39+09:00"
+  "archives_checked_at": "2026-11-13T10:10:02+09:00"
 }
