@@ -1089,6 +1089,15 @@
       "forecaster_name": "山口剛央",
       "video_id": "UuTd5mKasCI",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-15",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "松本真央",
+      "forecaster_name": "山口剛央",
+      "video_id": "DEW-IEN1U_E",
+      "reference_url": null
     }
   ]
 }

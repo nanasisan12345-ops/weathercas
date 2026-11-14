@@ -1,16 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-15T04:42:22+09:00",
+  "checked_at": "2026-11-15T08:23:20+09:00",
   "state": "listed",
   "video": {
-    "id": "UuTd5mKasCI",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月15日(日)／低気圧や前線が通過 全国的に雨〈ウェザーニュースLiVEモーニング・魚住茉由／山口剛央〉",
+    "id": "DEW-IEN1U_E",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月15日(日) ／低気圧や前線が通過 全国的に雨 〈ウェザーニュースLiVEサンシャイン・松本真央／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-14T00:31:21+09:00"
+    "published_at": "2026-11-14T04:11:29+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "XHN5IsAQy1M",
+      "title": "japan weather heavy rain hokkaido snow",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-15T06:59:25+09:00"
+    },
     {
       "id": "p18lczQOQhA",
       "title": "【今季初の大雪】アメリカ北東部 ニューヨーク州中部で最大30cmの積雪",
@@ -34,13 +40,7 @@
       "title": "【週間天気予報】来週半ばは全国的に荒天へ 交通機関への影響にも警戒を",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-14T13:22:25+09:00"
-    },
-    {
-      "id": "FUVgJ5d7mO0",
-      "title": "【雨情報】西日本は雨の範囲が拡大 夜は九州や中国地方などで強まる可能性 南西諸島は明日にかけて雨が強まる",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-14T07:02:37+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-15T04:42:22+09:00"
+  "archives_checked_at": "2026-11-15T08:23:20+09:00"
 }
