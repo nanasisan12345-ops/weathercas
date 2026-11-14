@@ -1044,6 +1044,15 @@
       "forecaster_name": "本田竜也",
       "video_id": "DNcFitRH2-8",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-14",
+      "slot_start_jst": "23:00",
+      "program": "【ライブ】最新天気ニュース・地震情報 2026年11月14日(土)23:00〜 ／全国的に雨の日曜日　局地的に激しく降る所も〈ウェザーニュースLiVE〉",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "18babMvpdLw",
+      "reference_url": null
     }
   ]
 }

@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-14T17:05:29+09:00",
+  "checked_at": "2026-11-14T23:58:55+09:00",
   "state": "listed",
   "video": {
-    "id": "DNcFitRH2-8",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月14日(土) ／明日は全国の広い範囲で雨　局地的に激しい雨が降るおそれ〈ウェザーニュースLiVEイブニング・山岸愛梨／本田竜也〉",
+    "id": "18babMvpdLw",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月14日(土)23:00〜 ／全国的に雨の日曜日　局地的に激しく降る所も〈ウェザーニュースLiVE〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-13T14:55:18+09:00"
+    "published_at": "2026-11-13T23:49:45+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "p18lczQOQhA",
+      "title": "【今季初の大雪】アメリカ北東部 ニューヨーク州中部で最大30cmの積雪",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-14T22:22:42+09:00"
+    },
+    {
+      "id": "xONQjd_fX0s",
+      "title": "【なぜ急発達するのか】来週中頃に全国的に荒天警戒　爆弾低気圧に発達の可能性",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-14T21:17:19+09:00"
+    },
     {
       "id": "8wOkgPC23Ck",
       "title": "【あす15日の天気】全国的に雨の日曜日  関東は冷たい雨・西日本は雷雨に注意",
@@ -28,19 +40,7 @@
       "title": "【雨情報】西日本は雨の範囲が拡大 夜は九州や中国地方などで強まる可能性 南西諸島は明日にかけて雨が強まる",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-14T07:02:37+09:00"
-    },
-    {
-      "id": "S0pR4Ya7loo",
-      "title": "【愛知県で最大震度5強】地震発生のメカニズムや緊急地震速報シミュレーションで見る揺れを気象予報士が解説",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-13T23:33:05+09:00"
-    },
-    {
-      "id": "OZ85usRz7ao",
-      "title": "【週間天気予報】来週後半は低気圧急発達　日本海側で暴風・北海道は吹雪に警戒",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-13T19:49:22+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-14T17:05:29+09:00"
+  "archives_checked_at": "2026-11-14T23:58:55+09:00"
 }
