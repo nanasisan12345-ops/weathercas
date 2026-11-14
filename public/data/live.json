@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-14T23:58:55+09:00",
+  "checked_at": "2026-11-15T04:42:22+09:00",
   "state": "listed",
   "video": {
-    "id": "18babMvpdLw",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月14日(土)23:00〜 ／全国的に雨の日曜日　局地的に激しく降る所も〈ウェザーニュースLiVE〉",
+    "id": "UuTd5mKasCI",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月15日(日)／低気圧や前線が通過 全国的に雨〈ウェザーニュースLiVEモーニング・魚住茉由／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-13T23:49:45+09:00"
+    "published_at": "2026-11-14T00:31:21+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
@@ -42,5 +42,5 @@
       "published_at": "2026-11-14T07:02:37+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-14T23:58:55+09:00"
+  "archives_checked_at": "2026-11-15T04:42:22+09:00"
 }
