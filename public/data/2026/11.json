@@ -767,7 +767,7 @@
         "raw_caster_id": "aohara2023",
         "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
         "source_type": "official_schedule",
-        "source_checked_at": "2026-11-14T06:40:11+09:00"
+        "source_checked_at": "2026-11-14T10:45:16+09:00"
       },
       "confirmed": null,
       "status": "scheduled",
@@ -787,7 +787,7 @@
         "raw_caster_id": "uozumi",
         "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
         "source_type": "official_schedule",
-        "source_checked_at": "2026-11-14T06:40:11+09:00"
+        "source_checked_at": "2026-11-14T10:45:16+09:00"
       },
       "confirmed": null,
       "status": "scheduled",
@@ -807,7 +807,7 @@
         "raw_caster_id": "komaki2018",
         "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
         "source_type": "official_schedule",
-        "source_checked_at": "2026-11-14T06:40:11+09:00"
+        "source_checked_at": "2026-11-14T10:45:16+09:00"
       },
       "confirmed": null,
       "status": "scheduled",
@@ -827,7 +827,7 @@
         "raw_caster_id": "ailin",
         "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
         "source_type": "official_schedule",
-        "source_checked_at": "2026-11-14T06:40:11+09:00"
+        "source_checked_at": "2026-11-14T10:45:16+09:00"
       },
       "confirmed": null,
       "status": "scheduled",
@@ -847,7 +847,7 @@
         "raw_caster_id": "kobayashi",
         "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
         "source_type": "official_schedule",
-        "source_checked_at": "2026-11-14T06:40:11+09:00"
+        "source_checked_at": "2026-11-14T10:45:16+09:00"
       },
       "confirmed": null,
       "status": "scheduled",
@@ -867,7 +867,7 @@
         "raw_caster_id": null,
         "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
         "source_type": "official_schedule",
-        "source_checked_at": "2026-11-14T06:40:11+09:00"
+        "source_checked_at": "2026-11-14T10:45:16+09:00"
       },
       "confirmed": null,
       "status": "unverified",
@@ -887,7 +887,7 @@
         "raw_caster_id": null,
         "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
         "source_type": "official_schedule",
-        "source_checked_at": "2026-11-14T06:40:11+09:00"
+        "source_checked_at": "2026-11-14T10:45:16+09:00"
       },
       "confirmed": null,
       "status": "unverified",
@@ -907,7 +907,7 @@
         "raw_caster_id": "uozumi",
         "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
         "source_type": "official_schedule",
-        "source_checked_at": "2026-11-14T06:40:11+09:00"
+        "source_checked_at": "2026-11-14T10:45:16+09:00"
       },
       "confirmed": null,
       "status": "scheduled",
@@ -927,7 +927,27 @@
         "raw_caster_id": "matsumoto2025",
         "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
         "source_type": "official_schedule",
-        "source_checked_at": "2026-11-14T06:40:11+09:00"
+        "source_checked_at": "2026-11-14T10:45:16+09:00"
+      },
+      "confirmed": null,
+      "status": "scheduled",
+      "youtube_video_id": null,
+      "changes": []
+    },
+    {
+      "id": "2026-11-15T11:00",
+      "date_jst": "2026-11-15",
+      "slot_start_jst": "11:00",
+      "program": "ウェザーニュースLiVE・コーヒータイム",
+      "date_basis": "rolling_schedule",
+      "role": "presenter",
+      "planned": {
+        "caster_id": "tanabe",
+        "caster_name": "田辺 真南葉",
+        "raw_caster_id": "tanabe2025",
+        "source_url": "https://site.weathernews.jp/site/live/json/timetable.json",
+        "source_type": "official_schedule",
+        "source_checked_at": "2026-11-14T10:45:16+09:00"
       },
       "confirmed": null,
       "status": "scheduled",
