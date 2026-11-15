@@ -1107,6 +1107,15 @@
       "forecaster_name": "山口剛央",
       "video_id": "MR7zVdaPEX4",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-15",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "戸北美月",
+      "forecaster_name": "内藤邦裕",
+      "video_id": "G20x_7lWykQ",
+      "reference_url": null
     }
   ]
 }
