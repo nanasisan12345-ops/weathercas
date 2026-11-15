@@ -1110,12 +1110,48 @@
     },
     {
       "date_jst": "2026-11-15",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "青原桃香",
+      "forecaster_name": "内藤邦裕",
+      "video_id": "asfCYMIBJec",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-15&TO=2026-11-15"
+    },
+    {
+      "date_jst": "2026-11-15",
       "slot_start_jst": "17:00",
       "program": "イブニング",
       "caster_name": "戸北美月",
       "forecaster_name": "内藤邦裕",
       "video_id": "G20x_7lWykQ",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-15",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "小川千奈",
+      "forecaster_name": "内藤邦裕",
+      "video_id": "DzYR0DNeR4U",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-15&TO=2026-11-15"
+    },
+    {
+      "date_jst": "2026-11-15",
+      "slot_start_jst": "23:00",
+      "program": "【ライブ】最新天気ニュース・地震情報 2026年11月15日(日)23:00〜 あす北海道は雨や雪で風も強まる／〈ウェザーニュースLiVE〉",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "B6AirFHHb9I",
+      "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-15",
+      "slot_start_jst": null,
+      "program": "【週間地震情報】茨城県沖や熊本県で震度3／ソロモン諸島近海でM6.4",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "57Mg68vcLJ0",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-15&TO=2026-11-15"
     }
   ]
 }

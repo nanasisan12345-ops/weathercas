@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-15T19:21:54+09:00",
+  "checked_at": "2026-11-16T02:16:42+09:00",
   "state": "listed",
   "video": {
-    "id": "G20x_7lWykQ",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月15日(日) ／北海道は南の地域から雨が降り出す　夜は内陸部や山沿いで雪に〈ウェザーニュースLiVEイブニング・戸北美月／内藤邦裕〉",
+    "id": "B6AirFHHb9I",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月15日(日)23:00〜 あす北海道は雨や雪で風も強まる／〈ウェザーニュースLiVE〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-14T15:26:57+09:00"
+    "published_at": "2026-11-14T23:12:41+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "_Fg4G2AcFHg",
+      "title": "来週は低気圧が急発達 北日本は暴風雪 西日本でも初雪か",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-15T22:17:24+09:00"
+    },
+    {
+      "id": "T9-GZHkIuo0",
+      "title": "【雨雪情報】今夜から明日にかけて北海道は雪エリア拡大　明日は強風や吹雪に警戒",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-15T20:07:05+09:00"
+    },
     {
       "id": "yBwDiwUBAA0",
       "title": "【週間天気予報】週後半は強い寒気流入で気温急降下　年末年始並みの寒さに",
@@ -28,19 +40,7 @@
       "title": "【週間地震情報】茨城県沖や熊本県で震度3／ソロモン諸島近海でM6.4",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-15T15:08:58+09:00"
-    },
-    {
-      "id": "XmI1t-IEgF4",
-      "title": "【週間天気】瞬間的に25ms以上の強風も",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-15T13:17:01+09:00"
-    },
-    {
-      "id": "lYaOhsGG8QQ",
-      "title": "【関東】一日を通して雨 気温も上がらず肌寒い体感",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-15T09:20:19+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-15T19:21:54+09:00"
+  "archives_checked_at": "2026-11-16T02:16:42+09:00"
 }
