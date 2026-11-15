@@ -1,19 +1,25 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-15T08:23:20+09:00",
+  "checked_at": "2026-11-15T11:56:47+09:00",
   "state": "listed",
   "video": {
-    "id": "DEW-IEN1U_E",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月15日(日) ／低気圧や前線が通過 全国的に雨 〈ウェザーニュースLiVEサンシャイン・松本真央／山口剛央〉",
+    "id": "MR7zVdaPEX4",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月15日(日) ／全国的に雨の日曜日　関東や東北は昼間もヒンヤリ〈ウェザーニュースLiVEコーヒータイム・田辺真南葉／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-14T04:11:29+09:00"
+    "published_at": "2026-11-14T07:32:31+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
     {
+      "id": "lYaOhsGG8QQ",
+      "title": "【関東】一日を通して雨 気温も上がらず肌寒い体感",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-15T09:20:19+09:00"
+    },
+    {
       "id": "XHN5IsAQy1M",
-      "title": "japan weather heavy rain hokkaido snow",
+      "title": "【大雨・雪】太平洋側激しい雨 北海道夜は雪も",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-15T06:59:25+09:00"
     },
@@ -34,13 +40,7 @@
       "title": "【あす15日の天気】全国的に雨の日曜日  関東は冷たい雨・西日本は雷雨に注意",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-14T16:58:02+09:00"
-    },
-    {
-      "id": "4XaHqdWxcRc",
-      "title": "【週間天気予報】来週半ばは全国的に荒天へ 交通機関への影響にも警戒を",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-14T13:22:25+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-15T08:23:20+09:00"
+  "archives_checked_at": "2026-11-15T11:56:47+09:00"
 }
