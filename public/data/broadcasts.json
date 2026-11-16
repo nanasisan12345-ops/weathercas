@@ -1161,6 +1161,15 @@
       "forecaster_name": "有賀哲夫",
       "video_id": "IfBklvlgbyY",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-16",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "佐藤剣慎",
+      "forecaster_name": "有賀哲夫",
+      "video_id": "3p9QVb2RxaA",
+      "reference_url": null
     }
   ]
 }
