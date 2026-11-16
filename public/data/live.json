@@ -1,16 +1,34 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-16T10:26:17+09:00",
+  "checked_at": "2026-11-16T17:16:50+09:00",
   "state": "listed",
   "video": {
-    "id": "3p9QVb2RxaA",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月16日(月) ／北海道は雨や雪で風も強まる　関東以西は晴れ間が多い〈ウェザーニュースLiVEサンシャイン・佐藤剣慎／有賀哲夫〉",
+    "id": "P1wbekkCljw",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月16日(月) ／北海道は雨や雪で積雪増加〈ウェザーニュースLiVEイブニング・駒木結衣／宇野沢達也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-15T03:40:56+09:00"
+    "published_at": "2026-11-15T15:00:40+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "U2F027PU_gI",
+      "title": "【週間天気予報】週後半は強い寒気南下　平年を大きく下回る寒さに",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-16T16:22:56+09:00"
+    },
+    {
+      "id": "CzBqmjbMW-8",
+      "title": "【暴風警戒】週中頃に低気圧が急発達 爆弾低気圧となり冬の嵐に 暴風や猛吹雪のおそれ",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-16T14:05:09+09:00"
+    },
+    {
+      "id": "nqjkhHuX3J4",
+      "title": "【関東気温差注意】今日は晴れて過ごしやすくも明日は気温低下　体感差に注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-16T10:38:40+09:00"
+    },
     {
       "id": "DssUtdToO3M",
       "title": "【雨・雪情報】北海道は寒気の影響で雪と強風に警戒",
@@ -22,25 +40,7 @@
       "title": "来週は低気圧が急発達 北日本は暴風雪 西日本でも初雪か",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-15T22:17:24+09:00"
-    },
-    {
-      "id": "T9-GZHkIuo0",
-      "title": "【雨雪情報】今夜から明日にかけて北海道は雪エリア拡大　明日は強風や吹雪に警戒",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-15T20:07:05+09:00"
-    },
-    {
-      "id": "yBwDiwUBAA0",
-      "title": "【週間天気予報】週後半は強い寒気流入で気温急降下　年末年始並みの寒さに",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-15T16:55:39+09:00"
-    },
-    {
-      "id": "G-cWIeRfGNU",
-      "title": "【インフルエンザ】患者数は3週連続で増加傾向 再び4万人超に",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-15T16:19:29+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-16T10:26:17+09:00"
+  "archives_checked_at": "2026-11-16T17:16:50+09:00"
 }
