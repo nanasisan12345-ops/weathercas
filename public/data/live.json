@@ -1,16 +1,34 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-16T17:16:50+09:00",
+  "checked_at": "2026-11-17T03:38:29+09:00",
   "state": "listed",
   "video": {
-    "id": "P1wbekkCljw",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月16日(月) ／北海道は雨や雪で積雪増加〈ウェザーニュースLiVEイブニング・駒木結衣／宇野沢達也〉",
+    "id": "O-TRWIOfiOg",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月16日(月)23:00〜／西日本、東日本は次第に雨の範囲が拡大〈ウェザーニュースLiVE〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-15T15:00:40+09:00"
+    "published_at": "2026-11-15T14:28:42+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "HFg4HPMDOGo",
+      "title": "【雪情報】西日本 峠道などで雪の可能性",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-16T21:36:33+09:00"
+    },
+    {
+      "id": "VNVT9A_AUCk",
+      "title": "【暴風警戒】週後半は全国的に荒天　風が強まり暴風や吹雪のおそれ",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-16T20:24:47+09:00"
+    },
+    {
+      "id": "bEMzKUGfdHk",
+      "title": "【台風・暴風対策】窓ガラスを守る！今すぐできる飛散防止とシャッターの重要性〈週刊！ぶーしゃのおうち防災 #1〉",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-16T20:14:04+09:00"
+    },
     {
       "id": "U2F027PU_gI",
       "title": "【週間天気予報】週後半は強い寒気南下　平年を大きく下回る寒さに",
@@ -22,25 +40,7 @@
       "title": "【暴風警戒】週中頃に低気圧が急発達 爆弾低気圧となり冬の嵐に 暴風や猛吹雪のおそれ",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-16T14:05:09+09:00"
-    },
-    {
-      "id": "nqjkhHuX3J4",
-      "title": "【関東気温差注意】今日は晴れて過ごしやすくも明日は気温低下　体感差に注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-16T10:38:40+09:00"
-    },
-    {
-      "id": "DssUtdToO3M",
-      "title": "【雨・雪情報】北海道は寒気の影響で雪と強風に警戒",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-16T07:07:54+09:00"
-    },
-    {
-      "id": "_Fg4G2AcFHg",
-      "title": "来週は低気圧が急発達 北日本は暴風雪 西日本でも初雪か",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-15T22:17:24+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-16T17:16:50+09:00"
+  "archives_checked_at": "2026-11-17T03:38:29+09:00"
 }
