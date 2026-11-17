@@ -1218,6 +1218,24 @@
     },
     {
       "date_jst": "2026-11-17",
+      "slot_start_jst": "05:00",
+      "program": "モーニング",
+      "caster_name": "田辺真南葉",
+      "forecaster_name": "飯島栄一",
+      "video_id": "zoJc-_JJEHQ",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-17&TO=2026-11-17"
+    },
+    {
+      "date_jst": "2026-11-17",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "佐藤剣慎",
+      "forecaster_name": "飯島栄一",
+      "video_id": "sYV9IsqJIhw",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-17&TO=2026-11-17"
+    },
+    {
+      "date_jst": "2026-11-17",
       "slot_start_jst": "11:00",
       "program": "コーヒータイム",
       "caster_name": "白井ゆかり",
@@ -1227,12 +1245,57 @@
     },
     {
       "date_jst": "2026-11-17",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "青原桃香",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "v_aSRJP9348",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-17&TO=2026-11-17"
+    },
+    {
+      "date_jst": "2026-11-17",
       "slot_start_jst": "17:00",
       "program": "イブニング",
       "caster_name": "戸北美月",
       "forecaster_name": "宇野沢達也",
       "video_id": "s14MnbRVVxg",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-17",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "山岸愛梨",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "LbJkNwPQTt0",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-17&TO=2026-11-17"
+    },
+    {
+      "date_jst": "2026-11-17",
+      "slot_start_jst": "23:00",
+      "program": "【ライブ】最新天気ニュース・地震情報 2026年11月17日(火)23:00〜／広い範囲で雨　低気圧通過で夜は風も強まる〈ウェザーニュースLiVE〉",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "DPTH2iXD6T0",
+      "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-17",
+      "slot_start_jst": null,
+      "program": "【食べる編】しし座流星群の夜、流星メシを作って食べよう",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "MV96gxtZH7M",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-17&TO=2026-11-17"
+    },
+    {
+      "date_jst": "2026-11-17",
+      "slot_start_jst": null,
+      "program": "【つくる編】しし座流星群の夜、流星メシを作って食べよう",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "TKwNtdesw9s",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-17&TO=2026-11-17"
     }
   ]
 }
