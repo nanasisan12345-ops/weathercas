@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-17T11:03:55+09:00",
+  "checked_at": "2026-11-17T19:37:18+09:00",
   "state": "listed",
   "video": {
-    "id": "2v06uyfSIoE",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月17日(火)／西日本・東日本は天気下り坂　強雨や雷雨に注意〈ウェザーニュースLiVEコーヒータイム・白井ゆかり／飯島栄一〉",
+    "id": "s14MnbRVVxg",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月17日(火) ／夕方以降は東海関東も強雨雷雨に注意　明日は全国的に雨〈ウェザーニュースLiVEイブニング・戸北美月／宇野沢達也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-16T07:41:32+09:00"
+    "published_at": "2026-11-16T15:28:35+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "Y2ezYVLihBg",
+      "title": "【雨情報】今夜から明日にかけて関東、明日は北陸・東北で雨が強まる",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-17T17:57:27+09:00"
+    },
+    {
+      "id": "AjrOG0ILQQQ",
+      "title": "【週間天気予報】強い冬型の気圧配置へ 広範囲で暴風に警戒 寒気南下で吹雪や大雪のおそれ",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-17T14:43:02+09:00"
+    },
     {
       "id": "_eWjX04wVAE",
       "title": "【関東天気】昼間も気温上がらず寒い一日 夜は沿岸部を中心に雨の強まり注意",
@@ -28,19 +40,7 @@
       "title": "【雨情報】西日本から東日本は広く雨 夜は関東でも本降りに 強雨や雷雨に注意",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-17T07:00:21+09:00"
-    },
-    {
-      "id": "HFg4HPMDOGo",
-      "title": "【雪情報】西日本 峠道などで雪の可能性",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-16T21:36:33+09:00"
-    },
-    {
-      "id": "VNVT9A_AUCk",
-      "title": "【暴風警戒】週後半は全国的に荒天　風が強まり暴風や吹雪のおそれ",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-16T20:24:47+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-17T11:03:55+09:00"
+  "archives_checked_at": "2026-11-17T19:37:18+09:00"
 }
