@@ -1215,6 +1215,15 @@
       "forecaster_name": null,
       "video_id": "O-TRWIOfiOg",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-17",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "白井ゆかり",
+      "forecaster_name": "飯島栄一",
+      "video_id": "2v06uyfSIoE",
+      "reference_url": null
     }
   ]
 }
