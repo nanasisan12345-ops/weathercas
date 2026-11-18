@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-19T02:58:37+09:00",
+  "checked_at": "2026-11-19T08:53:11+09:00",
   "state": "listed",
   "video": {
-    "id": "aYyCivhSL8Y",
-    "title": "【熊本 最大震度5弱】熊本県天草・芦北地方でM5.7の地震・最新天気ニュース・地震情報 2026年11月18日(水)23:00〜／〈ウェザーニュースLiVE〉",
+    "id": "lLSt5jaCoK0",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月19日(木) ／日本海側は雨や雪　夜は各地で気温ダウン〈ウェザーニュースLiVEサンシャイン・白井ゆかり／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-17T23:10:49+09:00"
+    "published_at": "2026-11-18T03:49:55+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "l-kzrZ2H6JY",
+      "title": "【最新天気】日本海側を中心に荒れた天気に 北日本では積雪や吹雪にも注意 太平洋側でも強風に警戒を",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-19T07:05:14+09:00"
+    },
+    {
+      "id": "eSI2HAW0TEQ",
+      "title": "【地震情報】熊本県天草・芦北地方でM5.7の地震　令和8年熊本地震との関係は？",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-19T06:16:04+09:00"
+    },
     {
       "id": "S9b8ZOkoctw",
       "title": "【週間天気予報】冷え込む三連休・年末年始並みの厳しい寒さ到来〜20日頃は急激な冷え込みに警戒を〜",
@@ -28,19 +40,7 @@
       "title": "【急発達】今夜から寒冷前線通過で強雨や突風に 明日は急激に冬型へ",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-18T16:52:01+09:00"
-    },
-    {
-      "id": "hgQeQFr5DVo",
-      "title": "【週間天気予報】強い冬型の気圧配置へ 北海道や山沿いは大雪警戒 東北や北陸は雷やあられを伴う荒天に",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-18T14:49:01+09:00"
-    },
-    {
-      "id": "1kiTvVySNWk",
-      "title": "【関東の天気】急速に天気回復 日差し届きポカポカ陽気 東京は昼間の気温が昨日より10℃近く上昇",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-18T09:12:25+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-19T02:58:37+09:00"
+  "archives_checked_at": "2026-11-19T08:53:11+09:00"
 }
