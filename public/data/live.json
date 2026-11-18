@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-18T18:06:56+09:00",
+  "checked_at": "2026-11-19T02:58:37+09:00",
   "state": "listed",
   "video": {
-    "id": "uPBR6JBxcNc",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月18日(水) ／〈ウェザーニュースLiVEイブニング・駒木結衣／宇野沢達也〉",
+    "id": "aYyCivhSL8Y",
+    "title": "【熊本 最大震度5弱】熊本県天草・芦北地方でM5.7の地震・最新天気ニュース・地震情報 2026年11月18日(水)23:00〜／〈ウェザーニュースLiVE〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-17T16:33:39+09:00"
+    "published_at": "2026-11-17T23:10:49+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "S9b8ZOkoctw",
+      "title": "【週間天気予報】冷え込む三連休・年末年始並みの厳しい寒さ到来〜20日頃は急激な冷え込みに警戒を〜",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-18T21:59:16+09:00"
+    },
+    {
+      "id": "Vad15OBy8pE",
+      "title": "【週間天気】週末にかけて冬型強まる 北日本は暴風雪や大雪に警戒",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-18T19:29:27+09:00"
+    },
     {
       "id": "Vx_c0aojq_Y",
       "title": "【急発達】今夜から寒冷前線通過で強雨や突風に 明日は急激に冬型へ",
@@ -28,19 +40,7 @@
       "title": "【関東の天気】急速に天気回復 日差し届きポカポカ陽気 東京は昼間の気温が昨日より10℃近く上昇",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-18T09:12:25+09:00"
-    },
-    {
-      "id": "4VEyfBRCLuI",
-      "title": "【雨情報】広い範囲で雨に 日本海側では雨風の強まりに注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-18T07:10:11+09:00"
-    },
-    {
-      "id": "EwfeOtWNwp4",
-      "title": "【吹雪に警戒】北日本や北陸で積雪急増・暴風雪に警戒",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-17T21:38:21+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-18T18:06:56+09:00"
+  "archives_checked_at": "2026-11-19T02:58:37+09:00"
 }
