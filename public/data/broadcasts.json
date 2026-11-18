@@ -1296,6 +1296,15 @@
       "forecaster_name": null,
       "video_id": "TKwNtdesw9s",
       "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-17&TO=2026-11-17"
+    },
+    {
+      "date_jst": "2026-11-18",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "松本真央",
+      "forecaster_name": "飯島栄一",
+      "video_id": "C6znO9DmXKc",
+      "reference_url": null
     }
   ]
 }

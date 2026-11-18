@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-18T04:21:34+09:00",
+  "checked_at": "2026-11-18T10:41:38+09:00",
   "state": "listed",
   "video": {
-    "id": "DPTH2iXD6T0",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月17日(火)23:00〜／広い範囲で雨　低気圧通過で夜は風も強まる〈ウェザーニュースLiVE〉",
+    "id": "C6znO9DmXKc",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月18日(水) ／関東は雨が止んで気温上昇へ 日本海側は前線が通過〈ウェザーニュースLiVEサンシャイン・松本真央／飯島栄一〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-17T00:19:00+09:00"
+    "published_at": "2026-11-17T03:26:10+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "1kiTvVySNWk",
+      "title": "【関東の天気】急速に天気回復 日差し届きポカポカ陽気 東京は昼間の気温が昨日より10℃近く上昇",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-18T09:12:25+09:00"
+    },
+    {
+      "id": "4VEyfBRCLuI",
+      "title": "【雨情報】広い範囲で雨に 日本海側では雨風の強まりに注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-18T07:10:11+09:00"
+    },
     {
       "id": "EwfeOtWNwp4",
       "title": "【吹雪に警戒】北日本や北陸で積雪急増・暴風雪に警戒",
@@ -28,19 +40,7 @@
       "title": "【雨情報】今夜から明日にかけて関東、明日は北陸・東北で雨が強まる",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-17T17:57:27+09:00"
-    },
-    {
-      "id": "AjrOG0ILQQQ",
-      "title": "【週間天気予報】強い冬型の気圧配置へ 広範囲で暴風に警戒 寒気南下で吹雪や大雪のおそれ",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-17T14:43:02+09:00"
-    },
-    {
-      "id": "_eWjX04wVAE",
-      "title": "【関東天気】昼間も気温上がらず寒い一日 夜は沿岸部を中心に雨の強まり注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-17T09:05:23+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-18T04:21:34+09:00"
+  "archives_checked_at": "2026-11-18T10:41:38+09:00"
 }
