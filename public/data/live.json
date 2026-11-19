@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-19T08:53:11+09:00",
+  "checked_at": "2026-11-19T14:48:45+09:00",
   "state": "listed",
   "video": {
-    "id": "lLSt5jaCoK0",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月19日(木) ／日本海側は雨や雪　夜は各地で気温ダウン〈ウェザーニュースLiVEサンシャイン・白井ゆかり／山口剛央〉",
+    "id": "vQI9futV1b4",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月19日(木)／風の強まりに警戒　明日は日本海側中心に荒天〈ウェザーニュースLiVEアフタヌーン・駒木結衣／宇野沢達也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-18T03:49:55+09:00"
+    "published_at": "2026-11-18T09:19:05+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
@@ -19,7 +19,7 @@
     },
     {
       "id": "eSI2HAW0TEQ",
-      "title": "【地震情報】熊本県天草・芦北地方でM5.7の地震　令和8年熊本地震との関係は？",
+      "title": "【地震解説】熊本県で最大震度5弱の地震　令和8年熊本地震との関係は？",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-19T06:16:04+09:00"
     },
@@ -42,5 +42,5 @@
       "published_at": "2026-11-18T16:52:01+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-19T08:53:11+09:00"
+  "archives_checked_at": "2026-11-19T14:48:45+09:00"
 }
