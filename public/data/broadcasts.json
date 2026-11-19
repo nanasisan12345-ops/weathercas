@@ -1368,6 +1368,15 @@
       "forecaster_name": "宇野沢達也",
       "video_id": "vQI9futV1b4",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-19",
+      "slot_start_jst": "23:00",
+      "program": "【ライブ】最新天気ニュース・地震情報 2026年11月19日(木)23:00〜／〈ウェザーニュースLiVE〉",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "Y0R951O2_28",
+      "reference_url": null
     }
   ]
 }

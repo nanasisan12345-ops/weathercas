@@ -1,46 +1,46 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-19T14:48:45+09:00",
+  "checked_at": "2026-11-19T23:43:40+09:00",
   "state": "listed",
   "video": {
-    "id": "vQI9futV1b4",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月19日(木)／風の強まりに警戒　明日は日本海側中心に荒天〈ウェザーニュースLiVEアフタヌーン・駒木結衣／宇野沢達也〉",
+    "id": "Y0R951O2_28",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月19日(木)23:00〜／〈ウェザーニュースLiVE〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-18T09:19:05+09:00"
+    "published_at": "2026-11-19T00:25:59+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
     {
+      "id": "hPERuA0A6gM",
+      "title": "【雨・雪・霰】明日にかけ各地で降るものは？　山地では積雪50cm以上のところも",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-19T22:30:38+09:00"
+    },
+    {
+      "id": "CaWRLjHqt44",
+      "title": "【荒天】強い冬型の気圧配置が継続 あす20日(金)にかけて日本海側は荒天に注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-19T19:41:57+09:00"
+    },
+    {
+      "id": "mmr0nCaAgOk",
+      "title": "【3連休の天気】21日(土)〜23日(月)は太平洋側で広く秋晴れ！朝晩の冷え込みに注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-19T19:09:06+09:00"
+    },
+    {
+      "id": "l2GdxHmWXa4",
+      "title": "【週間天気予報】三連休は太平洋側ほどお出かけ日和に　北日本は吹雪に注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-19T15:19:01+09:00"
+    },
+    {
       "id": "l-kzrZ2H6JY",
       "title": "【最新天気】日本海側を中心に荒れた天気に 北日本では積雪や吹雪にも注意 太平洋側でも強風に警戒を",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-19T07:05:14+09:00"
-    },
-    {
-      "id": "eSI2HAW0TEQ",
-      "title": "【地震解説】熊本県で最大震度5弱の地震　令和8年熊本地震との関係は？",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-19T06:16:04+09:00"
-    },
-    {
-      "id": "S9b8ZOkoctw",
-      "title": "【週間天気予報】冷え込む三連休・年末年始並みの厳しい寒さ到来〜20日頃は急激な冷え込みに警戒を〜",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-18T21:59:16+09:00"
-    },
-    {
-      "id": "Vad15OBy8pE",
-      "title": "【週間天気】週末にかけて冬型強まる 北日本は暴風雪や大雪に警戒",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-18T19:29:27+09:00"
-    },
-    {
-      "id": "Vx_c0aojq_Y",
-      "title": "【急発達】今夜から寒冷前線通過で強雨や突風に 明日は急激に冬型へ",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-18T16:52:01+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-19T14:48:45+09:00"
+  "archives_checked_at": "2026-11-19T23:43:40+09:00"
 }
