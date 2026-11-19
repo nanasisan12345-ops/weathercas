@@ -1,16 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-19T23:43:40+09:00",
+  "checked_at": "2026-11-20T07:28:48+09:00",
   "state": "listed",
   "video": {
-    "id": "Y0R951O2_28",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月19日(木)23:00〜／〈ウェザーニュースLiVE〉",
+    "id": "ncoBtasb5b4",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月20日(金) ／TVCブラックフライデー1日ジャック　北日本は吹雪のおそれ〈ウェザーニュースLiVEモーニング・福吉貴文／有賀哲夫〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-19T00:25:59+09:00"
+    "published_at": "2026-11-16T19:44:37+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "UjVlSnHkCS4",
+      "title": "【大雪】北日本や北陸は吹雪や積雪増加に警戒 西日本も雪の所",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-20T07:11:00+09:00"
+    },
     {
       "id": "hPERuA0A6gM",
       "title": "【雨・雪・霰】明日にかけ各地で降るものは？　山地では積雪50cm以上のところも",
@@ -34,13 +40,7 @@
       "title": "【週間天気予報】三連休は太平洋側ほどお出かけ日和に　北日本は吹雪に注意",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-19T15:19:01+09:00"
-    },
-    {
-      "id": "l-kzrZ2H6JY",
-      "title": "【最新天気】日本海側を中心に荒れた天気に 北日本では積雪や吹雪にも注意 太平洋側でも強風に警戒を",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-19T07:05:14+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-19T23:43:40+09:00"
+  "archives_checked_at": "2026-11-20T07:28:48+09:00"
 }
