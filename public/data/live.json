@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-20T21:08:29+09:00",
+  "checked_at": "2026-11-21T05:03:46+09:00",
   "state": "listed",
   "video": {
-    "id": "0oxo-44lVZA",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月20日(金)／TVCブラックフライデー1日ジャック〈ウェザーニュースLiVEムーン・山岸愛梨／宇野沢達也〉",
+    "id": "P-6no1xZ-hc",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月21日(土)／日本海側は雪や雨　全国的に寒さ続く〈ウェザーニュースLiVEモーニング・魚住茉由／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-16T20:02:18+09:00"
+    "published_at": "2026-11-20T02:06:54+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "PXYsxOZZgqo",
+      "title": "【地震情報】熊本県で最大震度4 震源の深さと断層の特徴を気象予報士が解説",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-20T22:43:20+09:00"
+    },
+    {
+      "id": "SBzCdj3R2h8",
+      "title": "【大雪情報】3連休の高速道路に影響か／北陸や北海道で通行止めの可能性",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-20T22:15:06+09:00"
+    },
     {
       "id": "Mrt0JkoKVrs",
       "title": "【週間天気予報】連休明けの24日(火)は全国的に雨 路面状況の悪化に注意〈ウェザーニュース気象予報士解説〉",
@@ -28,19 +40,7 @@
       "title": "【三連休の天気】日本海側は雪が降りやすい 厳しい冷え込みや路面凍結に注意",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-20T15:06:21+09:00"
-    },
-    {
-      "id": "VT7q_ehGUFE",
-      "title": "【寒気の影響】昼間も気温が上がらず一日ほぼ横ばい　明朝はさらに冷え込み風も冷たい",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-20T10:30:23+09:00"
-    },
-    {
-      "id": "UjVlSnHkCS4",
-      "title": "【大雪】北日本や北陸は吹雪や積雪増加に警戒 西日本も雪の所",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-20T07:11:00+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-20T21:08:29+09:00"
+  "archives_checked_at": "2026-11-21T05:03:46+09:00"
 }
