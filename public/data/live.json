@@ -1,16 +1,34 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-20T12:38:54+09:00",
+  "checked_at": "2026-11-20T21:08:29+09:00",
   "state": "listed",
   "video": {
-    "id": "2TSUO04uVkY",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月20日(金) ／TVCブラックフライデー1日ジャック〈ウェザーニュースLiVEコーヒータイム・白井ゆかり／有賀哲夫〉",
+    "id": "0oxo-44lVZA",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月20日(金)／TVCブラックフライデー1日ジャック〈ウェザーニュースLiVEムーン・山岸愛梨／宇野沢達也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-16T19:52:33+09:00"
+    "published_at": "2026-11-16T20:02:18+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "Mrt0JkoKVrs",
+      "title": "【週間天気予報】連休明けの24日(火)は全国的に雨 路面状況の悪化に注意〈ウェザーニュース気象予報士解説〉",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-20T20:47:41+09:00"
+    },
+    {
+      "id": "rbtVp35AVGw",
+      "title": "【雪情報】明日にかけて断続的に強い雪 札幌周辺では短時間で積雪急増に警戒〈ウェザーニュース気象予報士解説〉",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-20T17:40:37+09:00"
+    },
+    {
+      "id": "c9xRZprEe88",
+      "title": "【三連休の天気】日本海側は雪が降りやすい 厳しい冷え込みや路面凍結に注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-20T15:06:21+09:00"
+    },
     {
       "id": "VT7q_ehGUFE",
       "title": "【寒気の影響】昼間も気温が上がらず一日ほぼ横ばい　明朝はさらに冷え込み風も冷たい",
@@ -22,25 +40,7 @@
       "title": "【大雪】北日本や北陸は吹雪や積雪増加に警戒 西日本も雪の所",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-20T07:11:00+09:00"
-    },
-    {
-      "id": "hPERuA0A6gM",
-      "title": "【雨・雪・霰】明日にかけ各地で降るものは？　山地では積雪50cm以上のところも",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-19T22:30:38+09:00"
-    },
-    {
-      "id": "CaWRLjHqt44",
-      "title": "【荒天】強い冬型の気圧配置が継続 あす20日(金)にかけて日本海側は荒天に注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-19T19:41:57+09:00"
-    },
-    {
-      "id": "mmr0nCaAgOk",
-      "title": "【3連休の天気】21日(土)〜23日(月)は太平洋側で広く秋晴れ！朝晩の冷え込みに注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-19T19:09:06+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-20T12:38:54+09:00"
+  "archives_checked_at": "2026-11-20T21:08:29+09:00"
 }
