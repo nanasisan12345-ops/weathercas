@@ -1,16 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-20T07:28:48+09:00",
+  "checked_at": "2026-11-20T12:38:54+09:00",
   "state": "listed",
   "video": {
-    "id": "ncoBtasb5b4",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月20日(金) ／TVCブラックフライデー1日ジャック　北日本は吹雪のおそれ〈ウェザーニュースLiVEモーニング・福吉貴文／有賀哲夫〉",
+    "id": "2TSUO04uVkY",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月20日(金) ／TVCブラックフライデー1日ジャック〈ウェザーニュースLiVEコーヒータイム・白井ゆかり／有賀哲夫〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-16T19:44:37+09:00"
+    "published_at": "2026-11-16T19:52:33+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "VT7q_ehGUFE",
+      "title": "【寒気の影響】昼間も気温が上がらず一日ほぼ横ばい　明朝はさらに冷え込み風も冷たい",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-20T10:30:23+09:00"
+    },
     {
       "id": "UjVlSnHkCS4",
       "title": "【大雪】北日本や北陸は吹雪や積雪増加に警戒 西日本も雪の所",
@@ -34,13 +40,7 @@
       "title": "【3連休の天気】21日(土)〜23日(月)は太平洋側で広く秋晴れ！朝晩の冷え込みに注意",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-19T19:09:06+09:00"
-    },
-    {
-      "id": "l2GdxHmWXa4",
-      "title": "【週間天気予報】三連休は太平洋側ほどお出かけ日和に　北日本は吹雪に注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-19T15:19:01+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-20T07:28:48+09:00"
+  "archives_checked_at": "2026-11-20T12:38:54+09:00"
 }
