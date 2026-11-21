@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-22T01:22:04+09:00",
+  "checked_at": "2026-11-22T06:43:23+09:00",
   "state": "listed",
   "video": {
-    "id": "jOqcMa_S6FA",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月21日(土)23:00〜／〈ウェザーニュースLiVE〉",
+    "id": "TNXuUFV-Ehg",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月22日(日) ／日本海側は雪や雨　全国的に寒さ続く〈ウェザーニュースLiVEモーニング・魚住茉由／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-21T00:17:36+09:00"
+    "published_at": "2026-11-21T01:11:13+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
@@ -42,5 +42,5 @@
       "published_at": "2026-11-21T10:44:44+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-22T01:22:04+09:00"
+  "archives_checked_at": "2026-11-22T06:43:23+09:00"
 }
