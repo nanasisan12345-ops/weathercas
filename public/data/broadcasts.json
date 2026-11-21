@@ -1352,6 +1352,15 @@
       "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-18&TO=2026-11-18"
     },
     {
+      "date_jst": "2026-11-18",
+      "slot_start_jst": null,
+      "program": "【イベントグッズ販売開始】どれ買おうかな？販売直前カウントダウンSP ＜11月18日(水) 11:30〜12:00＞ウェザーニュースLiVE 冬フェス〜今年最後のハレ騒ぎ〜",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "gUc9k_hpWpc",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-18&TO=2026-11-18"
+    },
+    {
       "date_jst": "2026-11-19",
       "slot_start_jst": "05:00",
       "program": "モーニング",
@@ -1484,6 +1493,15 @@
       "caster_name": "岡本結子リサ",
       "forecaster_name": "山口剛央",
       "video_id": "DHSxg3JgXBk",
+      "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-21",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "駒木結衣",
+      "forecaster_name": "芳野達郎",
+      "video_id": "fBtMeSDzF_0",
       "reference_url": null
     }
   ]

@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-21T10:25:52+09:00",
+  "checked_at": "2026-11-21T17:33:27+09:00",
   "state": "listed",
   "video": {
-    "id": "DHSxg3JgXBk",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月21日(土)／日本海側は雪や雨　全国的に寒さ続く〈ウェザーニュースLiVEサンシャイン・岡本結子リサ／山口剛央〉",
+    "id": "fBtMeSDzF_0",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月21日(土) ／あすも日本海側は雨や雪　太平洋側も防寒必須〈ウェザーニュースLiVEイブニング・駒木結衣／芳野達郎〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-20T11:22:01+09:00"
+    "published_at": "2026-11-19T20:41:54+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "MI4bdvEuRpM",
+      "title": "【三連休の天気】日本海側で雪や雨／関東や東海は晴れ続く",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-21T14:08:15+09:00"
+    },
+    {
+      "id": "n1C_USW9cU0",
+      "title": "【海外地震情報】南米西部 ペルー中部でM6.9の地震",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-21T10:44:44+09:00"
+    },
     {
       "id": "Z2kGTagpiW4",
       "title": "【冬型継続】北日本から北陸は引き続き雪や雨の強まり注意",
@@ -28,19 +40,7 @@
       "title": "【大雪情報】3連休の高速道路に影響か／北陸や北海道で通行止めの可能性",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-20T22:15:06+09:00"
-    },
-    {
-      "id": "Mrt0JkoKVrs",
-      "title": "【週間天気予報】連休明けの24日(火)は全国的に雨 路面状況の悪化に注意〈ウェザーニュース気象予報士解説〉",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-20T20:47:41+09:00"
-    },
-    {
-      "id": "rbtVp35AVGw",
-      "title": "【雪情報】明日にかけて断続的に強い雪 札幌周辺では短時間で積雪急増に警戒〈ウェザーニュース気象予報士解説〉",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-20T17:40:37+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-21T10:25:52+09:00"
+  "archives_checked_at": "2026-11-21T17:33:27+09:00"
 }
