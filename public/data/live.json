@@ -1,16 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-21T05:03:46+09:00",
+  "checked_at": "2026-11-21T10:25:52+09:00",
   "state": "listed",
   "video": {
-    "id": "P-6no1xZ-hc",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月21日(土)／日本海側は雪や雨　全国的に寒さ続く〈ウェザーニュースLiVEモーニング・魚住茉由／山口剛央〉",
+    "id": "DHSxg3JgXBk",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月21日(土)／日本海側は雪や雨　全国的に寒さ続く〈ウェザーニュースLiVEサンシャイン・岡本結子リサ／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-20T02:06:54+09:00"
+    "published_at": "2026-11-20T11:22:01+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "Z2kGTagpiW4",
+      "title": "【冬型継続】北日本から北陸は引き続き雪や雨の強まり注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-21T06:50:49+09:00"
+    },
     {
       "id": "PXYsxOZZgqo",
       "title": "【地震情報】熊本県で最大震度4 震源の深さと断層の特徴を気象予報士が解説",
@@ -34,13 +40,7 @@
       "title": "【雪情報】明日にかけて断続的に強い雪 札幌周辺では短時間で積雪急増に警戒〈ウェザーニュース気象予報士解説〉",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-20T17:40:37+09:00"
-    },
-    {
-      "id": "c9xRZprEe88",
-      "title": "【三連休の天気】日本海側は雪が降りやすい 厳しい冷え込みや路面凍結に注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-20T15:06:21+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-21T05:03:46+09:00"
+  "archives_checked_at": "2026-11-21T10:25:52+09:00"
 }
