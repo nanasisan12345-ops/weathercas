@@ -1,16 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-23T01:41:00+09:00",
+  "checked_at": "2026-11-23T07:01:11+09:00",
   "state": "listed",
   "video": {
-    "id": "GeFNAMu0-rA",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月22日(日)23:00〜／三連休最終日は広範囲で晴れ 北日本は天気下り坂〈ウェザーニュースLiVE〉",
+    "id": "bvJKVLHUW2E",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月23日(月)／三連休最終日は広範囲で晴れ　北日本は天気下り坂〈ウェザーニュースLiVEモーニング・松本真央／有賀哲夫〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-21T16:05:06+09:00"
+    "published_at": "2026-11-22T01:38:46+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "yxg2Ldn14KU",
+      "title": "【雨情報】北日本は午後に日本海側から雨 融雪による路面状態の悪化や落雪等に注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-23T06:51:27+09:00"
+    },
     {
       "id": "jdwHodZ70mY",
       "title": "【週間天気予報】なぜこの先は気温変化が大きくなるのか／週後半は東京や大阪で20℃予想〈ウェザーニュース予報士解説〉",
@@ -34,13 +40,7 @@
       "title": "【週刊地震情報】熊本で震度5弱 日奈久断層「八代海区間」の活動に注目〜残る断層の破壊リスクを解説〜",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-22T13:46:26+09:00"
-    },
-    {
-      "id": "EcdqFqaUaAs",
-      "title": "【週間天気予報】連休明け24日は全国的に雨 強く降る所や寒気流入に注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-22T13:21:50+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-23T01:41:00+09:00"
+  "archives_checked_at": "2026-11-23T07:01:11+09:00"
 }
