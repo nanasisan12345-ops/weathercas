@@ -1,16 +1,34 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-22T10:40:08+09:00",
+  "checked_at": "2026-11-22T17:48:50+09:00",
   "state": "listed",
   "video": {
-    "id": "XmUhE6Nzbt0",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月22日(日)／日本海側は雪や雨　全国的に寒さ続く〈ウェザーニュースLiVEサンシャイン・岡本結子リサ／山口剛央〉",
+    "id": "rln3LwxbFFw",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月22日(日) ／三連休最終日は広範囲で晴れ　北日本は天気下り坂〈ウェザーニュースLiVEイブニング・本田竜也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-21T04:50:11+09:00"
+    "published_at": "2026-11-21T22:24:43+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "ZzvJHwout7Q",
+      "title": "【勤労感謝の日】3連休最終日は穏やかな小春日和 寒気の谷間でお出かけチャンス",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-22T16:21:24+09:00"
+    },
+    {
+      "id": "CCRGDdPN2zI",
+      "title": "【週刊地震情報】熊本で震度5弱 日奈久断層「八代海区間」の活動に注目〜残る断層の破壊リスクを解説〜",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-22T13:46:26+09:00"
+    },
+    {
+      "id": "EcdqFqaUaAs",
+      "title": "【週間天気予報】連休明け24日は全国的に雨 強く降る所や寒気流入に注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-22T13:21:50+09:00"
+    },
     {
       "id": "ENRgA4JlWX4",
       "title": "【雨雪情報】日本海側は雨や雪 北日本は積雪増加に注意",
@@ -22,25 +40,7 @@
       "title": "【雨雪情報】日本海側の雨や雪は、いつまで？",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-21T22:59:32+09:00"
-    },
-    {
-      "id": "_I7bWay_GnA",
-      "title": "【海外地震情報】インドネシア付近でM6.8の地震　津波被害の心配なし",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-21T21:00:14+09:00"
-    },
-    {
-      "id": "ZfKeS-SNHzw",
-      "title": "天気解説】24日(火)は広範囲で雨 25日(水)にかけて北日本は強い寒気で大雪注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-21T20:35:23+09:00"
-    },
-    {
-      "id": "MI4bdvEuRpM",
-      "title": "【三連休の天気】日本海側で雪や雨／関東や東海は晴れ続く",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-21T14:08:15+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-22T10:40:08+09:00"
+  "archives_checked_at": "2026-11-22T17:48:50+09:00"
 }
