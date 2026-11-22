@@ -1,16 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-22T06:43:23+09:00",
+  "checked_at": "2026-11-22T10:40:08+09:00",
   "state": "listed",
   "video": {
-    "id": "TNXuUFV-Ehg",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月22日(日) ／日本海側は雪や雨　全国的に寒さ続く〈ウェザーニュースLiVEモーニング・魚住茉由／山口剛央〉",
+    "id": "XmUhE6Nzbt0",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月22日(日)／日本海側は雪や雨　全国的に寒さ続く〈ウェザーニュースLiVEサンシャイン・岡本結子リサ／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-21T01:11:13+09:00"
+    "published_at": "2026-11-21T04:50:11+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "ENRgA4JlWX4",
+      "title": "【雨雪情報】日本海側は雨や雪 北日本は積雪増加に注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-22T06:50:13+09:00"
+    },
     {
       "id": "p0DFgvFGq-Q",
       "title": "【雨雪情報】日本海側の雨や雪は、いつまで？",
@@ -34,13 +40,7 @@
       "title": "【三連休の天気】日本海側で雪や雨／関東や東海は晴れ続く",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-21T14:08:15+09:00"
-    },
-    {
-      "id": "n1C_USW9cU0",
-      "title": "【海外地震情報】南米西部 ペルー中部でM6.9の地震",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-21T10:44:44+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-22T06:43:23+09:00"
+  "archives_checked_at": "2026-11-22T10:40:08+09:00"
 }
