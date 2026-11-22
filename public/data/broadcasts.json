@@ -1560,12 +1560,57 @@
     },
     {
       "date_jst": "2026-11-22",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "青原桃香",
+      "forecaster_name": "山口剛央",
+      "video_id": "dc1XHe0gUZo",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-22&TO=2026-11-22"
+    },
+    {
+      "date_jst": "2026-11-22",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "小林李衣奈",
+      "forecaster_name": "本田竜也",
+      "video_id": "MtdR7p1eaJo",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-22&TO=2026-11-22"
+    },
+    {
+      "date_jst": "2026-11-22",
       "slot_start_jst": "17:00",
       "program": "イブニング",
       "caster_name": "本田竜也",
       "forecaster_name": null,
       "video_id": "rln3LwxbFFw",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-22",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "小川千奈",
+      "forecaster_name": "本田竜也",
+      "video_id": "NMZPbYMnUn8",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-22&TO=2026-11-22"
+    },
+    {
+      "date_jst": "2026-11-22",
+      "slot_start_jst": "23:00",
+      "program": "【ライブ】最新天気ニュース・地震情報 2026年11月22日(日)23:00〜／三連休最終日は広範囲で晴れ 北日本は天気下り坂〈ウェザーニュースLiVE〉",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "GeFNAMu0-rA",
+      "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-22",
+      "slot_start_jst": null,
+      "program": "【週刊地震情報】熊本で震度5弱 日奈久断層「八代海区間」の活動に注目〜残る断層の破壊リスクを解説〜",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "CCRGDdPN2zI",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-22&TO=2026-11-22"
     }
   ]
 }

@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-22T17:48:50+09:00",
+  "checked_at": "2026-11-23T01:41:00+09:00",
   "state": "listed",
   "video": {
-    "id": "rln3LwxbFFw",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月22日(日) ／三連休最終日は広範囲で晴れ　北日本は天気下り坂〈ウェザーニュースLiVEイブニング・本田竜也〉",
+    "id": "GeFNAMu0-rA",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月22日(日)23:00〜／三連休最終日は広範囲で晴れ 北日本は天気下り坂〈ウェザーニュースLiVE〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-21T22:24:43+09:00"
+    "published_at": "2026-11-21T16:05:06+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "jdwHodZ70mY",
+      "title": "【週間天気予報】なぜこの先は気温変化が大きくなるのか／週後半は東京や大阪で20℃予想〈ウェザーニュース予報士解説〉",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-22T21:48:31+09:00"
+    },
+    {
+      "id": "3BlijIk5XhQ",
+      "title": "【荒天注意】3連休明けの火曜日は広範囲で強雨に／その後強い寒気が南下",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-22T19:24:35+09:00"
+    },
     {
       "id": "ZzvJHwout7Q",
       "title": "【勤労感謝の日】3連休最終日は穏やかな小春日和 寒気の谷間でお出かけチャンス",
@@ -28,19 +40,7 @@
       "title": "【週間天気予報】連休明け24日は全国的に雨 強く降る所や寒気流入に注意",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-22T13:21:50+09:00"
-    },
-    {
-      "id": "ENRgA4JlWX4",
-      "title": "【雨雪情報】日本海側は雨や雪 北日本は積雪増加に注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-22T06:50:13+09:00"
-    },
-    {
-      "id": "p0DFgvFGq-Q",
-      "title": "【雨雪情報】日本海側の雨や雪は、いつまで？",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-21T22:59:32+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-22T17:48:50+09:00"
+  "archives_checked_at": "2026-11-23T01:41:00+09:00"
 }
