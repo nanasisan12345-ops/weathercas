@@ -1629,6 +1629,15 @@
       "forecaster_name": "有賀哲夫",
       "video_id": "ly8igfaagN4",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-23",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "戸北美月",
+      "forecaster_name": "本田竜也",
+      "video_id": "craQylHtSO4",
+      "reference_url": null
     }
   ]
 }

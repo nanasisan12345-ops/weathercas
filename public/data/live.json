@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-23T11:24:51+09:00",
+  "checked_at": "2026-11-23T20:00:03+09:00",
   "state": "listed",
   "video": {
-    "id": "ly8igfaagN4",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月23日(月) ／連休最終日は晴れる所が多い　北日本は次第に天気崩れる〈ウェザーニュースLiVEコーヒータイム・岡本結子リサ／有賀哲夫〉",
+    "id": "craQylHtSO4",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月23日(月)20:00〜 ／北日本は次第に天気崩れる 明日は広範囲で雨に〈ウェザーニュースLiVEムーン・戸北美月／本田竜也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-22T06:03:18+09:00"
+    "published_at": "2026-11-22T22:23:00+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "z60rcvhE1jk",
+      "title": "【週間天気予報】 連休明けは広い範囲で雨風強まる　北日本は再び雪に",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-23T15:40:12+09:00"
+    },
+    {
+      "id": "TGj9eHcEE7A",
+      "title": "【海外地震情報】南太平洋 バヌアツ諸島でM6.5の地震 津波被害の心配なし/M 6.5 Earthquake Hits Vanuatu region",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-23T13:00:55+09:00"
+    },
     {
       "id": "yxg2Ldn14KU",
       "title": "【雨情報】北日本は午後に日本海側から雨 融雪による路面状態の悪化や落雪等に注意",
@@ -28,19 +40,7 @@
       "title": "【荒天注意】3連休明けの火曜日は広範囲で強雨に／その後強い寒気が南下",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-22T19:24:35+09:00"
-    },
-    {
-      "id": "ZzvJHwout7Q",
-      "title": "【勤労感謝の日】3連休最終日は穏やかな小春日和 寒気の谷間でお出かけチャンス",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-22T16:21:24+09:00"
-    },
-    {
-      "id": "CCRGDdPN2zI",
-      "title": "【週刊地震情報】熊本で震度5弱 日奈久断層「八代海区間」の活動に注目〜残る断層の破壊リスクを解説〜",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-22T13:46:26+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-23T11:24:51+09:00"
+  "archives_checked_at": "2026-11-23T20:00:03+09:00"
 }
