@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-23T07:01:11+09:00",
+  "checked_at": "2026-11-23T11:24:51+09:00",
   "state": "listed",
   "video": {
-    "id": "bvJKVLHUW2E",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月23日(月)／三連休最終日は広範囲で晴れ　北日本は天気下り坂〈ウェザーニュースLiVEモーニング・松本真央／有賀哲夫〉",
+    "id": "ly8igfaagN4",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月23日(月) ／連休最終日は晴れる所が多い　北日本は次第に天気崩れる〈ウェザーニュースLiVEコーヒータイム・岡本結子リサ／有賀哲夫〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-22T01:38:46+09:00"
+    "published_at": "2026-11-22T06:03:18+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
@@ -42,5 +42,5 @@
       "published_at": "2026-11-22T13:46:26+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-23T07:01:11+09:00"
+  "archives_checked_at": "2026-11-23T11:24:51+09:00"
 }
