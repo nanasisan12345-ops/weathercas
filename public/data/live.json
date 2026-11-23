@@ -1,46 +1,46 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-23T20:00:03+09:00",
+  "checked_at": "2026-11-24T07:28:26+09:00",
   "state": "listed",
   "video": {
-    "id": "craQylHtSO4",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月23日(月)20:00〜 ／北日本は次第に天気崩れる 明日は広範囲で雨に〈ウェザーニュースLiVEムーン・戸北美月／本田竜也〉",
+    "id": "K578fVjd2CI",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月24日(火)／三連休明けは全国的に雨〈ウェザーニュースLiVEモーニング・福吉貴文／飯島栄一〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-22T22:23:00+09:00"
+    "published_at": "2026-11-23T00:26:43+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
     {
+      "id": "OsZWmbXJ9Jk",
+      "title": "【雨情報】連休明けは全国的に雨に 関東は帰宅時間帯に本降りの雨 北海道は雨から雪に",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-24T07:18:19+09:00"
+    },
+    {
+      "id": "Qy-E4pYg-Ds",
+      "title": "【週間天気予報】次の週末は雨や雪のところも",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-23T22:00:39+09:00"
+    },
+    {
+      "id": "wRf1kI7aly8",
+      "title": "【週間天気】週前半は寒気の影響受けるも後半は全国的に気温上昇",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-23T21:45:50+09:00"
+    },
+    {
+      "id": "_vOKTEXKuWc",
+      "title": "【明日の天気】連休明けは全国的に雨 朝の通勤・通学時に傘が必要なエリアは？",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-23T21:16:17+09:00"
+    },
+    {
       "id": "z60rcvhE1jk",
       "title": "【週間天気予報】 連休明けは広い範囲で雨風強まる　北日本は再び雪に",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-23T15:40:12+09:00"
-    },
-    {
-      "id": "TGj9eHcEE7A",
-      "title": "【海外地震情報】南太平洋 バヌアツ諸島でM6.5の地震 津波被害の心配なし/M 6.5 Earthquake Hits Vanuatu region",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-23T13:00:55+09:00"
-    },
-    {
-      "id": "yxg2Ldn14KU",
-      "title": "【雨情報】北日本は午後に日本海側から雨 融雪による路面状態の悪化や落雪等に注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-23T06:51:27+09:00"
-    },
-    {
-      "id": "jdwHodZ70mY",
-      "title": "【週間天気予報】なぜこの先は気温変化が大きくなるのか／週後半は東京や大阪で20℃予想〈ウェザーニュース予報士解説〉",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-22T21:48:31+09:00"
-    },
-    {
-      "id": "3BlijIk5XhQ",
-      "title": "【荒天注意】3連休明けの火曜日は広範囲で強雨に／その後強い寒気が南下",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-22T19:24:35+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-23T20:00:03+09:00"
+  "archives_checked_at": "2026-11-24T07:28:26+09:00"
 }

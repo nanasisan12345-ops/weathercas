@@ -1623,6 +1623,15 @@
     },
     {
       "date_jst": "2026-11-23",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "魚住茉由",
+      "forecaster_name": "有賀哲夫",
+      "video_id": "Z2vOwOPzLMI",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-23&TO=2026-11-23"
+    },
+    {
+      "date_jst": "2026-11-23",
       "slot_start_jst": "11:00",
       "program": "コーヒータイム",
       "caster_name": "岡本結子リサ",
@@ -1632,11 +1641,38 @@
     },
     {
       "date_jst": "2026-11-23",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "青原桃香",
+      "forecaster_name": "本田竜也",
+      "video_id": "h5BnmnF1h50",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-23&TO=2026-11-23"
+    },
+    {
+      "date_jst": "2026-11-23",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "山岸愛梨",
+      "forecaster_name": "本田竜也",
+      "video_id": "pxzn2RB4TG8",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-23&TO=2026-11-23"
+    },
+    {
+      "date_jst": "2026-11-23",
       "slot_start_jst": "20:00",
       "program": "ムーン",
       "caster_name": "戸北美月",
       "forecaster_name": "本田竜也",
       "video_id": "craQylHtSO4",
+      "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-24",
+      "slot_start_jst": "05:00",
+      "program": "モーニング",
+      "caster_name": "福吉貴文",
+      "forecaster_name": "飯島栄一",
+      "video_id": "K578fVjd2CI",
       "reference_url": null
     }
   ]
