@@ -1,46 +1,46 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-24T15:15:05+09:00",
+  "checked_at": "2026-11-25T02:53:29+09:00",
   "state": "listed",
   "video": {
-    "id": "TWBEWrjNtqs",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月24日(月)／午後から関東も雨　明日北日本は大雪や吹雪に警戒〈ウェザーニュースLiVEアフタヌーン・川畑玲／宇野沢達也〉",
+    "id": "AhwsCqiX-OE",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月24日(火)23:00〜／北日本は大雪や吹雪に警戒〈ウェザーニュースLiVE〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-23T08:54:51+09:00"
+    "published_at": "2026-11-23T16:08:30+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
     {
+      "id": "A3CrFmPH4yU",
+      "title": "【週間天気】週末は広い範囲で雨や雪に 28日(土)は荒れた天気のおそれも",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-24T23:42:41+09:00"
+    },
+    {
+      "id": "5ijSjN_TqSA",
+      "title": "【寒暖差に注意】週末から週明けにかけて気温のアップダウンが大きく 11月26日(木)〜12月1日(火)の週間気温傾向",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-24T19:24:12+09:00"
+    },
+    {
+      "id": "iQ11zS3oRHU",
+      "title": "【海外気象情報】アメリカ西海岸で高潮・高波による浸水リスク　サンフランシスコ湾沿岸に洪水警報",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-24T17:53:16+09:00"
+    },
+    {
+      "id": "8U7AjS6HyL0",
+      "title": "【気象解説】明日25日(水)の北日本はいつまで吹雪く？寒気の南下で積雪増加",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-24T17:02:49+09:00"
+    },
+    {
       "id": "14nACi4arfM",
       "title": "【週間天気予報】土曜日は全国的に雨 日曜日は冬型の気圧配置で日本海側は雪や雷に注意",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-24T14:32:56+09:00"
-    },
-    {
-      "id": "btTzMGI8nqg",
-      "title": "【強風と気温低下】全国的に風の強まり注意　寒冷前線通過後は風向き変化とともに気温急降下",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-24T08:54:33+09:00"
-    },
-    {
-      "id": "OsZWmbXJ9Jk",
-      "title": "【雨情報】連休明けは全国的に雨に 関東は帰宅時間帯に本降りの雨 北海道は雨から雪に",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-24T07:18:19+09:00"
-    },
-    {
-      "id": "Qy-E4pYg-Ds",
-      "title": "【週間天気予報】次の週末は雨や雪のところも",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-23T22:00:39+09:00"
-    },
-    {
-      "id": "wRf1kI7aly8",
-      "title": "【週間天気】週前半は寒気の影響受けるも後半は全国的に気温上昇",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-23T21:45:50+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-24T15:15:05+09:00"
+  "archives_checked_at": "2026-11-25T02:53:29+09:00"
 }
