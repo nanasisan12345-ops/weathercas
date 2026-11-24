@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-24T07:28:26+09:00",
+  "checked_at": "2026-11-24T15:15:05+09:00",
   "state": "listed",
   "video": {
-    "id": "K578fVjd2CI",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月24日(火)／三連休明けは全国的に雨〈ウェザーニュースLiVEモーニング・福吉貴文／飯島栄一〉",
+    "id": "TWBEWrjNtqs",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月24日(月)／午後から関東も雨　明日北日本は大雪や吹雪に警戒〈ウェザーニュースLiVEアフタヌーン・川畑玲／宇野沢達也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-23T00:26:43+09:00"
+    "published_at": "2026-11-23T08:54:51+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "14nACi4arfM",
+      "title": "【週間天気予報】土曜日は全国的に雨 日曜日は冬型の気圧配置で日本海側は雪や雷に注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-24T14:32:56+09:00"
+    },
+    {
+      "id": "btTzMGI8nqg",
+      "title": "【強風と気温低下】全国的に風の強まり注意　寒冷前線通過後は風向き変化とともに気温急降下",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-24T08:54:33+09:00"
+    },
     {
       "id": "OsZWmbXJ9Jk",
       "title": "【雨情報】連休明けは全国的に雨に 関東は帰宅時間帯に本降りの雨 北海道は雨から雪に",
@@ -28,19 +40,7 @@
       "title": "【週間天気】週前半は寒気の影響受けるも後半は全国的に気温上昇",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-23T21:45:50+09:00"
-    },
-    {
-      "id": "_vOKTEXKuWc",
-      "title": "【明日の天気】連休明けは全国的に雨 朝の通勤・通学時に傘が必要なエリアは？",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-23T21:16:17+09:00"
-    },
-    {
-      "id": "z60rcvhE1jk",
-      "title": "【週間天気予報】 連休明けは広い範囲で雨風強まる　北日本は再び雪に",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-23T15:40:12+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-24T07:28:26+09:00"
+  "archives_checked_at": "2026-11-24T15:15:05+09:00"
 }

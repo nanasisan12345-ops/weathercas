@@ -1674,6 +1674,15 @@
       "forecaster_name": "飯島栄一",
       "video_id": "K578fVjd2CI",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-24",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "川畑玲",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "TWBEWrjNtqs",
+      "reference_url": null
     }
   ]
 }
