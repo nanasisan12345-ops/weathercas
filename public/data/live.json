@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-25T02:53:29+09:00",
+  "checked_at": "2026-11-25T10:52:58+09:00",
   "state": "listed",
   "video": {
-    "id": "AhwsCqiX-OE",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月24日(火)23:00〜／北日本は大雪や吹雪に警戒〈ウェザーニュースLiVE〉",
+    "id": "ZC-j30L6rwg",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月25日(水) ／北日本は大雪や吹雪に注意　北陸から近畿北部は強雨や雷雨のおそれ〈ウェザーニュースLiVEサンシャイン・松本真央／飯島栄一〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-23T16:08:30+09:00"
+    "published_at": "2026-11-24T04:05:23+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "3ByOay86O0Q",
+      "title": "【JPCZ雨雲発達】日本海側は強雨やあられに注意 落雷や突風のおそれも",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-25T09:36:40+09:00"
+    },
+    {
+      "id": "olTNkwYTmwc",
+      "title": "【冬型気圧配置】強い寒気の流れ込み 北日本は積雪増加や吹雪による視界不良に注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-25T07:03:46+09:00"
+    },
     {
       "id": "A3CrFmPH4yU",
       "title": "【週間天気】週末は広い範囲で雨や雪に 28日(土)は荒れた天気のおそれも",
@@ -28,19 +40,7 @@
       "title": "【海外気象情報】アメリカ西海岸で高潮・高波による浸水リスク　サンフランシスコ湾沿岸に洪水警報",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-24T17:53:16+09:00"
-    },
-    {
-      "id": "8U7AjS6HyL0",
-      "title": "【気象解説】明日25日(水)の北日本はいつまで吹雪く？寒気の南下で積雪増加",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-24T17:02:49+09:00"
-    },
-    {
-      "id": "14nACi4arfM",
-      "title": "【週間天気予報】土曜日は全国的に雨 日曜日は冬型の気圧配置で日本海側は雪や雷に注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-24T14:32:56+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-25T02:53:29+09:00"
+  "archives_checked_at": "2026-11-25T10:52:58+09:00"
 }

@@ -1728,6 +1728,15 @@
       "forecaster_name": null,
       "video_id": "AhwsCqiX-OE",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-25",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "松本真央",
+      "forecaster_name": "飯島栄一",
+      "video_id": "ZC-j30L6rwg",
+      "reference_url": null
     }
   ]
 }
