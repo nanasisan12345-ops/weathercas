@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-25T10:52:58+09:00",
+  "checked_at": "2026-11-25T19:33:22+09:00",
   "state": "listed",
   "video": {
-    "id": "ZC-j30L6rwg",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月25日(水) ／北日本は大雪や吹雪に注意　北陸から近畿北部は強雨や雷雨のおそれ〈ウェザーニュースLiVEサンシャイン・松本真央／飯島栄一〉",
+    "id": "210gQ4BeQJo",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月25日(水) ／北日本は強風や雪の強まりに注意〈ウェザーニュースLiVEイブニング・小林李衣奈／宇野沢達也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-24T04:05:23+09:00"
+    "published_at": "2026-11-24T15:50:29+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "J6AAD0A8eMY",
+      "title": "【明日の天気】北日本は雪から雨へ変化 雷やあられ・路面状況の悪化にも注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-25T19:27:43+09:00"
+    },
+    {
+      "id": "kR7nHKtSJBo",
+      "title": "【週間天気予報】週末は全国的に雨 日曜日は冬型に変わり北日本は雪へ 落雷にも注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-25T13:48:39+09:00"
+    },
     {
       "id": "3ByOay86O0Q",
       "title": "【JPCZ雨雲発達】日本海側は強雨やあられに注意 落雷や突風のおそれも",
@@ -28,19 +40,7 @@
       "title": "【週間天気】週末は広い範囲で雨や雪に 28日(土)は荒れた天気のおそれも",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-24T23:42:41+09:00"
-    },
-    {
-      "id": "5ijSjN_TqSA",
-      "title": "【寒暖差に注意】週末から週明けにかけて気温のアップダウンが大きく 11月26日(木)〜12月1日(火)の週間気温傾向",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-24T19:24:12+09:00"
-    },
-    {
-      "id": "iQ11zS3oRHU",
-      "title": "【海外気象情報】アメリカ西海岸で高潮・高波による浸水リスク　サンフランシスコ湾沿岸に洪水警報",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-24T17:53:16+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-25T10:52:58+09:00"
+  "archives_checked_at": "2026-11-25T19:33:22+09:00"
 }

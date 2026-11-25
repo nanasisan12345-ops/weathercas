@@ -1737,6 +1737,15 @@
       "forecaster_name": "飯島栄一",
       "video_id": "ZC-j30L6rwg",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-25",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "小林李衣奈",
+      "forecaster_name": "宇野沢達也",
+      "video_id": "210gQ4BeQJo",
+      "reference_url": null
     }
   ]
 }
