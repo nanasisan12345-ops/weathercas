@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-25T19:33:22+09:00",
+  "checked_at": "2026-11-26T05:08:54+09:00",
   "state": "listed",
   "video": {
-    "id": "210gQ4BeQJo",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月25日(水) ／北日本は強風や雪の強まりに注意〈ウェザーニュースLiVEイブニング・小林李衣奈／宇野沢達也〉",
+    "id": "ZodzxKkLZzY",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月26日(木)／北日本は日本海側で雨や雪　関東から近畿は朝の冷え込み注意〈ウェザーニュースLiVEモーニング・松本真央／芳野達郎〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-24T15:50:29+09:00"
+    "published_at": "2026-11-25T01:20:12+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "qkISbxM314w",
+      "title": "【週間気温】週後半から気温上昇も寒暖差に注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-25T22:28:48+09:00"
+    },
+    {
+      "id": "U7a_rs0prV8",
+      "title": "【雨情報】土曜日は全国的に雨　日曜日は冬型に",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-25T21:30:53+09:00"
+    },
     {
       "id": "J6AAD0A8eMY",
       "title": "【明日の天気】北日本は雪から雨へ変化 雷やあられ・路面状況の悪化にも注意",
@@ -28,19 +40,7 @@
       "title": "【JPCZ雨雲発達】日本海側は強雨やあられに注意 落雷や突風のおそれも",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-25T09:36:40+09:00"
-    },
-    {
-      "id": "olTNkwYTmwc",
-      "title": "【冬型気圧配置】強い寒気の流れ込み 北日本は積雪増加や吹雪による視界不良に注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-25T07:03:46+09:00"
-    },
-    {
-      "id": "A3CrFmPH4yU",
-      "title": "【週間天気】週末は広い範囲で雨や雪に 28日(土)は荒れた天気のおそれも",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-24T23:42:41+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-25T19:33:22+09:00"
+  "archives_checked_at": "2026-11-26T05:08:54+09:00"
 }
