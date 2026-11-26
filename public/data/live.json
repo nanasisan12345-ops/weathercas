@@ -1,46 +1,46 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-26T11:46:39+09:00",
+  "checked_at": "2026-11-26T20:31:51+09:00",
   "state": "listed",
   "video": {
-    "id": "kj3pxudjzmk",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月26日(木)／北日本は雨や雪　関東から近畿は日差し届く〈ウェザーニュースLiVEコーヒータイム・佐藤剣慎／芳野達郎〉",
+    "id": "LZJm2-bFAps",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月26日(木)20:00〜 ／明日は西から雨エリア拡大〈ウェザーニュースLiVEムーン・戸北美月／宇野沢達也〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-25T05:01:30+09:00"
+    "published_at": "2026-11-26T00:10:35+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
     {
+      "id": "PgsQyUJsXzI",
+      "title": "【あす27日(金)の天気】西から天気下り坂　西・東日本は雨の範囲が拡大",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-26T20:03:06+09:00"
+    },
+    {
+      "id": "ImnV9nINRXY",
+      "title": "【週間気温】この先、気温のアップダウンに要注意　再び20℃に迫る暖かさ",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-26T16:53:24+09:00"
+    },
+    {
+      "id": "LfDoLVsu5pQ",
+      "title": "【海外の天気】アメリカ東海岸で低気圧が急発達 感謝祭(Thanksgiving Day)は暴風や激しい雨に警戒",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-26T14:53:43+09:00"
+    },
+    {
+      "id": "0wTIU1vu-jo",
+      "title": "【週末は天気も気温も急変】寒気南下で雪雲発達 雪の強まり注意／土曜の暖かさから日曜は冬の寒さへ",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-26T14:03:53+09:00"
+    },
+    {
       "id": "1PsKQLv3O5g",
-      "title": "【今冬の天気傾向】暖冬・少雪の予想でも関東で雪や雨に注意が必要なわけとは？過去最大級のエルニーニョ現象の影響は",
+      "title": "【今冬の天気】暖冬・少雪予想でも関東で大雪や大雨のリスクがある理由とは？過去最大級のエルニーニョ現象の影響も＜気象予報士がわかりやすく解説＞",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-26T10:22:32+09:00"
-    },
-    {
-      "id": "_jaMQrPgTZs",
-      "title": "【雨雪情報】北海道は午前中を中心に湿った雪が強まるおそれ 路面状況の変化や雷・風に注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-26T07:05:10+09:00"
-    },
-    {
-      "id": "Hc7RCM5jt-o",
-      "title": "【関東の天気】東京都心で4℃ 今シーズン一番の冷え込みを更新 朝と日中の寒暖差に注意（11月26日）※6時26分に3.9度を観測",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-26T06:51:55+09:00"
-    },
-    {
-      "id": "qkISbxM314w",
-      "title": "【週間気温】週後半から気温上昇も寒暖差に注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-25T22:28:48+09:00"
-    },
-    {
-      "id": "U7a_rs0prV8",
-      "title": "【雨情報】土曜日は全国的に雨　日曜日は冬型に",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-25T21:30:53+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-26T11:46:39+09:00"
+  "archives_checked_at": "2026-11-26T20:31:51+09:00"
 }
