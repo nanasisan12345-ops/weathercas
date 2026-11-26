@@ -1,16 +1,34 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-26T05:08:54+09:00",
+  "checked_at": "2026-11-26T11:46:39+09:00",
   "state": "listed",
   "video": {
-    "id": "ZodzxKkLZzY",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月26日(木)／北日本は日本海側で雨や雪　関東から近畿は朝の冷え込み注意〈ウェザーニュースLiVEモーニング・松本真央／芳野達郎〉",
+    "id": "kj3pxudjzmk",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月26日(木)／北日本は雨や雪　関東から近畿は日差し届く〈ウェザーニュースLiVEコーヒータイム・佐藤剣慎／芳野達郎〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-25T01:20:12+09:00"
+    "published_at": "2026-11-25T05:01:30+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "1PsKQLv3O5g",
+      "title": "【今冬の天気傾向】暖冬・少雪の予想でも関東で雪や雨に注意が必要なわけとは？過去最大級のエルニーニョ現象の影響は",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-26T10:22:32+09:00"
+    },
+    {
+      "id": "_jaMQrPgTZs",
+      "title": "【雨雪情報】北海道は午前中を中心に湿った雪が強まるおそれ 路面状況の変化や雷・風に注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-26T07:05:10+09:00"
+    },
+    {
+      "id": "Hc7RCM5jt-o",
+      "title": "【関東の天気】東京都心で4℃ 今シーズン一番の冷え込みを更新 朝と日中の寒暖差に注意（11月26日）※6時26分に3.9度を観測",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-26T06:51:55+09:00"
+    },
     {
       "id": "qkISbxM314w",
       "title": "【週間気温】週後半から気温上昇も寒暖差に注意",
@@ -22,25 +40,7 @@
       "title": "【雨情報】土曜日は全国的に雨　日曜日は冬型に",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-25T21:30:53+09:00"
-    },
-    {
-      "id": "J6AAD0A8eMY",
-      "title": "【明日の天気】北日本は雪から雨へ変化 雷やあられ・路面状況の悪化にも注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-25T19:27:43+09:00"
-    },
-    {
-      "id": "kR7nHKtSJBo",
-      "title": "【週間天気予報】週末は全国的に雨 日曜日は冬型に変わり北日本は雪へ 落雷にも注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-25T13:48:39+09:00"
-    },
-    {
-      "id": "3ByOay86O0Q",
-      "title": "【JPCZ雨雲発達】日本海側は強雨やあられに注意 落雷や突風のおそれも",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-25T09:36:40+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-26T05:08:54+09:00"
+  "archives_checked_at": "2026-11-26T11:46:39+09:00"
 }

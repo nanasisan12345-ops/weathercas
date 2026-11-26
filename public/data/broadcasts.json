@@ -1791,6 +1791,15 @@
       "forecaster_name": "芳野達郎",
       "video_id": "ZodzxKkLZzY",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-26",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "佐藤剣慎",
+      "forecaster_name": "芳野達郎",
+      "video_id": "kj3pxudjzmk",
+      "reference_url": null
     }
   ]
 }
