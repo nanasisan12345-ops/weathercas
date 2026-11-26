@@ -1,16 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-26T20:31:51+09:00",
+  "checked_at": "2026-11-27T05:27:52+09:00",
   "state": "listed",
   "video": {
-    "id": "LZJm2-bFAps",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月26日(木)20:00〜 ／明日は西から雨エリア拡大〈ウェザーニュースLiVEムーン・戸北美月／宇野沢達也〉",
+    "id": "GKrVxNj36j0",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月27日(金)／沖縄本島地方で線状降水帯による大雨 災害発生に厳重警戒〈ウェザーニュースLiVEモーニング・佐藤剣慎／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-26T00:10:35+09:00"
+    "published_at": "2026-11-26T01:38:44+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "kBjxbg3bCwI",
+      "title": "【週末雨情報】週末は広く雨 日曜日は風も強まり荒天に",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-26T20:51:28+09:00"
+    },
     {
       "id": "PgsQyUJsXzI",
       "title": "【あす27日(金)の天気】西から天気下り坂　西・東日本は雨の範囲が拡大",
@@ -34,13 +40,7 @@
       "title": "【週末は天気も気温も急変】寒気南下で雪雲発達 雪の強まり注意／土曜の暖かさから日曜は冬の寒さへ",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-26T14:03:53+09:00"
-    },
-    {
-      "id": "1PsKQLv3O5g",
-      "title": "【今冬の天気】暖冬・少雪予想でも関東で大雪や大雨のリスクがある理由とは？過去最大級のエルニーニョ現象の影響も＜気象予報士がわかりやすく解説＞",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-26T10:22:32+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-26T20:31:51+09:00"
+  "archives_checked_at": "2026-11-27T05:27:52+09:00"
 }
