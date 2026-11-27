@@ -1,16 +1,34 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-27T05:27:52+09:00",
+  "checked_at": "2026-11-27T12:02:06+09:00",
   "state": "listed",
   "video": {
-    "id": "GKrVxNj36j0",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月27日(金)／沖縄本島地方で線状降水帯による大雨 災害発生に厳重警戒〈ウェザーニュースLiVEモーニング・佐藤剣慎／山口剛央〉",
+    "id": "peg9cBmLQd4",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月27日(金)／西日本は西から雨エリア拡大 全国的に季節外れの暖かさ〈ウェザーニュースLiVEコーヒータイム・白井ゆかり／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-26T01:38:44+09:00"
+    "published_at": "2026-11-26T10:07:17+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "c89zo8-soiM",
+      "title": "【20℃超えも】全国的に季節外れの暖かさ／寒暖差に注意（11月27日）",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-27T08:27:20+09:00"
+    },
+    {
+      "id": "qxJGMw6xrTE",
+      "title": "【11月27日(金)の天気】西日本は日中に雨、東日本は夕方以降に雨へ 帰宅時の雨具に注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-27T07:03:15+09:00"
+    },
+    {
+      "id": "rpXoSClBmm4",
+      "title": "【線状降水帯発生】沖縄本島北部で非常に激しい雨　ピーク過ぎるも土砂災害や河川増水に警戒",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-27T05:51:00+09:00"
+    },
     {
       "id": "kBjxbg3bCwI",
       "title": "【週末雨情報】週末は広く雨 日曜日は風も強まり荒天に",
@@ -22,25 +40,7 @@
       "title": "【あす27日(金)の天気】西から天気下り坂　西・東日本は雨の範囲が拡大",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-26T20:03:06+09:00"
-    },
-    {
-      "id": "ImnV9nINRXY",
-      "title": "【週間気温】この先、気温のアップダウンに要注意　再び20℃に迫る暖かさ",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-26T16:53:24+09:00"
-    },
-    {
-      "id": "LfDoLVsu5pQ",
-      "title": "【海外の天気】アメリカ東海岸で低気圧が急発達 感謝祭(Thanksgiving Day)は暴風や激しい雨に警戒",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-26T14:53:43+09:00"
-    },
-    {
-      "id": "0wTIU1vu-jo",
-      "title": "【週末は天気も気温も急変】寒気南下で雪雲発達 雪の強まり注意／土曜の暖かさから日曜は冬の寒さへ",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-26T14:03:53+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-27T05:27:52+09:00"
+  "archives_checked_at": "2026-11-27T12:02:06+09:00"
 }
