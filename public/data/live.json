@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-27T20:58:28+09:00",
+  "checked_at": "2026-11-28T05:40:27+09:00",
   "state": "listed",
   "video": {
-    "id": "tyizKEtBgGo",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月27日(金)20:00〜 ／関東夜から天気崩れる　明日は全国的に雨〈ウェザーニュースLiVEムーン・山岸愛梨／宇野沢達也〉",
+    "id": "dJB_ZXFPgQU",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月28日(土)／関東南部は強雨の可能性　北日本や北陸は雷雨や霰に注意〈ウェザーニュースLiVEモーニング・福吉貴文／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-26T22:45:16+09:00"
+    "published_at": "2026-11-27T00:40:14+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "yLL9awAa7T0",
+      "title": "【1か月予報】この先1か月の天気傾向　その解析ポイントとは？",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-27T22:42:29+09:00"
+    },
+    {
+      "id": "Ir0ZiDr4ChI",
+      "title": "【あす28日の天気】低気圧・前線の通過で全国的に雨　関東は早朝に強雨の可能性",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-27T21:10:17+09:00"
+    },
     {
       "id": "EqApGHSBOwg",
       "title": "【戸北キャスター絶賛】博多一風堂監修の博多とんこつ白丸元味が本格的すぎた！〈ダイショー×ウェザーニュース〉",
@@ -28,19 +40,7 @@
       "title": "【週末の天気】日本海側は雪や吹雪に注意 28日(土)は広く雨、29日(日)は冬型の気圧配置へ",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-27T13:16:06+09:00"
-    },
-    {
-      "id": "c89zo8-soiM",
-      "title": "【20℃超えも】全国的に季節外れの暖かさ／寒暖差に注意（11月27日）",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-27T08:27:20+09:00"
-    },
-    {
-      "id": "qxJGMw6xrTE",
-      "title": "【11月27日(金)の天気】西日本は日中に雨、東日本は夕方以降に雨へ 帰宅時の雨具に注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-27T07:03:15+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-27T20:58:28+09:00"
+  "archives_checked_at": "2026-11-28T05:40:27+09:00"
 }
