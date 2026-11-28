@@ -1892,12 +1892,30 @@
       "reference_url": null
     },
     {
+      "date_jst": "2026-11-27",
+      "slot_start_jst": null,
+      "program": "【戸北キャスター絶賛】博多一風堂監修の博多とんこつ白丸元味が本格的すぎた！〈ダイショー×ウェザーニュース〉",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "EqApGHSBOwg",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-27&TO=2026-11-27"
+    },
+    {
       "date_jst": "2026-11-28",
       "slot_start_jst": "05:00",
       "program": "モーニング",
       "caster_name": "福吉貴文",
       "forecaster_name": "山口剛央",
       "video_id": "dJB_ZXFPgQU",
+      "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-28",
+      "slot_start_jst": "11:00",
+      "program": "コーヒータイム",
+      "caster_name": "松本真央",
+      "forecaster_name": "山口剛央",
+      "video_id": "r8r6iCFHY1U",
       "reference_url": null
     }
   ]

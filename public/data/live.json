@@ -1,16 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-28T05:40:27+09:00",
+  "checked_at": "2026-11-28T11:57:00+09:00",
   "state": "listed",
   "video": {
-    "id": "dJB_ZXFPgQU",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月28日(土)／関東南部は強雨の可能性　北日本や北陸は雷雨や霰に注意〈ウェザーニュースLiVEモーニング・福吉貴文／山口剛央〉",
+    "id": "r8r6iCFHY1U",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月28日(土)／低気圧と前線で広く雨や雷　夜は朝より冷える〈ウェザーニュースLiVEコーヒータイム・松本真央／山口剛央〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-27T00:40:14+09:00"
+    "published_at": "2026-11-27T09:51:22+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "7y-FGzGqoPo",
+      "title": "【雨情報】11月28日は日本海側で大気の状態が不安定 午後から夜は落雷や突風・あられに注意",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-28T09:09:40+09:00"
+    },
+    {
+      "id": "fGHSs19N5xQ",
+      "title": "【雨情報】関東は午前を中心に強い雨 昼間は天気回復で気温上昇",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-28T06:07:35+09:00"
+    },
     {
       "id": "yLL9awAa7T0",
       "title": "【1か月予報】この先1か月の天気傾向　その解析ポイントとは？",
@@ -28,19 +40,7 @@
       "title": "【戸北キャスター絶賛】博多一風堂監修の博多とんこつ白丸元味が本格的すぎた！〈ダイショー×ウェザーニュース〉",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-27T20:15:48+09:00"
-    },
-    {
-      "id": "X3nea9tIBF0",
-      "title": "【週間気温】12月なのに季節逆戻りの暖かさ　20℃台エリアが続出",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-27T17:02:07+09:00"
-    },
-    {
-      "id": "O_P-Y4K2P5w",
-      "title": "【週末の天気】日本海側は雪や吹雪に注意 28日(土)は広く雨、29日(日)は冬型の気圧配置へ",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-27T13:16:06+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-28T05:40:27+09:00"
+  "archives_checked_at": "2026-11-28T11:57:00+09:00"
 }
