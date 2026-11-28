@@ -1911,6 +1911,15 @@
     },
     {
       "date_jst": "2026-11-28",
+      "slot_start_jst": "08:00",
+      "program": "サンシャイン",
+      "caster_name": "魚住茉由",
+      "forecaster_name": "山口剛央",
+      "video_id": "sxo2eK0_Ilg",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-28&TO=2026-11-28"
+    },
+    {
+      "date_jst": "2026-11-28",
       "slot_start_jst": "11:00",
       "program": "コーヒータイム",
       "caster_name": "松本真央",
@@ -1920,11 +1929,38 @@
     },
     {
       "date_jst": "2026-11-28",
+      "slot_start_jst": "14:00",
+      "program": "アフタヌーン",
+      "caster_name": "田辺真南葉",
+      "forecaster_name": "内藤邦裕",
+      "video_id": "mxFO-TI4S4A",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-28&TO=2026-11-28"
+    },
+    {
+      "date_jst": "2026-11-28",
+      "slot_start_jst": "17:00",
+      "program": "イブニング",
+      "caster_name": "駒木結衣",
+      "forecaster_name": "内藤邦裕",
+      "video_id": "43pVk7dvuO8",
+      "reference_url": "https://minorin.jp/wnl/caster.cgi?FROM=2026-11-28&TO=2026-11-28"
+    },
+    {
+      "date_jst": "2026-11-28",
       "slot_start_jst": "20:00",
       "program": "ムーン",
       "caster_name": "山岸愛梨",
       "forecaster_name": "内藤邦裕",
       "video_id": "bgGxlBpHGFI",
+      "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-28",
+      "slot_start_jst": "23:00",
+      "program": "【ライブ】最新天気ニュース・地震情報 2026年11月28日(土)23:00〜／冬型が強まり北日本は雪　関東以西は晴れても寒い〈ウェザーニュースLiVE〉",
+      "caster_name": null,
+      "forecaster_name": null,
+      "video_id": "q6J608XqtXA",
       "reference_url": null
     }
   ]

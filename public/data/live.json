@@ -1,16 +1,34 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-28T20:19:27+09:00",
+  "checked_at": "2026-11-29T03:59:14+09:00",
   "state": "listed",
   "video": {
-    "id": "bgGxlBpHGFI",
-    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月28日(土)20:00〜 ／明日は日本海側で強い雪や吹雪に注意　車での移動は雪装備を〈ウェザーニュースLiVEムーン・山岸愛梨／内藤邦裕〉",
+    "id": "q6J608XqtXA",
+    "title": "【ライブ】最新天気ニュース・地震情報 2026年11月28日(土)23:00〜／冬型が強まり北日本は雪　関東以西は晴れても寒い〈ウェザーニュースLiVE〉",
     "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-    "published_at": "2026-11-27T23:06:57+09:00"
+    "published_at": "2026-11-27T23:08:56+09:00"
   },
   "embed_allowed": true,
   "verification": "official_listing",
   "archives": [
+    {
+      "id": "OicnRiRpHDQ",
+      "title": "【海外地震情報】カムチャツカ半島付近でM6.8の地震　北海道と青森で震度1／M 6.8 Earthquake Hits the Kamchatka Peninsula",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-28T23:27:14+09:00"
+    },
+    {
+      "id": "7XiaTOyPNHo",
+      "title": "【明日の気温情報】明日は一気に冬の寒さ 最高気温は日付変わった頃に",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-28T21:51:39+09:00"
+    },
+    {
+      "id": "n4yAnMcbjCM",
+      "title": "【増加傾向】インフルエンザ患者数は５週連続増加　今シーズン最多に",
+      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
+      "published_at": "2026-11-28T21:24:57+09:00"
+    },
     {
       "id": "tt1OW8caO70",
       "title": "【週間天気】12月スタートは季節外れの暖かさ  20℃超え続出か　鹿児島で25℃なら史上初",
@@ -22,25 +40,7 @@
       "title": "【暴風雪警戒】今夜から北日本は荒天　短時間の強い雪と急激な気温低下に注意",
       "source_url": "https://site.weathernews.jp/site/live/json/list.json",
       "published_at": "2026-11-28T16:51:21+09:00"
-    },
-    {
-      "id": "e4-6GYkm4I0",
-      "title": "【週間天気】12月のはじめは季節外れの暖かさに 西日本は20℃以上、東京も20℃近い予想",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-28T13:29:34+09:00"
-    },
-    {
-      "id": "7y-FGzGqoPo",
-      "title": "【雨情報】11月28日は日本海側で大気の状態が不安定 午後から夜は落雷や突風・あられに注意",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-28T09:09:40+09:00"
-    },
-    {
-      "id": "fGHSs19N5xQ",
-      "title": "【雨情報】関東は午前を中心に強い雨 昼間は天気回復で気温上昇",
-      "source_url": "https://site.weathernews.jp/site/live/json/list.json",
-      "published_at": "2026-11-28T06:07:35+09:00"
     }
   ],
-  "archives_checked_at": "2026-11-28T20:19:27+09:00"
+  "archives_checked_at": "2026-11-29T03:59:14+09:00"
 }
