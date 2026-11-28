@@ -1917,6 +1917,15 @@
       "forecaster_name": "山口剛央",
       "video_id": "r8r6iCFHY1U",
       "reference_url": null
+    },
+    {
+      "date_jst": "2026-11-28",
+      "slot_start_jst": "20:00",
+      "program": "ムーン",
+      "caster_name": "山岸愛梨",
+      "forecaster_name": "内藤邦裕",
+      "video_id": "bgGxlBpHGFI",
+      "reference_url": null
     }
   ]
 }
